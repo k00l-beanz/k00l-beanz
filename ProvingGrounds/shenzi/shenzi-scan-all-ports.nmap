@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Sat Jan 14 14:30:43 2023 as: nmap -p- -oN shenzi-scan-all-ports.nmap -Pn 192.168.107.55
+Nmap scan report for 192.168.107.55
+Host is up (0.020s latency).
+Not shown: 65527 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5040/tcp open  unknown
+
+# Nmap done at Sat Jan 14 14:34:29 2023 -- 1 IP address (1 host up) scanned in 226.11 seconds
