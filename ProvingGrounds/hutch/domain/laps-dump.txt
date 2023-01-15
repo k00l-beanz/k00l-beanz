@@ -1,0 +1,101 @@
+# extended LDIF
+#
+# LDAPv3
+# base <dc=hutch,dc=offsec> with scope subtree
+# filter: (ms-MCS-AdmPwd=*)
+# requesting: ALL
+#
+
+# HUTCHDC, Domain Controllers, hutch.offsec
+dn: CN=HUTCHDC,OU=Domain Controllers,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: computer
+cn: HUTCHDC
+distinguishedName: CN=HUTCHDC,OU=Domain Controllers,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104052622.0Z
+whenChanged: 20230115030542.0Z
+uSNCreated: 12293
+uSNChanged: 73800
+name: HUTCHDC
+objectGUID:: c63xBetGFku6bWs6h91ALg==
+userAccountControl: 532480
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 133182255470893377
+localPolicyFlags: 0
+pwdLastSet: 133182253412924753
+primaryGroupID: 516
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGn6AMAAA==
+accountExpires: 9223372036854775807
+logonCount: 61
+sAMAccountName: HUTCHDC$
+sAMAccountType: 805306369
+operatingSystem: Windows Server 2019 Standard
+operatingSystemVersion: 10.0 (17763)
+serverReferenceBL: CN=HUTCHDC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,C
+ N=Configuration,DC=hutch,DC=offsec
+dNSHostName: hutchdc.hutch.offsec
+rIDSetReferences: CN=RID Set,CN=HUTCHDC,OU=Domain Controllers,DC=hutch,DC=offs
+ ec
+servicePrincipalName: Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/hutchdc.hutch.
+ offsec
+servicePrincipalName: ldap/hutchdc.hutch.offsec/ForestDnsZones.hutch.offsec
+servicePrincipalName: ldap/hutchdc.hutch.offsec/DomainDnsZones.hutch.offsec
+servicePrincipalName: DNS/hutchdc.hutch.offsec
+servicePrincipalName: GC/hutchdc.hutch.offsec/hutch.offsec
+servicePrincipalName: RestrictedKrbHost/hutchdc.hutch.offsec
+servicePrincipalName: RestrictedKrbHost/HUTCHDC
+servicePrincipalName: RPC/23e9aa2c-de86-42d4-a8a5-97043bdf445e._msdcs.hutch.of
+ fsec
+servicePrincipalName: HOST/HUTCHDC/HUTCH
+servicePrincipalName: HOST/hutchdc.hutch.offsec/HUTCH
+servicePrincipalName: HOST/HUTCHDC
+servicePrincipalName: HOST/hutchdc.hutch.offsec
+servicePrincipalName: HOST/hutchdc.hutch.offsec/hutch.offsec
+servicePrincipalName: E3514235-4B06-11D1-AB04-00C04FC2DCD2/23e9aa2c-de86-42d4-
+ a8a5-97043bdf445e/hutch.offsec
+servicePrincipalName: ldap/HUTCHDC/HUTCH
+servicePrincipalName: ldap/23e9aa2c-de86-42d4-a8a5-97043bdf445e._msdcs.hutch.o
+ ffsec
+servicePrincipalName: ldap/hutchdc.hutch.offsec/HUTCH
+servicePrincipalName: ldap/HUTCHDC
+servicePrincipalName: ldap/hutchdc.hutch.offsec
+servicePrincipalName: ldap/hutchdc.hutch.offsec/hutch.offsec
+objectCategory: CN=Computer,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20201104060035.0Z
+dSCorePropagationData: 20201104060035.0Z
+dSCorePropagationData: 20201104060034.0Z
+dSCorePropagationData: 20201104052623.0Z
+dSCorePropagationData: 16010714223649.0Z
+lastLogonTimestamp: 133182253412143669
+msDS-SupportedEncryptionTypes: 28
+msDS-GenerationId:: iNaggtDxKqs=
+msDFSR-ComputerReferenceBL: CN=HUTCHDC,CN=Topology,CN=Domain System Volume,CN=
+ DFSR-GlobalSettings,CN=System,DC=hutch,DC=offsec
+ms-Mcs-AdmPwd: {2e$D2w/gh+Vwt
+ms-Mcs-AdmPwdExpirationTime: 133208175427768438
+
+# search reference
+ref: ldap://ForestDnsZones.hutch.offsec/DC=ForestDnsZones,DC=hutch,DC=offsec
+
+# search reference
+ref: ldap://DomainDnsZones.hutch.offsec/DC=DomainDnsZones,DC=hutch,DC=offsec
+
+# search reference
+ref: ldap://hutch.offsec/CN=Configuration,DC=hutch,DC=offsec
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 5
+# numEntries: 1
+# numReferences: 3
