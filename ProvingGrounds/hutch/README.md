@@ -222,13 +222,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 /index.aspx           (Status: 500) [Size: 3420]
 ```
 
-- Running `nikto`
-```bash
 
-```
-
-
-### 88/tcp
 ### 135/tcp
 - Using NULL share to use rpcclient
 ```bash

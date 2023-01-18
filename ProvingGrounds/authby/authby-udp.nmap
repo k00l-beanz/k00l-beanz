@@ -1,0 +1,7 @@
+# Nmap 7.93 scan initiated Sun Jan 15 16:51:53 2023 as: nmap -sU -T4 -Pn -oN authby-udp.nmap 192.168.244.46
+Nmap scan report for 192.168.244.46
+Host is up.
+All 1000 scanned ports on 192.168.244.46 are in ignored states.
+Not shown: 1000 open|filtered udp ports (no-response)
+
+# Nmap done at Sun Jan 15 16:53:41 2023 -- 1 IP address (1 host up) scanned in 107.34 seconds

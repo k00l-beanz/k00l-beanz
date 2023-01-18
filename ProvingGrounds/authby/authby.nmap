@@ -1,0 +1,40 @@
+# Nmap 7.93 scan initiated Sun Jan 15 16:38:58 2023 as: nmap -sC -sV -T4 -oN authby.nmap -Pn 192.168.244.46
+Nmap scan report for 192.168.244.46
+Host is up (0.019s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE            VERSION
+21/tcp   open  ftp                zFTPServer 6.0 build 2011-10-17
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| total 9680
+| ----------   1 root     root      5610496 Oct 18  2011 zFTPServer.exe
+| ----------   1 root     root           25 Feb 10  2011 UninstallService.bat
+| ----------   1 root     root      4284928 Oct 18  2011 Uninstall.exe
+| ----------   1 root     root           17 Aug 13  2011 StopService.bat
+| ----------   1 root     root           18 Aug 13  2011 StartService.bat
+| ----------   1 root     root         8736 Nov 09  2011 Settings.ini
+| dr-xr-xr-x   1 root     root          512 Jan 16 05:39 log
+| ----------   1 root     root         2275 Aug 09  2011 LICENSE.htm
+| ----------   1 root     root           23 Feb 10  2011 InstallService.bat
+| dr-xr-xr-x   1 root     root          512 Nov 08  2011 extensions
+| dr-xr-xr-x   1 root     root          512 Nov 08  2011 certificates
+|_dr-xr-xr-x   1 root     root          512 Sep 22  2021 accounts
+3389/tcp open  ssl/ms-wbt-server?
+| rdp-ntlm-info: 
+|   Target_Name: LIVDA
+|   NetBIOS_Domain_Name: LIVDA
+|   NetBIOS_Computer_Name: LIVDA
+|   DNS_Domain_Name: LIVDA
+|   DNS_Computer_Name: LIVDA
+|   Product_Version: 6.0.6001
+|_  System_Time: 2023-01-15T21:39:26+00:00
+| ssl-cert: Subject: commonName=LIVDA
+| Not valid before: 2021-09-20T18:21:50
+|_Not valid after:  2022-03-22T18:21:50
+|_ssl-date: 2023-01-15T21:39:32+00:00; +2s from scanner time.
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1s, deviation: 0s, median: 0s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jan 15 16:39:30 2023 -- 1 IP address (1 host up) scanned in 32.26 seconds
