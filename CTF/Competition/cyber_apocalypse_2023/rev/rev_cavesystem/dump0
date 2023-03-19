@@ -1,0 +1,604 @@
+0x0000000000001236 <+209>:   movzx  eax,BYTE PTR [rbp-0x6b]
+0x000000000000123a <+213>:   movzx  edx,BYTE PTR [rbp-0x50]
+0x000000000000123e <+217>:   imul   eax,edx                
+0x0000000000001241 <+220>:   cmp    al,0x14                
+0x0000000000001243 <+222>:   jne    0x1ac1 <main+2396>     
+0x0000000000001249 <+228>:   movzx  eax,BYTE PTR [rbp-0x60]
+0x000000000000124d <+232>:   movzx  edx,BYTE PTR [rbp-0x5c]
+0x0000000000001251 <+236>:   sub    eax,edx                
+0x0000000000001253 <+238>:   cmp    al,0xfa                
+0x0000000000001255 <+240>:   jne    0x1ac1 <main+2396>     
+0x000000000000125b <+246>:   movzx  eax,BYTE PTR [rbp-0x5b]
+0x000000000000125f <+250>:   movzx  edx,BYTE PTR [rbp-0x66]
+0x0000000000001263 <+254>:   sub    eax,edx                
+0x0000000000001265 <+256>:   cmp    al,0xd6                
+0x0000000000001267 <+258>:   jne    0x1ac1 <main+2396>     
+0x000000000000126d <+264>:   movzx  eax,BYTE PTR [rbp-0x70]
+0x0000000000001271 <+268>:   movzx  edx,BYTE PTR [rbp-0x50]
+0x0000000000001275 <+272>:   sub    eax,edx                
+0x0000000000001277 <+274>:   cmp    al,0x8                 
+0x0000000000001279 <+276>:   jne    0x1ac1 <main+2396>     
+0x000000000000127f <+282>:   movzx  eax,BYTE PTR [rbp-0x49]
+0x0000000000001283 <+286>:   movzx  edx,BYTE PTR [rbp-0x78]
+0x0000000000001287 <+290>:   sub    eax,edx                
+0x0000000000001289 <+292>:   cmp    al,0xd5                
+0x000000000000128b <+294>:   jne    0x1ac1 <main+2396>     
+0x0000000000001291 <+300>:   movzx  eax,BYTE PTR [rbp-0x66]
+0x0000000000001295 <+304>:   movzx  edx,BYTE PTR [rbp-0x79]
+0x0000000000001299 <+308>:   imul   eax,edx                
+0x000000000000129c <+311>:   cmp    al,0xed                        
+0x000000000000129e <+313>:   jne    0x1ac1 <main+2396>     
+0x00000000000012a4 <+319>:   movzx  eax,BYTE PTR [rbp-0x7c]
+0x00000000000012a8 <+323>:   movzx  edx,BYTE PTR [rbp-0x68]        
+0x00000000000012ac <+327>:   imul   eax,edx                
+0x00000000000012af <+330>:   cmp    al,0xc8                
+0x00000000000012b1 <+332>:   jne    0x1ac1 <main+2396>     
+0x00000000000012b7 <+338>:   movzx  edx,BYTE PTR [rbp-0x64]
+0x00000000000012bb <+342>:   movzx  eax,BYTE PTR [rbp-0x5e]
+0x00000000000012bf <+346>:   xor    eax,edx                
+0x00000000000012c1 <+348>:   cmp    al,0x55
+0x00000000000012c3 <+350>:   jne    0x1ac1 <main+2396>
+0x00000000000012c9 <+356>:   movzx  eax,BYTE PTR [rbp-0x62]
+0x00000000000012cd <+360>:   movzx  edx,BYTE PTR [rbp-0x49]
+0x00000000000012d1 <+364>:   sub    eax,edx
+0x00000000000012d3 <+366>:   cmp    al,0x34
+0x00000000000012d5 <+368>:   jne    0x1ac1 <main+2396>
+0x00000000000012db <+374>:   movzx  edx,BYTE PTR [rbp-0x4e]
+0x00000000000012df <+378>:   movzx  eax,BYTE PTR [rbp-0x45]
+0x00000000000012e3 <+382>:   add    eax,edx
+0x00000000000012e5 <+384>:   cmp    al,0x8f
+0x00000000000012e7 <+386>:   jne    0x1ac1 <main+2396>
+0x00000000000012ed <+392>:   movzx  edx,BYTE PTR [rbp-0x65]
+0x00000000000012f1 <+396>:   movzx  eax,BYTE PTR [rbp-0x54]
+0x00000000000012f5 <+400>:   add    eax,edx
+0x00000000000012f7 <+402>:   cmp    al,0xd6
+0x00000000000012f9 <+404>:   jne    0x1ac1 <main+2396>
+0x00000000000012ff <+410>:   movzx  edx,BYTE PTR [rbp-0x72]
+0x0000000000001303 <+414>:   movzx  eax,BYTE PTR [rbp-0x6f]
+0x0000000000001307 <+418>:   xor    eax,edx
+0x0000000000001309 <+420>:   cmp    al,0x31
+0x000000000000130b <+422>:   jne    0x1ac1 <main+2396>
+0x0000000000001311 <+428>:   movzx  eax,BYTE PTR [rbp-0x48]
+0x0000000000001315 <+432>:   movzx  edx,BYTE PTR [rbp-0x6c]
+0x0000000000001319 <+436>:   imul   eax,edx
+0x000000000000131c <+439>:   cmp    al,0xac
+0x000000000000131e <+441>:   jne    0x1ac1 <main+2396>
+0x0000000000001324 <+447>:   movzx  eax,BYTE PTR [rbp-0x46]
+0x0000000000001328 <+451>:   movzx  edx,BYTE PTR [rbp-0x66]
+0x000000000000132c <+455>:   sub    eax,edx
+0x000000000000132e <+457>:   cmp    al,0xc2
+0x0000000000001330 <+459>:   jne    0x1ac1 <main+2396>
+0x0000000000001336 <+465>:   movzx  edx,BYTE PTR [rbp-0x7a]
+0x000000000000133a <+469>:   movzx  eax,BYTE PTR [rbp-0x66]
+0x000000000000133e <+473>:   xor    eax,edx
+0x0000000000001340 <+475>:   cmp    al,0x2f
+0x0000000000001342 <+477>:   jne    0x1ac1 <main+2396>                                                                                                                                                                                                                                                            [466/619]
+0x0000000000001348 <+483>:   movzx  edx,BYTE PTR [rbp-0x59]
+0x000000000000134c <+487>:   movzx  eax,BYTE PTR [rbp-0x72]
+0x0000000000001350 <+491>:   xor    eax,edx
+0x0000000000001352 <+493>:   cmp    al,0x5a
+0x0000000000001354 <+495>:   jne    0x1ac1 <main+2396>
+0x000000000000135a <+501>:   movzx  edx,BYTE PTR [rbp-0x59]
+0x000000000000135e <+505>:   movzx  eax,BYTE PTR [rbp-0x54]
+0x0000000000001362 <+509>:   xor    eax,edx
+0x0000000000001364 <+511>:   cmp    al,0x40
+0x0000000000001366 <+513>:   jne    0x1ac1 <main+2396>
+0x000000000000136c <+519>:   movzx  edx,BYTE PTR [rbp-0x58]
+0x0000000000001370 <+523>:   movzx  eax,BYTE PTR [rbp-0x66]
+0x0000000000001374 <+527>:   cmp    dl,al
+0x0000000000001376 <+529>:   jne    0x1ac1 <main+2396>
+0x000000000000137c <+535>:   movzx  edx,BYTE PTR [rbp-0x4f]
+0x0000000000001380 <+539>:   movzx  eax,BYTE PTR [rbp-0x69]
+0x0000000000001384 <+543>:   add    eax,edx
+0x0000000000001386 <+545>:   cmp    al,0x98
+0x0000000000001388 <+547>:   jne    0x1ac1 <main+2396>
+0x000000000000138e <+553>:   movzx  eax,BYTE PTR [rbp-0x69]
+0x0000000000001392 <+557>:   movzx  edx,BYTE PTR [rbp-0x45]
+0x0000000000001396 <+561>:   imul   eax,edx
+0x0000000000001399 <+564>:   cmp    al,0x68
+0x000000000000139b <+566>:   jne    0x1ac1 <main+2396>
+0x00000000000013a1 <+572>:   movzx  eax,BYTE PTR [rbp-0x7f]
+0x00000000000013a5 <+576>:   movzx  edx,BYTE PTR [rbp-0x64]
+0x00000000000013a9 <+580>:   sub    eax,edx
+0x00000000000013ab <+582>:   cmp    al,0xdb
+0x00000000000013ad <+584>:   jne    0x1ac1 <main+2396>
+0x00000000000013b3 <+590>:   movzx  eax,BYTE PTR [rbp-0x68]
+0x00000000000013b7 <+594>:   movzx  edx,BYTE PTR [rbp-0x63]
+0x00000000000013bb <+598>:   sub    eax,edx
+0x00000000000013bd <+600>:   cmp    al,0xd2
+0x00000000000013bf <+602>:   jne    0x1ac1 <main+2396>
+0x00000000000013c5 <+608>:   movzx  eax,BYTE PTR [rbp-0x5a]
+0x00000000000013c9 <+612>:   movzx  edx,BYTE PTR [rbp-0x68]
+0x00000000000013cd <+616>:   sub    eax,edx
+0x00000000000013cf <+618>:   cmp    al,0x2e
+0x00000000000013d1 <+620>:   jne    0x1ac1 <main+2396>
+0x00000000000013d7 <+626>:   movzx  edx,BYTE PTR [rbp-0x6a]
+0x00000000000013db <+630>:   movzx  eax,BYTE PTR [rbp-0x60]
+0x00000000000013df <+634>:   xor    eax,edx
+0x00000000000013e1 <+636>:   cmp    al,0x1a
+0x00000000000013e3 <+638>:   jne    0x1ac1 <main+2396>
+0x00000000000013e9 <+644>:   movzx  eax,BYTE PTR [rbp-0x54]
+0x00000000000013ed <+648>:   movzx  edx,BYTE PTR [rbp-0x7c]
+0x00000000000013f1 <+652>:   imul   eax,edx
+0x00000000000013f4 <+655>:   cmp    al,0xa0
+0x00000000000013f6 <+657>:   jne    0x1ac1 <main+2396>
+0x00000000000013fc <+663>:   movzx  eax,BYTE PTR [rbp-0x5a]
+0x0000000000001400 <+667>:   movzx  edx,BYTE PTR [rbp-0x65]
+0x0000000000001404 <+671>:   imul   eax,edx
+0x0000000000001407 <+674>:   cmp    al,0x5e
+0x0000000000001409 <+676>:   jne    0x1ac1 <main+2396>
+0x000000000000140f <+682>:   movzx  eax,BYTE PTR [rbp-0x71]
+0x0000000000001413 <+686>:   movzx  edx,BYTE PTR [rbp-0x58]
+0x0000000000001417 <+690>:   sub    eax,edx
+0x0000000000001419 <+692>:   cmp    al,0xc8
+0x000000000000141b <+694>:   jne    0x1ac1 <main+2396>
+0x0000000000001421 <+700>:   movzx  edx,BYTE PTR [rbp-0x4b]
+0x0000000000001425 <+704>:   movzx  eax,BYTE PTR [rbp-0x4f]
+0x0000000000001429 <+708>:   xor    eax,edx
+0x000000000000142b <+710>:   cmp    al,0x56
+0x000000000000142d <+712>:   jne    0x1ac1 <main+2396>
+0x0000000000001433 <+718>:   movzx  edx,BYTE PTR [rbp-0x53]
+0x0000000000001437 <+722>:   movzx  eax,BYTE PTR [rbp-0x66]
+0x000000000000143b <+726>:   xor    eax,edx
+0x000000000000143d <+728>:   cmp    al,0x2b
+0x000000000000143f <+730>:   jne    0x1ac1 <main+2396>
+0x0000000000001445 <+736>:   movzx  edx,BYTE PTR [rbp-0x77]
+0x0000000000001449 <+740>:   movzx  eax,BYTE PTR [rbp-0x4a]
+0x000000000000144d <+744>:   xor    eax,edx
+0x000000000000144f <+746>:   cmp    al,0x19
+0x0000000000001451 <+748>:   jne    0x1ac1 <main+2396>                                                                                                                                                                                                                                                            [392/619]
+0x0000000000001457 <+754>:   movzx  eax,BYTE PTR [rbp-0x64]
+0x000000000000145b <+758>:   movzx  edx,BYTE PTR [rbp-0x51]
+0x000000000000145f <+762>:   sub    eax,edx
+0x0000000000001461 <+764>:   cmp    al,0x1a
+0x0000000000001463 <+766>:   jne    0x1ac1 <main+2396>
+0x0000000000001469 <+772>:   movzx  edx,BYTE PTR [rbp-0x6d]
+0x000000000000146d <+776>:   movzx  eax,BYTE PTR [rbp-0x4e]
+0x0000000000001471 <+780>:   add    eax,edx
+0x0000000000001473 <+782>:   cmp    al,0xa1
+0x0000000000001475 <+784>:   jne    0x1ac1 <main+2396>
+0x000000000000147b <+790>:   movzx  edx,BYTE PTR [rbp-0x47]
+0x000000000000147f <+794>:   movzx  eax,BYTE PTR [rbp-0x5b]
+0x0000000000001483 <+798>:   add    eax,edx
+0x0000000000001485 <+800>:   cmp    al,0x56
+0x0000000000001487 <+802>:   jne    0x1ac1 <main+2396>
+0x000000000000148d <+808>:   movzx  edx,BYTE PTR [rbp-0x6e]
+0x0000000000001491 <+812>:   movzx  eax,BYTE PTR [rbp-0x63]
+0x0000000000001495 <+816>:   xor    eax,edx
+0x0000000000001497 <+818>:   cmp    al,0x38
+0x0000000000001499 <+820>:   jne    0x1ac1 <main+2396>
+0x000000000000149f <+826>:   movzx  edx,BYTE PTR [rbp-0x44]
+0x00000000000014a3 <+830>:   movzx  eax,BYTE PTR [rbp-0x54]
+0x00000000000014a7 <+834>:   xor    eax,edx
+0x00000000000014a9 <+836>:   cmp    al,0x9
+0x00000000000014ab <+838>:   jne    0x1ac1 <main+2396>
+0x00000000000014b1 <+844>:   movzx  eax,BYTE PTR [rbp-0x71]
+0x00000000000014b5 <+848>:   movzx  edx,BYTE PTR [rbp-0x5a]
+0x00000000000014b9 <+852>:   imul   eax,edx
+0x00000000000014bc <+855>:   cmp    al,0x79
+0x00000000000014be <+857>:   jne    0x1ac1 <main+2396>
+0x00000000000014c4 <+863>:   movzx  edx,BYTE PTR [rbp-0x62]
+0x00000000000014c8 <+867>:   movzx  eax,BYTE PTR [rbp-0x5b]
+0x00000000000014cc <+871>:   xor    eax,edx
+0x00000000000014ce <+873>:   cmp    al,0x5d
+0x00000000000014d0 <+875>:   jne    0x1ac1 <main+2396>
+0x00000000000014d6 <+881>:   movzx  eax,BYTE PTR [rbp-0x7e]
+0x00000000000014da <+885>:   movzx  edx,BYTE PTR [rbp-0x60]
+0x00000000000014de <+889>:   imul   eax,edx
+0x00000000000014e1 <+892>:   cmp    al,0x5c
+0x00000000000014e3 <+894>:   jne    0x1ac1 <main+2396>
+0x00000000000014e9 <+900>:   movzx  eax,BYTE PTR [rbp-0x76]
+0x00000000000014ed <+904>:   movzx  edx,BYTE PTR [rbp-0x6e]
+0x00000000000014f1 <+908>:   imul   eax,edx
+0x00000000000014f4 <+911>:   cmp    al,0x39
+0x00000000000014f6 <+913>:   jne    0x1ac1 <main+2396>
+0x00000000000014fc <+919>:   movzx  edx,BYTE PTR [rbp-0x63]
+0x0000000000001500 <+923>:   movzx  eax,BYTE PTR [rbp-0x6b]
+0x0000000000001504 <+927>:   cmp    dl,al
+0x0000000000001506 <+929>:   jne    0x1ac1 <main+2396>
+0x000000000000150c <+935>:   movzx  eax,BYTE PTR [rbp-0x5d]
+0x0000000000001510 <+939>:   movzx  edx,BYTE PTR [rbp-0x6b]
+0x0000000000001514 <+943>:   imul   eax,edx
+0x0000000000001517 <+946>:   cmp    al,0x2f
+0x0000000000001519 <+948>:   jne    0x1ac1 <main+2396>
+0x000000000000151f <+954>:   movzx  eax,BYTE PTR [rbp-0x78]
+0x0000000000001523 <+958>:   movzx  edx,BYTE PTR [rbp-0x5b]
+0x0000000000001527 <+962>:   imul   eax,edx
+0x000000000000152a <+965>:   cmp    al,0xab
+0x000000000000152c <+967>:   jne    0x1ac1 <main+2396>
+0x0000000000001532 <+973>:   movzx  edx,BYTE PTR [rbp-0x66]
+0x0000000000001536 <+977>:   movzx  eax,BYTE PTR [rbp-0x59]
+0x000000000000153a <+981>:   add    eax,edx
+0x000000000000153c <+983>:   cmp    al,0x93
+0x000000000000153e <+985>:   jne    0x1ac1 <main+2396>
+0x0000000000001544 <+991>:   movzx  edx,BYTE PTR [rbp-0x5e]
+0x0000000000001548 <+995>:   movzx  eax,BYTE PTR [rbp-0x66]
+0x000000000000154c <+999>:   xor    eax,edx
+0x000000000000154e <+1001>:  cmp    al,0x73
+0x0000000000001550 <+1003>:  jne    0x1ac1 <main+2396>
+0x0000000000001556 <+1009>:  movzx  edx,BYTE PTR [rbp-0x61]
+0x000000000000155a <+1013>:  movzx  eax,BYTE PTR [rbp-0x6c]
+0x000000000000155e <+1017>:  xor    eax,edx
+0x0000000000001560 <+1019>:  cmp    al,0x40
+0x0000000000001562 <+1021>:  jne    0x1ac1 <main+2396>                                                                                                                                                                                                                                                            [318/619]
+0x0000000000001568 <+1027>:  movzx  edx,BYTE PTR [rbp-0x70]
+0x000000000000156c <+1031>:  movzx  eax,BYTE PTR [rbp-0x67]
+0x0000000000001570 <+1035>:  add    eax,edx
+0x0000000000001572 <+1037>:  cmp    al,0xa9
+0x0000000000001574 <+1039>:  jne    0x1ac1 <main+2396>
+0x000000000000157a <+1045>:  movzx  edx,BYTE PTR [rbp-0x45]
+0x000000000000157e <+1049>:  movzx  eax,BYTE PTR [rbp-0x59]
+0x0000000000001582 <+1053>:  xor    eax,edx
+0x0000000000001584 <+1055>:  cmp    al,0x15
+0x0000000000001586 <+1057>:  jne    0x1ac1 <main+2396>
+0x000000000000158c <+1063>:  movzx  edx,BYTE PTR [rbp-0x45]
+0x0000000000001590 <+1067>:  movzx  eax,BYTE PTR [rbp-0x80]
+0x0000000000001594 <+1071>:  add    eax,edx
+0x0000000000001596 <+1073>:  cmp    al,0x69
+0x0000000000001598 <+1075>:  jne    0x1ac1 <main+2396>
+0x000000000000159e <+1081>:  movzx  edx,BYTE PTR [rbp-0x52]
+0x00000000000015a2 <+1085>:  movzx  eax,BYTE PTR [rbp-0x5e]
+0x00000000000015a6 <+1089>:  add    eax,edx
+0x00000000000015a8 <+1091>:  cmp    al,0xa5
+0x00000000000015aa <+1093>:  jne    0x1ac1 <main+2396>
+0x00000000000015b0 <+1099>:  movzx  edx,BYTE PTR [rbp-0x4c]
+0x00000000000015b4 <+1103>:  movzx  eax,BYTE PTR [rbp-0x62]
+0x00000000000015b8 <+1107>:  xor    eax,edx
+0x00000000000015ba <+1109>:  cmp    al,0x37
+0x00000000000015bc <+1111>:  jne    0x1ac1 <main+2396>
+0x00000000000015c2 <+1117>:  movzx  eax,BYTE PTR [rbp-0x80]
+0x00000000000015c6 <+1121>:  movzx  edx,BYTE PTR [rbp-0x64]
+0x00000000000015ca <+1125>:  imul   eax,edx
+0x00000000000015cd <+1128>:  cmp    al,0x8
+0x00000000000015cf <+1130>:  jne    0x1ac1 <main+2396>
+0x00000000000015d5 <+1136>:  movzx  eax,BYTE PTR [rbp-0x5e]
+0x00000000000015d9 <+1140>:  movzx  edx,BYTE PTR [rbp-0x48]
+0x00000000000015dd <+1144>:  sub    eax,edx
+0x00000000000015df <+1146>:  cmp    al,0xc5
+0x00000000000015e1 <+1148>:  jne    0x1ac1 <main+2396>
+0x00000000000015e7 <+1154>:  movzx  edx,BYTE PTR [rbp-0x44]
+0x00000000000015eb <+1158>:  movzx  eax,BYTE PTR [rbp-0x6e]
+0x00000000000015ef <+1162>:  add    eax,edx
+0x00000000000015f1 <+1164>:  cmp    al,0xe4
+0x00000000000015f3 <+1166>:  jne    0x1ac1 <main+2396>
+0x00000000000015f9 <+1172>:  movzx  edx,BYTE PTR [rbp-0x58]
+0x00000000000015fd <+1176>:  movzx  eax,BYTE PTR [rbp-0x5d]
+0x0000000000001601 <+1180>:  xor    eax,edx
+0x0000000000001603 <+1182>:  cmp    al,0x6e
+0x0000000000001605 <+1184>:  jne    0x1ac1 <main+2396>
+0x000000000000160b <+1190>:  movzx  eax,BYTE PTR [rbp-0x48]
+0x000000000000160f <+1194>:  movzx  edx,BYTE PTR [rbp-0x70]
+0x0000000000001613 <+1198>:  imul   eax,edx
+0x0000000000001616 <+1201>:  cmp    al,0xac
+0x0000000000001618 <+1203>:  jne    0x1ac1 <main+2396>
+0x000000000000161e <+1209>:  movzx  eax,BYTE PTR [rbp-0x4a]
+0x0000000000001622 <+1213>:  movzx  edx,BYTE PTR [rbp-0x51]
+0x0000000000001626 <+1217>:  sub    eax,edx
+0x0000000000001628 <+1219>:  cmp    al,0xd
+0x000000000000162a <+1221>:  jne    0x1ac1 <main+2396>
+0x0000000000001630 <+1227>:  movzx  edx,BYTE PTR [rbp-0x49]
+0x0000000000001634 <+1231>:  movzx  eax,BYTE PTR [rbp-0x62]
+0x0000000000001638 <+1235>:  add    eax,edx
+0x000000000000163a <+1237>:  cmp    al,0x9c
+0x000000000000163c <+1239>:  jne    0x1ac1 <main+2396>
+0x0000000000001642 <+1245>:  movzx  edx,BYTE PTR [rbp-0x5f]
+0x0000000000001646 <+1249>:  movzx  eax,BYTE PTR [rbp-0x7a]
+0x000000000000164a <+1253>:  add    eax,edx
+0x000000000000164c <+1255>:  cmp    al,0xd4
+0x000000000000164e <+1257>:  jne    0x1ac1 <main+2396>
+0x0000000000001654 <+1263>:  movzx  eax,BYTE PTR [rbp-0x79]
+0x0000000000001658 <+1267>:  movzx  edx,BYTE PTR [rbp-0x63]
+0x000000000000165c <+1271>:  imul   eax,edx
+0x000000000000165f <+1274>:  cmp    al,0xed
+0x0000000000001661 <+1276>:  jne    0x1ac1 <main+2396>
+0x0000000000001667 <+1282>:  movzx  edx,BYTE PTR [rbp-0x63]
+0x000000000000166b <+1286>:  movzx  eax,BYTE PTR [rbp-0x48]
+0x000000000000166f <+1290>:  xor    eax,edx
+0x0000000000001671 <+1292>:  cmp    al,0x38                                                                                                                                                                                                                                                                       [244/619]
+0x0000000000001673 <+1294>:  jne    0x1ac1 <main+2396>
+0x0000000000001679 <+1300>:  movzx  eax,BYTE PTR [rbp-0x7f]
+0x000000000000167d <+1304>:  movzx  edx,BYTE PTR [rbp-0x5b]
+0x0000000000001681 <+1308>:  imul   eax,edx
+0x0000000000001684 <+1311>:  cmp    al,0x64
+0x0000000000001686 <+1313>:  jne    0x1ac1 <main+2396>
+0x000000000000168c <+1319>:  movzx  edx,BYTE PTR [rbp-0x46]
+0x0000000000001690 <+1323>:  movzx  eax,BYTE PTR [rbp-0x48]
+0x0000000000001694 <+1327>:  xor    eax,edx
+0x0000000000001696 <+1329>:  cmp    al,0x46
+0x0000000000001698 <+1331>:  jne    0x1ac1 <main+2396>
+0x000000000000169e <+1337>:  movzx  eax,BYTE PTR [rbp-0x7e]
+0x00000000000016a2 <+1341>:  movzx  edx,BYTE PTR [rbp-0x6d]
+0x00000000000016a6 <+1345>:  imul   eax,edx
+0x00000000000016a9 <+1348>:  cmp    al,0x26
+0x00000000000016ab <+1350>:  jne    0x1ac1 <main+2396>
+0x00000000000016b1 <+1356>:  movzx  edx,BYTE PTR [rbp-0x6a]
+0x00000000000016b5 <+1360>:  movzx  eax,BYTE PTR [rbp-0x66]
+0x00000000000016b9 <+1364>:  xor    eax,edx
+0x00000000000016bb <+1366>:  cmp    al,0x2b
+0x00000000000016bd <+1368>:  jne    0x1ac1 <main+2396>
+0x00000000000016c3 <+1374>:  movzx  edx,BYTE PTR [rbp-0x79]
+0x00000000000016c7 <+1378>:  movzx  eax,BYTE PTR [rbp-0x7f]
+0x00000000000016cb <+1382>:  add    eax,edx
+0x00000000000016cd <+1384>:  cmp    al,0x87
+0x00000000000016cf <+1386>:  jne    0x1ac1 <main+2396>
+0x00000000000016d5 <+1392>:  movzx  edx,BYTE PTR [rbp-0x80]
+0x00000000000016d9 <+1396>:  movzx  eax,BYTE PTR [rbp-0x65]
+0x00000000000016dd <+1400>:  xor    eax,edx
+0x00000000000016df <+1402>:  cmp    al,0x2a
+0x00000000000016e1 <+1404>:  jne    0x1ac1 <main+2396>
+0x00000000000016e7 <+1410>:  movzx  eax,BYTE PTR [rbp-0x6b]
+0x00000000000016eb <+1414>:  movzx  edx,BYTE PTR [rbp-0x7f]
+0x00000000000016ef <+1418>:  sub    eax,edx
+0x00000000000016f1 <+1420>:  cmp    al,0xb
+0x00000000000016f3 <+1422>:  jne    0x1ac1 <main+2396>
+0x00000000000016f9 <+1428>:  movzx  edx,BYTE PTR [rbp-0x4a]
+0x00000000000016fd <+1432>:  movzx  eax,BYTE PTR [rbp-0x65]
+0x0000000000001701 <+1436>:  add    eax,edx
+0x0000000000001703 <+1438>:  cmp    al,0xce
+0x0000000000001705 <+1440>:  jne    0x1ac1 <main+2396>
+0x000000000000170b <+1446>:  movzx  edx,BYTE PTR [rbp-0x73]
+0x000000000000170f <+1450>:  movzx  eax,BYTE PTR [rbp-0x6f]
+0x0000000000001713 <+1454>:  xor    eax,edx
+0x0000000000001715 <+1456>:  cmp    al,0x3b
+0x0000000000001717 <+1458>:  jne    0x1ac1 <main+2396>
+0x000000000000171d <+1464>:  movzx  eax,BYTE PTR [rbp-0x6d]
+0x0000000000001721 <+1468>:  movzx  edx,BYTE PTR [rbp-0x46]
+0x0000000000001725 <+1472>:  sub    eax,edx
+0x0000000000001727 <+1474>:  cmp    al,0x12
+0x0000000000001729 <+1476>:  jne    0x1ac1 <main+2396>
+0x000000000000172f <+1482>:  movzx  edx,BYTE PTR [rbp-0x6f]
+0x0000000000001733 <+1486>:  movzx  eax,BYTE PTR [rbp-0x76]
+0x0000000000001737 <+1490>:  cmp    dl,al
+0x0000000000001739 <+1492>:  jne    0x1ac1 <main+2396>
+0x000000000000173f <+1498>:  movzx  eax,BYTE PTR [rbp-0x72]
+0x0000000000001743 <+1502>:  movzx  edx,BYTE PTR [rbp-0x46]
+0x0000000000001747 <+1506>:  sub    eax,edx
+0x0000000000001749 <+1508>:  cmp    al,0x4d
+0x000000000000174b <+1510>:  jne    0x1ac1 <main+2396>
+0x0000000000001751 <+1516>:  movzx  eax,BYTE PTR [rbp-0x56]
+0x0000000000001755 <+1520>:  movzx  edx,BYTE PTR [rbp-0x4c]
+0x0000000000001759 <+1524>:  imul   eax,edx
+0x000000000000175c <+1527>:  cmp    al,0x4e
+0x000000000000175e <+1529>:  jne    0x1ac1 <main+2396>
+0x0000000000001764 <+1535>:  movzx  edx,BYTE PTR [rbp-0x4e]
+0x0000000000001768 <+1539>:  movzx  eax,BYTE PTR [rbp-0x60]
+0x000000000000176c <+1543>:  cmp    dl,al
+0x000000000000176e <+1545>:  jne    0x1ac1 <main+2396>
+0x0000000000001774 <+1551>:  movzx  edx,BYTE PTR [rbp-0x4d]
+0x0000000000001778 <+1555>:  movzx  eax,BYTE PTR [rbp-0x51]
+0x000000000000177c <+1559>:  xor    eax,edx
+0x000000000000177e <+1561>:  cmp    al,0x38
+0x0000000000001780 <+1563>:  jne    0x1ac1 <main+2396>                                                                                                                                                                                                                                                            [170/619]
+0x0000000000001786 <+1569>:  movzx  edx,BYTE PTR [rbp-0x67]
+0x000000000000178a <+1573>:  movzx  eax,BYTE PTR [rbp-0x5a]
+0x000000000000178e <+1577>:  add    eax,edx
+0x0000000000001790 <+1579>:  cmp    al,0x94
+0x0000000000001792 <+1581>:  jne    0x1ac1 <main+2396>
+0x0000000000001798 <+1587>:  movzx  edx,BYTE PTR [rbp-0x4c]
+0x000000000000179c <+1591>:  movzx  eax,BYTE PTR [rbp-0x57]
+0x00000000000017a0 <+1595>:  add    eax,edx
+0x00000000000017a2 <+1597>:  cmp    al,0xcf
+0x00000000000017a4 <+1599>:  jne    0x1ac1 <main+2396>
+0x00000000000017aa <+1605>:  movzx  edx,BYTE PTR [rbp-0x54]
+0x00000000000017ae <+1609>:  movzx  eax,BYTE PTR [rbp-0x6c]
+0x00000000000017b2 <+1613>:  cmp    dl,al
+0x00000000000017b4 <+1615>:  jne    0x1ac1 <main+2396>
+0x00000000000017ba <+1621>:  movzx  edx,BYTE PTR [rbp-0x67]
+0x00000000000017be <+1625>:  movzx  eax,BYTE PTR [rbp-0x74]
+0x00000000000017c2 <+1629>:  add    eax,edx
+0x00000000000017c4 <+1631>:  cmp    al,0x66
+0x00000000000017c6 <+1633>:  jne    0x1ac1 <main+2396>
+0x00000000000017cc <+1639>:  movzx  edx,BYTE PTR [rbp-0x5c]
+0x00000000000017d0 <+1643>:  movzx  eax,BYTE PTR [rbp-0x44]
+0x00000000000017d4 <+1647>:  add    eax,edx
+0x00000000000017d6 <+1649>:  cmp    al,0xf1
+0x00000000000017d8 <+1651>:  jne    0x1ac1 <main+2396>
+0x00000000000017de <+1657>:  movzx  eax,BYTE PTR [rbp-0x57]
+0x00000000000017e2 <+1661>:  movzx  edx,BYTE PTR [rbp-0x6b]
+0x00000000000017e6 <+1665>:  sub    eax,edx
+0x00000000000017e8 <+1667>:  cmp    al,0x11
+0x00000000000017ea <+1669>:  jne    0x1ac1 <main+2396>
+0x00000000000017f0 <+1675>:  movzx  eax,BYTE PTR [rbp-0x5c]
+0x00000000000017f4 <+1679>:  movzx  edx,BYTE PTR [rbp-0x4f]
+0x00000000000017f8 <+1683>:  sub    eax,edx
+0x00000000000017fa <+1685>:  cmp    al,0x44
+0x00000000000017fc <+1687>:  jne    0x1ac1 <main+2396>
+0x0000000000001802 <+1693>:  movzx  eax,BYTE PTR [rbp-0x77]
+0x0000000000001806 <+1697>:  movzx  edx,BYTE PTR [rbp-0x5d]
+0x000000000000180a <+1701>:  sub    eax,edx
+0x000000000000180c <+1703>:  cmp    al,0x44
+0x000000000000180e <+1705>:  jne    0x1ac1 <main+2396>
+0x0000000000001814 <+1711>:  movzx  edx,BYTE PTR [rbp-0x4d]
+0x0000000000001818 <+1715>:  movzx  eax,BYTE PTR [rbp-0x4b]
+0x000000000000181c <+1719>:  xor    eax,edx
+0x000000000000181e <+1721>:  cmp    al,0x1
+0x0000000000001820 <+1723>:  jne    0x1ac1 <main+2396>
+0x0000000000001826 <+1729>:  movzx  edx,BYTE PTR [rbp-0x47]
+0x000000000000182a <+1733>:  movzx  eax,BYTE PTR [rbp-0x5e]
+0x000000000000182e <+1737>:  xor    eax,edx
+0x0000000000001830 <+1739>:  cmp    al,0xd
+0x0000000000001832 <+1741>:  jne    0x1ac1 <main+2396>
+0x0000000000001838 <+1747>:  movzx  eax,BYTE PTR [rbp-0x75]
+0x000000000000183c <+1751>:  movzx  edx,BYTE PTR [rbp-0x64]
+0x0000000000001840 <+1755>:  sub    eax,edx
+0x0000000000001842 <+1757>:  cmp    al,0xeb
+0x0000000000001844 <+1759>:  jne    0x1ac1 <main+2396>
+0x000000000000184a <+1765>:  movzx  edx,BYTE PTR [rbp-0x68]
+0x000000000000184e <+1769>:  movzx  eax,BYTE PTR [rbp-0x69]
+0x0000000000001852 <+1773>:  add    eax,edx
+0x0000000000001854 <+1775>:  cmp    al,0x99
+0x0000000000001856 <+1777>:  jne    0x1ac1 <main+2396>
+0x000000000000185c <+1783>:  movzx  edx,BYTE PTR [rbp-0x73]
+0x0000000000001860 <+1787>:  movzx  eax,BYTE PTR [rbp-0x68]
+0x0000000000001864 <+1791>:  add    eax,edx
+0x0000000000001866 <+1793>:  cmp    al,0x95
+0x0000000000001868 <+1795>:  jne    0x1ac1 <main+2396>
+0x000000000000186e <+1801>:  movzx  eax,BYTE PTR [rbp-0x74]
+0x0000000000001872 <+1805>:  movzx  edx,BYTE PTR [rbp-0x80]
+0x0000000000001876 <+1809>:  sub    eax,edx
+0x0000000000001878 <+1811>:  cmp    al,0xe9
+0x000000000000187a <+1813>:  jne    0x1ac1 <main+2396>
+0x0000000000001880 <+1819>:  movzx  edx,BYTE PTR [rbp-0x61]
+0x0000000000001884 <+1823>:  movzx  eax,BYTE PTR [rbp-0x5e]
+0x0000000000001888 <+1827>:  add    eax,edx
+0x000000000000188a <+1829>:  cmp    al,0x60
+0x000000000000188c <+1831>:  jne    0x1ac1 <main+2396>                                                                                                                                                                                                                                                             [96/619]
+0x0000000000001892 <+1837>:  movzx  edx,BYTE PTR [rbp-0x4b]                                                                                                                                                                                                                                                                
+0x0000000000001896 <+1841>:  movzx  eax,BYTE PTR [rbp-0x7b]                                                                                                                                                                                                                                                                
+0x000000000000189a <+1845>:  add    eax,edx                                                                                                                                                                                                                                                                                
+0x000000000000189c <+1847>:  cmp    al,0x96                                                                                                                                                                                                                                                                                
+0x000000000000189e <+1849>:  jne    0x1ac1 <main+2396>
+0x00000000000018a4 <+1855>:  movzx  eax,BYTE PTR [rbp-0x4f]
+0x00000000000018a8 <+1859>:  movzx  edx,BYTE PTR [rbp-0x56]
+0x00000000000018ac <+1863>:  imul   eax,edx
+0x00000000000018af <+1866>:  cmp    al,0x60
+0x00000000000018b1 <+1868>:  jne    0x1ac1 <main+2396>
+0x00000000000018b7 <+1874>:  movzx  eax,BYTE PTR [rbp-0x50]
+0x00000000000018bb <+1878>:  movzx  edx,BYTE PTR [rbp-0x6b]
+0x00000000000018bf <+1882>:  imul   eax,edx
+0x00000000000018c2 <+1885>:  cmp    al,0x14
+0x00000000000018c4 <+1887>:  jne    0x1ac1 <main+2396>
+0x00000000000018ca <+1893>:  movzx  eax,BYTE PTR [rbp-0x65]
+0x00000000000018ce <+1897>:  movzx  edx,BYTE PTR [rbp-0x4c]
+0x00000000000018d2 <+1901>:  sub    eax,edx
+0x00000000000018d4 <+1903>:  cmp    al,0x3
+0x00000000000018d6 <+1905>:  jne    0x1ac1 <main+2396>
+0x00000000000018dc <+1911>:  movzx  edx,BYTE PTR [rbp-0x6c]
+0x00000000000018e0 <+1915>:  movzx  eax,BYTE PTR [rbp-0x47]
+0x00000000000018e4 <+1919>:  add    eax,edx
+0x00000000000018e6 <+1921>:  cmp    al,0x95
+0x00000000000018e8 <+1923>:  jne    0x1ac1 <main+2396>
+0x00000000000018ee <+1929>:  movzx  eax,BYTE PTR [rbp-0x76]
+0x00000000000018f2 <+1933>:  movzx  edx,BYTE PTR [rbp-0x4b]
+0x00000000000018f6 <+1937>:  imul   eax,edx
+0x00000000000018f9 <+1940>:  cmp    al,0xda
+0x00000000000018fb <+1942>:  jne    0x1ac1 <main+2396>
+0x0000000000001901 <+1948>:  movzx  edx,BYTE PTR [rbp-0x57]
+0x0000000000001905 <+1952>:  movzx  eax,BYTE PTR [rbp-0x7f]
+0x0000000000001909 <+1956>:  add    eax,edx
+0x000000000000190b <+1958>:  cmp    al,0xc4
+0x000000000000190d <+1960>:  jne    0x1ac1 <main+2396>
+0x0000000000001913 <+1966>:  movzx  eax,BYTE PTR [rbp-0x51]
+0x0000000000001917 <+1970>:  movzx  edx,BYTE PTR [rbp-0x7f]
+0x000000000000191b <+1974>:  sub    eax,edx
+0x000000000000191d <+1976>:  cmp    al,0xb
+0x000000000000191f <+1978>:  jne    0x1ac1 <main+2396>
+0x0000000000001925 <+1984>:  movzx  edx,BYTE PTR [rbp-0x55]
+0x0000000000001929 <+1988>:  movzx  eax,BYTE PTR [rbp-0x6d]
+0x000000000000192d <+1992>:  cmp    dl,al
+0x000000000000192f <+1994>:  jne    0x1ac1 <main+2396>
+0x0000000000001935 <+2000>:  movzx  edx,BYTE PTR [rbp-0x51]
+0x0000000000001939 <+2004>:  movzx  eax,BYTE PTR [rbp-0x59]
+0x000000000000193d <+2008>:  add    eax,edx
+0x000000000000193f <+2010>:  cmp    al,0x93
+0x0000000000001941 <+2012>:  jne    0x1ac1 <main+2396>
+0x0000000000001947 <+2018>:  movzx  eax,BYTE PTR [rbp-0x74]
+0x000000000000194b <+2022>:  movzx  edx,BYTE PTR [rbp-0x46]
+0x000000000000194f <+2026>:  imul   eax,edx
+0x0000000000001952 <+2029>:  cmp    al,0x51
+0x0000000000001954 <+2031>:  jne    0x1ac1 <main+2396>
+0x000000000000195a <+2037>:  movzx  eax,BYTE PTR [rbp-0x78]
+0x000000000000195e <+2041>:  movzx  edx,BYTE PTR [rbp-0x66]
+0x0000000000001962 <+2045>:  imul   eax,edx
+0x0000000000001965 <+2048>:  cmp    al,0x41
+0x0000000000001967 <+2050>:  jne    0x1ac1 <main+2396>
+0x000000000000196d <+2056>:  movzx  eax,BYTE PTR [rbp-0x52]
+0x0000000000001971 <+2060>:  movzx  edx,BYTE PTR [rbp-0x61]
+0x0000000000001975 <+2064>:  sub    eax,edx
+0x0000000000001977 <+2066>:  cmp    al,0x45
+0x0000000000001979 <+2068>:  jne    0x1ac1 <main+2396>
+0x000000000000197f <+2074>:  movzx  edx,BYTE PTR [rbp-0x5b]
+0x0000000000001983 <+2078>:  movzx  eax,BYTE PTR [rbp-0x79]
+0x0000000000001987 <+2082>:  add    eax,edx
+0x0000000000001989 <+2084>:  cmp    al,0x68
+0x000000000000198b <+2086>:  jne    0x1ac1 <main+2396>
+0x0000000000001991 <+2092>:  movzx  edx,BYTE PTR [rbp-0x7c]
+0x0000000000001995 <+2096>:  movzx  eax,BYTE PTR [rbp-0x5c]
+0x0000000000001999 <+2100>:  add    eax,edx
+0x000000000000199b <+2102>:  cmp    al,0xbc
+0x000000000000199d <+2104>:  jne    0x1ac1 <main+2396>                                                                                                                                                                                                                                                             [22/619]
+0x00000000000019a3 <+2110>:  movzx  edx,BYTE PTR [rbp-0x60]
+0x00000000000019a7 <+2114>:  movzx  eax,BYTE PTR [rbp-0x61]
+0x00000000000019ab <+2118>:  add    eax,edx
+0x00000000000019ad <+2120>:  cmp    al,0xa2
+0x00000000000019af <+2122>:  jne    0x1ac1 <main+2396>
+0x00000000000019b5 <+2128>:  movzx  edx,BYTE PTR [rbp-0x7b]
+0x00000000000019b9 <+2132>:  movzx  eax,BYTE PTR [rbp-0x67]
+0x00000000000019bd <+2136>:  add    eax,edx
+0x00000000000019bf <+2138>:  cmp    al,0x65
+0x00000000000019c1 <+2140>:  jne    0x1ac1 <main+2396>
+0x00000000000019c7 <+2146>:  movzx  eax,BYTE PTR [rbp-0x55]
+0x00000000000019cb <+2150>:  movzx  edx,BYTE PTR [rbp-0x63]
+0x00000000000019cf <+2154>:  imul   eax,edx
+0x00000000000019d2 <+2157>:  cmp    al,0xed
+0x00000000000019d4 <+2159>:  jne    0x1ac1 <main+2396>
+0x00000000000019da <+2165>:  movzx  edx,BYTE PTR [rbp-0x53]
+0x00000000000019de <+2169>:  movzx  eax,BYTE PTR [rbp-0x73]
+0x00000000000019e2 <+2173>:  xor    eax,edx
+0x00000000000019e4 <+2175>:  cmp    al,0x10
+0x00000000000019e6 <+2177>:  jne    0x1ac1 <main+2396>
+0x00000000000019ec <+2183>:  movzx  eax,BYTE PTR [rbp-0x50]
+0x00000000000019f0 <+2187>:  movzx  edx,BYTE PTR [rbp-0x74]
+0x00000000000019f4 <+2191>:  sub    eax,edx
+0x00000000000019f6 <+2193>:  cmp    al,0x3b
+0x00000000000019f8 <+2195>:  jne    0x1ac1 <main+2396>
+0x00000000000019fe <+2201>:  movzx  eax,BYTE PTR [rbp-0x69]
+0x0000000000001a02 <+2205>:  movzx  edx,BYTE PTR [rbp-0x78]
+0x0000000000001a06 <+2209>:  sub    eax,edx
+0x0000000000001a08 <+2211>:  cmp    al,0x9
+0x0000000000001a0a <+2213>:  jne    0x1ac1 <main+2396>
+0x0000000000001a10 <+2219>:  movzx  edx,BYTE PTR [rbp-0x56]
+0x0000000000001a14 <+2223>:  movzx  eax,BYTE PTR [rbp-0x79]
+0x0000000000001a18 <+2227>:  xor    eax,edx
+0x0000000000001a1a <+2229>:  cmp    al,0x41
+0x0000000000001a1c <+2231>:  jne    0x1ac1 <main+2396>
+0x0000000000001a22 <+2237>:  movzx  eax,BYTE PTR [rbp-0x7b]
+0x0000000000001a26 <+2241>:  movzx  edx,BYTE PTR [rbp-0x55]
+0x0000000000001a2a <+2245>:  sub    eax,edx
+0x0000000000001a2c <+2247>:  cmp    al,0xfd
+0x0000000000001a2e <+2249>:  jne    0x1ac1 <main+2396>
+0x0000000000001a34 <+2255>:  movzx  edx,BYTE PTR [rbp-0x6e]
+0x0000000000001a38 <+2259>:  movzx  eax,BYTE PTR [rbp-0x44]
+0x0000000000001a3c <+2263>:  xor    eax,edx
+0x0000000000001a3e <+2265>:  cmp    al,0x1a
+0x0000000000001a40 <+2267>:  jne    0x1ac1 <main+2396>
+0x0000000000001a42 <+2269>:  movzx  edx,BYTE PTR [rbp-0x7d]
+0x0000000000001a46 <+2273>:  movzx  eax,BYTE PTR [rbp-0x7f]
+0x0000000000001a4a <+2277>:  xor    eax,edx
+0x0000000000001a4c <+2279>:  cmp    al,0x2f
+0x0000000000001a4e <+2281>:  jne    0x1ac1 <main+2396>
+0x0000000000001a50 <+2283>:  movzx  eax,BYTE PTR [rbp-0x6f]
+0x0000000000001a54 <+2287>:  movzx  edx,BYTE PTR [rbp-0x59]
+0x0000000000001a58 <+2291>:  sub    eax,edx
+0x0000000000001a5a <+2293>:  cmp    al,0x2b
+0x0000000000001a5c <+2295>:  jne    0x1ac1 <main+2396>
+0x0000000000001a5e <+2297>:  movzx  edx,BYTE PTR [rbp-0x6c]
+0x0000000000001a62 <+2301>:  movzx  eax,BYTE PTR [rbp-0x78]
+0x0000000000001a66 <+2305>:  add    eax,edx
+0x0000000000001a68 <+2307>:  cmp    al,0xd3
+0x0000000000001a6a <+2309>:  jne    0x1ac1 <main+2396>
+0x0000000000001a6c <+2311>:  movzx  eax,BYTE PTR [rbp-0x75]
+0x0000000000001a70 <+2315>:  movzx  edx,BYTE PTR [rbp-0x4b]
+0x0000000000001a74 <+2319>:  imul   eax,edx
+0x0000000000001a77 <+2322>:  cmp    al,0xd8
+0x0000000000001a79 <+2324>:  jne    0x1ac1 <main+2396>
+0x0000000000001a7b <+2326>:  movzx  edx,BYTE PTR [rbp-0x7a]
+0x0000000000001a7f <+2330>:  movzx  eax,BYTE PTR [rbp-0x65]
+0x0000000000001a83 <+2334>:  add    eax,edx
+0x0000000000001a85 <+2336>:  cmp    al,0xd2
+0x0000000000001a87 <+2338>:  jne    0x1ac1 <main+2396>
+0x0000000000001a89 <+2340>:  movzx  edx,BYTE PTR [rbp-0x7d]
+0x0000000000001a8d <+2344>:  movzx  eax,BYTE PTR [rbp-0x7b]
+0x0000000000001a91 <+2348>:  add    eax,edx
+0x0000000000001a93 <+2350>:  cmp    al,0xab
+0x0000000000001a95 <+2352>:  jne    0x1ac1 <main+2396>
+0x0000000000001a97 <+2354>:  movzx  eax,BYTE PTR [rbp-0x5d]
+0x0000000000001a9b <+2358>:  movzx  edx,BYTE PTR [rbp-0x51]
+0x0000000000001a9f <+2362>:  sub    eax,edx
+0x0000000000001aa1 <+2364>:  cmp    al,0xd2
+0x0000000000001aa3 <+2366>:  jne    0x1ac1 <main+2396>
+0x0000000000001aa5 <+2368>:  movzx  edx,BYTE PTR [rbp-0x5f]
+0x0000000000001aa9 <+2372>:  movzx  eax,BYTE PTR [rbp-0x70]
+0x0000000000001aad <+2376>:  xor    eax,edx
+0x0000000000001aaf <+2378>:  cmp    al,0x10
+0x0000000000001ab1 <+2380>:  jne    0x1ac1 <main+2396>
