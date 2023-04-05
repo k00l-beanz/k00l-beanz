@@ -1,0 +1,914 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:19.811831"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-dfc0-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2336" ThreadID="3220"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8025</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>6</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:19.945162"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1464" ThreadID="3260"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServiceName">Microsoft Passport</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:39.224159"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="1124"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:39.224159"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="1124"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:39.224159"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="1124"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:39.224161"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="1124"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:26.578014"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="888" ThreadID="3148"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:33.843849"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3696" ThreadID="3740"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:33.843849"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3696" ThreadID="3740"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:33.843849"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3696" ThreadID="3740"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:33.843851"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3696" ThreadID="3740"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:37:40.219948"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2552" ThreadID="4752"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:41:13.274529"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3092" ThreadID="4992"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:51:01.712362"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="604" ThreadID="3364"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:59:56.632280"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="900" ThreadID="3056"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:26.433126"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="2968"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:26.433126"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="2968"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:26.433126"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="2968"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:26.433126"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="2968"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:52:22.707096"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="564" ThreadID="3736"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:04.769655"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2776" ThreadID="540"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:04.769657"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2776" ThreadID="540"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:04.769657"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2776" ThreadID="540"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:04.769657"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2776" ThreadID="540"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-23 19:07:13.439882"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3272" ThreadID="5056"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:55:14.981285"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="904" ThreadID="3776"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:55:59.548857"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2784" ThreadID="3936"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:55:59.548857"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2784" ThreadID="3936"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:55:59.548857"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2784" ThreadID="3936"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:55:59.548859"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2784" ThreadID="3936"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:23:29.387651"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="916" ThreadID="3348"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:24:55.411968"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3852"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:24:55.411970"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3852"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:24:55.411970"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3852"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:24:55.411972"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3852"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:10:28.931543"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="584" ThreadID="960"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:10:59.322668"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3404" ThreadID="2956"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:10:59.322670"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3404" ThreadID="2956"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:10:59.322670"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3404" ThreadID="2956"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:10:59.322670"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3404" ThreadID="2956"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:26:45.769709"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="584" ThreadID="944"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:15.934572"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="4080"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:15.934574"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="4080"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:15.934576"></TimeCreated>
+<EventRecordID>44</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="4080"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:15.934576"></TimeCreated>
+<EventRecordID>45</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="4080"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">5520</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:03.911205"></TimeCreated>
+<EventRecordID>46</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="932" ThreadID="2264"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">3054</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>12</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:40.240913"></TimeCreated>
+<EventRecordID>47</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1252" ThreadID="1556"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">8210</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:40.240915"></TimeCreated>
+<EventRecordID>48</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1252" ThreadID="1556"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7201</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>12</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:40.240915"></TimeCreated>
+<EventRecordID>49</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1252" ThreadID="1556"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-HelloForBusiness" Guid="{906b8a99-63ce-58d7-86ab-10989bbd5567}"></Provider>
+<EventID Qualifiers="">7054</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>12</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:40.240915"></TimeCreated>
+<EventRecordID>50</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1252" ThreadID="1556"></Execution>
+<Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Error">0x00000001</Data>
+</EventData>
+</Event>
+
+</Events>

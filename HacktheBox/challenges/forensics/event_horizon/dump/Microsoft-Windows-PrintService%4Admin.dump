@@ -1,0 +1,100 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}"></Provider>
+<EventID Qualifiers="">823</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>49</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000020000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:01.704527"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="{f420ab68-9514-4971-a00d-8746f5370000}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1116" ThreadID="1608"></Execution>
+<Channel>Microsoft-Windows-PrintService/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<UserData><ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events"><DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+<OldDefaultPrinter>-</OldDefaultPrinter>
+<NewDefaultPrinter>Microsoft Print to PDF</NewDefaultPrinter>
+<Status>0x00000000</Status>
+<Module>winspool.drv</Module>
+</ChangingDefaultPrinter>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}"></Provider>
+<EventID Qualifiers="">823</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>49</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000020000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:01.710405"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4632" ThreadID="4964"></Execution>
+<Channel>Microsoft-Windows-PrintService/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<UserData><ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events"><DefaultPrinterSelectedBySpooler>0</DefaultPrinterSelectedBySpooler>
+<OldDefaultPrinter>Microsoft Print to PDF</OldDefaultPrinter>
+<NewDefaultPrinter>Microsoft Print to PDF (redirected 1)</NewDefaultPrinter>
+<Status>0x00000000</Status>
+<Module>winspool.drv</Module>
+</ChangingDefaultPrinter>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}"></Provider>
+<EventID Qualifiers="">823</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>49</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000020000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:39:00.454927"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1616" ThreadID="4964"></Execution>
+<Channel>Microsoft-Windows-PrintService/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<UserData><ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events"><DefaultPrinterSelectedBySpooler>0</DefaultPrinterSelectedBySpooler>
+<OldDefaultPrinter>Microsoft Print to PDF</OldDefaultPrinter>
+<NewDefaultPrinter>Microsoft Print to PDF (redirected 1)</NewDefaultPrinter>
+<Status>0x00000000</Status>
+<Module>winspool.drv</Module>
+</ChangingDefaultPrinter>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}"></Provider>
+<EventID Qualifiers="">823</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>49</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000020000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:31.119762"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4480" ThreadID="4716"></Execution>
+<Channel>Microsoft-Windows-PrintService/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<UserData><ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events"><DefaultPrinterSelectedBySpooler>0</DefaultPrinterSelectedBySpooler>
+<OldDefaultPrinter>Microsoft Print to PDF</OldDefaultPrinter>
+<NewDefaultPrinter>Microsoft Print to PDF (redirected 1)</NewDefaultPrinter>
+<Status>0x00000000</Status>
+<Module>winspool.drv</Module>
+</ChangingDefaultPrinter>
+</UserData>
+</Event>
+
+</Events>

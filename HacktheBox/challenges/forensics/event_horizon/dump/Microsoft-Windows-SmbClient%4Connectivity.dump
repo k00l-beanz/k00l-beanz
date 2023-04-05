@@ -1,0 +1,749 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:23.862404"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="196"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">6</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:24.899046"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="192"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">6</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:24.963272"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="432"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:25.231350"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="192"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">6</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.602018"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="196"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.602045"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="196"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.602276"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="196"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:20.512968"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:20.512999"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:20.513212"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:46.873739"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:46.873800"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:46.874201"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:45.471363"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:45.471445"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:45.472548"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:03.020462"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:03.020487"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:03.020752"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:03.681282"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:32.593433"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:32.593515"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:32.594387"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:32.632282"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:24.055904"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:24.055960"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:24.056505"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:52.616720"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:52.616749"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:52.617020"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:36.212814"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:36.212898"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:36.213869"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30812</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:11.330004"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ServerNameLength">58</Data>
+<Data Name="ServerName">\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:11.330040"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBClient" Guid="{988c59c5-0a1c-45b6-a555-0c62276e327d}"></Provider>
+<EventID Qualifiers="">30810</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0400000000000040</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:11.330448"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="NameLength">9</Data>
+<Data Name="Name">Ethernet0</Data>
+<Data Name="IfIndex">3</Data>
+</EventData>
+</Event>
+
+</Events>

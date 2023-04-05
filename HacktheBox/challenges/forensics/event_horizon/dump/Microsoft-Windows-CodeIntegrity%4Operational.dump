@@ -1,0 +1,224 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:20:42.345104"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="{c5ffa37c-a91d-0000-48a5-ffc51da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:57.216440"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-f3b1-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:16.348213"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1189-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:26:49.037270"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="{c3e0a7d3-a937-0000-e1a8-e0c337a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:20.263268"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="{dc304448-a943-0000-5645-30dc43a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:48:24.362469"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="{136949f4-a96d-0000-044b-69136da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:51:52.655710"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="{e04d3c69-aa4f-0000-783d-4de04faad601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:18:49.230003"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="{a11d3189-aa53-0000-9932-1da153aad601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:21.617783"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="{278a84f7-ab8f-0000-0686-8a278fabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:07.294254"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-7d8a-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CodeIntegrity" Guid="{4ee76bd8-3cf4-44a0-a0ac-3937643e37a3}"></Provider>
+<EventID Qualifiers="">3085</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>20</Task>
+<Opcode>127</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:57:38.782866"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="{8a6a3ffd-ac04-0000-0d41-6a8a04acd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Settings">0x00000000</Data>
+<Data Name="Exemption">1</Data>
+</EventData>
+</Event>
+
+</Events>

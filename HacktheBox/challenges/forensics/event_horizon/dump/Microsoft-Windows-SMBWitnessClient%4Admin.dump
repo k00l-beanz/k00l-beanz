@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBWitnessClient" Guid="{32254f6c-aa33-46f0-a5e3-1cbcc74bf683}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:19.543667"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1748"></Execution>
+<Channel>Microsoft-Windows-SMBWitnessClient/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="ErrorCode">2</Data>
+</EventData>
+</Event>
+
+</Events>

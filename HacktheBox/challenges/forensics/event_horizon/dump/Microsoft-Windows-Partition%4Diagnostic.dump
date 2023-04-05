@@ -1,0 +1,1005 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:20:42.230150"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="192"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:57.199167"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="196"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:16.327984"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:26:47.265488"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:19.972326"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:48:22.000057"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:51:52.094414"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:18:43.927509"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:20.904369"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:06.904322"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Partition" Guid="{412bdff2-a8c4-470d-8f33-63fe0d8c20e2}"></Provider>
+<EventID Qualifiers="">1006</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:57:37.841570"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-Partition/Diagnostic</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Version">3</Data>
+<Data Name="DiskNumber">0</Data>
+<Data Name="Flags">538976528</Data>
+<Data Name="Characteristics">262400</Data>
+<Data Name="IsSystemCritical">True</Data>
+<Data Name="PagingCount">0</Data>
+<Data Name="HibernationCount">0</Data>
+<Data Name="DumpCount">0</Data>
+<Data Name="BytesPerSector">512</Data>
+<Data Name="Capacity">64424509440</Data>
+<Data Name="BusType">17</Data>
+<Data Name="Manufacturer">NULL</Data>
+<Data Name="Model">VMware Virtual NVMe Disk</Data>
+<Data Name="Revision">1.0</Data>
+<Data Name="SerialNumber">VMWare NVME_0000</Data>
+<Data Name="Location">nvme0</Data>
+<Data Name="ParentId">PCI\VEN_15AD&amp;DEV_07F0&amp;SUBSYS_07F015AD&amp;REV_00\4&amp;3b50545d&amp;0&amp;00B8</Data>
+<Data Name="IoctlSupport">63983</Data>
+<Data Name="IdFlags">4</Data>
+<Data Name="DiskId">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterId">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="RegistryId">{660680de-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="PoolId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="FirmwareSupportsUpgrade">False</Data>
+<Data Name="FirmwareSlotCount">1</Data>
+<Data Name="StorageIdCount">1</Data>
+<Data Name="StorageIdCodeSet">3</Data>
+<Data Name="StorageIdType">8</Data>
+<Data Name="StorageIdAssociation">0</Data>
+<Data Name="StorageIdBytes">68</Data>
+<Data Name="StorageId">MTVBRFZNd2FyZSBWaXJ0dWFsIE5WTWUgRGlzawAAAAAAAAAAAAAAAAAAAAAwMDAxVk1XYXJlIE5WTUVfMDAwMAAAAAA=</Data>
+<Data Name="WriteCacheType">0</Data>
+<Data Name="WriteCacheEnabled">0</Data>
+<Data Name="WriteCacheChangeable">0</Data>
+<Data Name="WriteThroughSupported">0</Data>
+<Data Name="FlushCacheSupported">False</Data>
+<Data Name="IsPowerProtected">False</Data>
+<Data Name="NVCacheEnabled">False</Data>
+<Data Name="BytesPerLogicalSector">512</Data>
+<Data Name="BytesPerPhysicalSector">4096</Data>
+<Data Name="BytesOffsetForSectorAlignment">0</Data>
+<Data Name="IncursSeekPenalty">False</Data>
+<Data Name="IsTrimSupported">False</Data>
+<Data Name="IsThinProvisioned">False</Data>
+<Data Name="OptimalUnmapGranularity">0</Data>
+<Data Name="UnmapAlignment">0</Data>
+<Data Name="NumberOfLogicalCopies">0</Data>
+<Data Name="NumberOfPhysicalCopies">0</Data>
+<Data Name="FaultTolerance">0</Data>
+<Data Name="NumberOfColumns">0</Data>
+<Data Name="InterleaveBytes">0</Data>
+<Data Name="HybridSupported">False</Data>
+<Data Name="HybridCacheBytes">0</Data>
+<Data Name="AdapterMaximumTransferBytes">1048576</Data>
+<Data Name="AdapterMaximumTransferPages">513</Data>
+<Data Name="AdapterAlignmentMask">3</Data>
+<Data Name="AdapterSerialNumber">VMWare NVME_0000</Data>
+<Data Name="PortDriver">1</Data>
+<Data Name="UserRemovalPolicy">False</Data>
+<Data Name="PartitionStyle">1</Data>
+<Data Name="PartitionCount">3</Data>
+<Data Name="PartitionTableBytes">480</Data>
+<Data Name="PartitionTable">AQAAAAMAAAAHv7bVjKzJSIpjho7/fbCQAEQAAAAAAAAAev//DgAAAIAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAgAwAAAAAAQAAAAAAAAAocyrBH/jSEbpLAKDJPsk7fZidf4NXOkCqUZkeRzB+WwAAAAAAAACARQBGAEkAIABzAHkAcwB0AGUAbQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAMAAAAAAAAAAgAAAAAAgAAAAAAAAAW48njXAu4TYF9+S3wAhWuA5DSonb2I0eyPaJRUrlPfAAAAAAAAACATQBpAGMAcgBvAHMAbwBmAHQAIAByAGUAcwBlAHIAdgBlAGQAIABwAGEAcgB0AGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAJAUAAAAAAAAYOsOAAAAAwAAAAAAAACioNDr5bkzRIfAaLa3JpnHjBsulli//k2tyKvRoWRnWwAAAAAAAAAAQgBhAHMAaQBjACAAZABhAHQAYQAgAHAAYQByAHQAaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+<Data Name="MbrBytes">0</Data>
+<Data Name="Mbr"></Data>
+<Data Name="Vbr0Bytes">0</Data>
+<Data Name="Vbr0"></Data>
+<Data Name="Vbr1Bytes">0</Data>
+<Data Name="Vbr1"></Data>
+<Data Name="Vbr2Bytes">0</Data>
+<Data Name="Vbr2"></Data>
+<Data Name="Vbr3Size">0</Data>
+<Data Name="Vbr3"></Data>
+</EventData>
+</Event>
+
+</Events>

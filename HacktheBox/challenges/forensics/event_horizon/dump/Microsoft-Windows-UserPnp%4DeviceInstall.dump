@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-UserPnp" Guid="{96f4a050-7e31-453c-88be-9634f4e02139}"></Provider>
+<EventID Qualifiers="">8001</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:00.621845"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="924" ThreadID="936"></Execution>
+<Channel>Microsoft-Windows-UserPnp/DeviceInstall</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-UserPnp" Guid="{96f4a050-7e31-453c-88be-9634f4e02139}"></Provider>
+<EventID Qualifiers="">8004</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:46.618362"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="924" ThreadID="928"></Execution>
+<Channel>Microsoft-Windows-UserPnp/DeviceInstall</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-UserPnp" Guid="{96f4a050-7e31-453c-88be-9634f4e02139}"></Provider>
+<EventID Qualifiers="">8005</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:46.618696"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="924" ThreadID="1440"></Execution>
+<Channel>Microsoft-Windows-UserPnp/DeviceInstall</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-UserPnp" Guid="{96f4a050-7e31-453c-88be-9634f4e02139}"></Provider>
+<EventID Qualifiers="">8001</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:58.617741"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="948" ThreadID="660"></Execution>
+<Channel>Microsoft-Windows-UserPnp/DeviceInstall</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-UserPnp" Guid="{96f4a050-7e31-453c-88be-9634f4e02139}"></Provider>
+<EventID Qualifiers="">8004</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:01.643679"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="948" ThreadID="952"></Execution>
+<Channel>Microsoft-Windows-UserPnp/DeviceInstall</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-UserPnp" Guid="{96f4a050-7e31-453c-88be-9634f4e02139}"></Provider>
+<EventID Qualifiers="">8005</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:01.643980"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="948" ThreadID="1488"></Execution>
+<Channel>Microsoft-Windows-UserPnp/DeviceInstall</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+</Events>

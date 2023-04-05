@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-LanguagePackSetup" Guid="{7237fff9-a08a-4804-9c79-4a8704b70b87}"></Provider>
+<EventID Qualifiers="">4000</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>35</Task>
+<Opcode>1</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:06.096962"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2536" ThreadID="2492"></Execution>
+<Channel>Microsoft-Windows-LanguagePackSetup/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-LanguagePackSetup" Guid="{7237fff9-a08a-4804-9c79-4a8704b70b87}"></Provider>
+<EventID Qualifiers="">4001</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>35</Task>
+<Opcode>2</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:06.164249"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2536" ThreadID="2492"></Execution>
+<Channel>Microsoft-Windows-LanguagePackSetup/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+</Events>

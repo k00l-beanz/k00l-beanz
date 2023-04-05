@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WER-PayloadHealth" Guid="{4afddfde-002d-51ac-c109-c3b7897858d0}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:08:37.507730"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="428" ThreadID="4960"></Execution>
+<Channel>Microsoft-Windows-WER-PayloadHealth/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData Name="WER_PAYLOAD_HEALTH_SUCCESS"><Data Name="UploadDuration">1328</Data>
+<Data Name="PayloadSize">4427</Data>
+<Data Name="Protocol">Watson</Data>
+<Data Name="Stage">s1event</Data>
+<Data Name="BytesUploaded">4427</Data>
+<Data Name="ServerName">watson.telemetry.microsoft.com</Data>
+</EventData>
+</Event>
+
+</Events>

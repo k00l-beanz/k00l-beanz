@@ -1,0 +1,1054 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:24.217579"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2236" ThreadID="2292"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\Documents</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:27.287935"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="3808"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:29.234198"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3920" ThreadID="3924"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:31.479939"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3408" ThreadID="104"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070003</Data>
+<Data Name="FolderId">{7b0db17d-9cd2-4a93-9733-46cc89022e7c}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Libraries\Documents.library-ms</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:32.521872"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3920" ThreadID="3924"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:40.440290"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2260" ThreadID="4396"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\Documents</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:40.527296"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4604"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:40.527401"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4604"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.142607"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4756"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.142731"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4756"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:33.731186"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4424" ThreadID="4420"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\Documents</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:34.822981"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3240" ThreadID="2632"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:34.823092"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3240" ThreadID="2632"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:43.770374"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2096" ThreadID="3736"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:43.770489"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2096" ThreadID="3736"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:30:57.981714"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1412" ThreadID="2408"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{352481e8-33be-4251-ba85-6007caedcf9d}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:30:58.424032"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1412" ThreadID="2408"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070003</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:00.020573"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1388" ThreadID="264"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\Documents</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:38:59.014627"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3900" ThreadID="372"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{352481e8-33be-4251-ba85-6007caedcf9d}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:38:59.039898"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3900" ThreadID="372"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070003</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:33.759085"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="3820"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:33.759586"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="3820"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:42.373585"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3560" ThreadID="3024"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:42.373693"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3560" ThreadID="3024"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:11.984739"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2528" ThreadID="3176"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:11.984900"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2528" ThreadID="3176"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:21.207439"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3020" ThreadID="3016"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:21.207550"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3020" ThreadID="3016"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:27.406805"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4496" ThreadID="4500"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070002</Data>
+<Data Name="FolderId">{352481e8-33be-4251-ba85-6007caedcf9d}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:27.611607"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4496" ThreadID="4500"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070003</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Windows\system32\config\systemprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:56:07.579819"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4316" ThreadID="4376"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:56:07.579977"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4316" ThreadID="4376"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:56:14.064959"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4404" ThreadID="4532"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:56:14.065062"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4404" ThreadID="4532"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:25:01.993326"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="808" ThreadID="2428"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:25:01.993439"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="808" ThreadID="2428"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:25:09.090815"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2824" ThreadID="3800"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:25:09.090937"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2824" ThreadID="3800"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:11:05.810390"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="280" ThreadID="192"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:11:05.810556"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="280" ThreadID="192"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:11:16.660259"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="532" ThreadID="960"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:11:16.660362"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="532" ThreadID="960"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:23.667324"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="984" ThreadID="2152"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:23.667503"></TimeCreated>
+<EventRecordID>44</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="984" ThreadID="2152"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:30.482655"></TimeCreated>
+<EventRecordID>45</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3784" ThreadID="3204"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:30.483063"></TimeCreated>
+<EventRecordID>46</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3784" ThreadID="3204"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:48.371725"></TimeCreated>
+<EventRecordID>47</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3488" ThreadID="836"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:48.371960"></TimeCreated>
+<EventRecordID>48</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3488" ThreadID="836"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:54.947098"></TimeCreated>
+<EventRecordID>49</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2508" ThreadID="3156"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{b97d20bb-f46a-4c97-ba10-5e3608430854}</Data>
+<Data Name="Path">C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-KnownFolders" Guid="{8939299f-2315-4c5c-9b91-abb86aa0627d}"></Provider>
+<EventID Qualifiers="">1002</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:54.947206"></TimeCreated>
+<EventRecordID>50</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2508" ThreadID="3156"></Execution>
+<Channel>Microsoft-Windows-Known Folders API Service</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="hrError">0x80070005</Data>
+<Data Name="FolderId">{82a5ea35-d9cd-47c5-9629-e15d2f714e6e}</Data>
+<Data Name="Path">C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup</Data>
+</EventData>
+</Event>
+
+</Events>

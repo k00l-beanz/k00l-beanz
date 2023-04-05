@@ -1,0 +1,2462 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 21:08:14.705330"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">52492</Data>
+<Data Name="MaxDeviceQueueCount">1</Data>
+<Data Name="MaxOutstandingCount">1</Data>
+<Data Name="MaxReadWriteLatency_100ns">3804953</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">44413</Data>
+<Data Name="BucketIoSuccess2">4810</Data>
+<Data Name="BucketIoSuccess3">581</Data>
+<Data Name="BucketIoSuccess4">1149</Data>
+<Data Name="BucketIoSuccess5">1144</Data>
+<Data Name="BucketIoSuccess6">184</Data>
+<Data Name="BucketIoSuccess7">180</Data>
+<Data Name="BucketIoSuccess8">31</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">53211613</Data>
+<Data Name="BucketIoLatency2_100ns">21626714</Data>
+<Data Name="BucketIoLatency3_100ns">11270248</Data>
+<Data Name="BucketIoLatency4_100ns">113768622</Data>
+<Data Name="BucketIoLatency5_100ns">343670918</Data>
+<Data Name="BucketIoLatency6_100ns">168075677</Data>
+<Data Name="BucketIoLatency7_100ns">325760408</Data>
+<Data Name="BucketIoLatency8_100ns">96984228</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">1353761280</Data>
+<Data Name="TotalWriteBytes">452507136</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 21:08:14.705336"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 21:08:14.705341"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">18</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:13:14.025375"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2208" ThreadID="2576"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">4561</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">14740</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">5171293</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">7794</Data>
+<Data Name="BucketIoSuccess2">4287</Data>
+<Data Name="BucketIoSuccess3">285</Data>
+<Data Name="BucketIoSuccess4">1247</Data>
+<Data Name="BucketIoSuccess5">1040</Data>
+<Data Name="BucketIoSuccess6">58</Data>
+<Data Name="BucketIoSuccess7">23</Data>
+<Data Name="BucketIoSuccess8">6</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">12047673</Data>
+<Data Name="BucketIoLatency2_100ns">19611342</Data>
+<Data Name="BucketIoLatency3_100ns">6203356</Data>
+<Data Name="BucketIoLatency4_100ns">124033381</Data>
+<Data Name="BucketIoLatency5_100ns">311169748</Data>
+<Data Name="BucketIoLatency6_100ns">48413447</Data>
+<Data Name="BucketIoLatency7_100ns">42348318</Data>
+<Data Name="BucketIoLatency8_100ns">19769105</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">157168640</Data>
+<Data Name="TotalWriteBytes">218891264</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:13:14.025383"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2208" ThreadID="2576"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">4561</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">65</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAMwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAADYAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 23:18:13.360252"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">30466</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">4290876</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">12628</Data>
+<Data Name="BucketIoSuccess2">13359</Data>
+<Data Name="BucketIoSuccess3">681</Data>
+<Data Name="BucketIoSuccess4">2128</Data>
+<Data Name="BucketIoSuccess5">1601</Data>
+<Data Name="BucketIoSuccess6">60</Data>
+<Data Name="BucketIoSuccess7">4</Data>
+<Data Name="BucketIoSuccess8">5</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">18889101</Data>
+<Data Name="BucketIoLatency2_100ns">62071976</Data>
+<Data Name="BucketIoLatency3_100ns">14152219</Data>
+<Data Name="BucketIoLatency4_100ns">208432570</Data>
+<Data Name="BucketIoLatency5_100ns">441900334</Data>
+<Data Name="BucketIoLatency6_100ns">53524269</Data>
+<Data Name="BucketIoLatency7_100ns">5914423</Data>
+<Data Name="BucketIoLatency8_100ns">16171231</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">730560512</Data>
+<Data Name="TotalWriteBytes">320423424</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-22 23:18:13.360313"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">144</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAJgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAADUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:37:29.105297"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">664</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">18092</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">16510803</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">1593</Data>
+<Data Name="BucketIoSuccess2">6811</Data>
+<Data Name="BucketIoSuccess3">875</Data>
+<Data Name="BucketIoSuccess4">1686</Data>
+<Data Name="BucketIoSuccess5">5032</Data>
+<Data Name="BucketIoSuccess6">1146</Data>
+<Data Name="BucketIoSuccess7">578</Data>
+<Data Name="BucketIoSuccess8">371</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">2814957</Data>
+<Data Name="BucketIoLatency2_100ns">39494195</Data>
+<Data Name="BucketIoLatency3_100ns">15439968</Data>
+<Data Name="BucketIoLatency4_100ns">178470944</Data>
+<Data Name="BucketIoLatency5_100ns">1737176116</Data>
+<Data Name="BucketIoLatency6_100ns">1029597557</Data>
+<Data Name="BucketIoLatency7_100ns">1032175781</Data>
+<Data Name="BucketIoLatency8_100ns">1585608376</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">423397888</Data>
+<Data Name="TotalWriteBytes">24530944</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:37:29.105301"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">664</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:37:29.105307"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">664</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">13</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:42:28.416843"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">4564</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">9694</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">8736134</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">3349</Data>
+<Data Name="BucketIoSuccess2">3902</Data>
+<Data Name="BucketIoSuccess3">672</Data>
+<Data Name="BucketIoSuccess4">955</Data>
+<Data Name="BucketIoSuccess5">672</Data>
+<Data Name="BucketIoSuccess6">75</Data>
+<Data Name="BucketIoSuccess7">41</Data>
+<Data Name="BucketIoSuccess8">28</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">4463261</Data>
+<Data Name="BucketIoLatency2_100ns">20262005</Data>
+<Data Name="BucketIoLatency3_100ns">13118466</Data>
+<Data Name="BucketIoLatency4_100ns">87224663</Data>
+<Data Name="BucketIoLatency5_100ns">200443026</Data>
+<Data Name="BucketIoLatency6_100ns">68910830</Data>
+<Data Name="BucketIoLatency7_100ns">74982161</Data>
+<Data Name="BucketIoLatency8_100ns">145351298</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">517484544</Data>
+<Data Name="TotalWriteBytes">1078842880</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:42:28.416874"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">4564</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">67</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABYAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABMAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABDAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:04:18.585163"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">43481</Data>
+<Data Name="MaxDeviceQueueCount">5</Data>
+<Data Name="MaxOutstandingCount">4</Data>
+<Data Name="MaxReadWriteLatency_100ns">7838876</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">4045</Data>
+<Data Name="BucketIoSuccess2">17007</Data>
+<Data Name="BucketIoSuccess3">2259</Data>
+<Data Name="BucketIoSuccess4">5194</Data>
+<Data Name="BucketIoSuccess5">12687</Data>
+<Data Name="BucketIoSuccess6">1366</Data>
+<Data Name="BucketIoSuccess7">649</Data>
+<Data Name="BucketIoSuccess8">274</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">7139484</Data>
+<Data Name="BucketIoLatency2_100ns">99733415</Data>
+<Data Name="BucketIoLatency3_100ns">40897891</Data>
+<Data Name="BucketIoLatency4_100ns">522568359</Data>
+<Data Name="BucketIoLatency5_100ns">4366756715</Data>
+<Data Name="BucketIoLatency6_100ns">1178272102</Data>
+<Data Name="BucketIoLatency7_100ns">1145419566</Data>
+<Data Name="BucketIoLatency8_100ns">1070478706</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">863005696</Data>
+<Data Name="TotalWriteBytes">241297920</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:04:18.585167"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:04:18.585175"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">13</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:59:20.334162"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">35558</Data>
+<Data Name="MaxDeviceQueueCount">6</Data>
+<Data Name="MaxOutstandingCount">5</Data>
+<Data Name="MaxReadWriteLatency_100ns">8816496</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">5309</Data>
+<Data Name="BucketIoSuccess2">9854</Data>
+<Data Name="BucketIoSuccess3">899</Data>
+<Data Name="BucketIoSuccess4">3528</Data>
+<Data Name="BucketIoSuccess5">13028</Data>
+<Data Name="BucketIoSuccess6">1767</Data>
+<Data Name="BucketIoSuccess7">763</Data>
+<Data Name="BucketIoSuccess8">410</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">9186380</Data>
+<Data Name="BucketIoLatency2_100ns">50126059</Data>
+<Data Name="BucketIoLatency3_100ns">19651249</Data>
+<Data Name="BucketIoLatency4_100ns">369258665</Data>
+<Data Name="BucketIoLatency5_100ns">4334808491</Data>
+<Data Name="BucketIoLatency6_100ns">1535015574</Data>
+<Data Name="BucketIoLatency7_100ns">1357685580</Data>
+<Data Name="BucketIoLatency8_100ns">1704373335</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">729142272</Data>
+<Data Name="TotalWriteBytes">68833792</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:59:20.334166"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:59:20.334171"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">13</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:02:52.464672"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2424" ThreadID="2740"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">662</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">58246</Data>
+<Data Name="MaxDeviceQueueCount">197</Data>
+<Data Name="MaxOutstandingCount">256</Data>
+<Data Name="MaxReadWriteLatency_100ns">14350668</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">9794</Data>
+<Data Name="BucketIoSuccess2">16377</Data>
+<Data Name="BucketIoSuccess3">2239</Data>
+<Data Name="BucketIoSuccess4">7349</Data>
+<Data Name="BucketIoSuccess5">17921</Data>
+<Data Name="BucketIoSuccess6">2219</Data>
+<Data Name="BucketIoSuccess7">1036</Data>
+<Data Name="BucketIoSuccess8">1311</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">15757620</Data>
+<Data Name="BucketIoLatency2_100ns">86916780</Data>
+<Data Name="BucketIoLatency3_100ns">47206272</Data>
+<Data Name="BucketIoLatency4_100ns">761109924</Data>
+<Data Name="BucketIoLatency5_100ns">5754315541</Data>
+<Data Name="BucketIoLatency6_100ns">1954881363</Data>
+<Data Name="BucketIoLatency7_100ns">1829459602</Data>
+<Data Name="BucketIoLatency8_100ns">6734031435</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">1147226112</Data>
+<Data Name="TotalWriteBytes">728759296</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:02:52.464676"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2424" ThreadID="2740"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">662</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:02:52.464684"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2424" ThreadID="2740"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">662</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">16</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:29:44.088909"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">76170</Data>
+<Data Name="MaxDeviceQueueCount">22621</Data>
+<Data Name="MaxOutstandingCount">256</Data>
+<Data Name="MaxReadWriteLatency_100ns">7693873</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">24635</Data>
+<Data Name="BucketIoSuccess2">22549</Data>
+<Data Name="BucketIoSuccess3">2626</Data>
+<Data Name="BucketIoSuccess4">6088</Data>
+<Data Name="BucketIoSuccess5">17014</Data>
+<Data Name="BucketIoSuccess6">1905</Data>
+<Data Name="BucketIoSuccess7">920</Data>
+<Data Name="BucketIoSuccess8">432</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">1</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">38861025</Data>
+<Data Name="BucketIoLatency2_100ns">112371719</Data>
+<Data Name="BucketIoLatency3_100ns">55469349</Data>
+<Data Name="BucketIoLatency4_100ns">627670814</Data>
+<Data Name="BucketIoLatency5_100ns">5562394762</Data>
+<Data Name="BucketIoLatency6_100ns">1659358145</Data>
+<Data Name="BucketIoLatency7_100ns">1610590723</Data>
+<Data Name="BucketIoLatency8_100ns">1770729874</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">1248541696</Data>
+<Data Name="TotalWriteBytes">178679296</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:29:44.088917"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">2</Data>
+<Data Name="TotalReadWriteErrors">1</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">40</Data>
+<Data Name="LastError_SrbStatus">5</Data>
+<Data Name="LastError_ScsiStatus">0</Data>
+<Data Name="LastError_SenseKey">0</Data>
+<Data Name="LastError_AddSense">0</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">4096</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x000000000160f0ea</Data>
+<Data Name="SampledErrorLogArrayLength">40</Data>
+<Data Name="SampledErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAUAAAAAKAAAABAAAAEAAAAAAAAAAAAAAOrwYAEAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:29:44.088928"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">17</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">37</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:21.005081"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">25895</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">7104670</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">3997</Data>
+<Data Name="BucketIoSuccess2">8295</Data>
+<Data Name="BucketIoSuccess3">713</Data>
+<Data Name="BucketIoSuccess4">2428</Data>
+<Data Name="BucketIoSuccess5">7951</Data>
+<Data Name="BucketIoSuccess6">1534</Data>
+<Data Name="BucketIoSuccess7">666</Data>
+<Data Name="BucketIoSuccess8">311</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">6960820</Data>
+<Data Name="BucketIoLatency2_100ns">42453300</Data>
+<Data Name="BucketIoLatency3_100ns">14162250</Data>
+<Data Name="BucketIoLatency4_100ns">255526333</Data>
+<Data Name="BucketIoLatency5_100ns">2753561362</Data>
+<Data Name="BucketIoLatency6_100ns">1324971663</Data>
+<Data Name="BucketIoLatency7_100ns">1180405072</Data>
+<Data Name="BucketIoLatency8_100ns">1260359225</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">528989696</Data>
+<Data Name="TotalWriteBytes">54217216</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:21.005089"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:21.005096"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">15</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 13:13:20.313967"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">4561</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">30043</Data>
+<Data Name="MaxDeviceQueueCount">3</Data>
+<Data Name="MaxOutstandingCount">2</Data>
+<Data Name="MaxReadWriteLatency_100ns">6096051</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">6970</Data>
+<Data Name="BucketIoSuccess2">9920</Data>
+<Data Name="BucketIoSuccess3">1062</Data>
+<Data Name="BucketIoSuccess4">4150</Data>
+<Data Name="BucketIoSuccess5">7364</Data>
+<Data Name="BucketIoSuccess6">458</Data>
+<Data Name="BucketIoSuccess7">94</Data>
+<Data Name="BucketIoSuccess8">25</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">10383373</Data>
+<Data Name="BucketIoLatency2_100ns">48733798</Data>
+<Data Name="BucketIoLatency3_100ns">23982870</Data>
+<Data Name="BucketIoLatency4_100ns">407625213</Data>
+<Data Name="BucketIoLatency5_100ns">2335963843</Data>
+<Data Name="BucketIoLatency6_100ns">375808538</Data>
+<Data Name="BucketIoLatency7_100ns">162836065</Data>
+<Data Name="BucketIoLatency8_100ns">94805180</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">574411264</Data>
+<Data Name="TotalWriteBytes">536154112</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 13:13:20.313986"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">4561</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">69</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABsAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACkAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA/AAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABFAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 14:18:19.632086"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">8630</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">5560590</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">1913</Data>
+<Data Name="BucketIoSuccess2">3991</Data>
+<Data Name="BucketIoSuccess3">457</Data>
+<Data Name="BucketIoSuccess4">1837</Data>
+<Data Name="BucketIoSuccess5">412</Data>
+<Data Name="BucketIoSuccess6">13</Data>
+<Data Name="BucketIoSuccess7">2</Data>
+<Data Name="BucketIoSuccess8">5</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">3581072</Data>
+<Data Name="BucketIoLatency2_100ns">17656395</Data>
+<Data Name="BucketIoLatency3_100ns">10803459</Data>
+<Data Name="BucketIoLatency4_100ns">172016800</Data>
+<Data Name="BucketIoLatency5_100ns">97738077</Data>
+<Data Name="BucketIoLatency6_100ns">10281313</Data>
+<Data Name="BucketIoLatency7_100ns">3062464</Data>
+<Data Name="BucketIoLatency8_100ns">20394283</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">72849920</Data>
+<Data Name="TotalWriteBytes">249841152</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 14:18:19.632092"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">66</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACYAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:23:05.855305"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">53202</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">7927610</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">27124</Data>
+<Data Name="BucketIoSuccess2">11717</Data>
+<Data Name="BucketIoSuccess3">1464</Data>
+<Data Name="BucketIoSuccess4">5092</Data>
+<Data Name="BucketIoSuccess5">6103</Data>
+<Data Name="BucketIoSuccess6">924</Data>
+<Data Name="BucketIoSuccess7">513</Data>
+<Data Name="BucketIoSuccess8">265</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">35631009</Data>
+<Data Name="BucketIoLatency2_100ns">56022805</Data>
+<Data Name="BucketIoLatency3_100ns">30228450</Data>
+<Data Name="BucketIoLatency4_100ns">514158080</Data>
+<Data Name="BucketIoLatency5_100ns">1964851066</Data>
+<Data Name="BucketIoLatency6_100ns">799329539</Data>
+<Data Name="BucketIoLatency7_100ns">915237645</Data>
+<Data Name="BucketIoLatency8_100ns">1056611284</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">796979200</Data>
+<Data Name="TotalWriteBytes">559817728</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:23:05.855312"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:23:05.855324"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">16</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 16:28:05.243210"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">4561</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">43360</Data>
+<Data Name="MaxDeviceQueueCount">6</Data>
+<Data Name="MaxOutstandingCount">5</Data>
+<Data Name="MaxReadWriteLatency_100ns">5599898</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">12214</Data>
+<Data Name="BucketIoSuccess2">14885</Data>
+<Data Name="BucketIoSuccess3">2022</Data>
+<Data Name="BucketIoSuccess4">6532</Data>
+<Data Name="BucketIoSuccess5">7220</Data>
+<Data Name="BucketIoSuccess6">403</Data>
+<Data Name="BucketIoSuccess7">62</Data>
+<Data Name="BucketIoSuccess8">22</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">20928320</Data>
+<Data Name="BucketIoLatency2_100ns">74613043</Data>
+<Data Name="BucketIoLatency3_100ns">45310897</Data>
+<Data Name="BucketIoLatency4_100ns">646453696</Data>
+<Data Name="BucketIoLatency5_100ns">2273062966</Data>
+<Data Name="BucketIoLatency6_100ns">328394318</Data>
+<Data Name="BucketIoLatency7_100ns">109342718</Data>
+<Data Name="BucketIoLatency8_100ns">77270002</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">918910976</Data>
+<Data Name="TotalWriteBytes">973960704</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 16:28:05.243219"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">4561</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">65</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACYAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 17:33:04.566917"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">37608</Data>
+<Data Name="MaxDeviceQueueCount">21827</Data>
+<Data Name="MaxOutstandingCount">256</Data>
+<Data Name="MaxReadWriteLatency_100ns">4920223</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">3388</Data>
+<Data Name="BucketIoSuccess2">4084</Data>
+<Data Name="BucketIoSuccess3">1356</Data>
+<Data Name="BucketIoSuccess4">7966</Data>
+<Data Name="BucketIoSuccess5">20385</Data>
+<Data Name="BucketIoSuccess6">412</Data>
+<Data Name="BucketIoSuccess7">11</Data>
+<Data Name="BucketIoSuccess8">5</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">1</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">5972791</Data>
+<Data Name="BucketIoLatency2_100ns">20189865</Data>
+<Data Name="BucketIoLatency3_100ns">28297625</Data>
+<Data Name="BucketIoLatency4_100ns">1009845113</Data>
+<Data Name="BucketIoLatency5_100ns">5152809588</Data>
+<Data Name="BucketIoLatency6_100ns">291215137</Data>
+<Data Name="BucketIoLatency7_100ns">19500842</Data>
+<Data Name="BucketIoLatency8_100ns">18360333</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">342401024</Data>
+<Data Name="TotalWriteBytes">244513280</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 17:33:04.566935"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">1</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">40</Data>
+<Data Name="LastError_SrbStatus">5</Data>
+<Data Name="LastError_ScsiStatus">0</Data>
+<Data Name="LastError_SenseKey">0</Data>
+<Data Name="LastError_AddSense">0</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">4096</Data>
+<Data Name="LastError_QueueDepth">72</Data>
+<Data Name="LastError_LBA">0x0000000001642018</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BQAAAAAoAAAAEAAAAQAAAAAAAABIAAAAGCBkAQAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-26 17:33:04.566992"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">8460</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">67</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA/AAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAPgAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABDAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">505</EventID>
+<Version>3</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:36.705093"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">10</Data>
+<Data Name="TotalIoCount">23177</Data>
+<Data Name="MaxDeviceQueueCount">0</Data>
+<Data Name="MaxOutstandingCount">0</Data>
+<Data Name="MaxReadWriteLatency_100ns">7714053</Data>
+<Data Name="MaxFlushLatency_100ns">0</Data>
+<Data Name="MaxUnmapLatency_100ns">0</Data>
+<Data Name="IoLatencyBuckets">256us, 1ms, 4ms, 16ms, 64ms, 128ms, 256ms, 2000ms, 6000ms, 10000ms, 20000ms, 20000+ms</Data>
+<Data Name="BucketIoSuccess1">2209</Data>
+<Data Name="BucketIoSuccess2">7976</Data>
+<Data Name="BucketIoSuccess3">998</Data>
+<Data Name="BucketIoSuccess4">2485</Data>
+<Data Name="BucketIoSuccess5">7321</Data>
+<Data Name="BucketIoSuccess6">1268</Data>
+<Data Name="BucketIoSuccess7">614</Data>
+<Data Name="BucketIoSuccess8">306</Data>
+<Data Name="BucketIoSuccess9">0</Data>
+<Data Name="BucketIoSuccess10">0</Data>
+<Data Name="BucketIoSuccess11">0</Data>
+<Data Name="BucketIoSuccess12">0</Data>
+<Data Name="BucketIoFailed1">0</Data>
+<Data Name="BucketIoFailed2">0</Data>
+<Data Name="BucketIoFailed3">0</Data>
+<Data Name="BucketIoFailed4">0</Data>
+<Data Name="BucketIoFailed5">0</Data>
+<Data Name="BucketIoFailed6">0</Data>
+<Data Name="BucketIoFailed7">0</Data>
+<Data Name="BucketIoFailed8">0</Data>
+<Data Name="BucketIoFailed9">0</Data>
+<Data Name="BucketIoFailed10">0</Data>
+<Data Name="BucketIoFailed11">0</Data>
+<Data Name="BucketIoFailed12">0</Data>
+<Data Name="BucketIoLatency1_100ns">3720403</Data>
+<Data Name="BucketIoLatency2_100ns">46414397</Data>
+<Data Name="BucketIoLatency3_100ns">18316689</Data>
+<Data Name="BucketIoLatency4_100ns">257162098</Data>
+<Data Name="BucketIoLatency5_100ns">2544430588</Data>
+<Data Name="BucketIoLatency6_100ns">1101661017</Data>
+<Data Name="BucketIoLatency7_100ns">1081587180</Data>
+<Data Name="BucketIoLatency8_100ns">1262063162</Data>
+<Data Name="BucketIoLatency9_100ns">0</Data>
+<Data Name="BucketIoLatency10_100ns">0</Data>
+<Data Name="BucketIoLatency11_100ns">0</Data>
+<Data Name="BucketIoLatency12_100ns">0</Data>
+<Data Name="TotalReadBytes">527708160</Data>
+<Data Name="TotalWriteBytes">23905280</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:36.705105"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">3</Data>
+<Data Name="PathID">0</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{7b6f1752-bd95-6e22-e3a5-6ee8419ecad7}</Data>
+<Data Name="AdapterGuid">{660680d3-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">stornvme</Data>
+<Data Name="VendorId">NVMe    </Data>
+<Data Name="ProductId">VMware Virtual N</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">1</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">26</Data>
+<Data Name="LastError_SrbStatus">6</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">5</Data>
+<Data Name="LastError_AddSense">36</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">0</Data>
+<Data Name="SampledErrorLogArray"></Data>
+<Data Name="UniqueErrorLogArrayLength">40</Data>
+<Data Name="UniqueErrorLogArray">BgIFJAAaAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-StorPort" Guid="{c4636a1e-7986-4646-bf10-7bc3b4a76e8e}"></Provider>
+<EventID Qualifiers="">504</EventID>
+<Version>2</Version>
+<Level>4</Level>
+<Task>201</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0800000000600000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:36.705120"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="0" ThreadID="0"></Execution>
+<Channel>Microsoft-Windows-Storage-Storport/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="PortNumber">2</Data>
+<Data Name="PathID">1</Data>
+<Data Name="TargetID">0</Data>
+<Data Name="LUN">0</Data>
+<Data Name="ClassDeviceGuid">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="AdapterGuid">{660680d2-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="MiniportName">storahci</Data>
+<Data Name="VendorId">NECVMWar</Data>
+<Data Name="ProductId">VMware SATA CD01</Data>
+<Data Name="SystemUptime_s">661</Data>
+<Data Name="Version">3</Data>
+<Data Name="TotalErrors">13</Data>
+<Data Name="TotalReadWriteErrors">0</Data>
+<Data Name="TotalImpendingDeviceFailureErrors">0</Data>
+<Data Name="TotalDeviceFailureErrors">0</Data>
+<Data Name="TimeoutsInMiniport">0</Data>
+<Data Name="LastError_RequestDuration_ms">0</Data>
+<Data Name="LastError_WaitDuration_ms">0</Data>
+<Data Name="LastError_Command">0</Data>
+<Data Name="LastError_SrbStatus">4</Data>
+<Data Name="LastError_ScsiStatus">2</Data>
+<Data Name="LastError_SenseKey">2</Data>
+<Data Name="LastError_AddSense">58</Data>
+<Data Name="LastError_AddSenseQ">0</Data>
+<Data Name="LastError_IoSize">0</Data>
+<Data Name="LastError_QueueDepth">0</Data>
+<Data Name="LastError_LBA">0x0000000000000000</Data>
+<Data Name="SampledErrorLogArrayLength">400</Data>
+<Data Name="SampledErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAQCAjoAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAEAgI6AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAABAICOgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==</Data>
+<Data Name="UniqueErrorLogArrayLength">80</Data>
+<Data Name="UniqueErrorLogArray">BAICOgAlAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAQCBSAApAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</Data>
+</EventData>
+</Event>
+
+</Events>

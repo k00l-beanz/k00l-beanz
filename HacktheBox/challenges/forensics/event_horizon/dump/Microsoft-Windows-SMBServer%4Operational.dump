@@ -1,0 +1,842 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:22.184044"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2100" ThreadID="2116"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1027</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1027</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:23.753384"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2100" ThreadID="2116"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:23.895365"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:32.620096"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:09.372047"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2480" ThreadID="2528"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:09.375925"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:16.973808"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1027</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1027</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:17.020077"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2480" ThreadID="2528"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:21.524113"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2160" ThreadID="2296"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:21.657509"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:29.837437"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1027</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1027</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:29.861467"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2160" ThreadID="2296"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:59.849049"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2436" ThreadID="2448"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:59.855558"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:28:07.534754"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:57.795603"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2432" ThreadID="2460"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:57.797911"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:54:05.430494"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:16.383688"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2376" ThreadID="2412"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:16.385632"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:23.978624"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:46.913786"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2520" ThreadID="2532"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:46.915545"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:54.490744"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:40.455498"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2492" ThreadID="2504"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:40.460293"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:48.110098"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="180"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:58:06.533878"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2452" ThreadID="2464"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:58:06.538258"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:58:14.169634"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:45.014387"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2328" ThreadID="2344"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:45.019773"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:52.666685"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="188"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1025</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>1025</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:21.416813"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2420" ThreadID="2432"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"></EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:21.418974"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>18</TransportNameLength>
+<TransportName>\Device\NetbiosSmb</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SMBServer" Guid="{d48ce617-33a2-4bc3-a5c7-11aa4f29619e}"></Provider>
+<EventID Qualifiers="">1010</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1010</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000008</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:29.267246"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="184"></Execution>
+<Channel>Microsoft-Windows-SMBServer/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<UserData><EventData xmlns="Smb2Namespace"><NameLength>16</NameLength>
+<Name>WIN-PTFPHFCRDJ0 </Name>
+<DomainNameLength>9</DomainNameLength>
+<DomainName>WORKGROUP</DomainName>
+<TransportNameLength>58</TransportNameLength>
+<TransportName>\Device\NetBT_Tcpip_{2E722116-8B3B-472D-A7DE-F7DEBE304E5A}</TransportName>
+<TransportFlags>0x00000001</TransportFlags>
+</EventData>
+</UserData>
+</Event>
+
+</Events>

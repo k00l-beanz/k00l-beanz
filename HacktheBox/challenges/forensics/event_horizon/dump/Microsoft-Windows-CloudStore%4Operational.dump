@@ -1,0 +1,2028 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.607599"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610186"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610201"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610331"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610334"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610338"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610338"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.610340"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="4116"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">explorer.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.688969"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689266"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689283"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689293"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689325"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689329"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689329"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.689331"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4224"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690245"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690474"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690477"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690483"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690483"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690485"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690485"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.690485"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4276"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691349"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691542"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691547"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691553"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691555"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691557"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691557"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.691559"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4704" ThreadID="4304"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">SearchUI.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.240627"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241444"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241480"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241491"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241493"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241522"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241524"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.241526"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4652"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.248859"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249107"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249109"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249117"></TimeCreated>
+<EventRecordID>44</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249117"></TimeCreated>
+<EventRecordID>45</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249119"></TimeCreated>
+<EventRecordID>46</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249121"></TimeCreated>
+<EventRecordID>47</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.249121"></TimeCreated>
+<EventRecordID>48</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250113"></TimeCreated>
+<EventRecordID>49</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250137"></TimeCreated>
+<EventRecordID>50</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250139"></TimeCreated>
+<EventRecordID>51</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250143"></TimeCreated>
+<EventRecordID>52</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250143"></TimeCreated>
+<EventRecordID>53</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250145"></TimeCreated>
+<EventRecordID>54</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250147"></TimeCreated>
+<EventRecordID>55</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250147"></TimeCreated>
+<EventRecordID>56</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250893"></TimeCreated>
+<EventRecordID>57</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250912"></TimeCreated>
+<EventRecordID>58</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250916"></TimeCreated>
+<EventRecordID>59</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250917"></TimeCreated>
+<EventRecordID>60</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250919"></TimeCreated>
+<EventRecordID>61</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250919"></TimeCreated>
+<EventRecordID>62</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250921"></TimeCreated>
+<EventRecordID>63</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.250923"></TimeCreated>
+<EventRecordID>64</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251659"></TimeCreated>
+<EventRecordID>65</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251678"></TimeCreated>
+<EventRecordID>66</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251680"></TimeCreated>
+<EventRecordID>67</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251684"></TimeCreated>
+<EventRecordID>68</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251686"></TimeCreated>
+<EventRecordID>69</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251688"></TimeCreated>
+<EventRecordID>70</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251688"></TimeCreated>
+<EventRecordID>71</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.251690"></TimeCreated>
+<EventRecordID>72</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252401"></TimeCreated>
+<EventRecordID>73</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252501"></TimeCreated>
+<EventRecordID>74</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252504"></TimeCreated>
+<EventRecordID>75</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252508"></TimeCreated>
+<EventRecordID>76</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252508"></TimeCreated>
+<EventRecordID>77</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252510"></TimeCreated>
+<EventRecordID>78</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252512"></TimeCreated>
+<EventRecordID>79</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.252512"></TimeCreated>
+<EventRecordID>80</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253242"></TimeCreated>
+<EventRecordID>81</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">0</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253262"></TimeCreated>
+<EventRecordID>82</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstorepartitionset.cpp</Data>
+<Data Name="LineNumber">199</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253263"></TimeCreated>
+<EventRecordID>83</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1463</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253267"></TimeCreated>
+<EventRecordID>84</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">1780</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253269"></TimeCreated>
+<EventRecordID>85</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">295</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253271"></TimeCreated>
+<EventRecordID>86</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstore.cpp</Data>
+<Data Name="LineNumber">208</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253271"></TimeCreated>
+<EventRecordID>87</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">1</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">222</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-CloudStore" Guid="{741bb90c-a7a3-49d6-bd82-1e6b858403f7}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.253273"></TimeCreated>
+<EventRecordID>88</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4588" ThreadID="4848"></Execution>
+<Channel>Microsoft-Windows-CloudStore/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessName">ShellExperienceHost.exe</Data>
+<Data Name="Type">2</Data>
+<Data Name="ErrorCode">2147943568</Data>
+<Data Name="File">onecoreuap\shell\cloudstore\store\api\src\cloudstoredatawatcher.cpp</Data>
+<Data Name="LineNumber">236</Data>
+</EventData>
+</Event>
+
+</Events>

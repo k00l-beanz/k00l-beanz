@@ -1,0 +1,356 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6056</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.181273"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="5116"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ProcessId">5112</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6067</EventID>
+<Version>0</Version>
+<Level>5</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.181494"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="5116"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Created shutdown event. IsLongRunningServerDisabled: 0File onecoreuap\shell\roaming\settingsynchost\exe\main.cpp line 488</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6067</EventID>
+<Version>0</Version>
+<Level>5</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.257530"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="2836"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">*** CSettingSyncTask startup ***File onecoreuap\shell\roaming\settingsynchost\lib\settingsynctask.cpp line 54</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6067</EventID>
+<Version>0</Version>
+<Level>5</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.257538"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="2836"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">ComTaskPool created for SyncAtLogon context=-2147483646File onecoreuap\shell\roaming\settingsynchost\lib\settingsynctask.cpp line 58</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6067</EventID>
+<Version>0</Version>
+<Level>5</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.327824"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="5116"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">CreateWorkerWindow IsCurrentUserConnected: 0File onecoreuap\shell\roaming\settingsynchost\exe\main.cpp line 149</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6067</EventID>
+<Version>0</Version>
+<Level>5</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:43.327827"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="5116"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">CreateWorkerWindow failed. Releasing process ref.File onecoreuap\shell\roaming\settingsynchost\exe\main.cpp line 168</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6008</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.234409"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="2836"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Reason">7</Data>
+<Data Name="HRESULT">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6575</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:44.238373"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="4264"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="OperationType">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:22.744915"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="4264"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynchost\lib\resumeorphanedoperationstask.cpp(454)\SettingSyncHost.exe!00007FF6EDF0214C: (caller: 00007FF6EDEE60A5) LogHr(1) tid(10a8) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:22.744947"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="4264"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Failed to create backup sync policy - 0x800708ca.File onecoreuap\shell\roaming\settingsynchost\lib\resumeorphanedoperationstask.cpp line 594</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:22.745806"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="4264"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\cloudcommon\objectcachehelpers\objectcachehelpers.cpp(63)\SettingSyncHost.exe!00007FF6EDF0812E: (caller: 00007FF6EDEF65BA) ReturnHr(1) tid(10a8) 8007007F The specified procedure could not be found.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:22.745823"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5112" ThreadID="4264"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynchost\lib\resumeorphanedoperationstask.cpp(762)\SettingSyncHost.exe!00007FF6EDF02E13: (caller: 00007FF6EDEE60A5) ReturnHr(2) tid(10a8) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:02:34.084311"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3224" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynccore\settingsyncreporting\settingsyncreporting.cpp(145)\SettingSyncCore.dll!00007FF8AC332CC8: (caller: 00007FF8AC332726) ReturnHr(1) tid(8) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:02:34.084332"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3224" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynccore\settingsyncreporting\settingsyncreporting.cpp(54)\SettingSyncCore.dll!00007FF8AC332746: (caller: 00007FF8AC332D92) ReturnHr(2) tid(8) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:02:34.084339"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3224" ThreadID="8"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynccore\settingsyncreporting\settingsyncreporting.cpp(28)\SettingSyncCore.dll!00007FF8AC332E2A: (caller: 00007FF884A07456) ReturnHr(3) tid(8) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 14:03:03.647360"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1028" ThreadID="3916"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynccore\settingsyncreporting\settingsyncreporting.cpp(145)\SettingSyncCore.dll!00007FFF55D32CC8: (caller: 00007FFF55D32726) ReturnHr(1) tid(f4c) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 14:03:03.647381"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1028" ThreadID="3916"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynccore\settingsyncreporting\settingsyncreporting.cpp(54)\SettingSyncCore.dll!00007FFF55D32746: (caller: 00007FFF55D32D92) ReturnHr(2) tid(f4c) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-SettingSync" Guid="{83d6e83b-900b-48a3-9835-57656b6f6474}"></Provider>
+<EventID Qualifiers="">6065</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 14:03:03.647385"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1028" ThreadID="3916"></Execution>
+<Channel>Microsoft-Windows-SettingSync/Debug</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">onecoreuap\shell\roaming\settingsynccore\settingsyncreporting\settingsyncreporting.cpp(28)\SettingSyncCore.dll!00007FFF55D32E2A: (caller: 00007FFF51897456) ReturnHr(3) tid(f4c) 800708CA This network connection does not exist.
+</Data>
+</EventData>
+</Event>
+
+</Events>

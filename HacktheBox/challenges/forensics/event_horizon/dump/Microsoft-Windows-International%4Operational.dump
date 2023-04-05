@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-International" Guid="{3aa52b8b-6357-4c18-a92e-b53fb177853b}"></Provider>
+<EventID Qualifiers="">1001</EventID>
+<Version>0</Version>
+<Level>1</Level>
+<Task>35</Task>
+<Opcode>31</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:40.792850"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="788" ThreadID="1704"></Execution>
+<Channel>Microsoft-Windows-International/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="RegistryKey">Control Panel\International\User Profile</Data>
+<Data Name="ErrorCode">2</Data>
+<Data Name="Message">The system cannot find the file specified.
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-International" Guid="{3aa52b8b-6357-4c18-a92e-b53fb177853b}"></Provider>
+<EventID Qualifiers="">1001</EventID>
+<Version>0</Version>
+<Level>1</Level>
+<Task>35</Task>
+<Opcode>31</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:04.563023"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1148" ThreadID="1152"></Execution>
+<Channel>Microsoft-Windows-International/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="RegistryKey">Control Panel\International\User Profile</Data>
+<Data Name="ErrorCode">2</Data>
+<Data Name="Message">The system cannot find the file specified.
+</Data>
+</EventData>
+</Event>
+
+</Events>

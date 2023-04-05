@@ -1,0 +1,675 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:19.681747"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1748"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:19.681782"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1748"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:19.684191"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1748"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:25.046679"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1672"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.613008"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1192" ThreadID="1968"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:39.230818"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3804" ThreadID="1124"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:20.535185"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1380" ThreadID="1644"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:33.844618"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3696" ThreadID="3740"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:48.593660"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1376" ThreadID="1892"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:46.982708"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="1692"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:46.982841"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="1692"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:46.984116"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="1692"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:00:26.565716"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="2968"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:06.236198"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1428" ThreadID="1856"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:53:04.840649"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2776" ThreadID="540"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:34.341244"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1368" ThreadID="1828"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:34.341312"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1368" ThreadID="1828"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:34.341785"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1368" ThreadID="1828"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:55:59.627880"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2784" ThreadID="3936"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:25.701920"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1384" ThreadID="1864"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:24:55.458933"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3852"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:54.126312"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="1760"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:54.126373"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="1760"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:54.126770"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="1760"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:10:59.430367"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3404" ThreadID="2956"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:37.732973"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="1664"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:37.733047"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="1664"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:37.733553"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="1664"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder failed with code 0x80070003
+</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:16.091686"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1416" ThreadID="4080"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">369</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:12.509094"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1396" ThreadID="1812"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="Message">AutoJoinSvc/WJInitializeWorkplaceJoin: PC is NOT domain joined. Disable automatic device join task.</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-User Device Registration" Guid="{23b8d46b-67dd-40a3-b636-d43e50552c6d}"></Provider>
+<EventID Qualifiers="">360</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:08:40.287426"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1252" ThreadID="1556"></Execution>
+<Channel>Microsoft-Windows-User Device Registration/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Message">Windows Hello for Business provisioning will not be launched.</Data>
+<Data Name="DeviceIsJoined">Not Tested</Data>
+<Data Name="AADPrt">No</Data>
+<Data Name="NgcPolicyEnabled">Not Tested</Data>
+<Data Name="NgcPostLogonProvisioningEnabled">Not Tested</Data>
+<Data Name="NgcHardwarePolicyMet">Not Tested</Data>
+<Data Name="UserIsRemote">Yes</Data>
+<Data Name="LogonCertRequired">Not Tested</Data>
+<Data Name="MachinePolicySource">none</Data>
+</EventData>
+</Event>
+
+</Events>

@@ -1,0 +1,3138 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:25.271915"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:25.285774"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:35.348886"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:35.522154"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:35.522657"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:35.523069"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:36.094982"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:36.605904"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="{25a26793-e172-4d9b-8abb-91a2f9c09ac2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:36.746059"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="{ecbc925e-8741-4e0e-b8c2-6eba82b3072e}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:36.753674"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="{bd09d741-ca58-4cfd-af27-9f53af9f8d6a}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:36.756502"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="{e6c7d12b-cb75-4e13-b60c-84dd69ef4c21}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3304"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:36.981262"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="{e6c7d12b-cb75-4e13-b60c-84dd69ef4c21}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3304"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:37.010080"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="{ecbc925e-8741-4e0e-b8c2-6eba82b3072e}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="3300"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:38.057692"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="{bd09d741-ca58-4cfd-af27-9f53af9f8d6a}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:38.653507"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="{d473aad2-2bc4-42dd-aee6-c4a965c0cddf}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:38.854940"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="{d473aad2-2bc4-42dd-aee6-c4a965c0cddf}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">10</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:39.730837"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="{8385fac4-8227-4549-80c6-3f2c43ab8d27}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:39.731428"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="{8385fac4-8227-4549-80c6-3f2c43ab8d27}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:39.766159"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="{8385fac4-8227-4549-80c6-3f2c43ab8d27}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:39.796392"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="{8385fac4-8227-4549-80c6-3f2c43ab8d27}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:56:38.948797"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3268" ThreadID="6220"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:45.126610"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:45.139191"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.173529"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.206879"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.207268"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.207659"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.364962"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">43</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.463451"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:48.463451"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-119c-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:44.880219"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2856" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:01:55.509859"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:01:55.562260"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:10.123573"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:10.631779"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:10.633799"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:10.635902"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:12.977545"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:13.599949"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="{10c5b326-a672-4b97-b91c-5834e889affd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:13.649075"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="{d36e1228-6e57-4b36-8e71-9bae2af1b358}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:13.651077"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="{f3310e8d-23af-4154-9ec0-fb98bd673dd4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:13.652639"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="{5bfaaa34-bff9-4ecb-b699-667dfc7de6a7}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="1040"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:14.864256"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="{5bfaaa34-bff9-4ecb-b699-667dfc7de6a7}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="1040"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:15.484097"></TimeCreated>
+<EventRecordID>44</EventRecordID>
+<Correlation ActivityID="{d36e1228-6e57-4b36-8e71-9bae2af1b358}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="3552"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:15.902185"></TimeCreated>
+<EventRecordID>45</EventRecordID>
+<Correlation ActivityID="{f3310e8d-23af-4154-9ec0-fb98bd673dd4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:16.034605"></TimeCreated>
+<EventRecordID>46</EventRecordID>
+<Correlation ActivityID="{8d02d06f-0dd1-40db-931e-7e359b47ea96}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:16.707613"></TimeCreated>
+<EventRecordID>47</EventRecordID>
+<Correlation ActivityID="{8d02d06f-0dd1-40db-931e-7e359b47ea96}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">33</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:16.944662"></TimeCreated>
+<EventRecordID>48</EventRecordID>
+<Correlation ActivityID="{0aa70f61-0481-41fe-a6bb-ae42fee3a4c0}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:17.036030"></TimeCreated>
+<EventRecordID>49</EventRecordID>
+<Correlation ActivityID="{0aa70f61-0481-41fe-a6bb-ae42fee3a4c0}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:17.086775"></TimeCreated>
+<EventRecordID>50</EventRecordID>
+<Correlation ActivityID="{0aa70f61-0481-41fe-a6bb-ae42fee3a4c0}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:17.099998"></TimeCreated>
+<EventRecordID>51</EventRecordID>
+<Correlation ActivityID="{0aa70f61-0481-41fe-a6bb-ae42fee3a4c0}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:02:56.088554"></TimeCreated>
+<EventRecordID>52</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3508" ThreadID="2648"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:54:36.192167"></TimeCreated>
+<EventRecordID>53</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3260" ThreadID="1196"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:54:36.210199"></TimeCreated>
+<EventRecordID>54</EventRecordID>
+<Correlation ActivityID="{f891f426-4d62-4678-abbe-f394527f0294}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3260" ThreadID="1196"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">43</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:54:39.186337"></TimeCreated>
+<EventRecordID>55</EventRecordID>
+<Correlation ActivityID="{f891f426-4d62-4678-abbe-f394527f0294}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3260" ThreadID="1196"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:54:39.186338"></TimeCreated>
+<EventRecordID>56</EventRecordID>
+<Correlation ActivityID="{f891f426-4d62-4678-abbe-f394527f0294}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3260" ThreadID="1196"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:37.102217"></TimeCreated>
+<EventRecordID>57</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3260" ThreadID="1196"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:40.999838"></TimeCreated>
+<EventRecordID>58</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:41.006582"></TimeCreated>
+<EventRecordID>59</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:59.233545"></TimeCreated>
+<EventRecordID>60</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:59.882076"></TimeCreated>
+<EventRecordID>61</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:59.882692"></TimeCreated>
+<EventRecordID>62</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:59.883272"></TimeCreated>
+<EventRecordID>63</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:02.351091"></TimeCreated>
+<EventRecordID>64</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:03.352392"></TimeCreated>
+<EventRecordID>65</EventRecordID>
+<Correlation ActivityID="{0edd4468-2788-40f6-86b7-83e476fe83c4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:03.394024"></TimeCreated>
+<EventRecordID>66</EventRecordID>
+<Correlation ActivityID="{77a78747-0f4b-4aa6-a20f-3f65997410c0}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:03.395615"></TimeCreated>
+<EventRecordID>67</EventRecordID>
+<Correlation ActivityID="{ddd014b8-f80e-4814-8693-e9a7f7bf8f29}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2804"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:03.395943"></TimeCreated>
+<EventRecordID>68</EventRecordID>
+<Correlation ActivityID="{6dcf3f29-d4de-410c-98a3-beeca0067150}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="3460"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:03.672447"></TimeCreated>
+<EventRecordID>69</EventRecordID>
+<Correlation ActivityID="{77a78747-0f4b-4aa6-a20f-3f65997410c0}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:04.755651"></TimeCreated>
+<EventRecordID>70</EventRecordID>
+<Correlation ActivityID="{0037f306-2554-4df9-a620-22875c6d82fa}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:04.762274"></TimeCreated>
+<EventRecordID>71</EventRecordID>
+<Correlation ActivityID="{ddd014b8-f80e-4814-8693-e9a7f7bf8f29}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2804"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:05.007595"></TimeCreated>
+<EventRecordID>72</EventRecordID>
+<Correlation ActivityID="{6dcf3f29-d4de-410c-98a3-beeca0067150}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="3460"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:05.226305"></TimeCreated>
+<EventRecordID>73</EventRecordID>
+<Correlation ActivityID="{0037f306-2554-4df9-a620-22875c6d82fa}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:05.294752"></TimeCreated>
+<EventRecordID>74</EventRecordID>
+<Correlation ActivityID="{905b60e6-8ad0-4996-b3d2-94dbd55fbe38}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:05.340145"></TimeCreated>
+<EventRecordID>75</EventRecordID>
+<Correlation ActivityID="{905b60e6-8ad0-4996-b3d2-94dbd55fbe38}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:05.485182"></TimeCreated>
+<EventRecordID>76</EventRecordID>
+<Correlation ActivityID="{905b60e6-8ad0-4996-b3d2-94dbd55fbe38}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:05.487656"></TimeCreated>
+<EventRecordID>77</EventRecordID>
+<Correlation ActivityID="{905b60e6-8ad0-4996-b3d2-94dbd55fbe38}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:42.417189"></TimeCreated>
+<EventRecordID>78</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="612" ThreadID="2808"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:11.046221"></TimeCreated>
+<EventRecordID>79</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:11.078299"></TimeCreated>
+<EventRecordID>80</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:24.052452"></TimeCreated>
+<EventRecordID>81</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:24.590515"></TimeCreated>
+<EventRecordID>82</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:24.591303"></TimeCreated>
+<EventRecordID>83</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:24.591988"></TimeCreated>
+<EventRecordID>84</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:26.942057"></TimeCreated>
+<EventRecordID>85</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:27.552109"></TimeCreated>
+<EventRecordID>86</EventRecordID>
+<Correlation ActivityID="{6d295dc1-ee96-4bb2-a9bb-1bc8cca9d0cc}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:27.657660"></TimeCreated>
+<EventRecordID>87</EventRecordID>
+<Correlation ActivityID="{066a88be-a71e-4825-82e4-ac206d8bcbc2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:27.660896"></TimeCreated>
+<EventRecordID>88</EventRecordID>
+<Correlation ActivityID="{77970691-595d-4bcb-a03c-1cae73a2a9bd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3680"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:27.661961"></TimeCreated>
+<EventRecordID>89</EventRecordID>
+<Correlation ActivityID="{61509a92-cef6-45e4-bd34-d7bbaa9dc784}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="1888"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:28.298378"></TimeCreated>
+<EventRecordID>90</EventRecordID>
+<Correlation ActivityID="{77970691-595d-4bcb-a03c-1cae73a2a9bd}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3680"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:28.815371"></TimeCreated>
+<EventRecordID>91</EventRecordID>
+<Correlation ActivityID="{61509a92-cef6-45e4-bd34-d7bbaa9dc784}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="1888"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:29.377987"></TimeCreated>
+<EventRecordID>92</EventRecordID>
+<Correlation ActivityID="{066a88be-a71e-4825-82e4-ac206d8bcbc2}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:29.747921"></TimeCreated>
+<EventRecordID>93</EventRecordID>
+<Correlation ActivityID="{43e9c61e-616f-4705-8ba0-d0f475b263de}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:29.983162"></TimeCreated>
+<EventRecordID>94</EventRecordID>
+<Correlation ActivityID="{43e9c61e-616f-4705-8ba0-d0f475b263de}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">8</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:30.484669"></TimeCreated>
+<EventRecordID>95</EventRecordID>
+<Correlation ActivityID="{13c3ad81-fcb8-43c6-8319-654483047c15}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:30.544548"></TimeCreated>
+<EventRecordID>96</EventRecordID>
+<Correlation ActivityID="{13c3ad81-fcb8-43c6-8319-654483047c15}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:30.609615"></TimeCreated>
+<EventRecordID>97</EventRecordID>
+<Correlation ActivityID="{13c3ad81-fcb8-43c6-8319-654483047c15}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:26:30.612709"></TimeCreated>
+<EventRecordID>98</EventRecordID>
+<Correlation ActivityID="{13c3ad81-fcb8-43c6-8319-654483047c15}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:27:11.516052"></TimeCreated>
+<EventRecordID>99</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3596" ThreadID="3684"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:11:57.675144"></TimeCreated>
+<EventRecordID>100</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="2916"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:11:57.682047"></TimeCreated>
+<EventRecordID>101</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:09.631926"></TimeCreated>
+<EventRecordID>102</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:09.974985"></TimeCreated>
+<EventRecordID>103</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:09.975389"></TimeCreated>
+<EventRecordID>104</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:09.975784"></TimeCreated>
+<EventRecordID>105</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:11.653294"></TimeCreated>
+<EventRecordID>106</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.132578"></TimeCreated>
+<EventRecordID>107</EventRecordID>
+<Correlation ActivityID="{2b23a8ae-8fad-4bde-b68f-ab613664cdeb}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.162718"></TimeCreated>
+<EventRecordID>108</EventRecordID>
+<Correlation ActivityID="{a07cde7c-175a-4a1f-ad60-b56c5e7c8d9f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.164713"></TimeCreated>
+<EventRecordID>109</EventRecordID>
+<Correlation ActivityID="{9e0b48f9-4873-4750-855f-46a5400b82d4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="2916"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.178185"></TimeCreated>
+<EventRecordID>110</EventRecordID>
+<Correlation ActivityID="{4fd9418c-f68f-4b36-ab78-29e92c06def5}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="3884"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.284632"></TimeCreated>
+<EventRecordID>111</EventRecordID>
+<Correlation ActivityID="{9e0b48f9-4873-4750-855f-46a5400b82d4}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="2916"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.511179"></TimeCreated>
+<EventRecordID>112</EventRecordID>
+<Correlation ActivityID="{4fd9418c-f68f-4b36-ab78-29e92c06def5}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="3884"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:12.987288"></TimeCreated>
+<EventRecordID>113</EventRecordID>
+<Correlation ActivityID="{a07cde7c-175a-4a1f-ad60-b56c5e7c8d9f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:13.344015"></TimeCreated>
+<EventRecordID>114</EventRecordID>
+<Correlation ActivityID="{7ac2a6db-82af-4463-9e32-44bf06257851}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:13.698645"></TimeCreated>
+<EventRecordID>115</EventRecordID>
+<Correlation ActivityID="{7ac2a6db-82af-4463-9e32-44bf06257851}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:13.967119"></TimeCreated>
+<EventRecordID>116</EventRecordID>
+<Correlation ActivityID="{be81f990-ec35-4cf9-8697-80c5f79d9c46}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:13.967344"></TimeCreated>
+<EventRecordID>117</EventRecordID>
+<Correlation ActivityID="{be81f990-ec35-4cf9-8697-80c5f79d9c46}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:14.012835"></TimeCreated>
+<EventRecordID>118</EventRecordID>
+<Correlation ActivityID="{be81f990-ec35-4cf9-8697-80c5f79d9c46}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:14.044880"></TimeCreated>
+<EventRecordID>119</EventRecordID>
+<Correlation ActivityID="{be81f990-ec35-4cf9-8697-80c5f79d9c46}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:12:58.493841"></TimeCreated>
+<EventRecordID>120</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3172" ThreadID="244"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:17.969200"></TimeCreated>
+<EventRecordID>121</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:18.006891"></TimeCreated>
+<EventRecordID>122</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:27.977304"></TimeCreated>
+<EventRecordID>123</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:28.298777"></TimeCreated>
+<EventRecordID>124</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:28.299377"></TimeCreated>
+<EventRecordID>125</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:28.299974"></TimeCreated>
+<EventRecordID>126</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:29.638010"></TimeCreated>
+<EventRecordID>127</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:30.023563"></TimeCreated>
+<EventRecordID>128</EventRecordID>
+<Correlation ActivityID="{89d87adf-6388-4243-9a12-a3d33cb5a645}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:30.054482"></TimeCreated>
+<EventRecordID>129</EventRecordID>
+<Correlation ActivityID="{1bb1225d-2d50-4502-b459-dea3eadb8567}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:30.056589"></TimeCreated>
+<EventRecordID>130</EventRecordID>
+<Correlation ActivityID="{ee9b5dfd-b5a5-49da-ad2b-6024029cce96}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:30.121744"></TimeCreated>
+<EventRecordID>131</EventRecordID>
+<Correlation ActivityID="{7bd3290a-b720-401a-a395-699f47dcb269}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:30.288250"></TimeCreated>
+<EventRecordID>132</EventRecordID>
+<Correlation ActivityID="{ee9b5dfd-b5a5-49da-ad2b-6024029cce96}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:30.886473"></TimeCreated>
+<EventRecordID>133</EventRecordID>
+<Correlation ActivityID="{7bd3290a-b720-401a-a395-699f47dcb269}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:32.741982"></TimeCreated>
+<EventRecordID>134</EventRecordID>
+<Correlation ActivityID="{1bb1225d-2d50-4502-b459-dea3eadb8567}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:32.988634"></TimeCreated>
+<EventRecordID>135</EventRecordID>
+<Correlation ActivityID="{2e303a64-739e-453f-a24c-7fd6b161de48}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:33.519436"></TimeCreated>
+<EventRecordID>136</EventRecordID>
+<Correlation ActivityID="{c0d1b962-2f4f-4b3c-be44-677bb2077c98}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:33.550718"></TimeCreated>
+<EventRecordID>137</EventRecordID>
+<Correlation ActivityID="{2e303a64-739e-453f-a24c-7fd6b161de48}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="140"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">17</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:33.564642"></TimeCreated>
+<EventRecordID>138</EventRecordID>
+<Correlation ActivityID="{c0d1b962-2f4f-4b3c-be44-677bb2077c98}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:33.566494"></TimeCreated>
+<EventRecordID>139</EventRecordID>
+<Correlation ActivityID="{c0d1b962-2f4f-4b3c-be44-677bb2077c98}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:28:33.568857"></TimeCreated>
+<EventRecordID>140</EventRecordID>
+<Correlation ActivityID="{c0d1b962-2f4f-4b3c-be44-677bb2077c98}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:29:18.907415"></TimeCreated>
+<EventRecordID>141</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3152" ThreadID="3236"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">1</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:32.409416"></TimeCreated>
+<EventRecordID>142</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:32.431297"></TimeCreated>
+<EventRecordID>143</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:52.989065"></TimeCreated>
+<EventRecordID>144</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SPB-HIDI2C/Analytic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:53.508215"></TimeCreated>
+<EventRecordID>145</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Debug</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:53.510206"></TimeCreated>
+<EventRecordID>146</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:53.512167"></TimeCreated>
+<EventRecordID>147</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">Microsoft-Windows-SystemSettingsThreshold/Operational</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070002</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">45</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:55.995449"></TimeCreated>
+<EventRecordID>148</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="Name">NIS-Driver-WFP/Diagnostic</Data>
+<Data Name="hResult">0x8007065b</Data>
+<Data Name="hLastError">0x80070715</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">42</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>13</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:56.585939"></TimeCreated>
+<EventRecordID>149</EventRecordID>
+<Correlation ActivityID="{2e46a4bf-f441-42a9-9e6c-c0ab7d442b58}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">47</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:56.604498"></TimeCreated>
+<EventRecordID>150</EventRecordID>
+<Correlation ActivityID="{6b6668c5-a076-48b4-93c4-248a42ecf19f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:56.606800"></TimeCreated>
+<EventRecordID>151</EventRecordID>
+<Correlation ActivityID="{65cff84e-ade2-454e-8333-66fdad6b6d63}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="3996"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">14</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>1</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:56.667318"></TimeCreated>
+<EventRecordID>152</EventRecordID>
+<Correlation ActivityID="{d3826368-ad76-437c-b9ef-a02916f83bf6}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="3136"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>18</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:56.761364"></TimeCreated>
+<EventRecordID>153</EventRecordID>
+<Correlation ActivityID="{65cff84e-ade2-454e-8333-66fdad6b6d63}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="3996"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">48</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>14</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:57.129301"></TimeCreated>
+<EventRecordID>154</EventRecordID>
+<Correlation ActivityID="{6b6668c5-a076-48b4-93c4-248a42ecf19f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">13</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">15</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>6</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:57.200306"></TimeCreated>
+<EventRecordID>155</EventRecordID>
+<Correlation ActivityID="{d3826368-ad76-437c-b9ef-a02916f83bf6}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="3136"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">52</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:57.896420"></TimeCreated>
+<EventRecordID>156</EventRecordID>
+<Correlation ActivityID="{c1d773ab-8207-4ae1-abdc-3be9678fc985}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="3136"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">62</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:58.653696"></TimeCreated>
+<EventRecordID>157</EventRecordID>
+<Correlation ActivityID="{f5d19567-d87a-4f70-9c1d-916a6c79f46f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="TotalXPaths">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:58.706259"></TimeCreated>
+<EventRecordID>158</EventRecordID>
+<Correlation ActivityID="{f5d19567-d87a-4f70-9c1d-916a6c79f46f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\$latestreport$\Discovery.xml:$creationtime$</Data>
+<Data Name="Error">0x00000002</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">53</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>15</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:58.752041"></TimeCreated>
+<EventRecordID>159</EventRecordID>
+<Correlation ActivityID="{c1d773ab-8207-4ae1-abdc-3be9678fc985}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="3136"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="uValue">31</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">85</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:58.765583"></TimeCreated>
+<EventRecordID>160</EventRecordID>
+<Correlation ActivityID="{f5d19567-d87a-4f70-9c1d-916a6c79f46f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="XPath">Microsoft/Windows/FileServices:$reports$\*\Result.xml:/ResultDatabase/Result</Data>
+<Data Name="Error">0x0000001f</Data>
+<Data Name="LastError">0x00000003</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">63</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>16</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:10:58.939634"></TimeCreated>
+<EventRecordID>161</EventRecordID>
+<Correlation ActivityID="{f5d19567-d87a-4f70-9c1d-916a6c79f46f}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="ResultsReturned">4</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-ServerManager-ManagementProvider" Guid="{c2e6d0d9-5df8-4c77-a82b-c96c84579543}"></Provider>
+<EventID Qualifiers="">2</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>2</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:11:32.858274"></TimeCreated>
+<EventRecordID>162</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3104" ThreadID="1948"></Execution>
+<Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+</Events>

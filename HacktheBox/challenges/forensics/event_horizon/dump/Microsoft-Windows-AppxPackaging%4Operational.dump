@@ -1,0 +1,194 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:32.728415"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="{c5ffa37c-a91d-0000-d7af-ffc51da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1496" ThreadID="1152"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:32.753094"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="{c5ffa37c-a91d-0000-d7af-ffc51da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1496" ThreadID="2896"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:52.174025"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5988" ThreadID="5992"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:52.196692"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="5988" ThreadID="5992"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.401636"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-44b0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="1232"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:00:11.868345"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1420" ThreadID="3800"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:00:11.895578"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1420" ThreadID="3800"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:10:37.906334"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1464" ThreadID="4348"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:29:36.395264"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4964" ThreadID="3060"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppxPackagingOM" Guid="{ba723d81-0d0c-4f1e-80c8-54740f508ddf}"></Provider>
+<EventID Qualifiers="">216</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>4</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:09:19.166378"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1764" ThreadID="1952"></Execution>
+<Channel>Microsoft-Windows-AppxPackaging/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="namespace">http://schemas.microsoft.com/appx/manifest/uap/windows10/7</Data>
+</EventData>
+</Event>
+
+</Events>

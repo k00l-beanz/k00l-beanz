@@ -1,0 +1,328 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:21.606621"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1200"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:46.840979"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="2516"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:04.886368"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1192" ThreadID="1204"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:20.902546"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1380" ThreadID="2076"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 23:34:40.772640"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1380" ThreadID="3232"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:57.058437"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1376" ThreadID="2276"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:54.079187"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="2252"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:14:40.829561"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="1672"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:11.811365"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1428" ThreadID="2200"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 19:07:38.883512"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1428" ThreadID="4912"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:43.844509"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1368" ThreadID="2316"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:34.629517"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1384" ThreadID="2260"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 23:18:18.317272"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1384" ThreadID="1432"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:58:03.574368"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="2284"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 14:36:21.714516"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="1672"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:45.885765"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="2128"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2001</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>11</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 18:32:52.958225"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="1772"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WebAuthN" Guid="{3ae1ea61-c002-47fb-b06c-4022a8c98929}"></Provider>
+<EventID Qualifiers="">2000</EventID>
+<Version>0</Version>
+<Level>16</Level>
+<Task>500</Task>
+<Opcode>10</Opcode>
+<Keywords>0x8000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:19.986637"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1396" ThreadID="2240"></Execution>
+<Channel>Microsoft-Windows-WebAuthN/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData></EventData>
+</Event>
+
+</Events>

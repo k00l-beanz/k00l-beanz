@@ -1,0 +1,3127 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:20:53.453783"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="728" ThreadID="912"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">36</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:20:53.540298"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="684" ThreadID="788"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ErrorCode">2147944122</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:20:53.542370"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="684" ThreadID="788"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:58.359123"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="720" ThreadID="780"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:58.365385"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="664" ThreadID="756"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:28.953283"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-d0c7-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3980"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ErrorCode">1168</Data>
+<Data Name="PackageFullName">Microsoft.AAD.BrokerPlugin_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">32</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:29.469124"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-d0c7-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3980"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:29.913563"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-d3c7-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3980"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ErrorCode">1168</Data>
+<Data Name="PackageFullName">Microsoft.Windows.CloudExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">32</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:29.960815"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-d3c7-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3980"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:30.447659"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-82c9-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="4064"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ErrorCode">1168</Data>
+<Data Name="PackageFullName">Microsoft.Windows.ShellExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">32</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:30.530144"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-82c9-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="4064"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">69</EventID>
+<Version>0</Version>
+<Level>2</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:30.791048"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-65ca-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="ErrorCode">1168</Data>
+<Data Name="PackageFullName">Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">32</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:30.864859"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-65ca-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.Cortana_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.313198"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.314795"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.316242"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.317684"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.319094"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">InputApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.320631"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AccountsControl_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.322031"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AsyncTextService_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.323458"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.BioEnrollment_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.325129"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.CredDialogHost_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.326712"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.ECApp_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.328115"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.LockApp_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.329592"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Win32WebViewHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.331118"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.Apprep.ChxApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.332743"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.CapturePicker_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.334444"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.NarratorQuickStart_10.0.17763.1_neutral_neutral_8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.335949"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkCaptivePortal_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.337481"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkConnectionFlow_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.339283"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PeopleExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.342146"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PinningConfirmationDialog_1000.17763.1.0_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.344460"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.SecHealthUI_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.346176"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.XGpuEjectDialog_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.347906"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.CBSPreview_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:34.349464"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="{f2d9b0db-a91d-0000-b6cd-d9f21da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1476" ThreadID="3984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:19.254215"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="812"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:19.259445"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="704" ThreadID="788"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:07.967834"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1aa8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.293274"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1aa8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Windows.PrintDialog_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.367128"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1aa8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.369482"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1aa8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.651543"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-f9a8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.CBSPreview_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.701021"></TimeCreated>
+<EventRecordID>44</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-f9a8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Windows.CBSPreview_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.789480"></TimeCreated>
+<EventRecordID>45</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-f9a8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.CBSPreview_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.791574"></TimeCreated>
+<EventRecordID>46</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-f9a8-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Windows.CBSPreview_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:12.992857"></TimeCreated>
+<EventRecordID>47</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-67a9-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.XGpuEjectDialog_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.060209"></TimeCreated>
+<EventRecordID>48</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-67a9-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.231907"></TimeCreated>
+<EventRecordID>49</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-67a9-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.XGpuEjectDialog_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.269720"></TimeCreated>
+<EventRecordID>50</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-67a9-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.XGpuEjectDialog_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.472446"></TimeCreated>
+<EventRecordID>51</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-3baa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.SecHealthUI_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.527931"></TimeCreated>
+<EventRecordID>52</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-3baa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.SecHealthUI_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.805962"></TimeCreated>
+<EventRecordID>53</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-3baa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.SecHealthUI_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:13.808235"></TimeCreated>
+<EventRecordID>54</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-3baa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.SecHealthUI_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.101055"></TimeCreated>
+<EventRecordID>55</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-b2aa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PinningConfirmationDialog_1000.17763.1.0_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.145544"></TimeCreated>
+<EventRecordID>56</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-b2aa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.233250"></TimeCreated>
+<EventRecordID>57</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-b2aa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PinningConfirmationDialog_1000.17763.1.0_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.236116"></TimeCreated>
+<EventRecordID>58</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-b2aa-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PinningConfirmationDialog_1000.17763.1.0_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.550461"></TimeCreated>
+<EventRecordID>59</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PeopleExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.623331"></TimeCreated>
+<EventRecordID>60</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.780882"></TimeCreated>
+<EventRecordID>61</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PeopleExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:14.783529"></TimeCreated>
+<EventRecordID>62</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.PeopleExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:15.127066"></TimeCreated>
+<EventRecordID>63</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8bab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkConnectionFlow_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:15.175224"></TimeCreated>
+<EventRecordID>64</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8bab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:15.431162"></TimeCreated>
+<EventRecordID>65</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8bab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkConnectionFlow_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:15.433395"></TimeCreated>
+<EventRecordID>66</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8bab-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkConnectionFlow_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:15.788929"></TimeCreated>
+<EventRecordID>67</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7bac-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkCaptivePortal_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:15.854155"></TimeCreated>
+<EventRecordID>68</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7bac-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:16.036444"></TimeCreated>
+<EventRecordID>69</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7bac-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkCaptivePortal_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:16.039246"></TimeCreated>
+<EventRecordID>70</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7bac-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.OOBENetworkCaptivePortal_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:16.493547"></TimeCreated>
+<EventRecordID>71</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7ead-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.NarratorQuickStart_10.0.17763.1_neutral_neutral_8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:16.542704"></TimeCreated>
+<EventRecordID>72</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7ead-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:16.742996"></TimeCreated>
+<EventRecordID>73</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7ead-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.NarratorQuickStart_10.0.17763.1_neutral_neutral_8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:16.745245"></TimeCreated>
+<EventRecordID>74</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-7ead-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.NarratorQuickStart_10.0.17763.1_neutral_neutral_8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:17.145956"></TimeCreated>
+<EventRecordID>75</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.CapturePicker_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:17.223654"></TimeCreated>
+<EventRecordID>76</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.CapturePicker_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:17.298635"></TimeCreated>
+<EventRecordID>77</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.CapturePicker_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:17.301003"></TimeCreated>
+<EventRecordID>78</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.CapturePicker_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:17.757193"></TimeCreated>
+<EventRecordID>79</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-bdae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.Apprep.ChxApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:17.810688"></TimeCreated>
+<EventRecordID>80</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-bdae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:18.303970"></TimeCreated>
+<EventRecordID>81</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-bdae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.Apprep.ChxApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:18.306259"></TimeCreated>
+<EventRecordID>82</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-bdae-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Windows.Apprep.ChxApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:18.673010"></TimeCreated>
+<EventRecordID>83</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-60af-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Win32WebViewHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:18.734129"></TimeCreated>
+<EventRecordID>84</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-60af-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.Win32WebViewHost_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.115484"></TimeCreated>
+<EventRecordID>85</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-60af-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Win32WebViewHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.117844"></TimeCreated>
+<EventRecordID>86</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-60af-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.Win32WebViewHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.469984"></TimeCreated>
+<EventRecordID>87</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-44b0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.LockApp_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.537064"></TimeCreated>
+<EventRecordID>88</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-44b0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.LockApp_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.708805"></TimeCreated>
+<EventRecordID>89</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-44b0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.LockApp_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.711267"></TimeCreated>
+<EventRecordID>90</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-44b0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.LockApp_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.927162"></TimeCreated>
+<EventRecordID>91</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-beb0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.ECApp_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:19.973698"></TimeCreated>
+<EventRecordID>92</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-beb0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.ECApp_8wekyb3d8bbwe</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.049698"></TimeCreated>
+<EventRecordID>93</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-beb0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.ECApp_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.053202"></TimeCreated>
+<EventRecordID>94</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-beb0-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.ECApp_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.260704"></TimeCreated>
+<EventRecordID>95</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-41b1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.CredDialogHost_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.307629"></TimeCreated>
+<EventRecordID>96</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-41b1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.CredDialogHost_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.388733"></TimeCreated>
+<EventRecordID>97</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-41b1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.CredDialogHost_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.390942"></TimeCreated>
+<EventRecordID>98</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-41b1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.CredDialogHost_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.596928"></TimeCreated>
+<EventRecordID>99</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-cfb1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.BioEnrollment_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.644693"></TimeCreated>
+<EventRecordID>100</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-cfb1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.BioEnrollment_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.817076"></TimeCreated>
+<EventRecordID>101</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-cfb1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.BioEnrollment_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:20.819695"></TimeCreated>
+<EventRecordID>102</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-cfb1-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.BioEnrollment_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.146538"></TimeCreated>
+<EventRecordID>103</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-74b2-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AsyncTextService_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.251871"></TimeCreated>
+<EventRecordID>104</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-74b2-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.AsyncTextService_8wekyb3d8bbwe</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.336706"></TimeCreated>
+<EventRecordID>105</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-74b2-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AsyncTextService_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.338873"></TimeCreated>
+<EventRecordID>106</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-74b2-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AsyncTextService_10.0.17763.1_neutral__8wekyb3d8bbwe</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.592314"></TimeCreated>
+<EventRecordID>107</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cb3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AccountsControl_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.700294"></TimeCreated>
+<EventRecordID>108</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cb3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">Microsoft.AccountsControl_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.837597"></TimeCreated>
+<EventRecordID>109</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cb3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AccountsControl_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:21.839891"></TimeCreated>
+<EventRecordID>110</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-1cb3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">Microsoft.AccountsControl_10.0.17763.1_neutral__cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.112013"></TimeCreated>
+<EventRecordID>111</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-a7b3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">InputApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.170223"></TimeCreated>
+<EventRecordID>112</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-a7b3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">InputApp_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.384914"></TimeCreated>
+<EventRecordID>113</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-a7b3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">InputApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.387075"></TimeCreated>
+<EventRecordID>114</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-a7b3-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">InputApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.629469"></TimeCreated>
+<EventRecordID>115</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-30b4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.686064"></TimeCreated>
+<EventRecordID>116</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-30b4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.775284"></TimeCreated>
+<EventRecordID>117</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-30b4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:22.777498"></TimeCreated>
+<EventRecordID>118</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-30b4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:23.262859"></TimeCreated>
+<EventRecordID>119</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8eb4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:23.309774"></TimeCreated>
+<EventRecordID>120</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8eb4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">E2A4F912-2574-4A75-9BB0-0D023378592B_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:23.383602"></TimeCreated>
+<EventRecordID>121</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8eb4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:23.385853"></TimeCreated>
+<EventRecordID>122</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-8eb4-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:23.889946"></TimeCreated>
+<EventRecordID>123</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-09b5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.004662"></TimeCreated>
+<EventRecordID>124</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-09b5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">c5e2524a-ea46-4f67-841f-6a9465d9d515_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.217484"></TimeCreated>
+<EventRecordID>125</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-09b5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.219923"></TimeCreated>
+<EventRecordID>126</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-09b5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.442209"></TimeCreated>
+<EventRecordID>127</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-aab5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2080</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">39</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.529154"></TimeCreated>
+<EventRecordID>128</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-aab5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-21-1152959844-3645458174-3779170896-1000"></Security>
+</System>
+<EventData><Data Name="AppContainerName">1527c705-839a-4832-9118-54d4Bd6a0c89_cw5n1h2txyewy</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.616053"></TimeCreated>
+<EventRecordID>129</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-aab5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">2048</Data>
+<Data Name="CurrentStatus">2080</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">70</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000001</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:58:24.618824"></TimeCreated>
+<EventRecordID>130</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-aab5-e8eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2944" ThreadID="3804"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="PackageFullName">1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.17763.1_neutral_neutral_cw5n1h2txyewy</Data>
+<Data Name="User">S-1-5-21-1152959844-3645458174-3779170896-1000</Data>
+<Data Name="DesiredStatus">0</Data>
+<Data Name="CurrentStatus">2048</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:30:54.103752"></TimeCreated>
+<EventRecordID>131</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2100" ThreadID="3772"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:38:57.821396"></TimeCreated>
+<EventRecordID>132</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="2192" ThreadID="2812"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:26.987972"></TimeCreated>
+<EventRecordID>133</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="876"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:26.992449"></TimeCreated>
+<EventRecordID>134</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="744" ThreadID="816"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:34.102947"></TimeCreated>
+<EventRecordID>135</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="716" ThreadID="820"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:34.230106"></TimeCreated>
+<EventRecordID>136</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="980"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:48:47.264334"></TimeCreated>
+<EventRecordID>137</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="744" ThreadID="816"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:48:47.265949"></TimeCreated>
+<EventRecordID>138</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="820"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:22.973440"></TimeCreated>
+<EventRecordID>139</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="3708" ThreadID="2928"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:17.971281"></TimeCreated>
+<EventRecordID>140</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="756" ThreadID="828"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:17.974602"></TimeCreated>
+<EventRecordID>141</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="748" ThreadID="824"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:06.574839"></TimeCreated>
+<EventRecordID>142</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="756" ThreadID="888"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:06.576477"></TimeCreated>
+<EventRecordID>143</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="748" ThreadID="824"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:37.834507"></TimeCreated>
+<EventRecordID>144</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="744" ThreadID="816"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:37.837843"></TimeCreated>
+<EventRecordID>145</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="884"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:21.650051"></TimeCreated>
+<EventRecordID>146</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="744" ThreadID="816"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:21.892303"></TimeCreated>
+<EventRecordID>147</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="984"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:57:55.254091"></TimeCreated>
+<EventRecordID>148</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="716" ThreadID="816"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-AppModel-Runtime" Guid="{f1ef270a-0d32-4352-ba52-dbab41e1d859}"></Provider>
+<EventID Qualifiers="">40</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x2000000000000002</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:57:55.258411"></TimeCreated>
+<EventRecordID>149</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="752" ThreadID="884"></Execution>
+<Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="AppContainerName">onecore\ds\security\gina\profile\profext\appcontainer.cpp Line:1812 Usermode Font Driver Host microsoft.windows.fontdrvhost</Data>
+</EventData>
+</Event>
+
+</Events>

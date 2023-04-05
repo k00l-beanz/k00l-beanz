@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Diagnosis-DPS" Guid="{6bba3851-2c7e-4dea-8f54-31e5afd029e3}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000800000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:09:57.679588"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="{50a4805b-eaa3-4b60-bcae-abb829721b5d}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1780" ThreadID="3436"></Execution>
+<Channel>Microsoft-Windows-Diagnosis-DPS/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ScenarioId">{180b3a99-8c39-4f12-b631-2031998efe45}</Data>
+<Data Name="InstanceId">{50a4805b-eaa3-4b60-bcae-abb829721b5d}</Data>
+<Data Name="OriginalActivityId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="DiagnosticModuleImageName">%windir%\system32\radardt.dll</Data>
+<Data Name="DiagnosticModuleId">{45de1ea9-10bc-4f96-9b21-4b6b83dbf476}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Diagnosis-DPS" Guid="{6bba3851-2c7e-4dea-8f54-31e5afd029e3}"></Provider>
+<EventID Qualifiers="">105</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>13</Opcode>
+<Keywords>0x4000000800000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:09:57.679590"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="{50a4805b-eaa3-4b60-bcae-abb829721b5d}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1780" ThreadID="3436"></Execution>
+<Channel>Microsoft-Windows-Diagnosis-DPS/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ScenarioId">{180b3a99-8c39-4f12-b631-2031998efe45}</Data>
+<Data Name="InstanceId">{50a4805b-eaa3-4b60-bcae-abb829721b5d}</Data>
+<Data Name="OriginalActivityId">{00000000-0000-0000-0000-000000000000}</Data>
+<Data Name="DiagnosticModuleImageName">%windir%\system32\radardt.dll</Data>
+<Data Name="DiagnosticModuleId">{45de1ea9-10bc-4f96-9b21-4b6b83dbf476}</Data>
+</EventData>
+</Event>
+
+</Events>

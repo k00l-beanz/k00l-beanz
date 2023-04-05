@@ -1,0 +1,877 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">25</EventID>
+<Version>1</Version>
+<Level>2</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000022</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:12.442663"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="errorCode">0x8024402f</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:24.403744"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">25</EventID>
+<Version>1</Version>
+<Level>2</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000022</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:32.874857"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="errorCode">0x8024402f</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:39.227530"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">25</EventID>
+<Version>1</Version>
+<Level>2</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000022</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:46.464937"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="errorCode">0x8024402f</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:46.464943"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">25</EventID>
+<Version>1</Version>
+<Level>2</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000022</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:00.839136"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="errorCode">0x8024402f</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:00.839149"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="3332"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-22 23:03:15.076387"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-dfbb-e9eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="3416"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">5</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-22 23:03:15.076391"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-dfbb-e9eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="3416"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-22 23:04:29.808537"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="{eae887f7-a8b5-0000-dfbb-e9eab5a8d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="3416"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1246.0)</Data>
+<Data Name="updateGuid">{6f0d7df0-1971-45b7-b173-1b50e6c9ebba}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:38:34.405294"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="4064"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:38:41.988779"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="{c3e0a7d3-a937-0000-eeb1-e0c337a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="4064"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:39:21.024635"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="{c3e0a7d3-a937-0000-eeb1-e0c337a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="4064"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1284.0)</Data>
+<Data Name="updateGuid">{ecc5f48b-7485-4b64-89d9-069ea709566a}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:04:46.127752"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="{dc304448-a943-0000-8c5f-30dc43a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1352" ThreadID="3652"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:04:46.127756"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="{dc304448-a943-0000-8c5f-30dc43a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1352" ThreadID="3652"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-23 14:04:58.559103"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="{dc304448-a943-0000-8c5f-30dc43a9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1352" ThreadID="3652"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Update for Microsoft Defender Antivirus antimalware platform - KB4052623 (Version 4.18.2009.7)</Data>
+<Data Name="updateGuid">{3e0eca38-073f-40b0-a984-11b8799e83a8}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-23 19:00:08.504032"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="{136949f4-a96d-0000-3268-69136da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="3660"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-23 19:00:08.504034"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="{136949f4-a96d-0000-3268-69136da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="3660"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-23 19:00:12.613625"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="{136949f4-a96d-0000-3268-69136da9d601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="3660"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1293.0)</Data>
+<Data Name="updateGuid">{4fc49aa3-d5fa-4b79-a95d-1196e654e7a6}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:57:18.089474"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3528"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">5</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:03.859093"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="{e04d3c69-aa4f-0000-c952-4de04faad601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3528"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:58:12.860712"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="{e04d3c69-aa4f-0000-c952-4de04faad601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3528"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1367.0)</Data>
+<Data Name="updateGuid">{867ea0b8-8b86-4c91-834a-545f86827ba0}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:04:58.459150"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="{e04d3c69-aa4f-0000-c952-4de04faad601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3528"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:05:06.080379"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="{e04d3c69-aa4f-0000-c952-4de04faad601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="3528"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:30:35.327009"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1344" ThreadID="3704"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:30:35.327011"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1344" ThreadID="3704"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:59:53.187359"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1348" ThreadID="3668"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">5</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:59:53.187361"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1348" ThreadID="3668"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:00:07.032431"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="{278a84f7-ab8f-0000-ae8f-8a278fabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1348" ThreadID="3668"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1469.0)</Data>
+<Data Name="updateGuid">{9186212a-68d7-4cfe-b560-90c25072b7e9}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:59.083603"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="{278a84f7-ab8f-0000-ae8f-8a278fabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1348" ThreadID="3668"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-26 12:08:59.083605"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="{278a84f7-ab8f-0000-ae8f-8a278fabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1348" ThreadID="3668"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:20:26.881992"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">2020-10 Security Update for Adobe Flash Player for Windows Server 2019 for x64-based Systems (KB4580325)</Data>
+<Data Name="updateGuid">{1abb2377-20ef-43ff-aabc-0de4711ab205}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:20:32.063574"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Update for Adobe Flash Player for Windows Server 2019 (1809) for x64-based Systems (KB4462930)</Data>
+<Data Name="updateGuid">{b8ea1a5b-3636-4905-ae4b-d171014df7a6}</Data>
+<Data Name="updateRevisionNumber">201</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:20:55.500975"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Windows Malicious Software Removal Tool x64 - v5.83 (KB890830)</Data>
+<Data Name="updateGuid">{b0a743d6-025a-4ca4-a998-b019a5b176f3}</Data>
+<Data Name="updateRevisionNumber">201</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:21:38.492823"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">2020-10 Cumulative Update for .NET Framework 3.5, 4.7.2 and 4.8 for Windows Server 2019 for x64 (KB4579976)</Data>
+<Data Name="updateGuid">{a785a1bc-b331-44df-ae0c-48437153b536}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:23:33.066320"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:23:33.066324"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:23:36.840164"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1476.0)</Data>
+<Data Name="updateGuid">{cae54787-6208-4ed3-a696-64ddbbce3325}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:27:25.833868"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="{5cf0896d-abaa-0000-f592-f05caaabd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1332" ThreadID="592"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">2020-10 Cumulative Update for Windows Server 2019 (1809) for x64-based Systems (KB4577668)</Data>
+<Data Name="updateGuid">{760cd5f1-0b56-4ed0-9d3a-7dff21041bcb}</Data>
+<Data Name="updateRevisionNumber">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:09:23.775867"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1336" ThreadID="4092"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">1</Data>
+<Data Name="serviceGuid">{9482f4b4-e343-43b6-b170-9a65bc822c77}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">26</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>11</Opcode>
+<Keywords>0x4000000000000012</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:09:32.387016"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="{8a6a3ffd-ac04-0000-2754-6a8a04acd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1336" ThreadID="4092"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateCount">0</Data>
+<Data Name="serviceGuid">{8b24b027-1dee-babb-9a95-3517dfb9c552}</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WindowsUpdateClient" Guid="{945a8954-c147-4acd-923f-40c45405a658}"></Provider>
+<EventID Qualifiers="">41</EventID>
+<Version>1</Version>
+<Level>4</Level>
+<Task>1</Task>
+<Opcode>12</Opcode>
+<Keywords>0x4000000000000014</Keywords>
+<TimeCreated SystemTime="2020-10-27 02:09:36.505705"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="{8a6a3ffd-ac04-0000-2754-6a8a04acd601}" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1336" ThreadID="4092"></Execution>
+<Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="updateTitle">Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.325.1502.0)</Data>
+<Data Name="updateGuid">{3b6f2f36-b93e-4f7c-bbd6-18a83c3e2845}</Data>
+<Data Name="updateRevisionNumber">200</Data>
+</EventData>
+</Event>
+
+</Events>

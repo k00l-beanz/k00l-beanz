@@ -168,10 +168,14 @@ gef➤  x/xw $rbp-0x4
 0x414141414141413d:     Cannot access memory at address 0x414141414141413d
 ```
 
-As an attacker you can control where this points to. You just need to determine a valid address.
+Something new I learned when doing this challenge: During return-oriented-programming it's important to manage your stack space. If you call `ret` prematurely, the stack frame for the current function will be popped of the stack, causing the return address to be lost and potentially corrupting other important data on the stack.
 
-Attempted:
-- static stack address - FAILED REMOTELY - I can print the flag locally but not remotely. Perhaps ASLR is enabled server side or the address space is different for the docker container
-- ret2libc to leak an address - FAILED - not enough space to fully ret2libc
-- There is an uncalled method `read_num` which has a partial overflow of ~2 bytes. Not enough to do anything with. 
-- Jump directly to the `read` call in the while loop which causes `read` to read from stdin. Only one byte can be read however and attacker can't control file handle.
+Instead of jumping directly to `escape_plan` you can jump to a `ret` rop-gadget. This will allow the program to create a new stack frame.
+
+Generate a list of rop-gadgets using `ROPgadget`
+
+```s
+$ ROPgadget --binary labyrinth
+...
+0x0000000000401016 : ret
+```

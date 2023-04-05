@@ -1,0 +1,388 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:25.932154"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="1700"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">0</Data>
+<Data Name="CapabilityChangeReason">5</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:35.215097"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="2660"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">13</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:46.875870"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1524" ThreadID="2508"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">0</Data>
+<Data Name="CapabilityChangeReason">14</Data>
+<Data Name="PreviousCapability">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.792446"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1192" ThreadID="1692"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">4</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:20.601061"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1380" ThreadID="1660"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:49.853050"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1376" ThreadID="1512"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:53:51.346937"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="1552"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:12.082031"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1428" ThreadID="1544"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:37.229540"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1368" ThreadID="1616"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:29.563471"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1384" ThreadID="1460"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:58.074575"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="1592"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">1</Data>
+<Data Name="CapabilityChangeReason">13</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:59.011047"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1480" ThreadID="1596"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:45.990627"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="1740"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">1</Data>
+<Data Name="CapabilityChangeReason">13</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:47.116186"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1432" ThreadID="1772"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">1</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:14.393562"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1396" ThreadID="1472"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">1</Data>
+<Data Name="CapabilityChangeReason">13</Data>
+<Data Name="PreviousCapability">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-NCSI" Guid="{314de49f-ce63-4779-ba2b-d616f6963a88}"></Provider>
+<EventID Qualifiers="">4042</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000020</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:15.405605"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1396" ThreadID="1448"></Execution>
+<Channel>Microsoft-Windows-NCSI/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-20"></Security>
+</System>
+<EventData><Data Name="InterfaceGuid">{2e722116-8b3b-472d-a7de-f7debe304e5a}</Data>
+<Data Name="IfLuid">1689399632855040</Data>
+<Data Name="Family">0</Data>
+<Data Name="Capability">2</Data>
+<Data Name="CapabilityChangeReason">8</Data>
+<Data Name="PreviousCapability">1</Data>
+</EventData>
+</Event>
+
+</Events>

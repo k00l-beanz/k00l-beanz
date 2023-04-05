@@ -1,0 +1,235 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:23.737173"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1624" ThreadID="1776"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1624</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:09.197363"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1892" ThreadID="1276"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1892</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:57:21.664717"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1600" ThreadID="1824"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1600</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:58.618973"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1808" ThreadID="1252"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1808</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:54:00.570877"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1736" ThreadID="2000"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1736</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:49:15.917418"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1896" ThreadID="2044"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1896</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:46.006887"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1792" ThreadID="1096"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1792</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:39.328609"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1784" ThreadID="2028"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1784</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:58:04.726940"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1712" ThreadID="2044"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1712</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">622</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:49.856941"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1668" ThreadID="2052"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="FwThreadWaitTimeAndHoldTimeForFwLock"><Data Name="callersAppCommandLine">MPSSVC</Data>
+<Data Name="callerFunctionName">FwProfileMgrOnPolicyChange</Data>
+<Data Name="threadWaitAndLockHoldTimeMs">6063</Data>
+<Data Name="fwLockHoldTimeMs">6063</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 15:12:49.914934"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1668" ThreadID="2052"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1668</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}"></Provider>
+<EventID Qualifiers="">164</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x0000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:23.461864"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1780" ThreadID="2016"></Execution>
+<Channel>Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData Name="MPSSVCStarted"><Data Name="processId">1780</Data>
+</EventData>
+</Event>
+
+</Events>

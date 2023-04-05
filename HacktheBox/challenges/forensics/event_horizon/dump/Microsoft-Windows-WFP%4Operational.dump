@@ -1,0 +1,202 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 12:27:58.613853"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1808" ThreadID="1252"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">1808</Data>
+<Data Name="TxnTimeInMSec">687</Data>
+<Data Name="CommitTimeInMSec">422</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 13:54:00.556990"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1736" ThreadID="2000"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">1736</Data>
+<Data Name="TxnTimeInMSec">579</Data>
+<Data Name="CommitTimeInMSec">422</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:35.583057"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1792" ThreadID="1816"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">0</Data>
+<Data Name="TxnTimeInMSec">547</Data>
+<Data Name="CommitTimeInMSec">94</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:38.405090"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1792" ThreadID="2012"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">1792</Data>
+<Data Name="TxnTimeInMSec">531</Data>
+<Data Name="CommitTimeInMSec">0</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 21:52:43.270357"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1792" ThreadID="1096"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">1792</Data>
+<Data Name="TxnTimeInMSec">516</Data>
+<Data Name="CommitTimeInMSec">0</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:26.810709"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1784" ThreadID="1796"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">0</Data>
+<Data Name="TxnTimeInMSec">843</Data>
+<Data Name="CommitTimeInMSec">15</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:19:41.922541"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1784" ThreadID="1968"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">1344</Data>
+<Data Name="TxnTimeInMSec">875</Data>
+<Data Name="CommitTimeInMSec">0</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-26 11:57:55.025118"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1712" ThreadID="1724"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">0</Data>
+<Data Name="TxnTimeInMSec">1437</Data>
+<Data Name="CommitTimeInMSec">187</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-WFP" Guid="{0c478c5b-0351-41b1-8c58-4a6737da32e3}"></Provider>
+<EventID Qualifiers="">1030</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000004000000000</Keywords>
+<TimeCreated SystemTime="2020-10-27 01:58:21.234507"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1780" ThreadID="2016"></Execution>
+<Channel>Microsoft-Windows-WFP/Operational</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-19"></Security>
+</System>
+<EventData><Data Name="ProcessId">1780</Data>
+<Data Name="TxnTimeInMSec">500</Data>
+<Data Name="CommitTimeInMSec">0</Data>
+<Data Name="WatchdogTimeoutInMSec">500</Data>
+</EventData>
+</Event>
+
+</Events>

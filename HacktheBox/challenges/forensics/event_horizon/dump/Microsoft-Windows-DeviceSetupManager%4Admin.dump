@@ -1,0 +1,1054 @@
+<?xml version="1.1" encoding="utf-8" standalone="yes" ?>
+
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">109</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 09:21:18.579042"></TimeCreated>
+<EventRecordID>1</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="788" ThreadID="1484"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">2</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">109</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:06.043308"></TimeCreated>
+<EventRecordID>2</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1416"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">3</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.017481"></TimeCreated>
+<EventRecordID>3</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1416"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">3</Data>
+<Data Name="Prop_Event_Window_Seconds">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.420111"></TimeCreated>
+<EventRecordID>4</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">USB Root Hub (USB 3.0)</Data>
+<Data Name="Prop_ContainerId">{660680c8-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">359</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.423115"></TimeCreated>
+<EventRecordID>5</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1964"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Floppy disk drive</Data>
+<Data Name="Prop_ContainerId">{660680ee-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">156</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.429201"></TimeCreated>
+<EventRecordID>6</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1964"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Generic Non-PnP Monitor</Data>
+<Data Name="Prop_ContainerId">{298580e3-e0e9-5b21-9699-52225753ef2e}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.434158"></TimeCreated>
+<EventRecordID>7</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Intel(R) 82574L Gigabit Network Connection</Data>
+<Data Name="Prop_ContainerId">{660680c7-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">15</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.461546"></TimeCreated>
+<EventRecordID>8</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1988"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">VMware Virtual NVMe Disk</Data>
+<Data Name="Prop_ContainerId">{660680c9-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">78</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.470114"></TimeCreated>
+<EventRecordID>9</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1964"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">VMware Virtual USB Mouse</Data>
+<Data Name="Prop_ContainerId">{660680e5-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">46</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:08.484011"></TimeCreated>
+<EventRecordID>10</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">WIN-PTFPHFCRDJ0</Data>
+<Data Name="Prop_ContainerId">{00000000-0000-0000-ffff-ffffffffffff}</Data>
+<Data Name="Prop_TaskCount">1</Data>
+<Data Name="Prop_PropertyCount">36</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">46</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">109</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:14.063513"></TimeCreated>
+<EventRecordID>11</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1416"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">0</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:14.080347"></TimeCreated>
+<EventRecordID>12</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1964"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Generic Non-PnP Monitor</Data>
+<Data Name="Prop_ContainerId">{1074b24d-b986-5a01-b420-b3d39c2f9286}</Data>
+<Data Name="Prop_TaskCount">2</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">15</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:14.179060"></TimeCreated>
+<EventRecordID>13</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1112"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Speakers (High Definition Audio Device)</Data>
+<Data Name="Prop_ContainerId">{d6a58499-8c5d-59c3-9e5c-8bdd65ac39b6}</Data>
+<Data Name="Prop_TaskCount">2</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">16</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:17.023006"></TimeCreated>
+<EventRecordID>14</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">USB Root Hub (USB 3.0)</Data>
+<Data Name="Prop_ContainerId">{660680c8-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">0</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">2956</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:19.016417"></TimeCreated>
+<EventRecordID>15</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1988"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Floppy disk drive</Data>
+<Data Name="Prop_ContainerId">{660680ee-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">0</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">4949</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:21.171989"></TimeCreated>
+<EventRecordID>16</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1964"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">VMware Virtual NVMe Disk</Data>
+<Data Name="Prop_ContainerId">{660680c9-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">0</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">7084</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:22.983313"></TimeCreated>
+<EventRecordID>17</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1112"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Intel(R) 82574L Gigabit Network Connection</Data>
+<Data Name="Prop_ContainerId">{660680c7-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">0</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">8798</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:22.991911"></TimeCreated>
+<EventRecordID>18</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1112"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microphone (High Definition Audio Device)</Data>
+<Data Name="Prop_ContainerId">{77346121-69e5-5c4c-a95d-5bc55157298b}</Data>
+<Data Name="Prop_TaskCount">2</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">15</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:52:25.215626"></TimeCreated>
+<EventRecordID>19</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Generic Non-PnP Monitor</Data>
+<Data Name="Prop_ContainerId">{298580e3-e0e9-5b21-9699-52225753ef2e}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">0</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">8195</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">123</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:20.377131"></TimeCreated>
+<EventRecordID>20</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1988"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_Seconds">61</Data>
+<Data Name="Prop_DeviceId">USB\VID_0E0F&amp;PID_0003&amp;MI_01\7&amp;3AE26960&amp;0&amp;0001</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">123</EventID>
+<Version>0</Version>
+<Level>3</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:34.260317"></TimeCreated>
+<EventRecordID>21</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1988"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_Seconds">13</Data>
+<Data Name="Prop_DeviceId">USB\VID_0E0F&amp;PID_0003&amp;MI_00\7&amp;3AE26960&amp;0&amp;0000</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:51.265709"></TimeCreated>
+<EventRecordID>22</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1112"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft Print to PDF</Data>
+<Data Name="Prop_ContainerId">{d397268a-724c-b4ef-d641-c9234ba2948b}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">61917</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:53.366953"></TimeCreated>
+<EventRecordID>23</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft XPS Document Writer</Data>
+<Data Name="Prop_ContainerId">{0a568158-2954-f19c-89f3-03acaee1f85e}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">63166</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:53.374266"></TimeCreated>
+<EventRecordID>24</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1900"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Generic Non-PnP Monitor</Data>
+<Data Name="Prop_ContainerId">{1074b24d-b986-5a01-b420-b3d39c2f9286}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">14</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:55.345512"></TimeCreated>
+<EventRecordID>25</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1988"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">VMware Virtual USB Mouse</Data>
+<Data Name="Prop_ContainerId">{660680e5-1519-11eb-bd99-806e6f6e6963}</Data>
+<Data Name="Prop_TaskCount">6</Data>
+<Data Name="Prop_PropertyCount">34</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">96324</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:53:58.380388"></TimeCreated>
+<EventRecordID>26</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1964"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">WIN-PTFPHFCRDJ0</Data>
+<Data Name="Prop_ContainerId">{00000000-0000-0000-ffff-ffffffffffff}</Data>
+<Data Name="Prop_TaskCount">6</Data>
+<Data Name="Prop_PropertyCount">36</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">97188</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:00.634531"></TimeCreated>
+<EventRecordID>27</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1112"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Generic Non-PnP Monitor</Data>
+<Data Name="Prop_ContainerId">{ff3c9bfc-6a33-58e1-8cfa-a12ce4352d2f}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">9372</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">101</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 20:54:45.634848"></TimeCreated>
+<EventRecordID>28</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="540" ThreadID="1416"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_UpTime_Seconds">157</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">107039</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 21:24:04.883245"></TimeCreated>
+<EventRecordID>29</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="3792"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">0</Data>
+<Data Name="Prop_Event_Window_Seconds">1612</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 21:24:07.549280"></TimeCreated>
+<EventRecordID>30</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="3872"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">WIN-PTFPHFCRDJ0</Data>
+<Data Name="Prop_ContainerId">{00000000-0000-0000-ffff-ffffffffffff}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">36</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">2648</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">101</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 21:24:52.561085"></TimeCreated>
+<EventRecordID>31</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="3792"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_UpTime_Seconds">47</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">2664</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:30:54.529987"></TimeCreated>
+<EventRecordID>32</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="4432"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">0</Data>
+<Data Name="Prop_Event_Window_Seconds">3961</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:30:56.914120"></TimeCreated>
+<EventRecordID>33</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="4840"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">WIN-PTFPHFCRDJ0</Data>
+<Data Name="Prop_ContainerId">{00000000-0000-0000-ffff-ffffffffffff}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">36</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">2375</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:02.609632"></TimeCreated>
+<EventRecordID>34</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="4840"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">WIN-PTFPHFCRDJ0</Data>
+<Data Name="Prop_ContainerId">{00000000-0000-0000-ffff-ffffffffffff}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">36</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">3563</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:03.441324"></TimeCreated>
+<EventRecordID>35</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="4008"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft Print to PDF (redirected 1)</Data>
+<Data Name="Prop_ContainerId">{e14ac2a2-e2bb-2d17-10ed-5cea03fd468d}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">1797</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:04.521240"></TimeCreated>
+<EventRecordID>36</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="4008"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft XPS Document Writer (redirected 1)</Data>
+<Data Name="Prop_ContainerId">{939773bf-48fe-874a-609c-ac49a56fe06a}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">877</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">101</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:31:49.527067"></TimeCreated>
+<EventRecordID>37</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="4432"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_UpTime_Seconds">54</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">7769</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:39:00.465496"></TimeCreated>
+<EventRecordID>38</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="308"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">0</Data>
+<Data Name="Prop_Event_Window_Seconds">430</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:39:03.162640"></TimeCreated>
+<EventRecordID>39</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="2552"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft Print to PDF (redirected 1)</Data>
+<Data Name="Prop_ContainerId">{e14ac2a2-e2bb-2d17-10ed-5cea03fd468d}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">2688</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:39:04.316368"></TimeCreated>
+<EventRecordID>40</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="368"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft XPS Document Writer (redirected 1)</Data>
+<Data Name="Prop_ContainerId">{939773bf-48fe-874a-609c-ac49a56fe06a}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">3374</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">101</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-22 22:39:49.309095"></TimeCreated>
+<EventRecordID>41</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1392" ThreadID="308"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_UpTime_Seconds">48</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">3843</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:31.026249"></TimeCreated>
+<EventRecordID>42</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="4792"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">0</Data>
+<Data Name="Prop_Event_Window_Seconds">432</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:33.743181"></TimeCreated>
+<EventRecordID>43</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="4796"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft Print to PDF (redirected 1)</Data>
+<Data Name="Prop_ContainerId">{e14ac2a2-e2bb-2d17-10ed-5cea03fd468d}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">2686</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:55:35.077747"></TimeCreated>
+<EventRecordID>44</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="4808"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">Microsoft XPS Document Writer (redirected 1)</Data>
+<Data Name="Prop_ContainerId">{939773bf-48fe-874a-609c-ac49a56fe06a}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">42</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">3299</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">101</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-23 18:56:20.086426"></TimeCreated>
+<EventRecordID>45</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1312" ThreadID="4792"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_UpTime_Seconds">49</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">4049</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">100</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:13:07.577930"></TimeCreated>
+<EventRecordID>46</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="5864"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_CoreServiceMode">0</Data>
+<Data Name="Prop_Event_Window_Seconds">1277</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">112</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:13:13.755024"></TimeCreated>
+<EventRecordID>47</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="4968"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_DeviceName">WIN-PTFPHFCRDJ0</Data>
+<Data Name="Prop_ContainerId">{00000000-0000-0000-ffff-ffffffffffff}</Data>
+<Data Name="Prop_TaskCount">4</Data>
+<Data Name="Prop_PropertyCount">37</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">6045</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-DeviceSetupManager" Guid="{fcbb06bb-6a2a-46e3-abaa-246cb4e508b2}"></Provider>
+<EventID Qualifiers="">101</EventID>
+<Version>0</Version>
+<Level>4</Level>
+<Task>0</Task>
+<Opcode>0</Opcode>
+<Keywords>0x4000000000000000</Keywords>
+<TimeCreated SystemTime="2020-10-24 22:13:58.742476"></TimeCreated>
+<EventRecordID>48</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="1320" ThreadID="5864"></Execution>
+<Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>
+<Computer>WIN-PTFPHFCRDJ0</Computer>
+<Security UserID="S-1-5-18"></Security>
+</System>
+<EventData><Data Name="Prop_UpTime_Seconds">51</Data>
+<Data Name="Prop_WorkTime_MilliSeconds">6171</Data>
+</EventData>
+</Event>
+
+</Events>
