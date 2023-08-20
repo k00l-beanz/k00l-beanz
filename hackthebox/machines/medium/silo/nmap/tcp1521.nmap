@@ -1,0 +1,18 @@
+# Nmap 7.94 scan initiated Wed Aug 16 19:37:44 2023 as: nmap -A -p 1521 -T4 -sV -oN nmap/tcp1521.nmap 10.10.10.82
+Nmap scan report for 10.10.10.82
+Host is up (0.047s latency).
+
+PORT     STATE SERVICE    VERSION
+1521/tcp open  oracle-tns Oracle TNS listener 11.2.0.2.0 (unauthorized)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Microsoft Windows Server 2012 (96%), Microsoft Windows Server 2012 R2 (96%), Microsoft Windows Server 2012 R2 Update 1 (96%), Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1 (96%), Microsoft Windows Server 2012 or Server 2012 R2 (95%), Microsoft Windows Vista SP1 (95%), Microsoft Windows Server 2008 SP2 Datacenter Version (94%), Microsoft Windows 7 or Windows Server 2008 R2 (94%), Microsoft Windows Server 2008 R2 (93%), Microsoft Windows Home Server 2011 (Windows Server 2008 R2) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   38.91 ms 10.10.14.1
+2   39.00 ms 10.10.10.82
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 16 19:37:55 2023 -- 1 IP address (1 host up) scanned in 11.65 seconds

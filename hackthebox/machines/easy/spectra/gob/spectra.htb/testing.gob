@@ -1,0 +1,10 @@
+/index.php           [31m (Status: 500)[0m [Size: 2646]
+/wp-content          [36m (Status: 301)[0m [Size: 169][34m [--> http://spectra.htb/testing/wp-content/][0m
+/wp-login.php        [31m (Status: 500)[0m [Size: 2646]
+/license.txt         [32m (Status: 200)[0m [Size: 19915]
+/wp-includes         [36m (Status: 301)[0m [Size: 169][34m [--> http://spectra.htb/testing/wp-includes/][0m
+/readme.html         [32m (Status: 200)[0m [Size: 7278]
+/wp-trackback.php    [31m (Status: 500)[0m [Size: 2646]
+/wp-admin            [36m (Status: 301)[0m [Size: 169][34m [--> http://spectra.htb/testing/wp-admin/][0m
+/xmlrpc.php          [32m (Status: 200)[0m [Size: 0]
+/wp-signup.php       [31m (Status: 500)[0m [Size: 2646]

@@ -1,0 +1,44 @@
+# Nmap 7.94 scan initiated Thu Aug 17 19:45:55 2023 as: nmap -p- -A -T5 -Pn -oN nmap/all.nmap 10.10.10.51
+Warning: 10.10.10.51 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.10.10.51
+Host is up (0.013s latency).
+Not shown: 65529 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u1 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 77:00:84:f5:78:b9:c7:d3:54:cf:71:2e:0d:52:6d:8b (RSA)
+|   256 78:b8:3a:f6:60:19:06:91:f5:53:92:1d:3f:48:ed:53 (ECDSA)
+|_  256 e4:45:e9:ed:07:4d:73:69:43:5a:12:70:9d:c4:af:76 (ED25519)
+25/tcp   open  smtp    JAMES smtpd 2.3.2
+|_smtp-commands: solidstate Hello nmap.scanme.org (10.10.14.7 [10.10.14.7]), PIPELINING, ENHANCEDSTATUSCODES
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+|_http-title: Home - Solid State Security
+|_http-server-header: Apache/2.4.25 (Debian)
+110/tcp  open  pop3    JAMES pop3d 2.3.2
+119/tcp  open  nntp    JAMES nntpd (posting ok)
+4555/tcp open  rsip?
+| fingerprint-strings: 
+|   GenericLines: 
+|     JAMES Remote Administration Tool 2.3.2
+|     Please enter your login and password
+|     Login id:
+|     Password:
+|     Login failed for 
+|_    Login id:
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port4555-TCP:V=7.94%I=7%D=8/17%Time=64DEB152%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,7C,"JAMES\x20Remote\x20Administration\x20Tool\x202\.3\.2\nPl
+SF:ease\x20enter\x20your\x20login\x20and\x20password\nLogin\x20id:\nPasswo
+SF:rd:\nLogin\x20failed\x20for\x20\nLogin\x20id:\n");
+Aggressive OS guesses: Linux 3.12 (96%), Linux 3.13 (96%), Linux 3.16 (96%), Linux 3.18 (96%), Linux 3.2 - 4.9 (96%), Linux 4.8 (96%), Linux 4.4 (95%), Linux 4.9 (95%), Linux 3.8 - 3.11 (95%), Linux 4.2 (95%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: solidstate; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 53/tcp)
+HOP RTT      ADDRESS
+1   12.44 ms 10.10.14.1
+2   12.91 ms 10.10.10.51
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 17 19:50:38 2023 -- 1 IP address (1 host up) scanned in 283.02 seconds
