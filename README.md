@@ -69,7 +69,7 @@
 | BountyHunter | Linux | Easy | Complete | 04 Aug 2023 |
 | Silo | Windows | Medium | Complete | 17 Aug 2023 |
 | SolidState | Linux | Medium | Complete | 18 Aug 2023 |
-| Frolic | Linux | Easy | In-Progresss ||
+| Frolic | Linux | Easy | Complete | 20 Sep 2023 |
 | Node | Linux | Medium | In-Progresss ||
 | FriendZone | Linux | Easy | In-Progress ||
 | Curling | Linux | Easy | In-Progress ||

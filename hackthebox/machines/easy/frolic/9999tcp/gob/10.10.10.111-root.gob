@@ -1,0 +1,7 @@
+/.html               [33m (Status: 403)[0m [Size: 178]
+/admin               [36m (Status: 301)[0m [Size: 194][34m [--> http://10.10.10.111:9999/admin/][0m
+/test                [36m (Status: 301)[0m [Size: 194][34m [--> http://10.10.10.111:9999/test/][0m
+/dev                 [36m (Status: 301)[0m [Size: 194][34m [--> http://10.10.10.111:9999/dev/][0m
+/backup              [36m (Status: 301)[0m [Size: 194][34m [--> http://10.10.10.111:9999/backup/][0m
+/loop                [36m (Status: 301)[0m [Size: 194][34m [--> http://10.10.10.111:9999/loop/][0m
+/.html               [33m (Status: 403)[0m [Size: 178]
