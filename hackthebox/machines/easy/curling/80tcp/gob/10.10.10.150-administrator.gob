@@ -1,0 +1,13 @@
+/index.php           [32m (Status: 200)[0m [Size: 5110]
+/help                [36m (Status: 301)[0m [Size: 325][34m [--> http://10.10.10.150/administrator/help/][0m
+/templates           [36m (Status: 301)[0m [Size: 330][34m [--> http://10.10.10.150/administrator/templates/][0m
+/modules             [36m (Status: 301)[0m [Size: 328][34m [--> http://10.10.10.150/administrator/modules/][0m
+/.php                [33m (Status: 403)[0m [Size: 277]
+/.html               [33m (Status: 403)[0m [Size: 277]
+/includes            [36m (Status: 301)[0m [Size: 329][34m [--> http://10.10.10.150/administrator/includes/][0m
+/language            [36m (Status: 301)[0m [Size: 329][34m [--> http://10.10.10.150/administrator/language/][0m
+/components          [36m (Status: 301)[0m [Size: 331][34m [--> http://10.10.10.150/administrator/components/][0m
+/cache               [36m (Status: 301)[0m [Size: 326][34m [--> http://10.10.10.150/administrator/cache/][0m
+/logs                [36m (Status: 301)[0m [Size: 325][34m [--> http://10.10.10.150/administrator/logs/][0m
+/.html               [33m (Status: 403)[0m [Size: 277]
+/.php                [33m (Status: 403)[0m [Size: 277]

@@ -1,0 +1,19 @@
+/.html               [33m (Status: 403)[0m [Size: 277]
+/index.php           [36m (Status: 302)[0m [Size: 2801][34m [--> login.php][0m
+/login.php           [32m (Status: 200)[0m [Size: 2224]
+/files.php           [36m (Status: 302)[0m [Size: 4914][34m [--> login.php][0m
+/header.php          [32m (Status: 200)[0m [Size: 980]
+/nav.php             [32m (Status: 200)[0m [Size: 1248]
+/.php                [33m (Status: 403)[0m [Size: 277]
+/footer.php          [32m (Status: 200)[0m [Size: 217]
+/download.php        [36m (Status: 302)[0m [Size: 0][34m [--> login.php][0m
+/css                 [36m (Status: 301)[0m [Size: 310][34m [--> http://10.10.11.104/css/][0m
+/status.php          [36m (Status: 302)[0m [Size: 2966][34m [--> login.php][0m
+/js                  [36m (Status: 301)[0m [Size: 309][34m [--> http://10.10.11.104/js/][0m
+/logout.php          [36m (Status: 302)[0m [Size: 0][34m [--> login.php][0m
+/accounts.php        [36m (Status: 302)[0m [Size: 3994][34m [--> login.php][0m
+/config.php          [32m (Status: 200)[0m [Size: 0]
+/logs.php            [36m (Status: 302)[0m [Size: 0][34m [--> login.php][0m
+/.html               [33m (Status: 403)[0m [Size: 277]
+/.php                [33m (Status: 403)[0m [Size: 277]
+/server-status       [33m (Status: 403)[0m [Size: 277]
