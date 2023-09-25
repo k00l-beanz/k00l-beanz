@@ -71,10 +71,10 @@
 | Silo | Windows | Medium | Complete | 17 Aug 2023 |
 | SolidState | Linux | Medium | Complete | 18 Aug 2023 |
 | Frolic | Linux | Easy | Complete | 20 Sep 2023 |
+| Previse | Linux | Easy | Complete | 24 Sep 2023 |
 | Node | Linux | Medium | In-Progresss ||
 | FriendZone | Linux | Easy | In-Progress ||
 | Curling | Linux | Easy | In-Progress ||
-| Privise | Linux | Easy | In-Progress ||
 | Brainfuck | Linux | Insane | In-Progress ||
 | Support | Windows | Easy | In-Progress ||
 | Timelapse | Windows | Easy | In-Progress ||
