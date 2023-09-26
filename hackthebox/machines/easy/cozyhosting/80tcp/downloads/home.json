@@ -1,0 +1,37 @@
+{
+  "property": {
+    "source": "systemEnvironment",
+    "value": "******"
+  },
+  "activeProfiles": [],
+  "propertySources": [
+    {
+      "name": "server.ports"
+    },
+    {
+      "name": "servletConfigInitParams"
+    },
+    {
+      "name": "servletContextInitParams"
+    },
+    {
+      "name": "systemProperties"
+    },
+    {
+      "name": "systemEnvironment",
+      "property": {
+        "value": "******",
+        "origin": "System Environment Property \"HOME\""
+      }
+    },
+    {
+      "name": "random"
+    },
+    {
+      "name": "Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'"
+    },
+    {
+      "name": "Management Server"
+    }
+  ]
+}

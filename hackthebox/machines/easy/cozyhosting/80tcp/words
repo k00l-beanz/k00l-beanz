@@ -1,0 +1,9 @@
+/actuator
+/actuator/env/path
+/actuator/env/home
+/actuator/env/lang
+/actuator/env
+/actuator/sessions
+/actuator/health
+/actuator/beans
+/actuator/mappings

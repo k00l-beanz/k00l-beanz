@@ -72,6 +72,7 @@
 | SolidState | Linux | Medium | Complete | 18 Aug 2023 |
 | Frolic | Linux | Easy | Complete | 20 Sep 2023 |
 | Previse | Linux | Easy | Complete | 24 Sep 2023 |
+| CozyHosting | Linux | Easy | Complete | 26 Sep 2023 |
 | Node | Linux | Medium | In-Progresss ||
 | FriendZone | Linux | Easy | In-Progress ||
 | Curling | Linux | Easy | In-Progress ||
