@@ -1,0 +1,10 @@
+/index.php           [32m (Status: 200)[0m [Size: 7621]
+/.html               [33m (Status: 403)[0m [Size: 153]
+/login.php           [32m (Status: 200)[0m [Size: 6166]
+/register.php        [32m (Status: 200)[0m [Size: 6173]
+/assets              [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/assets/][0m
+/logout.php          [36m (Status: 302)[0m [Size: 0][34m [--> /][0m
+/vendor              [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/vendor/][0m
+/dashboard.php       [36m (Status: 302)[0m [Size: 0][34m [--> /login.php][0m
+/tmp                 [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/tmp/][0m
+/.html               [33m (Status: 403)[0m [Size: 153]

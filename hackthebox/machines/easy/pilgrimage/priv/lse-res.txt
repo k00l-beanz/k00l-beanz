@@ -1,0 +1,1632 @@
+[90m---
+[90m---
+
+[96m LSE Version:[0;0m 3.8
+
+[94m        User:[0;0m emily
+[94m     User ID:[0;0m 1000
+[94m    Password:[0;0m ******
+[94m        Home:[0;0m /home/emily
+[94m        Path:[0;0m /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+[94m       umask:[0;0m 0022
+
+[94m    Hostname:[0;0m pilgrimage
+[94m       Linux:[0;0m 5.10.0-23-amd64
+[94mDistribution:[0;0m Debian GNU/Linux 11 (bullseye)
+[94mArchitecture:[0;0m x86_64
+
+[35m==================================================================([32m users [35m)=====[0;0m
+[97m[[94mi[97m] [90musr000[97m Current user groups[90m.............................................[34m yes![0;0m
+[90m---[0;0m
+emily
+[90m---[0;0m
+[97m[[93m*[97m] [90musr010[97m Is current user in an administrative group?[90m..................... [90mnope[0;0m
+[97m[[93m*[97m] [90musr020[97m Are there other users in administrative groups?[90m................. [90mnope[0;0m
+[97m[[93m*[97m] [90musr030[97m Other users with shell[90m..........................................[36m yes![0;0m
+[90m---[0;0m
+root:x:0:0:root:/root[01;31m[K:/bin/bash[m[K
+emily:x:1000:1000:emily,,,:/home/emily[01;31m[K:/bin/bash[m[K
+[90m---[0;0m
+[97m[[94mi[97m] [90musr040[97m Environment information[90m.........................................[34m yes![0;0m
+[90m---[0;0m
+LANGUAGE=en_AU:en
+USER=emily
+SSH_CLIENT=10.10.14.25 39148 22
+XDG_SESSION_TYPE=tty
+SHLVL=0
+MOTD_SHOWN=pam
+HOME=/home/emily
+OLDPWD=/home/emily
+SSH_TTY=/dev/pts/0
+LOGNAME=emily
+_=./lse.sh
+XDG_SESSION_CLASS=user
+TERM=tmux-256color
+XDG_SESSION_ID=1
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin
+XDG_RUNTIME_DIR=/run/user/1000
+LANG=en_AU.UTF-8
+SHELL=/bin/bash
+PWD=/tmp
+SSH_CONNECTION=10.10.14.25 39148 10.10.11.219 22
+[90m---[0;0m
+[97m[[94mi[97m] [90musr050[97m Groups for other users[90m..........................................[34m yes![0;0m
+[90m---[0;0m
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:
+floppy:x:25:
+tape:x:26:
+sudo:x:27:
+audio:x:29:
+dip:x:30:
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+input:x:104:
+kvm:x:105:
+render:x:106:
+crontab:x:107:
+netdev:x:108:
+messagebus:x:109:
+systemd-timesync:x:110:
+ssh:x:111:
+emily:x:1000:
+systemd-coredump:x:999:
+_laurel:x:998:
+[90m---[0;0m
+[97m[[94mi[97m] [90musr060[97m Other users[90m.....................................................[34m yes![0;0m
+[90m---[0;0m
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+systemd-network:x:101:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:102:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:109::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:104:110:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+emily:x:1000:1000:emily,,,:/home/emily:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
+_laurel:x:998:998::/var/log/laurel:/bin/false
+[90m---[0;0m
+[97m[[93m*[97m] [90musr070[97m PATH variables defined inside /etc[90m..............................[36m yes![0;0m
+[90m---[0;0m
+/bin
+/sbin
+/usr/bin
+/usr/games
+/usr/local/bin
+/usr/local/games
+/usr/local/sbin
+/usr/sbin
+[90m---[0;0m
+[97m[[91m![97m] [90musr080[97m Is '.' in a PATH variable defined inside /etc?[90m.................. [90mnope[0;0m
+[35m===================================================================([32m sudo [35m)=====[0;0m
+[97m[[91m![97m] [90msud000[97m Can we sudo without a password?[90m................................. [90mnope[0;0m
+[97m[[91m![97m] [90msud010[97m Can we list sudo commands without a password?[90m................... [90mnope[0;0m
+[97m[[91m![97m] [90msud020[97m Can we sudo with a password?[90m.................................... [90mnope[0;0m
+[97m[[91m![97m] [90msud030[97m Can we list sudo commands with a password?[90m...................... [90mnope[0;0m
+[97m[[93m*[97m] [90msud040[97m Can we read sudoers files?[90m...................................... [90mnope[0;0m
+[97m[[93m*[97m] [90msud050[97m Do we know if any other users used sudo?[90m........................ [90mnope[0;0m
+[35m============================================================([32m file system [35m)=====[0;0m
+[97m[[93m*[97m] [90mfst000[97m Writable files outside user's home[90m..............................[36m yes![0;0m
+[90m---[0;0m
+/run/dbus/system_bus_socket
+/run/vmware/guestServicePipe
+/run/user/1000
+/run/user/1000/gnupg
+/run/user/1000/gnupg/S.gpg-agent
+/run/user/1000/gnupg/S.gpg-agent.ssh
+/run/user/1000/gnupg/S.gpg-agent.extra
+/run/user/1000/gnupg/S.gpg-agent.browser
+/run/user/1000/gnupg/S.dirmngr
+/run/user/1000/systemd
+/run/user/1000/systemd/private
+/run/user/1000/systemd/notify
+/run/user/1000/systemd/units
+/run/user/1000/systemd/inaccessible
+/run/systemd/journal/stdout
+/run/systemd/journal/socket
+/run/systemd/journal/dev-log
+/run/systemd/journal/syslog
+/run/systemd/io.system.ManagedOOM
+/run/systemd/userdb/io.systemd.DynamicUser
+/run/systemd/private
+/run/systemd/notify
+/run/lock
+/var/www/pilgrimage.htb/shrunk
+/var/www/pilgrimage.htb/tmp
+/var/lib/php/sessions
+/var/tmp
+/tmp
+/tmp/.ICE-unix
+/tmp/.X11-unix
+/tmp/tmp.fq1NBEfvxx
+/tmp/lse-results.txt
+/tmp/.font-unix
+/tmp/tmp.c6MU4p9gFj
+/tmp/.Test-unix
+/tmp/tmp.5ePdyp4Sxp
+/tmp/tmp.F63rkd0ncc
+/tmp/tmp.e4LRbqOFuF
+/tmp/lse.sh
+/tmp/tmp.Dg5dzySwnM
+/tmp/.XIM-unix
+/tmp/tmp.hudlDyzb5z
+/tmp/tmp.w3zfScEgMC
+/run/user/1000/systemd/units/invocation:gpg-agent.service
+[90m---[0;0m
+[97m[[93m*[97m] [90mfst010[97m Binaries with setuid bit[90m........................................[36m yes![0;0m
+[90m---[0;0m
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/bin/su
+/usr/bin/chsh
+/usr/bin/passwd
+/usr/bin/fusermount
+/usr/bin/mount
+/usr/bin/chfn
+/usr/bin/gpasswd
+/usr/bin/newgrp
+/usr/bin/sudo
+/usr/bin/umount
+[90m---[0;0m
+[97m[[91m![97m] [90mfst020[97m Uncommon setuid binaries[90m........................................ [90mnope[0;0m
+[97m[[91m![97m] [90mfst030[97m Can we write to any setuid binary?[90m.............................. [90mnope[0;0m
+[97m[[93m*[97m] [90mfst040[97m Binaries with setgid bit[90m........................................ [90mskip
+[97m[[91m![97m] [90mfst050[97m Uncommon setgid binaries[90m........................................ [90mskip
+[97m[[91m![97m] [90mfst060[97m Can we write to any setgid binary?[90m.............................. [90mskip
+[97m[[93m*[97m] [90mfst070[97m Can we read /root?[90m.............................................. [90mnope[0;0m
+[97m[[93m*[97m] [90mfst080[97m Can we read subdirectories under /home?[90m......................... [90mnope[0;0m
+[97m[[93m*[97m] [90mfst090[97m SSH files in home directories[90m................................... [90mnope[0;0m
+[97m[[93m*[97m] [90mfst100[97m Useful binaries[90m.................................................[36m yes![0;0m
+[90m---[0;0m
+/usr/bin/curl
+/usr/bin/dig
+/usr/bin/gcc
+/usr/bin/nc
+/usr/bin/netcat
+/usr/bin/wget
+[90m---[0;0m
+[97m[[93m*[97m] [90mfst110[97m Other interesting files in home directories[90m..................... [90mnope[0;0m
+[97m[[91m![97m] [90mfst120[97m Are there any credentials in fstab/mtab?[90m........................ [90mnope[0;0m
+[97m[[93m*[97m] [90mfst130[97m Does 'emily' have mail?[90m......................................... [90mnope[0;0m
+[97m[[91m![97m] [90mfst140[97m Can we access other users mail?[90m................................. [90mnope[0;0m
+[97m[[93m*[97m] [90mfst150[97m Looking for GIT/SVN repositories[90m................................[36m yes![0;0m
+[90m---[0;0m
+/var/www/pilgrimage.htb/.git
+[90m---[0;0m
+[97m[[91m![97m] [90mfst160[97m Can we write to critical files?[90m................................. [90mnope[0;0m
+[97m[[91m![97m] [90mfst170[97m Can we write to critical directories?[90m........................... [90mnope[0;0m
+[97m[[91m![97m] [90mfst180[97m Can we write to directories from PATH defined in /etc?[90m.......... [90mnope[0;0m
+[97m[[91m![97m] [90mfst190[97m Can we read any backup?[90m......................................... [90mnope[0;0m
+[97m[[91m![97m] [90mfst200[97m Are there possible credentials in any shell history file?[90m....... [90mnope[0;0m
+[97m[[91m![97m] [90mfst210[97m Are there NFS exports with 'no_root_squash' option?[90m............. [90mnope[0;0m
+[97m[[93m*[97m] [90mfst220[97m Are there NFS exports with 'no_all_squash' option?[90m.............. [90mnope[0;0m
+[97m[[94mi[97m] [90mfst500[97m Files owned by user 'emily'[90m.....................................[34m yes![0;0m
+[90m---[0;0m
+---------- 1 emily emily 0 Oct 12 08:30 /run/user/1000/systemd/inaccessible/reg
+-rw-r--r-- 1 emily emily 3526 Feb 10  2023 /home/emily/.bashrc
+-rw-r--r-- 1 emily emily 0 Feb 16  2023 /home/emily/.config/binwalk/config/extract.conf
+-rw-r--r-- 1 emily emily 0 Feb 16  2023 /home/emily/.config/binwalk/magic/binarch
+-rw-r--r-- 1 emily emily 807 Feb 10  2023 /home/emily/.profile
+-rw-r--r-- 1 emily emily 44 Jun  1 19:15 /home/emily/.gitconfig
+-rw-r--r-- 1 emily emily 220 Feb 10  2023 /home/emily/.bash_logout
+-rw------- 1 emily emily 0 Oct 12 08:34 /tmp/tmp.fq1NBEfvxx
+-rw-r--r-- 1 emily emily 9991 Oct 12 08:35 /tmp/lse-results.txt
+-rw------- 1 emily emily 0 Oct 12 08:34 /tmp/tmp.c6MU4p9gFj
+-rw------- 1 emily emily 0 Oct 12 08:34 /tmp/tmp.5ePdyp4Sxp
+-rw------- 1 emily emily 0 Oct 12 08:35 /tmp/tmp.F63rkd0ncc
+-rw------- 1 emily emily 0 Oct 12 08:31 /tmp/tmp.e4LRbqOFuF
+-rwxr-xr-x 1 emily emily 43760 Oct 12 08:30 /tmp/lse.sh
+-rw------- 1 emily emily 0 Oct 12 08:35 /tmp/tmp.Dg5dzySwnM
+-rw------- 1 emily emily 0 Oct 12 08:34 /tmp/tmp.hudlDyzb5z
+-rw------- 1 emily emily 0 Oct 12 08:31 /tmp/tmp.w3zfScEgMC
+[90m---[0;0m
+[97m[[94mi[97m] [90mfst510[97m SSH files anywhere[90m.............................................. [90mnope[0;0m
+[97m[[94mi[97m] [90mfst520[97m Check hosts.equiv file and its contents[90m......................... [90mnope[0;0m
+[97m[[94mi[97m] [90mfst530[97m List NFS server shares[90m.......................................... [90mnope[0;0m
+[97m[[94mi[97m] [90mfst540[97m Dump fstab file[90m.................................................[34m yes![0;0m
+[90m---[0;0m
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# systemd generates mount units based on this file, see systemd.mount(5).
+# Please run 'systemctl daemon-reload' after making changes here.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda1 during installation
+/dev/sda1 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sda5 during installation
+/dev/sda2 none            swap    sw              0       0
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+[90m---[0;0m
+[35m=================================================================([32m system [35m)=====[0;0m
+[97m[[94mi[97m] [90msys000[97m Who is logged in[90m................................................[34m yes![0;0m
+[90m---[0;0m
+ 08:35:13 up 6 min,  1 user,  load average: 0.09, 0.14, 0.06
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+emily    pts/0    10.10.14.25      08:30    9.00s  0.15s  0.00s /bin/sh ./lse.sh -l 2
+[90m---[0;0m
+[97m[[94mi[97m] [90msys010[97m Last logged in users[90m............................................[34m yes![0;0m
+[90m---[0;0m
+emily    pts/0        10.10.14.25      Thu Oct 12 08:30   still logged in
+reboot   system boot  5.10.0-23-amd64  Thu Oct 12 08:29   still running
+
+wtmp begins Thu Oct 12 08:29:41 2023
+[90m---[0;0m
+[97m[[91m![97m] [90msys020[97m Does the /etc/passwd have hashes?[90m............................... [90mnope[0;0m
+[97m[[91m![97m] [90msys022[97m Does the /etc/group have hashes?[90m................................ [90mnope[0;0m
+[97m[[91m![97m] [90msys030[97m Can we read shadow files?[90m....................................... [90mnope[0;0m
+[97m[[93m*[97m] [90msys040[97m Check for other superuser accounts[90m.............................. [90mnope[0;0m
+[97m[[93m*[97m] [90msys050[97m Can root user log in via SSH?[90m................................... [90mnope[0;0m
+[97m[[94mi[97m] [90msys060[97m List available shells[90m...........................................[34m yes![0;0m
+[90m---[0;0m
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/bin/dash
+/usr/bin/dash
+[90m---[0;0m
+[97m[[94mi[97m] [90msys070[97m System umask in /etc/login.defs[90m.................................[34m yes![0;0m
+[90m---[0;0m
+UMASK		022
+[90m---[0;0m
+[97m[[94mi[97m] [90msys080[97m System password policies in /etc/login.defs[90m.....................[34m yes![0;0m
+[90m---[0;0m
+PASS_MAX_DAYS	99999
+PASS_MIN_DAYS	0
+PASS_WARN_AGE	7
+ENCRYPT_METHOD SHA512
+[90m---[0;0m
+[35m===============================================================([32m security [35m)=====[0;0m
+[97m[[93m*[97m] [90msec000[97m Is SELinux present?[90m............................................. [90mnope[0;0m
+[97m[[93m*[97m] [90msec010[97m List files with capabilities[90m....................................[36m yes![0;0m
+[90m---[0;0m
+/usr/bin/ping cap_net_raw=ep
+[90m---[0;0m
+[97m[[91m![97m] [90msec020[97m Can we write to a binary with caps?[90m............................. [90mnope[0;0m
+[97m[[91m![97m] [90msec030[97m Do we have all caps in any binary?[90m.............................. [90mnope[0;0m
+[97m[[93m*[97m] [90msec040[97m Users with associated capabilities[90m.............................. [90mnope[0;0m
+[97m[[91m![97m] [90msec050[97m Does current user have capabilities?[90m............................ [90mskip
+[97m[[91m![97m] [90msec060[97m Can we read the auditd log?[90m..................................... [90mnope[0;0m
+[35m========================================================([32m recurrent tasks [35m)=====[0;0m
+[97m[[93m*[97m] [90mret000[97m User crontab[90m.................................................... [90mnope[0;0m
+[97m[[91m![97m] [90mret010[97m Cron tasks writable by user[90m..................................... [90mnope[0;0m
+[97m[[93m*[97m] [90mret020[97m Cron jobs[90m.......................................................[36m yes![0;0m
+[90m---[0;0m
+/etc/crontab:SHELL=/bin/sh
+/etc/crontab:PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+/etc/crontab:17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+/etc/crontab:25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+/etc/crontab:47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+/etc/crontab:52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+/etc/cron.d/e2scrub_all:30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
+/etc/cron.d/e2scrub_all:10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
+/etc/cron.d/php:09,39 *     * * *     root   [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi
+[90m---[0;0m
+[97m[[93m*[97m] [90mret030[97m Can we read user crontabs[90m....................................... [90mnope[0;0m
+[97m[[93m*[97m] [90mret040[97m Can we list other user cron tasks?[90m.............................. [90mnope[0;0m
+[97m[[93m*[97m] [90mret050[97m Can we write to any paths present in cron jobs[90m.................. [90mnope[0;0m
+[97m[[91m![97m] [90mret060[97m Can we write to executable paths present in cron jobs[90m........... [90mskip
+[97m[[94mi[97m] [90mret400[97m Cron files[90m......................................................[34m yes![0;0m
+[90m---[0;0m
+-rw-r--r-- 1 root root 1042 Feb 23  2021 /etc/crontab
+
+/etc/cron.d:
+total 20
+drwxr-xr-x  2 root root 4096 Feb 11  2023 .
+drwxr-xr-x 77 root root 4096 Oct 12 08:29 ..
+-rw-r--r--  1 root root  201 Jun  7  2021 e2scrub_all
+-rw-r--r--  1 root root  712 May 11  2020 php
+-rw-r--r--  1 root root  102 Feb 23  2021 .placeholder
+
+/etc/cron.daily:
+total 28
+drwxr-xr-x  2 root root 4096 Feb 10  2023 .
+drwxr-xr-x 77 root root 4096 Oct 12 08:29 ..
+-rwxr-xr-x  1 root root 1478 Jun 10  2021 apt-compat
+-rwxr-xr-x  1 root root 1298 Sep  1  2022 dpkg
+-rwxr-xr-x  1 root root  377 Jan 31  2022 logrotate
+-rwxr-xr-x  1 root root 1123 Feb 19  2021 man-db
+-rw-r--r--  1 root root  102 Feb 23  2021 .placeholder
+
+/etc/cron.hourly:
+total 12
+drwxr-xr-x  2 root root 4096 Feb 10  2023 .
+drwxr-xr-x 77 root root 4096 Oct 12 08:29 ..
+-rw-r--r--  1 root root  102 Feb 23  2021 .placeholder
+
+/etc/cron.monthly:
+total 12
+drwxr-xr-x  2 root root 4096 Feb 10  2023 .
+drwxr-xr-x 77 root root 4096 Oct 12 08:29 ..
+-rw-r--r--  1 root root  102 Feb 23  2021 .placeholder
+
+/etc/cron.weekly:
+total 16
+drwxr-xr-x  2 root root 4096 Feb 10  2023 .
+drwxr-xr-x 77 root root 4096 Oct 12 08:29 ..
+-rwxr-xr-x  1 root root  813 Feb 19  2021 man-db
+-rw-r--r--  1 root root  102 Feb 23  2021 .placeholder
+[90m---[0;0m
+[97m[[93m*[97m] [90mret500[97m User systemd timers[90m............................................. [90mnope[0;0m
+[97m[[91m![97m] [90mret510[97m Can we write in any system timer?[90m............................... [90mnope[0;0m
+[97m[[94mi[97m] [90mret900[97m Systemd timers[90m..................................................[34m yes![0;0m
+[90m---[0;0m
+NEXT                         LEFT          LAST                         PASSED               UNIT                         ACTIVATES
+Thu 2023-10-12 08:39:00 AEDT 3min 45s left Thu 2023-10-12 08:29:42 AEDT 5min ago             phpsessionclean.timer        phpsessionclean.service
+Thu 2023-10-12 08:44:07 AEDT 8min left     n/a                          n/a                  systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Thu 2023-10-12 08:54:12 AEDT 18min left    Tue 2023-06-20 20:21:06 AEST 3 months 22 days ago apt-daily-upgrade.timer      apt-daily-upgrade.service
+Thu 2023-10-12 09:35:04 AEDT 59min left    Tue 2023-06-06 23:29:41 AEST 4 months 5 days ago  fstrim.timer                 fstrim.service
+Thu 2023-10-12 15:31:56 AEDT 6h left       Tue 2023-05-23 00:16:49 AEST 4 months 20 days ago apt-daily.timer              apt-daily.service
+Fri 2023-10-13 00:00:00 AEDT 15h left      Thu 2023-10-12 08:29:42 AEDT 5min ago             logrotate.timer              logrotate.service
+Fri 2023-10-13 00:00:00 AEDT 15h left      Thu 2023-10-12 08:29:42 AEDT 5min ago             man-db.timer                 man-db.service
+Sun 2023-10-15 03:10:51 AEDT 2 days left   Thu 2023-10-12 08:30:02 AEDT 5min ago             e2scrub_all.timer            e2scrub_all.service
+
+8 timers listed.
+[90m---[0;0m
+[35m================================================================([32m network [35m)=====[0;0m
+[97m[[93m*[97m] [90mnet000[97m Services listening only on localhost[90m............................ [90mnope[0;0m
+[97m[[91m![97m] [90mnet010[97m Can we sniff traffic with tcpdump?[90m.............................. [90mnope[0;0m
+[97m[[94mi[97m] [90mnet500[97m NIC and IP information[90m..........................................[34m yes![0;0m
+[90m---[0;0m
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.10.11.219  netmask 255.255.254.0  broadcast 10.10.11.255
+        ether 00:50:56:b9:45:88  txqueuelen 1000  (Ethernet)
+        RX packets 1944  bytes 191915 (187.4 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1705  bytes 408841 (399.2 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+[90m---[0;0m
+[97m[[94mi[97m] [90mnet510[97m Routing table[90m...................................................[34m yes![0;0m
+[90m---[0;0m
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.10.10.2      0.0.0.0         UG    0      0        0 eth0
+10.10.10.0      0.0.0.0         255.255.254.0   U     0      0        0 eth0
+[90m---[0;0m
+[97m[[94mi[97m] [90mnet520[97m ARP table[90m.......................................................[34m yes![0;0m
+[90m---[0;0m
+? (10.10.10.2) at 00:50:56:b9:89:e0 [ether] on eth0
+[90m---[0;0m
+[97m[[94mi[97m] [90mnet530[97m Nameservers[90m.....................................................[34m yes![0;0m
+[90m---[0;0m
+nameserver 8.8.8.8
+[90m---[0;0m
+[97m[[94mi[97m] [90mnet540[97m Systemd Nameservers[90m............................................. [90mnope[0;0m
+[97m[[94mi[97m] [90mnet550[97m Listening TCP[90m...................................................[34m yes![0;0m
+[90m---[0;0m
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::80                   :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+[90m---[0;0m
+[97m[[94mi[97m] [90mnet560[97m Listening UDP[90m...................................................[34m yes![0;0m
+[90m---[0;0m
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           -                   
+[90m---[0;0m
+[35m===============================================================([32m services [35m)=====[0;0m
+[97m[[91m![97m] [90msrv000[97m Can we write in service files?[90m.................................. [90mnope[0;0m
+[97m[[91m![97m] [90msrv010[97m Can we write in binaries executed by services?[90m.................. [90mnope[0;0m
+[97m[[93m*[97m] [90msrv020[97m Files in /etc/init.d/ not belonging to root[90m..................... [90mnope[0;0m
+[97m[[93m*[97m] [90msrv030[97m Files in /etc/rc.d/init.d not belonging to root[90m................. [90mnope[0;0m
+[97m[[93m*[97m] [90msrv040[97m Upstart files not belonging to root[90m............................. [90mnope[0;0m
+[97m[[93m*[97m] [90msrv050[97m Files in /usr/local/etc/rc.d not belonging to root[90m.............. [90mnope[0;0m
+[97m[[94mi[97m] [90msrv400[97m Contents of /etc/inetd.conf[90m..................................... [90mnope[0;0m
+[97m[[94mi[97m] [90msrv410[97m Contents of /etc/xinetd.conf[90m.................................... [90mnope[0;0m
+[97m[[94mi[97m] [90msrv420[97m List /etc/xinetd.d if used[90m...................................... [90mnope[0;0m
+[97m[[94mi[97m] [90msrv430[97m List /etc/init.d/ permissions[90m...................................[34m yes![0;0m
+[90m---[0;0m
+total 92
+drwxr-xr-x  2 root root 4096 Jun 20 20:22 .
+drwxr-xr-x 77 root root 4096 Oct 12 08:29 ..
+-rwxr-xr-x  1 root root 3740 Apr  3  2021 apparmor
+-rwxr-xr-x  1 root root 3617 Jan  7  2021 auditd
+-rwxr-xr-x  1 root root 1232 Jul 24  2021 console-setup.sh
+-rwxr-xr-x  1 root root 3059 Feb 23  2021 cron
+-rwxr-xr-x  1 root root 3152 Oct  5  2022 dbus
+-rwxr-xr-x  1 root root 1748 Jan 21  2022 hwclock.sh
+-rwxr-xr-x  1 root root 1479 Oct 30  2018 keyboard-setup.sh
+-rwxr-xr-x  1 root root 2044 Jan  8  2021 kmod
+-rwxr-xr-x  1 root root 4486 Sep 22  2020 networking
+-rwxr-xr-x  1 root root 4579 May 30  2021 nginx
+-rwxr-xr-x  1 root root 1846 Aug 24  2022 open-vm-tools
+-rwxr-xr-x  1 root root 4271 Nov  8  2022 php7.4-fpm
+-rwxr-xr-x  1 root root  924 Apr  6  2021 procps
+-rwxr-xr-x  1 root root 2864 May 21  2022 rsyslog
+-rwxr-xr-x  1 root root 4056 Jul  2  2022 ssh
+-rwxr-xr-x  1 root root 1030 Jan 15  2023 sudo
+-rwxr-xr-x  1 root root 6871 Aug  7  2022 udev
+[90m---[0;0m
+[97m[[94mi[97m] [90msrv440[97m List /etc/rc.d/init.d permissions[90m............................... [90mnope[0;0m
+[97m[[94mi[97m] [90msrv450[97m List /usr/local/etc/rc.d permissions[90m............................ [90mnope[0;0m
+[97m[[94mi[97m] [90msrv460[97m List /etc/init/ permissions[90m..................................... [90mnope[0;0m
+[97m[[91m![97m] [90msrv500[97m Can we write in systemd service files?[90m.......................... [90mnope[0;0m
+[97m[[91m![97m] [90msrv510[97m Can we write in binaries executed by systemd services?[90m.......... [90mnope[0;0m
+[97m[[93m*[97m] [90msrv520[97m Systemd files not belonging to root[90m............................. [90mnope[0;0m
+[97m[[94mi[97m] [90msrv900[97m Systemd config files permissions[90m................................[34m yes![0;0m
+[90m---[0;0m
+/lib/systemd/:
+total 9.0M
+drwxr-xr-x 19 root root  36K Jun 20 20:22 system
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 catalog
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 system-generators
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 system-preset
+drwxr-xr-x  3 root root 4.0K Jun  8 00:10 user
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 user-environment-generators
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 user-generators
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 user-preset
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 ntp-units.d
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 network
+drwxr-xr-x  3 root root 4.0K Jun  8 00:10 boot
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 system-shutdown
+drwxr-xr-x  2 root root 4.0K Jun  8 00:10 system-sleep
+-rw-r--r--  1 root root 2.6M Dec 22  2022 libsystemd-shared-247.so
+-rwxr-xr-x  1 root root 1.7M Dec 22  2022 systemd
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-ac-power
+-rwxr-xr-x  1 root root  31K Dec 22  2022 systemd-backlight
+-rwxr-xr-x  1 root root  19K Dec 22  2022 systemd-binfmt
+-rwxr-xr-x  1 root root  27K Dec 22  2022 systemd-bless-boot
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-boot-check-no-failures
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-cgroups-agent
+-rwxr-xr-x  1 root root  43K Dec 22  2022 systemd-cryptsetup
+-rwxr-xr-x  1 root root  27K Dec 22  2022 systemd-fsck
+-rwxr-xr-x  1 root root  27K Dec 22  2022 systemd-fsckd
+-rwxr-xr-x  1 root root  23K Dec 22  2022 systemd-growfs
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-hibernate-resume
+-rwxr-xr-x  1 root root  39K Dec 22  2022 systemd-hostnamed
+-rwxr-xr-x  1 root root  19K Dec 22  2022 systemd-initctl
+-rwxr-xr-x  1 root root 151K Dec 22  2022 systemd-journald
+-rwxr-xr-x  1 root root  51K Dec 22  2022 systemd-localed
+-rwxr-xr-x  1 root root 259K Dec 22  2022 systemd-logind
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-makefs
+-rwxr-xr-x  1 root root  19K Dec 22  2022 systemd-modules-load
+-rwxr-xr-x  1 root root 2.9M Dec 22  2022 systemd-networkd
+-rwxr-xr-x  1 root root  31K Dec 22  2022 systemd-networkd-wait-online
+-rwxr-xr-x  1 root root  35K Dec 22  2022 systemd-network-generator
+-rwxr-xr-x  1 root root  23K Dec 22  2022 systemd-pstore
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-quotacheck
+-rwxr-xr-x  1 root root  19K Dec 22  2022 systemd-random-seed
+-rwxr-xr-x  1 root root  19K Dec 22  2022 systemd-remount-fs
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-reply-password
+-rwxr-xr-x  1 root root 435K Dec 22  2022 systemd-resolved
+-rwxr-xr-x  1 root root  23K Dec 22  2022 systemd-rfkill
+-rwxr-xr-x  1 root root  59K Dec 22  2022 systemd-shutdown
+-rwxr-xr-x  1 root root  27K Dec 22  2022 systemd-sleep
+-rwxr-xr-x  1 root root  31K Dec 22  2022 systemd-socket-proxyd
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-sulogin-shell
+-rwxr-xr-x  1 root root  23K Dec 22  2022 systemd-sysctl
+-rwxr-xr-x  1 root root 1.4K Dec 22  2022 systemd-sysv-install
+-rwxr-xr-x  1 root root  43K Dec 22  2022 systemd-timedated
+-rwxr-xr-x  1 root root  55K Dec 22  2022 systemd-timesyncd
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-time-wait-sync
+lrwxrwxrwx  1 root root   12 Dec 22  2022 systemd-udevd -> /bin/udevadm
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-update-utmp
+-rwxr-xr-x  1 root root  19K Dec 22  2022 systemd-user-runtime-dir
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-user-sessions
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-veritysetup
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-volatile-root
+-rwxr-xr-x  1 root root  15K Dec 22  2022 systemd-xdg-autostart-condition
+-rw-r--r--  1 root root  710 Feb  3  2021 resolv.conf
+
+/lib/systemd/system:
+total 844K
+-rw-r--r-- 1 root root  523 Jun 10 02:51 php7.4-fpm.service
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 getty.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 graphical.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 initrd-root-device.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 multi-user.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 rescue.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 timers.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 user-.slice.d
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 rc-local.service.d
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 systemd-localed.service.d
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 sockets.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 sysinit.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 local-fs.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 runlevel1.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 runlevel2.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 runlevel3.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 runlevel4.target.wants
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 runlevel5.target.wants
+lrwxrwxrwx 1 root root    9 Jan 15  2023 sudo.service -> /dev/null
+lrwxrwxrwx 1 root root   14 Dec 22  2022 autovt@.service -> getty@.service
+-rw-r--r-- 1 root root 1.1K Dec 22  2022 console-getty.service
+-rw-r--r-- 1 root root 1.3K Dec 22  2022 container-getty@.service
+lrwxrwxrwx 1 root root    9 Dec 22  2022 cryptdisks-early.service -> /dev/null
+lrwxrwxrwx 1 root root    9 Dec 22  2022 cryptdisks.service -> /dev/null
+lrwxrwxrwx 1 root root   13 Dec 22  2022 ctrl-alt-del.target -> reboot.target
+lrwxrwxrwx 1 root root   25 Dec 22  2022 dbus-org.freedesktop.hostname1.service -> systemd-hostnamed.service
+lrwxrwxrwx 1 root root   23 Dec 22  2022 dbus-org.freedesktop.locale1.service -> systemd-localed.service
+lrwxrwxrwx 1 root root   22 Dec 22  2022 dbus-org.freedesktop.login1.service -> systemd-logind.service
+lrwxrwxrwx 1 root root   25 Dec 22  2022 dbus-org.freedesktop.timedate1.service -> systemd-timedated.service
+-rw-r--r-- 1 root root 1.1K Dec 22  2022 debug-shell.service
+lrwxrwxrwx 1 root root   16 Dec 22  2022 default.target -> graphical.target
+-rw-r--r-- 1 root root  805 Dec 22  2022 emergency.service
+-rw-r--r-- 1 root root 2.0K Dec 22  2022 getty@.service
+-rw-r--r-- 1 root root  366 Dec 22  2022 getty-static.service
+lrwxrwxrwx 1 root root    9 Dec 22  2022 hwclock.service -> /dev/null
+lrwxrwxrwx 1 root root   28 Dec 22  2022 kmod.service -> systemd-modules-load.service
+-rw-r--r-- 1 root root  724 Dec 22  2022 kmod-static-nodes.service
+lrwxrwxrwx 1 root root   22 Dec 22  2022 procps.service -> systemd-sysctl.service
+-rw-r--r-- 1 root root  617 Dec 22  2022 quotaon.service
+-rw-r--r-- 1 root root  724 Dec 22  2022 rc-local.service
+lrwxrwxrwx 1 root root    9 Dec 22  2022 rc.service -> /dev/null
+lrwxrwxrwx 1 root root    9 Dec 22  2022 rcS.service -> /dev/null
+-rw-r--r-- 1 root root  796 Dec 22  2022 rescue.service
+lrwxrwxrwx 1 root root   15 Dec 22  2022 runlevel0.target -> poweroff.target
+lrwxrwxrwx 1 root root   13 Dec 22  2022 runlevel1.target -> rescue.target
+lrwxrwxrwx 1 root root   17 Dec 22  2022 runlevel2.target -> multi-user.target
+lrwxrwxrwx 1 root root   17 Dec 22  2022 runlevel3.target -> multi-user.target
+lrwxrwxrwx 1 root root   17 Dec 22  2022 runlevel4.target -> multi-user.target
+lrwxrwxrwx 1 root root   16 Dec 22  2022 runlevel5.target -> graphical.target
+lrwxrwxrwx 1 root root   13 Dec 22  2022 runlevel6.target -> reboot.target
+-rw-r--r-- 1 root root 1.5K Dec 22  2022 serial-getty@.service
+-rw-r--r-- 1 root root  727 Dec 22  2022 systemd-backlight@.service
+-rw-r--r-- 1 root root 1.2K Dec 22  2022 systemd-binfmt.service
+-rw-r--r-- 1 root root  686 Dec 22  2022 systemd-bless-boot.service
+-rw-r--r-- 1 root root  726 Dec 22  2022 systemd-boot-check-no-failures.service
+-rw-r--r-- 1 root root  551 Dec 22  2022 systemd-fsckd.service
+-rw-r--r-- 1 root root  540 Dec 22  2022 systemd-fsckd.socket
+-rw-r--r-- 1 root root  748 Dec 22  2022 systemd-fsck-root.service
+-rw-r--r-- 1 root root  749 Dec 22  2022 systemd-fsck@.service
+-rw-r--r-- 1 root root  676 Dec 22  2022 systemd-hibernate-resume@.service
+-rw-r--r-- 1 root root  549 Dec 22  2022 systemd-hibernate.service
+-rw-r--r-- 1 root root 1.2K Dec 22  2022 systemd-hostnamed.service
+-rw-r--r-- 1 root root  821 Dec 22  2022 systemd-hwdb-update.service
+-rw-r--r-- 1 root root  567 Dec 22  2022 systemd-hybrid-sleep.service
+-rw-r--r-- 1 root root  574 Dec 22  2022 systemd-initctl.service
+-rw-r--r-- 1 root root 1.8K Dec 22  2022 systemd-journald.service
+-rw-r--r-- 1 root root 1.5K Dec 22  2022 systemd-journald@.service
+-rw-r--r-- 1 root root 1.2K Dec 22  2022 systemd-localed.service
+-rw-r--r-- 1 root root 2.0K Dec 22  2022 systemd-logind.service
+-rw-r--r-- 1 root root 1015 Dec 22  2022 systemd-modules-load.service
+-rw-r--r-- 1 root root 2.1K Dec 22  2022 systemd-networkd.service
+-rw-r--r-- 1 root root  748 Dec 22  2022 systemd-networkd-wait-online.service
+-rw-r--r-- 1 root root  664 Dec 22  2022 systemd-network-generator.service
+-rw-r--r-- 1 root root  743 Dec 22  2022 systemd-pstore.service
+-rw-r--r-- 1 root root  663 Dec 22  2022 systemd-quotacheck.service
+-rw-r--r-- 1 root root 1.1K Dec 22  2022 systemd-random-seed.service
+-rw-r--r-- 1 root root  775 Dec 22  2022 systemd-remount-fs.service
+-rw-r--r-- 1 root root 1.8K Dec 22  2022 systemd-resolved.service
+-rw-r--r-- 1 root root  725 Dec 22  2022 systemd-rfkill.service
+-rw-r--r-- 1 root root  545 Dec 22  2022 systemd-suspend.service
+-rw-r--r-- 1 root root  604 Dec 22  2022 systemd-suspend-then-hibernate.service
+-rw-r--r-- 1 root root  701 Dec 22  2022 systemd-sysctl.service
+-rw-r--r-- 1 root root 1.2K Dec 22  2022 systemd-timedated.service
+-rw-r--r-- 1 root root 1.6K Dec 22  2022 systemd-timesyncd.service
+-rw-r--r-- 1 root root 1.2K Dec 22  2022 systemd-time-wait-sync.service
+-rw-r--r-- 1 root root 1.2K Dec 22  2022 systemd-udevd.service
+-rw-r--r-- 1 root root  805 Dec 22  2022 systemd-update-utmp-runlevel.service
+-rw-r--r-- 1 root root  802 Dec 22  2022 systemd-update-utmp.service
+-rw-r--r-- 1 root root  647 Dec 22  2022 systemd-user-sessions.service
+-rw-r--r-- 1 root root  721 Dec 22  2022 systemd-volatile-root.service
+lrwxrwxrwx 1 root root   21 Dec 22  2022 udev.service -> systemd-udevd.service
+-rw-r--r-- 1 root root  696 Dec 22  2022 user-runtime-dir@.service
+-rw-r--r-- 1 root root  756 Dec 22  2022 user@.service
+lrwxrwxrwx 1 root root    9 Dec 22  2022 x11-common.service -> /dev/null
+-rw-r--r-- 1 root root  380 Oct  5  2022 dbus.service
+-rw-r--r-- 1 root root  102 Oct  5  2022 dbus.socket
+-rw-r--r-- 1 root root  458 Sep  4  2022 nftables.service
+-rw-r--r-- 1 root root  489 Aug 24  2022 open-vm-tools.service
+-rw-r--r-- 1 root root  408 Aug 24  2022 vgauth.service
+-rw-r--r-- 1 root root  184 Jul  2  2022 rescue-ssh.target
+-rw-r--r-- 1 root root  538 Jul  2  2022 ssh.service
+-rw-r--r-- 1 root root  289 Jul  2  2022 ssh@.service
+-rw-r--r-- 1 root root  216 Jul  2  2022 ssh.socket
+-rw-r--r-- 1 root root  469 May 21  2022 rsyslog.service
+-rw-r--r-- 1 root root  477 Jan 21  2022 fstrim.service
+-rw-r--r-- 1 root root  229 Jan 21  2022 fstrim.timer
+-rw-r--r-- 1 root root  326 Jun 10  2021 apt-daily.service
+-rw-r--r-- 1 root root  156 Jun 10  2021 apt-daily.timer
+-rw-r--r-- 1 root root  389 Jun 10  2021 apt-daily-upgrade.service
+-rw-r--r-- 1 root root  184 Jun 10  2021 apt-daily-upgrade.timer
+-rw-r--r-- 1 root root  297 Jun  7  2021 e2scrub_all.service
+-rw-r--r-- 1 root root  251 Jun  7  2021 e2scrub_all.timer
+-rw-r--r-- 1 root root  245 Jun  7  2021 e2scrub_fail@.service
+-rw-r--r-- 1 root root  550 Jun  7  2021 e2scrub_reap.service
+-rw-r--r-- 1 root root  438 Jun  7  2021 e2scrub@.service
+-rw-r--r-- 1 root root 1.1K May 30  2021 nginx.service
+-rw-r--r-- 1 root root 1.2K Apr  3  2021 apparmor.service
+-rw-r--r-- 1 root root  316 Feb 23  2021 cron.service
+-rw-r--r-- 1 root root  482 Feb 19  2021 man-db.service
+-rw-r--r-- 1 root root  164 Feb 19  2021 man-db.timer
+-rw-r--r-- 1 root root  927 Feb  3  2021 basic.target
+-rw-r--r-- 1 root root  449 Feb  3  2021 blockdev@.target
+-rw-r--r-- 1 root root  427 Feb  3  2021 bluetooth.target
+-rw-r--r-- 1 root root  463 Feb  3  2021 boot-complete.target
+-rw-r--r-- 1 root root  473 Feb  3  2021 cryptsetup-pre.target
+-rw-r--r-- 1 root root  420 Feb  3  2021 cryptsetup.target
+-rw-r--r-- 1 root root  758 Feb  3  2021 dev-hugepages.mount
+-rw-r--r-- 1 root root  701 Feb  3  2021 dev-mqueue.mount
+-rw-r--r-- 1 root root  479 Feb  3  2021 emergency.target
+-rw-r--r-- 1 root root  549 Feb  3  2021 exit.target
+-rw-r--r-- 1 root root  488 Feb  3  2021 final.target
+-rw-r--r-- 1 root root  461 Feb  3  2021 first-boot-complete.target
+-rw-r--r-- 1 root root  514 Feb  3  2021 getty-pre.target
+-rw-r--r-- 1 root root  508 Feb  3  2021 getty.target
+-rw-r--r-- 1 root root  606 Feb  3  2021 graphical.target
+-rw-r--r-- 1 root root  535 Feb  3  2021 halt.target
+-rw-r--r-- 1 root root  517 Feb  3  2021 hibernate.target
+-rw-r--r-- 1 root root  538 Feb  3  2021 hybrid-sleep.target
+-rw-r--r-- 1 root root  670 Feb  3  2021 initrd-cleanup.service
+-rw-r--r-- 1 root root  598 Feb  3  2021 initrd-fs.target
+-rw-r--r-- 1 root root  820 Feb  3  2021 initrd-parse-etc.service
+-rw-r--r-- 1 root root  566 Feb  3  2021 initrd-root-device.target
+-rw-r--r-- 1 root root  571 Feb  3  2021 initrd-root-fs.target
+-rw-r--r-- 1 root root  589 Feb  3  2021 initrd-switch-root.service
+-rw-r--r-- 1 root root  779 Feb  3  2021 initrd-switch-root.target
+-rw-r--r-- 1 root root  768 Feb  3  2021 initrd.target
+-rw-r--r-- 1 root root  823 Feb  3  2021 initrd-udevadm-cleanup-db.service
+-rw-r--r-- 1 root root  549 Feb  3  2021 kexec.target
+-rw-r--r-- 1 root root  443 Feb  3  2021 local-fs-pre.target
+-rw-r--r-- 1 root root  555 Feb  3  2021 local-fs.target
+-rw-r--r-- 1 root root  453 Feb  3  2021 machine.slice
+-rw-r--r-- 1 root root  549 Feb  3  2021 modprobe@.service
+-rw-r--r-- 1 root root  540 Feb  3  2021 multi-user.target
+-rw-r--r-- 1 root root  513 Feb  3  2021 network-online.target
+-rw-r--r-- 1 root root  510 Feb  3  2021 network-pre.target
+-rw-r--r-- 1 root root  529 Feb  3  2021 network.target
+-rw-r--r-- 1 root root  562 Feb  3  2021 nss-lookup.target
+-rw-r--r-- 1 root root  521 Feb  3  2021 nss-user-lookup.target
+-rw-r--r-- 1 root root  402 Feb  3  2021 paths.target
+-rw-r--r-- 1 root root  600 Feb  3  2021 poweroff.target
+-rw-r--r-- 1 root root  425 Feb  3  2021 printer.target
+-rw-r--r-- 1 root root  753 Feb  3  2021 proc-sys-fs-binfmt_misc.automount
+-rw-r--r-- 1 root root  726 Feb  3  2021 proc-sys-fs-binfmt_misc.mount
+-rw-r--r-- 1 root root  591 Feb  3  2021 reboot.target
+-rw-r--r-- 1 root root  557 Feb  3  2021 remote-cryptsetup.target
+-rw-r--r-- 1 root root  444 Feb  3  2021 remote-fs-pre.target
+-rw-r--r-- 1 root root  530 Feb  3  2021 remote-fs.target
+-rw-r--r-- 1 root root  500 Feb  3  2021 rescue.target
+-rw-r--r-- 1 root root  548 Feb  3  2021 rpcbind.target
+-rw-r--r-- 1 root root  450 Feb  3  2021 shutdown.target
+-rw-r--r-- 1 root root  410 Feb  3  2021 sigpwr.target
+-rw-r--r-- 1 root root  468 Feb  3  2021 sleep.target
+-rw-r--r-- 1 root root  457 Feb  3  2021 slices.target
+-rw-r--r-- 1 root root  428 Feb  3  2021 smartcard.target
+-rw-r--r-- 1 root root  404 Feb  3  2021 sockets.target
+-rw-r--r-- 1 root root  428 Feb  3  2021 sound.target
+-rw-r--r-- 1 root root  511 Feb  3  2021 suspend.target
+-rw-r--r-- 1 root root  585 Feb  3  2021 suspend-then-hibernate.target
+-rw-r--r-- 1 root root  401 Feb  3  2021 swap.target
+-rw-r--r-- 1 root root 1.2K Feb  3  2021 sys-fs-fuse-connections.mount
+-rw-r--r-- 1 root root  566 Feb  3  2021 sysinit.target
+-rw-r--r-- 1 root root 1.2K Feb  3  2021 sys-kernel-config.mount
+-rw-r--r-- 1 root root  746 Feb  3  2021 sys-kernel-debug.mount
+-rw-r--r-- 1 root root  772 Feb  3  2021 sys-kernel-tracing.mount
+-rw-r--r-- 1 root root 1.4K Feb  3  2021 syslog.socket
+-rw-r--r-- 1 root root  730 Feb  3  2021 systemd-ask-password-console.path
+-rw-r--r-- 1 root root  745 Feb  3  2021 systemd-ask-password-console.service
+-rw-r--r-- 1 root root  658 Feb  3  2021 systemd-ask-password-wall.path
+-rw-r--r-- 1 root root  750 Feb  3  2021 systemd-ask-password-wall.service
+-rw-r--r-- 1 root root 1.4K Feb  3  2021 systemd-boot-system-token.service
+-rw-r--r-- 1 root root  564 Feb  3  2021 systemd-exit.service
+-rw-r--r-- 1 root root  587 Feb  3  2021 systemd-halt.service
+-rw-r--r-- 1 root root  554 Feb  3  2021 systemd-initctl.socket
+-rw-r--r-- 1 root root  655 Feb  3  2021 systemd-journald-audit.socket
+-rw-r--r-- 1 root root 1.2K Feb  3  2021 systemd-journald-dev-log.socket
+-rw-r--r-- 1 root root  906 Feb  3  2021 systemd-journald.socket
+-rw-r--r-- 1 root root  746 Feb  3  2021 systemd-journald@.socket
+-rw-r--r-- 1 root root  605 Feb  3  2021 systemd-journald-varlink@.socket
+-rw-r--r-- 1 root root  781 Feb  3  2021 systemd-journal-flush.service
+-rw-r--r-- 1 root root  600 Feb  3  2021 systemd-kexec.service
+-rw-r--r-- 1 root root  748 Feb  3  2021 systemd-machine-id-commit.service
+-rw-r--r-- 1 root root  640 Feb  3  2021 systemd-networkd.socket
+-rw-r--r-- 1 root root  564 Feb  3  2021 systemd-poweroff.service
+-rw-r--r-- 1 root root  559 Feb  3  2021 systemd-reboot.service
+-rw-r--r-- 1 root root  734 Feb  3  2021 systemd-rfkill.socket
+-rw-r--r-- 1 root root  703 Feb  3  2021 systemd-sysusers.service
+-rw-r--r-- 1 root root  666 Feb  3  2021 systemd-tmpfiles-clean.service
+-rw-r--r-- 1 root root  498 Feb  3  2021 systemd-tmpfiles-clean.timer
+-rw-r--r-- 1 root root  747 Feb  3  2021 systemd-tmpfiles-setup-dev.service
+-rw-r--r-- 1 root root  787 Feb  3  2021 systemd-tmpfiles-setup.service
+-rw-r--r-- 1 root root  643 Feb  3  2021 systemd-udevd-control.socket
+-rw-r--r-- 1 root root  618 Feb  3  2021 systemd-udevd-kernel.socket
+-rw-r--r-- 1 root root  863 Feb  3  2021 systemd-udev-settle.service
+-rw-r--r-- 1 root root  761 Feb  3  2021 systemd-udev-trigger.service
+-rw-r--r-- 1 root root  442 Feb  3  2021 system-systemd\x2dcryptsetup.slice
+-rw-r--r-- 1 root root 1.4K Feb  3  2021 system-update-cleanup.service
+-rw-r--r-- 1 root root  551 Feb  3  2021 system-update-pre.target
+-rw-r--r-- 1 root root  625 Feb  3  2021 system-update.target
+-rw-r--r-- 1 root root  453 Feb  3  2021 timers.target
+-rw-r--r-- 1 root root  434 Feb  3  2021 time-set.target
+-rw-r--r-- 1 root root  487 Feb  3  2021 time-sync.target
+-rw-r--r-- 1 root root  465 Feb  3  2021 umount.target
+-rw-r--r-- 1 root root  426 Feb  3  2021 usb-gadget.target
+-rw-r--r-- 1 root root  440 Feb  3  2021 user.slice
+-rw-r--r-- 1 root root 1.5K Jan  7  2021 auditd.service
+-rw-r--r-- 1 root root  442 Sep 22  2020 ifupdown-pre.service
+-rw-r--r-- 1 root root  279 Sep 22  2020 ifupdown-wait-online.service
+-rw-r--r-- 1 root root  552 Sep 22  2020 ifup@.service
+-rw-r--r-- 1 root root  643 Sep 22  2020 networking.service
+-rw-r--r-- 1 root root  870 Aug 21  2020 logrotate.service
+-rw-r--r-- 1 root root  155 May 11  2020 phpsessionclean.service
+-rw-r--r-- 1 root root  144 May 11  2020 phpsessionclean.timer
+-rw-r--r-- 1 root root  191 Oct 14  2019 logrotate.timer
+-rw-r--r-- 1 root root  312 Oct 30  2018 console-setup.service
+-rw-r--r-- 1 root root  287 Oct 30  2018 keyboard-setup.service
+
+/lib/systemd/system/getty.target.wants:
+total 0
+lrwxrwxrwx 1 root root 23 Dec 22  2022 getty-static.service -> ../getty-static.service
+
+/lib/systemd/system/graphical.target.wants:
+total 0
+lrwxrwxrwx 1 root root 39 Dec 22  2022 systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
+
+/lib/systemd/system/initrd-root-device.target.wants:
+total 0
+lrwxrwxrwx 1 root root 27 Dec 22  2022 remote-cryptsetup.target -> ../remote-cryptsetup.target
+
+/lib/systemd/system/multi-user.target.wants:
+total 0
+lrwxrwxrwx 1 root root 15 Dec 22  2022 getty.target -> ../getty.target
+lrwxrwxrwx 1 root root 33 Dec 22  2022 systemd-ask-password-wall.path -> ../systemd-ask-password-wall.path
+lrwxrwxrwx 1 root root 25 Dec 22  2022 systemd-logind.service -> ../systemd-logind.service
+lrwxrwxrwx 1 root root 39 Dec 22  2022 systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
+lrwxrwxrwx 1 root root 32 Dec 22  2022 systemd-user-sessions.service -> ../systemd-user-sessions.service
+lrwxrwxrwx 1 root root 15 Oct  5  2022 dbus.service -> ../dbus.service
+
+/lib/systemd/system/rescue.target.wants:
+total 0
+lrwxrwxrwx 1 root root 39 Dec 22  2022 systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
+
+/lib/systemd/system/timers.target.wants:
+total 0
+lrwxrwxrwx 1 root root 31 Dec 22  2022 systemd-tmpfiles-clean.timer -> ../systemd-tmpfiles-clean.timer
+
+/lib/systemd/system/user-.slice.d:
+total 4.0K
+-rw-r--r-- 1 root root 494 Feb  3  2021 10-defaults.conf
+
+/lib/systemd/system/rc-local.service.d:
+total 4.0K
+-rw-r--r-- 1 root root 290 Dec 22  2022 debian.conf
+
+/lib/systemd/system/systemd-localed.service.d:
+total 4.0K
+-rw-r--r-- 1 root root 220 Dec 22  2022 locale-gen.conf
+
+/lib/systemd/system/sockets.target.wants:
+total 0
+lrwxrwxrwx 1 root root 25 Dec 22  2022 systemd-initctl.socket -> ../systemd-initctl.socket
+lrwxrwxrwx 1 root root 32 Dec 22  2022 systemd-journald-audit.socket -> ../systemd-journald-audit.socket
+lrwxrwxrwx 1 root root 34 Dec 22  2022 systemd-journald-dev-log.socket -> ../systemd-journald-dev-log.socket
+lrwxrwxrwx 1 root root 26 Dec 22  2022 systemd-journald.socket -> ../systemd-journald.socket
+lrwxrwxrwx 1 root root 31 Dec 22  2022 systemd-udevd-control.socket -> ../systemd-udevd-control.socket
+lrwxrwxrwx 1 root root 30 Dec 22  2022 systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
+lrwxrwxrwx 1 root root 14 Oct  5  2022 dbus.socket -> ../dbus.socket
+
+/lib/systemd/system/sysinit.target.wants:
+total 0
+lrwxrwxrwx 1 root root 20 Dec 22  2022 cryptsetup.target -> ../cryptsetup.target
+lrwxrwxrwx 1 root root 22 Dec 22  2022 dev-hugepages.mount -> ../dev-hugepages.mount
+lrwxrwxrwx 1 root root 19 Dec 22  2022 dev-mqueue.mount -> ../dev-mqueue.mount
+lrwxrwxrwx 1 root root 28 Dec 22  2022 kmod-static-nodes.service -> ../kmod-static-nodes.service
+lrwxrwxrwx 1 root root 36 Dec 22  2022 proc-sys-fs-binfmt_misc.automount -> ../proc-sys-fs-binfmt_misc.automount
+lrwxrwxrwx 1 root root 32 Dec 22  2022 sys-fs-fuse-connections.mount -> ../sys-fs-fuse-connections.mount
+lrwxrwxrwx 1 root root 26 Dec 22  2022 sys-kernel-config.mount -> ../sys-kernel-config.mount
+lrwxrwxrwx 1 root root 25 Dec 22  2022 sys-kernel-debug.mount -> ../sys-kernel-debug.mount
+lrwxrwxrwx 1 root root 27 Dec 22  2022 sys-kernel-tracing.mount -> ../sys-kernel-tracing.mount
+lrwxrwxrwx 1 root root 36 Dec 22  2022 systemd-ask-password-console.path -> ../systemd-ask-password-console.path
+lrwxrwxrwx 1 root root 25 Dec 22  2022 systemd-binfmt.service -> ../systemd-binfmt.service
+lrwxrwxrwx 1 root root 36 Dec 22  2022 systemd-boot-system-token.service -> ../systemd-boot-system-token.service
+lrwxrwxrwx 1 root root 30 Dec 22  2022 systemd-hwdb-update.service -> ../systemd-hwdb-update.service
+lrwxrwxrwx 1 root root 27 Dec 22  2022 systemd-journald.service -> ../systemd-journald.service
+lrwxrwxrwx 1 root root 32 Dec 22  2022 systemd-journal-flush.service -> ../systemd-journal-flush.service
+lrwxrwxrwx 1 root root 36 Dec 22  2022 systemd-machine-id-commit.service -> ../systemd-machine-id-commit.service
+lrwxrwxrwx 1 root root 31 Dec 22  2022 systemd-modules-load.service -> ../systemd-modules-load.service
+lrwxrwxrwx 1 root root 30 Dec 22  2022 systemd-random-seed.service -> ../systemd-random-seed.service
+lrwxrwxrwx 1 root root 25 Dec 22  2022 systemd-sysctl.service -> ../systemd-sysctl.service
+lrwxrwxrwx 1 root root 27 Dec 22  2022 systemd-sysusers.service -> ../systemd-sysusers.service
+lrwxrwxrwx 1 root root 37 Dec 22  2022 systemd-tmpfiles-setup-dev.service -> ../systemd-tmpfiles-setup-dev.service
+lrwxrwxrwx 1 root root 33 Dec 22  2022 systemd-tmpfiles-setup.service -> ../systemd-tmpfiles-setup.service
+lrwxrwxrwx 1 root root 24 Dec 22  2022 systemd-udevd.service -> ../systemd-udevd.service
+lrwxrwxrwx 1 root root 31 Dec 22  2022 systemd-udev-trigger.service -> ../systemd-udev-trigger.service
+lrwxrwxrwx 1 root root 30 Dec 22  2022 systemd-update-utmp.service -> ../systemd-update-utmp.service
+
+/lib/systemd/system/local-fs.target.wants:
+total 0
+
+/lib/systemd/system/runlevel1.target.wants:
+total 0
+
+/lib/systemd/system/runlevel2.target.wants:
+total 0
+
+/lib/systemd/system/runlevel3.target.wants:
+total 0
+
+/lib/systemd/system/runlevel4.target.wants:
+total 0
+
+/lib/systemd/system/runlevel5.target.wants:
+total 0
+
+/lib/systemd/catalog:
+total 168K
+-rw-r--r-- 1 root root  13K Dec 22  2022 systemd.be.catalog
+-rw-r--r-- 1 root root 9.6K Dec 22  2022 systemd.be@latin.catalog
+-rw-r--r-- 1 root root  14K Dec 22  2022 systemd.bg.catalog
+-rw-r--r-- 1 root root  19K Dec 22  2022 systemd.catalog
+-rw-r--r-- 1 root root  481 Dec 22  2022 systemd.de.catalog
+-rw-r--r-- 1 root root  13K Dec 22  2022 systemd.fr.catalog
+-rw-r--r-- 1 root root  16K Dec 22  2022 systemd.it.catalog
+-rw-r--r-- 1 root root  21K Dec 22  2022 systemd.pl.catalog
+-rw-r--r-- 1 root root 8.0K Dec 22  2022 systemd.pt_BR.catalog
+-rw-r--r-- 1 root root  20K Dec 22  2022 systemd.ru.catalog
+-rw-r--r-- 1 root root 7.0K Dec 22  2022 systemd.zh_CN.catalog
+-rw-r--r-- 1 root root 7.0K Dec 22  2022 systemd.zh_TW.catalog
+
+/lib/systemd/system-generators:
+total 276K
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-bless-boot-generator
+-rwxr-xr-x 1 root root 35K Dec 22  2022 systemd-cryptsetup-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-debug-generator
+-rwxr-xr-x 1 root root 43K Dec 22  2022 systemd-fstab-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-getty-generator
+-rwxr-xr-x 1 root root 35K Dec 22  2022 systemd-gpt-auto-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-hibernate-resume-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-rc-local-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-run-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-system-update-generator
+-rwxr-xr-x 1 root root 31K Dec 22  2022 systemd-sysv-generator
+-rwxr-xr-x 1 root root 15K Dec 22  2022 systemd-veritysetup-generator
+
+/lib/systemd/system-preset:
+total 4.0K
+-rw-r--r-- 1 root root 1.3K Feb  3  2021 90-systemd.preset
+
+/lib/systemd/user:
+total 120K
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 graphical-session-pre.target.wants
+-rw-r--r-- 1 root root  554 Dec 22  2022 graphical-session-pre.target
+-rw-r--r-- 1 root root  287 Jul  2  2022 ssh-agent.service
+-rw-r--r-- 1 root root  419 Feb  3  2021 app.slice
+-rw-r--r-- 1 root root  424 Feb  3  2021 background.slice
+-rw-r--r-- 1 root root  505 Feb  3  2021 basic.target
+-rw-r--r-- 1 root root  427 Feb  3  2021 bluetooth.target
+-rw-r--r-- 1 root root  471 Feb  3  2021 default.target
+-rw-r--r-- 1 root root  510 Feb  3  2021 exit.target
+-rw-r--r-- 1 root root  492 Feb  3  2021 graphical-session.target
+-rw-r--r-- 1 root root  402 Feb  3  2021 paths.target
+-rw-r--r-- 1 root root  425 Feb  3  2021 printer.target
+-rw-r--r-- 1 root root  420 Feb  3  2021 session.slice
+-rw-r--r-- 1 root root  450 Feb  3  2021 shutdown.target
+-rw-r--r-- 1 root root  428 Feb  3  2021 smartcard.target
+-rw-r--r-- 1 root root  404 Feb  3  2021 sockets.target
+-rw-r--r-- 1 root root  428 Feb  3  2021 sound.target
+-rw-r--r-- 1 root root  598 Feb  3  2021 systemd-exit.service
+-rw-r--r-- 1 root root  688 Feb  3  2021 systemd-tmpfiles-clean.service
+-rw-r--r-- 1 root root  541 Feb  3  2021 systemd-tmpfiles-clean.timer
+-rw-r--r-- 1 root root  728 Feb  3  2021 systemd-tmpfiles-setup.service
+-rw-r--r-- 1 root root  453 Feb  3  2021 timers.target
+-rw-r--r-- 1 root root  477 Feb  3  2021 xdg-desktop-autostart.target
+-rw-r--r-- 1 root root  212 Aug 28  2017 dirmngr.service
+-rw-r--r-- 1 root root  204 Aug 28  2017 dirmngr.socket
+-rw-r--r-- 1 root root  298 Aug 28  2017 gpg-agent-browser.socket
+-rw-r--r-- 1 root root  281 Aug 28  2017 gpg-agent-extra.socket
+-rw-r--r-- 1 root root  223 Aug 28  2017 gpg-agent.service
+-rw-r--r-- 1 root root  234 Aug 28  2017 gpg-agent.socket
+-rw-r--r-- 1 root root  308 Aug 28  2017 gpg-agent-ssh.socket
+
+/lib/systemd/user/graphical-session-pre.target.wants:
+total 0
+lrwxrwxrwx 1 root root 20 Jul  2  2022 ssh-agent.service -> ../ssh-agent.service
+
+/lib/systemd/user-environment-generators:
+total 20K
+-rwxr-xr-x 1 root root 15K Dec 22  2022 30-systemd-environment-d-generator
+-rwxr-xr-x 1 root root 772 Apr 28  2022 90gpg-agent
+
+/lib/systemd/user-generators:
+total 32K
+-rwxr-xr-x 1 root root 31K Dec 22  2022 systemd-xdg-autostart-generator
+
+/lib/systemd/user-preset:
+total 4.0K
+-rw-r--r-- 1 root root 580 Feb  3  2021 90-systemd.preset
+
+/lib/systemd/ntp-units.d:
+total 4.0K
+-rw-r--r-- 1 root root 26 Feb  3  2021 80-systemd-timesync.list
+
+/lib/systemd/network:
+total 36K
+-rw-r--r-- 1 root root  44 Dec 22  2022 73-usb-net-by-mac.link
+-rw-r--r-- 1 root root 653 Feb  3  2021 80-container-host0.network
+-rw-r--r-- 1 root root 726 Feb  3  2021 80-container-ve.network
+-rw-r--r-- 1 root root 712 Feb  3  2021 80-container-vz.network
+-rw-r--r-- 1 root root 680 Feb  3  2021 80-vm-vt.network
+-rw-r--r-- 1 root root  78 Feb  3  2021 80-wifi-adhoc.network
+-rw-r--r-- 1 root root 101 Feb  3  2021 80-wifi-ap.network.example
+-rw-r--r-- 1 root root  64 Feb  3  2021 80-wifi-station.network.example
+-rw-r--r-- 1 root root 499 Feb  3  2021 99-default.link
+
+/lib/systemd/boot:
+total 4.0K
+drwxr-xr-x 2 root root 4.0K Jun  8 00:10 efi
+
+/lib/systemd/boot/efi:
+total 148K
+-rwxr-xr-x 1 root root 56K Dec 22  2022 linuxx64.efi.stub
+-rwxr-xr-x 1 root root 91K Dec 22  2022 systemd-bootx64.efi
+
+/lib/systemd/system-shutdown:
+total 0
+
+/lib/systemd/system-sleep:
+total 0
+
+/etc/systemd/:
+total 48K
+drwxr-xr-x 9 root root 4.0K Feb 16  2023 system
+drwxr-xr-x 3 root root 4.0K Feb 11  2023 user
+-rw-r--r-- 1 root root 1.1K Aug  7  2022 journald.conf
+-rw-r--r-- 1 root root 1.2K Aug  7  2022 logind.conf
+drwxr-xr-x 2 root root 4.0K Aug  7  2022 network
+-rw-r--r-- 1 root root  943 Aug  7  2022 resolved.conf
+-rw-r--r-- 1 root root 1.8K Aug  7  2022 system.conf
+-rw-r--r-- 1 root root  677 Aug  7  2022 timesyncd.conf
+-rw-r--r-- 1 root root 1.2K Aug  7  2022 user.conf
+-rw-r--r-- 1 root root  609 Feb  3  2021 networkd.conf
+-rw-r--r-- 1 root root  529 Feb  3  2021 pstore.conf
+-rw-r--r-- 1 root root  790 Feb  3  2021 sleep.conf
+
+/etc/systemd/system:
+total 32K
+drwxr-xr-x 2 root root 4.0K Jun  7 23:33 multi-user.target.wants
+-rw-r--r-- 1 root root  209 Feb 16  2023 malwarescan.service
+drwxr-xr-x 2 root root 4.0K Feb 11  2023 timers.target.wants
+lrwxrwxrwx 1 root root   31 Feb 11  2023 sshd.service -> /lib/systemd/system/ssh.service
+drwxr-xr-x 2 root root 4.0K Feb 10  2023 open-vm-tools.service.requires
+lrwxrwxrwx 1 root root   41 Feb 10  2023 vmtoolsd.service -> /lib/systemd/system/open-vm-tools.service
+lrwxrwxrwx 1 root root   45 Feb 10  2023 dbus-org.freedesktop.timesync1.service -> /lib/systemd/system/systemd-timesyncd.service
+drwxr-xr-x 2 root root 4.0K Feb 10  2023 sysinit.target.wants
+drwxr-xr-x 2 root root 4.0K Feb 10  2023 network-online.target.wants
+lrwxrwxrwx 1 root root   35 Feb 10  2023 syslog.service -> /lib/systemd/system/rsyslog.service
+drwxr-xr-x 2 root root 4.0K Feb 10  2023 getty.target.wants
+drwxr-xr-x 2 root root 4.0K Feb 10  2023 default.target.wants
+
+/etc/systemd/system/multi-user.target.wants:
+total 0
+lrwxrwxrwx 1 root root 34 Jun  7 23:33 auditd.service -> /lib/systemd/system/auditd.service
+lrwxrwxrwx 1 root root 39 Feb 16  2023 malwarescan.service -> /etc/systemd/system/malwarescan.service
+lrwxrwxrwx 1 root root 38 Feb 11  2023 php7.4-fpm.service -> /lib/systemd/system/php7.4-fpm.service
+lrwxrwxrwx 1 root root 33 Feb 11  2023 nginx.service -> /lib/systemd/system/nginx.service
+lrwxrwxrwx 1 root root 31 Feb 11  2023 ssh.service -> /lib/systemd/system/ssh.service
+lrwxrwxrwx 1 root root 41 Feb 10  2023 open-vm-tools.service -> /lib/systemd/system/open-vm-tools.service
+lrwxrwxrwx 1 root root 41 Feb 10  2023 console-setup.service -> /lib/systemd/system/console-setup.service
+lrwxrwxrwx 1 root root 38 Feb 10  2023 networking.service -> /lib/systemd/system/networking.service
+lrwxrwxrwx 1 root root 35 Feb 10  2023 rsyslog.service -> /lib/systemd/system/rsyslog.service
+lrwxrwxrwx 1 root root 32 Feb 10  2023 cron.service -> /lib/systemd/system/cron.service
+lrwxrwxrwx 1 root root 36 Feb 10  2023 remote-fs.target -> /lib/systemd/system/remote-fs.target
+
+/etc/systemd/system/timers.target.wants:
+total 0
+lrwxrwxrwx 1 root root 41 Feb 11  2023 phpsessionclean.timer -> /lib/systemd/system/phpsessionclean.timer
+lrwxrwxrwx 1 root root 32 Feb 10  2023 man-db.timer -> /lib/systemd/system/man-db.timer
+lrwxrwxrwx 1 root root 35 Feb 10  2023 logrotate.timer -> /lib/systemd/system/logrotate.timer
+lrwxrwxrwx 1 root root 32 Feb 10  2023 fstrim.timer -> /lib/systemd/system/fstrim.timer
+lrwxrwxrwx 1 root root 35 Feb 10  2023 apt-daily.timer -> /lib/systemd/system/apt-daily.timer
+lrwxrwxrwx 1 root root 43 Feb 10  2023 apt-daily-upgrade.timer -> /lib/systemd/system/apt-daily-upgrade.timer
+lrwxrwxrwx 1 root root 37 Feb 10  2023 e2scrub_all.timer -> /lib/systemd/system/e2scrub_all.timer
+
+/etc/systemd/system/open-vm-tools.service.requires:
+total 0
+lrwxrwxrwx 1 root root 34 Feb 10  2023 vgauth.service -> /lib/systemd/system/vgauth.service
+
+/etc/systemd/system/sysinit.target.wants:
+total 0
+lrwxrwxrwx 1 root root 45 Feb 10  2023 systemd-timesyncd.service -> /lib/systemd/system/systemd-timesyncd.service
+lrwxrwxrwx 1 root root 42 Feb 10  2023 keyboard-setup.service -> /lib/systemd/system/keyboard-setup.service
+lrwxrwxrwx 1 root root 36 Feb 10  2023 apparmor.service -> /lib/systemd/system/apparmor.service
+lrwxrwxrwx 1 root root 42 Feb 10  2023 systemd-pstore.service -> /lib/systemd/system/systemd-pstore.service
+
+/etc/systemd/system/network-online.target.wants:
+total 0
+lrwxrwxrwx 1 root root 38 Feb 10  2023 networking.service -> /lib/systemd/system/networking.service
+
+/etc/systemd/system/getty.target.wants:
+total 0
+lrwxrwxrwx 1 root root 34 Feb 10  2023 getty@tty1.service -> /lib/systemd/system/getty@.service
+
+/etc/systemd/system/default.target.wants:
+total 0
+lrwxrwxrwx 1 root root 40 Feb 10  2023 e2scrub_reap.service -> /lib/systemd/system/e2scrub_reap.service
+
+/etc/systemd/user:
+total 4.0K
+drwxr-xr-x 2 root root 4.0K Feb 11  2023 sockets.target.wants
+
+/etc/systemd/user/sockets.target.wants:
+total 0
+lrwxrwxrwx 1 root root 36 Feb 11  2023 dirmngr.socket -> /usr/lib/systemd/user/dirmngr.socket
+lrwxrwxrwx 1 root root 38 Feb 11  2023 gpg-agent.socket -> /usr/lib/systemd/user/gpg-agent.socket
+lrwxrwxrwx 1 root root 42 Feb 11  2023 gpg-agent-ssh.socket -> /usr/lib/systemd/user/gpg-agent-ssh.socket
+lrwxrwxrwx 1 root root 44 Feb 11  2023 gpg-agent-extra.socket -> /usr/lib/systemd/user/gpg-agent-extra.socket
+lrwxrwxrwx 1 root root 46 Feb 11  2023 gpg-agent-browser.socket -> /usr/lib/systemd/user/gpg-agent-browser.socket
+
+/etc/systemd/network:
+total 0
+[90m---[0;0m
+[35m===============================================================([32m software [35m)=====[0;0m
+[97m[[91m![97m] [90msof000[97m Can we connect to MySQL with root/root credentials?[90m............. [90mnope[0;0m
+[97m[[91m![97m] [90msof010[97m Can we connect to MySQL as root without password?[90m............... [90mnope[0;0m
+[97m[[91m![97m] [90msof015[97m Are there credentials in mysql_history file?[90m.................... [90mnope[0;0m
+[97m[[91m![97m] [90msof020[97m Can we connect to PostgreSQL template0 as postgres and no pass?[90m. [90mnope[0;0m
+[97m[[91m![97m] [90msof020[97m Can we connect to PostgreSQL template1 as postgres and no pass?[90m. [90mnope[0;0m
+[97m[[91m![97m] [90msof020[97m Can we connect to PostgreSQL template0 as psql and no pass?[90m..... [90mnope[0;0m
+[97m[[91m![97m] [90msof020[97m Can we connect to PostgreSQL template1 as psql and no pass?[90m..... [90mnope[0;0m
+[97m[[93m*[97m] [90msof030[97m Installed apache modules[90m........................................ [90mnope[0;0m
+[97m[[91m![97m] [90msof040[97m Found any .htpasswd files?[90m...................................... [90mnope[0;0m
+[97m[[91m![97m] [90msof050[97m Are there private keys in ssh-agent?[90m............................ [90mnope[0;0m
+[97m[[91m![97m] [90msof060[97m Are there gpg keys cached in gpg-agent?[90m......................... [90mnope[0;0m
+[97m[[91m![97m] [90msof070[97m Can we write to a ssh-agent socket?[90m............................. [90mnope[0;0m
+[97m[[91m![97m] [90msof080[97m Can we write to a gpg-agent socket?[90m.............................[92m yes![0;0m
+[90m---[0;0m
+/run/user/1000/gnupg/S.gpg-agent
+/run/user/1000/gnupg/S.gpg-agent.ssh
+/run/user/1000/gnupg/S.gpg-agent.extra
+/run/user/1000/gnupg/S.gpg-agent.browser
+[90m---[0;0m
+[97m[[91m![97m] [90msof090[97m Found any keepass database files?[90m............................... [90mnope[0;0m
+[97m[[91m![97m] [90msof100[97m Found any 'pass' store directories?[90m............................. [90mnope[0;0m
+[97m[[91m![97m] [90msof110[97m Are there any tmux sessions available?[90m.......................... [90mnope[0;0m
+[97m[[93m*[97m] [90msof120[97m Are there any tmux sessions from other users?[90m................... [90mnope[0;0m
+[97m[[91m![97m] [90msof130[97m Can we write to tmux session sockets from other users?[90m.......... [90mnope[0;0m
+[97m[[91m![97m] [90msof140[97m Are any screen sessions available?[90m.............................. [90mnope[0;0m
+[97m[[93m*[97m] [90msof150[97m Are there any screen sessions from other users?[90m................. [90mnope[0;0m
+[97m[[91m![97m] [90msof160[97m Can we write to screen session sockets from other users?[90m........ [90mnope[0;0m
+[97m[[94mi[97m] [90msof500[97m Sudo version[90m....................................................[34m yes![0;0m
+[90m---[0;0m
+Sudo version 1.9.5p2
+[90m---[0;0m
+[97m[[94mi[97m] [90msof510[97m MySQL version[90m................................................... [90mnope[0;0m
+[97m[[94mi[97m] [90msof520[97m Postgres version[90m................................................ [90mnope[0;0m
+[97m[[94mi[97m] [90msof530[97m Apache version[90m.................................................. [90mnope[0;0m
+[97m[[94mi[97m] [90msof540[97m Tmux version[90m.................................................... [90mnope[0;0m
+[97m[[94mi[97m] [90msof550[97m Screen version[90m.................................................. [90mnope[0;0m
+[35m=============================================================([32m containers [35m)=====[0;0m
+[97m[[93m*[97m] [90mctn000[97m Are we in a docker container?[90m................................... [90mnope[0;0m
+[97m[[93m*[97m] [90mctn010[97m Is docker available?[90m............................................ [90mnope[0;0m
+[97m[[91m![97m] [90mctn020[97m Is the user a member of the 'docker' group?[90m..................... [90mnope[0;0m
+[97m[[93m*[97m] [90mctn200[97m Are we in a lxc container?[90m...................................... [90mnope[0;0m
+[97m[[91m![97m] [90mctn210[97m Is the user a member of any lxc/lxd group?[90m...................... [90mnope[0;0m
+[35m==============================================================([32m processes [35m)=====[0;0m
+[97m[[94mi[97m] [90mpro000[97m Waiting for the process monitor to finish[90m.......................[34m yes![0;0m
+[90m---[0;0m
+1 08:36 24402 emily sleep 1
+61 08:36 24277 emily sleep 1
+56 08:36 24164 emily sleep 1
+61 08:36 24040 emily sleep 1
+57 08:36 23924 emily sleep 1
+60 08:36 23801 emily sleep 1
+60 08:36 23680 emily sleep 1
+59 08:36 23559 emily sleep 1
+59 08:36 23438 emily sleep 1
+60 08:36 23315 emily sleep 1
+60 08:36 23193 emily sleep 1
+56 08:35 23081 emily sleep 1
+60 08:35 22958 emily sleep 1
+63 08:35 22831 emily sleep 1
+58 08:35 22713 emily sleep 1
+60 08:35 22592 emily sleep 1
+67 08:35 22458 emily sleep 1
+60 08:35 22335 emily sleep 1
+62 08:35 22209 emily sleep 1
+66 08:35 22075 emily sleep 1
+60 08:35 21954 emily sleep 1
+62 08:35 21828 emily sleep 1
+63 08:35 21701 emily sleep 1
+55 08:35 21589 emily sleep 1
+60 08:35 21466 emily sleep 1
+61 08:35 21342 emily sleep 1
+62 08:35 21217 emily sleep 1
+64 08:35 21088 emily sleep 1
+59 08:35 20968 emily sleep 1
+59 08:35 20848 emily sleep 1
+63 08:35 20722 emily sleep 1
+42 08:35 20636 emily sleep 1
+62 08:35 20510 emily sleep 1
+60 08:35 20387 emily sleep 1
+55 08:35 20274 emily sleep 1
+64 08:35 20143 emily sleep 1
+57 08:35 20027 emily sleep 1
+56 08:35 19914 emily sleep 1
+59 08:35 19796 emily sleep 1
+60 08:35 19674 emily sleep 1
+58 08:35 19557 emily sleep 1
+62 08:35 19432 emily sleep 1
+61 08:35 19309 emily sleep 1
+57 08:35 19193 emily sleep 1
+57 08:35 19076 emily sleep 1
+59 08:35 18955 emily sleep 1
+56 08:35 18840 emily sleep 1
+59 08:35 18720 emily sleep 1
+58 08:35 18602 emily sleep 1
+56 08:35 18488 emily sleep 1
+62 08:35 18363 emily sleep 1
+60 08:35 18242 emily sleep 1
+58 08:35 18124 emily sleep 1
+60 08:35 18002 emily sleep 1
+61 08:35 17879 emily sleep 1
+83 08:35 17711 emily sleep 1
+92 08:35 17524 emily sleep 1
+3411 08:35 17523 emily /bin/sh ./lse.sh -l 2
+9 08:35 17471 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name *dockerenv* -exec ls -la {} ;
+9 08:35 17469 emily /bin/sh ./lse.sh -l 2
+8 08:35 17379 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name .password-store -readable -type d -print
+8 08:35 17378 emily /bin/sh ./lse.sh -l 2
+16 08:35 17342 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -regextype egrep -iregex .*\.kdbx? -readable -type f -print
+16 08:35 17341 emily /bin/sh ./lse.sh -l 2
+3 08:35 17293 emily /bin/sh ./lse.sh -l 2
+3 08:35 17247 emily /bin/sh ./lse.sh -l 2
+9 08:35 17208 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name *.htpasswd -print -exec cat {} ;
+9 08:35 17207 emily /bin/sh ./lse.sh -l 2
+1 08:35 17023 emily /bin/sh ./lse.sh -l 2
+18 08:35 16951 emily sleep 0.2
+18 08:35 16949 emily grep -i listening on lo
+18 08:35 16948 emily /bin/sh ./lse.sh -l 2
+18 08:35 16947 emily /bin/sh ./lse.sh -l 2
+1 08:35 16856 emily /bin/sh ./lse.sh -l 2
+62 08:35 16668 emily getcap -r /
+62 08:35 16666 emily /bin/sh ./lse.sh -l 2
+2 08:35 16591 emily grep -v root
+2 08:35 16590 emily /bin/sh ./lse.sh -l 2
+2 08:35 16589 emily /bin/sh ./lse.sh -l 2
+15 08:35 16497 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o ( -name *id_dsa* -o -name *id_rsa* -o -name known_hosts -o -name authorized_hosts -o -name authorized_keys ) -exec ls -la {} ;
+15 08:35 16496 emily /bin/sh ./lse.sh -l 2
+15 08:35 16441 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -user emily -type f -exec ls -al {} ;
+15 08:35 16440 emily /bin/sh ./lse.sh -l 2
+3 08:35 16412 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -path /usr/lib -prune -o -path /usr/share -prune -o -regextype egrep -iregex .*(backup|dump|cop(y|ies)|bak|bkp)[^/]*\.(sql|tgz|tar|zip)?\.?(gz|xz|bzip2|bz2|lz|7z)? -readable -type f -exec ls -al {} ;
+3 08:35 16411 emily /bin/sh ./lse.sh -l 2
+1 08:35 16394 emily /bin/sh ./lse.sh -l 2
+11 08:35 16365 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o ( -name .git -o -name .svn ) -print
+11 08:35 16363 emily /bin/sh ./lse.sh -l 2
+2 08:35 16296 emily /bin/sh ./lse.sh -l 2
+17 08:35 15979 emily /bin/sh ./lse.sh -l 2
+14 08:35 15943 emily find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -perm -4000 -type f -print
+14 08:35 15942 emily /bin/sh ./lse.sh -l 2
+10 08:35 15912 emily find / -path /home/emily -prune -o -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -type l -user emily -print
+15 08:35 15879 emily find / -path /home/emily -prune -o -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -not -type l -writable -print
+26 08:35 15878 emily /bin/sh ./lse.sh -l 2
+3 08:35 15854 root sudo -S -l
+3 08:35 15852 emily /bin/sh ./lse.sh -l 2
+3 08:35 15840 root sudo -S id
+3 08:35 15838 emily /bin/sh ./lse.sh -l 2
+4 08:35 15802 emily sort -u
+4 08:35 15801 emily tr : 
+
+4 08:35 15800 emily cut -d= -f2
+4 08:35 15799 emily tr -d "'
+4 08:35 15798 emily grep -ERh ^ *PATH=.* /etc/
+4 08:35 15797 emily /bin/sh ./lse.sh -l 2
+4 08:35 15796 emily /bin/sh ./lse.sh -l 2
+3725 08:35 15733 emily sleep 60
+3726 08:35 15731 emily sed s/^ *//g
+3726 08:35 15730 emily uniq -c
+3726 08:35 15729 emily sort -Mr
+3726 08:35 15727 emily grep -v ^START
+3726 08:35 15725 emily sed s/^ *//g
+3726 08:35 15722 emily /bin/sh ./lse.sh -l 2
+3725 08:35 15721 emily /bin/sh ./lse.sh -l 2
+3726 08:35 15720 emily /bin/sh ./lse.sh -l 2
+3726 08:35 15691 emily tee lse-results.txt
+3726 08:35 15690 emily /bin/sh ./lse.sh -l 2
+3726 08:32 4483 emily /usr/bin/gpg-agent --supervised
+3726 08:30 936 emily -bash
+3726 08:30 935 emily sshd: emily@pts/0
+3726 08:30 918 emily (sd-pam)
+3726 08:30 917 emily /lib/systemd/systemd --user
+3726 08:29 845 www-data php-fpm: pool www
+3726 08:29 842 www-data php-fpm: pool www
+3726 08:29 790 www-data nginx: worker process
+3726 08:29 789 www-data nginx: worker process
+3726 08:29 785 root nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+3726 08:29 746 root /sbin/agetty -o -p -- \u --noclear tty1 linux
+3726 08:29 718 root php-fpm: master process (/etc/php/7.4/fpm/php-fpm.conf)
+3726 08:29 684 root /bin/bash /usr/sbin/malwarescan.sh
+3726 08:29 683 root /usr/bin/inotifywait -m -e create /var/www/pilgrimage.htb/shrunk/
+3726 08:29 673 root /lib/systemd/systemd-logind
+3726 08:29 668 root /usr/sbin/rsyslogd -n -iNONE
+3726 08:29 666 root /bin/bash /usr/sbin/malwarescan.sh
+3726 08:29 654 messagebus /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+3726 08:29 653 root /usr/sbin/cron -f
+3726 08:29 638 root /sbin/dhclient -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+3726 08:29 565 _laurel /usr/local/sbin/laurel --config /etc/laurel/config.toml
+3726 08:29 562 root /sbin/auditd
+3726 08:29 560 root /usr/bin/vmtoolsd
+3726 08:29 559 root /usr/bin/VGAuthService
+3726 08:29 555 systemd-timesync /lib/systemd/systemd-timesyncd
+3726 08:29 518 root /lib/systemd/systemd-udevd
+3726 08:29 495 root /lib/systemd/systemd-journald
+3726 08:29 1 root /sbin/init
+[90m---[0;0m
+[97m[[94mi[97m] [90mpro001[97m Retrieving process binaries[90m.....................................[34m yes![0;0m
+[90m---[0;0m
+Usage: /usr/bin/which [-a] args
+[90m---[0;0m
+[97m[[94mi[97m] [90mpro002[97m Retrieving process users[90m........................................[34m yes![0;0m
+[90m---[0;0m
+emily
+_laurel
+messagebus
+root
+systemd-timesync
+www-data
+[90m---[0;0m
+[97m[[91m![97m] [90mpro010[97m Can we write in any process binary?[90m............................. [90mnope[0;0m
+[97m[[93m*[97m] [90mpro020[97m Processes running with root permissions[90m.........................[36m yes![0;0m
+[90m---[0;0m
+[32mSTART      PID     USER COMMAND
+[31m08:35 [0;0m   15854 [33m    root [31msudo -S -l
+[31m08:35 [0;0m   15840 [33m    root [31msudo -S id
+[35m08:29 [0;0m     785 [33m    root [0;0mnginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+[35m08:29 [0;0m     746 [33m    root [0;0m/sbin/agetty -o -p -- \u --noclear tty1 linux
+[35m08:29 [0;0m     718 [33m    root [0;0mphp-fpm: master process (/etc/php/7.4/fpm/php-fpm.conf)
+[35m08:29 [0;0m     684 [33m    root [0;0m/bin/bash /usr/sbin/malwarescan.sh
+[35m08:29 [0;0m     683 [33m    root [0;0m/usr/bin/inotifywait -m -e create /var/www/pilgrimage.htb/shrunk/
+[35m08:29 [0;0m     673 [33m    root [0;0m/lib/systemd/systemd-logind
+[35m08:29 [0;0m     668 [33m    root [0;0m/usr/sbin/rsyslogd -n -iNONE
+[35m08:29 [0;0m     666 [33m    root [0;0m/bin/bash /usr/sbin/malwarescan.sh
+[35m08:29 [0;0m     653 [33m    root [0;0m/usr/sbin/cron -f
+[35m08:29 [0;0m     638 [33m    root [0;0m/sbin/dhclient -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+[35m08:29 [0;0m     562 [33m    root [0;0m/sbin/auditd
+[35m08:29 [0;0m     560 [33m    root [0;0m/usr/bin/vmtoolsd
+[35m08:29 [0;0m     559 [33m    root [0;0m/usr/bin/VGAuthService
+[35m08:29 [0;0m     518 [33m    root [0;0m/lib/systemd/systemd-udevd
+[35m08:29 [0;0m     495 [33m    root [0;0m/lib/systemd/systemd-journald
+[35m08:29 [0;0m       1 [33m    root [0;0m/sbin/init
+[90m---[0;0m
+[97m[[93m*[97m] [90mpro030[97m Processes running by non-root users with shell[90m..................[36m yes![0;0m
+[90m---[0;0m
+
+
+------ emily ------
+
+
+[32mSTART      PID     USER COMMAND
+[31m08:36 [0;0m   24402 [33m   emily [31msleep 1
+[35m08:36 [0;0m   24277 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   24164 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   24040 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23924 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23801 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23680 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23559 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23438 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23315 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23193 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   23081 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22958 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22831 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22713 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22592 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22458 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22335 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22209 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22075 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21954 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21828 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21701 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21589 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21466 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21342 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21217 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21088 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20968 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20848 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20722 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20636 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20510 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20387 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20274 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20143 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20027 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19914 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19796 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19674 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19557 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19432 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19309 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19193 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19076 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18955 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18840 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18720 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18602 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18488 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18363 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18242 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18124 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18002 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17879 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17711 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17524 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17523 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17471 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name *dockerenv* -exec ls -la {} ;
+[31m08:35 [0;0m   17469 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17379 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name .password-store -readable -type d -print
+[31m08:35 [0;0m   17378 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17342 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -regextype egrep -iregex .*\.kdbx? -readable -type f -print
+[31m08:35 [0;0m   17341 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17293 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17247 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17208 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name *.htpasswd -print -exec cat {} ;
+[31m08:35 [0;0m   17207 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17023 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16951 [33m   emily [31msleep 0.2
+[31m08:35 [0;0m   16949 [33m   emily [31mgrep -i listening on lo
+[31m08:35 [0;0m   16948 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16947 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16856 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   16668 [33m   emily [0;0mgetcap -r /
+[35m08:35 [0;0m   16666 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16591 [33m   emily [31mgrep -v root
+[31m08:35 [0;0m   16590 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16589 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16497 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o ( -name *id_dsa* -o -name *id_rsa* -o -name known_hosts -o -name authorized_hosts -o -name authorized_keys ) -exec ls -la {} ;
+[31m08:35 [0;0m   16496 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16441 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -user emily -type f -exec ls -al {} ;
+[31m08:35 [0;0m   16440 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16412 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -path /usr/lib -prune -o -path /usr/share -prune -o -regextype egrep -iregex .*(backup|dump|cop(y|ies)|bak|bkp)[^/]*\.(sql|tgz|tar|zip)?\.?(gz|xz|bzip2|bz2|lz|7z)? -readable -type f -exec ls -al {} ;
+[31m08:35 [0;0m   16411 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16394 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16365 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o ( -name .git -o -name .svn ) -print
+[31m08:35 [0;0m   16363 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16296 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15979 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15943 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -perm -4000 -type f -print
+[31m08:35 [0;0m   15942 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15912 [33m   emily [31mfind / -path /home/emily -prune -o -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -type l -user emily -print
+[31m08:35 [0;0m   15879 [33m   emily [31mfind / -path /home/emily -prune -o -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -not -type l -writable -print
+[35m08:35 [0;0m   15878 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15852 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15838 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15802 [33m   emily [31msort -u
+[31m08:35 [0;0m   15801 [33m   emily [31mtr : 
+[31m08:35 [0;0m   15800 [33m   emily [31mcut -d= -f2
+[31m08:35 [0;0m   15799 [33m   emily [31mtr -d "'
+[31m08:35 [0;0m   15798 [33m   emily [31mgrep -ERh ^ *PATH=.* /etc/
+[31m08:35 [0;0m   15797 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15796 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15733 [33m   emily [0;0msleep 60
+[35m08:35 [0;0m   15731 [33m   emily [0;0msed s/^ *//g
+[35m08:35 [0;0m   15730 [33m   emily [0;0muniq -c
+[35m08:35 [0;0m   15729 [33m   emily [0;0msort -Mr
+[35m08:35 [0;0m   15727 [33m   emily [0;0mgrep -v ^START
+[35m08:35 [0;0m   15725 [33m   emily [0;0msed s/^ *//g
+[35m08:35 [0;0m   15722 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15721 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15720 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15691 [33m   emily [0;0mtee lse-results.txt
+[35m08:35 [0;0m   15690 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:32 [0;0m    4483 [33m   emily [0;0m/usr/bin/gpg-agent --supervised
+[35m08:30 [0;0m     936 [33m   emily [0;0m-bash
+[35m08:30 [0;0m     935 [33m   emily [0;0msshd: emily@pts/0
+[35m08:30 [0;0m     918 [33m   emily [0;0m(sd-pam)
+[35m08:30 [0;0m     917 [33m   emily [0;0m/lib/systemd/systemd --user
+[90m---[0;0m
+[97m[[94mi[97m] [90mpro500[97m Running processes[90m...............................................[34m yes![0;0m
+[90m---[0;0m
+[32mSTART      PID     USER COMMAND
+[31m08:36 [0;0m   24402 [33m   emily [31msleep 1
+[35m08:36 [0;0m   24277 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   24164 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   24040 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23924 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23801 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23680 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23559 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23438 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23315 [33m   emily [0;0msleep 1
+[35m08:36 [0;0m   23193 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   23081 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22958 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22831 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22713 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22592 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22458 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22335 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22209 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   22075 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21954 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21828 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21701 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21589 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21466 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21342 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21217 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   21088 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20968 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20848 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20722 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20636 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20510 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20387 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20274 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20143 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   20027 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19914 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19796 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19674 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19557 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19432 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19309 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19193 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   19076 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18955 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18840 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18720 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18602 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18488 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18363 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18242 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18124 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   18002 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17879 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17711 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17524 [33m   emily [0;0msleep 1
+[35m08:35 [0;0m   17523 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17471 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name *dockerenv* -exec ls -la {} ;
+[31m08:35 [0;0m   17469 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17379 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name .password-store -readable -type d -print
+[31m08:35 [0;0m   17378 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17342 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -regextype egrep -iregex .*\.kdbx? -readable -type f -print
+[31m08:35 [0;0m   17341 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17293 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17247 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17208 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -name *.htpasswd -print -exec cat {} ;
+[31m08:35 [0;0m   17207 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   17023 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16951 [33m   emily [31msleep 0.2
+[31m08:35 [0;0m   16949 [33m   emily [31mgrep -i listening on lo
+[31m08:35 [0;0m   16948 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16947 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16856 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   16668 [33m   emily [0;0mgetcap -r /
+[35m08:35 [0;0m   16666 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16591 [33m   emily [31mgrep -v root
+[31m08:35 [0;0m   16590 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16589 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16497 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o ( -name *id_dsa* -o -name *id_rsa* -o -name known_hosts -o -name authorized_hosts -o -name authorized_keys ) -exec ls -la {} ;
+[31m08:35 [0;0m   16496 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16441 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -user emily -type f -exec ls -al {} ;
+[31m08:35 [0;0m   16440 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16412 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -path /usr/lib -prune -o -path /usr/share -prune -o -regextype egrep -iregex .*(backup|dump|cop(y|ies)|bak|bkp)[^/]*\.(sql|tgz|tar|zip)?\.?(gz|xz|bzip2|bz2|lz|7z)? -readable -type f -exec ls -al {} ;
+[31m08:35 [0;0m   16411 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16394 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16365 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o ( -name .git -o -name .svn ) -print
+[31m08:35 [0;0m   16363 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   16296 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15979 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15943 [33m   emily [31mfind / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -perm -4000 -type f -print
+[31m08:35 [0;0m   15942 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15912 [33m   emily [31mfind / -path /home/emily -prune -o -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -type l -user emily -print
+[31m08:35 [0;0m   15879 [33m   emily [31mfind / -path /home/emily -prune -o -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -not -type l -writable -print
+[35m08:35 [0;0m   15878 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15854 [33m    root [31msudo -S -l
+[31m08:35 [0;0m   15852 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15840 [33m    root [31msudo -S id
+[31m08:35 [0;0m   15838 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15802 [33m   emily [31msort -u
+[31m08:35 [0;0m   15801 [33m   emily [31mtr : 
+[31m08:35 [0;0m   15800 [33m   emily [31mcut -d= -f2
+[31m08:35 [0;0m   15799 [33m   emily [31mtr -d "'
+[31m08:35 [0;0m   15798 [33m   emily [31mgrep -ERh ^ *PATH=.* /etc/
+[31m08:35 [0;0m   15797 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[31m08:35 [0;0m   15796 [33m   emily [31m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15733 [33m   emily [0;0msleep 60
+[35m08:35 [0;0m   15731 [33m   emily [0;0msed s/^ *//g
+[35m08:35 [0;0m   15730 [33m   emily [0;0muniq -c
+[35m08:35 [0;0m   15729 [33m   emily [0;0msort -Mr
+[35m08:35 [0;0m   15727 [33m   emily [0;0mgrep -v ^START
+[35m08:35 [0;0m   15725 [33m   emily [0;0msed s/^ *//g
+[35m08:35 [0;0m   15722 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15721 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15720 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:35 [0;0m   15691 [33m   emily [0;0mtee lse-results.txt
+[35m08:35 [0;0m   15690 [33m   emily [0;0m/bin/sh ./lse.sh -l 2
+[35m08:32 [0;0m    4483 [33m   emily [0;0m/usr/bin/gpg-agent --supervised
+[35m08:30 [0;0m     936 [33m   emily [0;0m-bash
+[35m08:30 [0;0m     935 [33m   emily [0;0msshd: emily@pts/0
+[35m08:30 [0;0m     918 [33m   emily [0;0m(sd-pam)
+[35m08:30 [0;0m     917 [33m   emily [0;0m/lib/systemd/systemd --user
+[35m08:29 [0;0m     845 [33mwww-data [0;0mphp-fpm: pool www
+[35m08:29 [0;0m     842 [33mwww-data [0;0mphp-fpm: pool www
+[35m08:29 [0;0m     790 [33mwww-data [0;0mnginx: worker process
+[35m08:29 [0;0m     789 [33mwww-data [0;0mnginx: worker process
+[35m08:29 [0;0m     785 [33m    root [0;0mnginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+[35m08:29 [0;0m     746 [33m    root [0;0m/sbin/agetty -o -p -- \u --noclear tty1 linux
+[35m08:29 [0;0m     718 [33m    root [0;0mphp-fpm: master process (/etc/php/7.4/fpm/php-fpm.conf)
+[35m08:29 [0;0m     684 [33m    root [0;0m/bin/bash /usr/sbin/malwarescan.sh
+[35m08:29 [0;0m     683 [33m    root [0;0m/usr/bin/inotifywait -m -e create /var/www/pilgrimage.htb/shrunk/
+[35m08:29 [0;0m     673 [33m    root [0;0m/lib/systemd/systemd-logind
+[35m08:29 [0;0m     668 [33m    root [0;0m/usr/sbin/rsyslogd -n -iNONE
+[35m08:29 [0;0m     666 [33m    root [0;0m/bin/bash /usr/sbin/malwarescan.sh
+[35m08:29 [0;0m     654 [33mmessagebus [0;0m/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+[35m08:29 [0;0m     653 [33m    root [0;0m/usr/sbin/cron -f
+[35m08:29 [0;0m     638 [33m    root [0;0m/sbin/dhclient -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+[35m08:29 [0;0m     565 [33m _laurel [0;0m/usr/local/sbin/laurel --config /etc/laurel/config.toml
+[35m08:29 [0;0m     562 [33m    root [0;0m/sbin/auditd
+[35m08:29 [0;0m     560 [33m    root [0;0m/usr/bin/vmtoolsd
+[35m08:29 [0;0m     559 [33m    root [0;0m/usr/bin/VGAuthService
+[35m08:29 [0;0m     555 [33msystemd-timesync [0;0m/lib/systemd/systemd-timesyncd
+[35m08:29 [0;0m     518 [33m    root [0;0m/lib/systemd/systemd-udevd
+[35m08:29 [0;0m     495 [33m    root [0;0m/lib/systemd/systemd-journald
+[35m08:29 [0;0m       1 [33m    root [0;0m/sbin/init
+[90m---[0;0m
+[97m[[94mi[97m] [90mpro510[97m Running process binaries and permissions[90m........................[34m yes![0;0m
+[90m---[0;0m
+-rwxr-xr-x 1 root root 946 Sep 28  2020 /usr/bin/which
+[90m---[0;0m
+
+[35m==================================([32m FINISHED [35m)==================================[0;0m
