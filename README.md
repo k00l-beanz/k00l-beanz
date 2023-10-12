@@ -88,6 +88,8 @@
 
 ## LeetCode
 
+[Profile](https://leetcode.com/0zymandias_/)
+
 | Name | Runtime (%) | Memory (%) |
 |------|---------|--------|
 | two-sum | +8.39 | +99.62 |
