@@ -73,6 +73,8 @@
 | Frolic | Linux | Easy | Complete | 20 Sep 2023 |
 | Previse | Linux | Easy | Complete | 24 Sep 2023 |
 | CozyHosting | Linux | Easy | Complete | 26 Sep 2023 |
+| Sau | Linux | Easy | Complete | 08 Oct 2023 |
+| Pilgrimage | Linux | Easy | Complete | 12 Oct 2023 | 
 | Node | Linux | Medium | In-Progresss ||
 | FriendZone | Linux | Easy | In-Progress ||
 | Curling | Linux | Easy | In-Progress ||
