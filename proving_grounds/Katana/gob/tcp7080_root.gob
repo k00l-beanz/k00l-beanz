@@ -1,5 +1,0 @@
-/index.php            (Status: 200) [Size: 686]
-/docs                 (Status: 301) [Size: 1260] [--> https://192.168.78.83:7080/docs/]
-/view                 (Status: 301) [Size: 1260] [--> https://192.168.78.83:7080/view/]
-/lib                  (Status: 301) [Size: 1260] [--> https://192.168.78.83:7080/lib/]
-/res                  (Status: 301) [Size: 1260] [--> https://192.168.78.83:7080/res/]

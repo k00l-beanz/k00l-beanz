@@ -1,2 +1,0 @@
-clnt_create: RPC: Program not registered
-

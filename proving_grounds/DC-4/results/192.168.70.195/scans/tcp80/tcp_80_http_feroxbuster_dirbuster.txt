@@ -1,8 +1,0 @@
-200      GET       29l       46w      340c http://192.168.70.195/css/styles.css
-302      GET       15l       17w        0c http://192.168.70.195/login.php => index.php
-200      GET       23l       40w        0c http://192.168.70.195/
-200      GET       23l       40w        0c http://192.168.70.195/index.php
-302      GET       25l       67w        0c http://192.168.70.195/command.php => index.php
-301      GET        7l       11w      170c http://192.168.70.195/css => http://192.168.70.195/css/
-301      GET        7l       11w      170c http://192.168.70.195/images => http://192.168.70.195/images/
-302      GET       10l       13w        0c http://192.168.70.195/logout.php => index.php
