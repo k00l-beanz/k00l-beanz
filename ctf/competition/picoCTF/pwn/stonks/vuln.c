@@ -23,7 +23,7 @@ int view_portfolio(Portfolio *p) {
 	}
 	printf("\nPortfolio as of ");
 	fflush(stdout);
-	system("date"); // TODO: implement this in C. Possible OS command injection
+	system("date"); // TODO: implement this in C
 	fflush(stdout);
 
 	printf("\n\n");
@@ -90,7 +90,7 @@ int buy_stonks(Portfolio *p) {
 	printf("What is your API token?\n");
 	scanf("%300s", user_buf);
 	printf("Buying stonks with token:\n");
-	printf(user_buf);	// Format string vulnerability
+	printf(user_buf);
 
 	// TODO: Actually use key to interact with API
 
@@ -111,10 +111,10 @@ void free_portfolio(Portfolio *p) {
 	Stonk *next = NULL;
 	while (current) {
 		next = current->next;
-		free(current); // Possible UAF
+		free(current);
 		current = next;
 	}
-	free(p); // Possible UAF
+	free(p);
 }
 
 int main(int argc, char *argv[])

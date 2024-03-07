@@ -1,29 +1,26 @@
-#!/usr/bin/env python3
-# k00l-beanz
+#!/usr/bine/env python3
 
 import angr
 import claripy
 
-# Declare a project
-BINARY = "./tablet"
+# Declare project
+BINARY = "./spookylicence"
 BASE_ADDRESS = 0x100000
-DEST_ADDRESS = 0x00101371
 project = angr.Project(BINARY,
                        main_opts={"base_addr":BASE_ADDRESS},
                        auto_load_libs=True)
 
-# Declare the symoblic variable 'flag'
-flag = claripy.BVS("flag", 8 * 64)
+# Declare the symbolic variable 'flag'
+flag = claripy.BVS("flag", 8 * 32)
 claripy.BVV('A')
 
 # Initialize the state
-state = project.factory.full_init_state(args=[BINARY], 
-                                        add_options=angr.options.unicorn, 
-                                        stdin=flag)
+state = project.factory.full_init_state(args=[BINARY, flag],
+                                        add_options=angr.options.unicorn)
 
 # Create the simulator manager
 sim_manager = project.factory.simulation_manager(state)
-sim_manager.explore(find=DEST_ADDRESS)
+sim_manager.explore(find=0x0010187d)
 
 # Check if any path was found
 if len(sim_manager.found) > 0:

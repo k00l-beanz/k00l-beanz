@@ -1,21 +1,18 @@
 # k00l-beanz
 
+## Intro
+
+I'm only here for the lulz
+
 ## Table of Contents
 
 - [CTF](#ctf)
-    - [2023](#2023)
 - [HackTheBox](#hackthebox)
     - [Machines](#machines)
     - [Challenges](#challenges)
 - [LeetCode](#leetcode)
 
 ## CTF
-
-### 2023
-
-| Name | Ranking |
-|------|---------|
-| CSAW 2023 | 385 / 1098 |
 
 ## HackTheBox
 
@@ -90,25 +87,3 @@
 
 [Profile](https://leetcode.com/0zymandias_/)
 
-| Name | Runtime (%) | Memory (%) |
-|------|---------|--------|
-| two-sum | +8.39 | +99.62 |
-| add-two-numbers | +6.2 | +56.66 |
-| palindrome-number | +8.64 | +80.10 |
-| longest-common-prefix | +14.17 | +11.53 |
-| valid-parenthese | +77.25 | +19.57 |
-| merge-two-sorted-lists | +100 | +6.58 |
-| plus-one | +75.45 | +52.20 |
-| valid-palindrome | +8.87 | +5.1 |
-| isomorphic-strings | +14.82 | +61.79 |
-| palindrome-linked-list | +81.2 | +5.8 |
-| move-zeroes | +5.9 | +85.27 |
-| reverse-strings | +57.27 | +79.90 |
-| is-subsequence | +100 | +80.88 |
-| find-pivot-index | +5 | +61.40 |
-| running-sum-1d-array | +35.87 | +34.29 |
-| average-salary | +100 | +37.92 |
-| kth-factor | +31.6 | +25.32 |
-| count-odd-numbers | +100 | +65.76 |
-| merge-strings-alternately | +50.58 | +55.98 |
-| find-center-star-graph | +33.97 | +89.99 |
