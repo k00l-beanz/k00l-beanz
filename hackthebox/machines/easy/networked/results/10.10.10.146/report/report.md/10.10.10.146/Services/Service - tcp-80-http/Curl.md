@@ -1,0 +1,25 @@
+```bash
+curl -sSik http://10.10.10.146:80/
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/tcp_80_http_curl.html](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/tcp_80_http_curl.html):
+
+```
+HTTP/1.1 200 OK
+Date: Wed, 28 Sep 2022 04:00:14 GMT
+Server: Apache/2.4.6 (CentOS) PHP/5.4.16
+X-Powered-By: PHP/5.4.16
+Content-Length: 229
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<body>
+Hello mate, we're building the new FaceMash!</br>
+Help by funding us and be the new Tyler&Cameron!</br>
+Join us at the pool party this Sat to get a glimpse
+<!-- upload and gallery not yet linked -->
+</body>
+</html>
+
+
+```

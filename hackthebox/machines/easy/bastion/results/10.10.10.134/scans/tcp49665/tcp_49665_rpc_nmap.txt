@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Mon Aug  1 17:39:48 2022 as: nmap -vv --reason -Pn -T4 -sV -p 49665 --script=banner,msrpc-enum,rpc-grind,rpcinfo -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/bastion/results/10.10.10.134/scans/tcp49665/tcp_49665_rpc_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/bastion/results/10.10.10.134/scans/tcp49665/xml/tcp_49665_rpc_nmap.xml 10.10.10.134
+Nmap scan report for 10.10.10.134
+Host is up, received user-set (0.033s latency).
+Scanned at 2022-08-01 17:39:49 EDT for 27s
+
+PORT      STATE SERVICE REASON          VERSION
+49665/tcp open  unknown syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  1 17:40:16 2022 -- 1 IP address (1 host up) scanned in 28.19 seconds

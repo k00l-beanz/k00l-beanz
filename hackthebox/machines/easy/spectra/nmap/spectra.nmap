@@ -1,0 +1,8 @@
+# Nmap 7.94 scan initiated Mon Jul 31 19:57:26 2023 as: nmap -sC -sV -oN nmap/spectra.nmap -T4 10.10.110.229
+Nmap scan report for 10.10.110.229
+Host is up (0.00085s latency).
+All 1000 scanned ports on 10.10.110.229 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 31 19:57:36 2023 -- 1 IP address (1 host up) scanned in 9.42 seconds

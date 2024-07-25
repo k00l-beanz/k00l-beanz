@@ -1,0 +1,3 @@
+/index.html          [32m (Status: 200)[0m [Size: 283]
+/main                [36m (Status: 301)[0m [Size: 169][34m [--> http://spectra.htb/main/][0m
+/testing             [36m (Status: 301)[0m [Size: 169][34m [--> http://spectra.htb/testing/][0m

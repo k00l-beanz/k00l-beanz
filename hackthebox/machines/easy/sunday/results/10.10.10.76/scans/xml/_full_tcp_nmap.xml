@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Mon Oct  3 22:25:34 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -sC -&#45;version-all -A -&#45;osscan-guess -p- -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/_full_tcp_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/xml/_full_tcp_nmap.xml 10.10.10.76 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -sC -&#45;version-all -A -&#45;osscan-guess -p- -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/_full_tcp_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/xml/_full_tcp_nmap.xml 10.10.10.76" start="1664850334" startstr="Mon Oct  3 22:25:34 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1664850334"/>
+<taskend task="NSE" time="1664850334"/>
+<taskbegin task="NSE" time="1664850334"/>
+<taskend task="NSE" time="1664850334"/>
+<taskbegin task="NSE" time="1664850334"/>
+<taskend task="NSE" time="1664850334"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1664850335"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1664850335"/>
+<taskbegin task="SYN Stealth Scan" time="1664850335"/>
+<taskprogress task="SYN Stealth Scan" time="1664850366" percent="1.04" remaining="2959" etc="1664853324"/>
+<taskprogress task="SYN Stealth Scan" time="1664850396" percent="1.82" remaining="3285" etc="1664853680"/>
+<taskprogress task="SYN Stealth Scan" time="1664850426" percent="3.07" remaining="2872" etc="1664853298"/>
+<taskprogress task="SYN Stealth Scan" time="1664850456" percent="5.23" remaining="2191" etc="1664852646"/>
+<taskprogress task="SYN Stealth Scan" time="1664850486" percent="7.39" remaining="1893" etc="1664852378"/>
+<taskprogress task="SYN Stealth Scan" time="1664850516" percent="9.54" remaining="1717" etc="1664852233"/>
+<taskprogress task="SYN Stealth Scan" time="1664850546" percent="11.71" remaining="1591" etc="1664852136"/>
+<taskprogress task="SYN Stealth Scan" time="1664850576" percent="13.87" remaining="1496" etc="1664852072"/>
+<taskprogress task="SYN Stealth Scan" time="1664850612" percent="16.45" remaining="1407" etc="1664852019"/>
+<taskprogress task="SYN Stealth Scan" time="1664850654" percent="19.48" remaining="1319" etc="1664851972"/>
+<taskprogress task="SYN Stealth Scan" time="1664850702" percent="22.92" remaining="1235" etc="1664851937"/>
+<taskprogress task="SYN Stealth Scan" time="1664850753" percent="26.58" remaining="1155" etc="1664851907"/>
+<taskprogress task="SYN Stealth Scan" time="1664850810" percent="30.66" remaining="1075" etc="1664851884"/>
+<taskprogress task="SYN Stealth Scan" time="1664850870" percent="34.95" remaining="996" etc="1664851866"/>
+<taskprogress task="SYN Stealth Scan" time="1664850933" percent="39.49" remaining="917" etc="1664851849"/>
+<taskprogress task="SYN Stealth Scan" time="1664850999" percent="44.20" remaining="839" etc="1664851837"/>
+<taskprogress task="SYN Stealth Scan" time="1664851065" percent="48.90" remaining="763" etc="1664851828"/>
+<taskprogress task="SYN Stealth Scan" time="1664851134" percent="53.82" remaining="686" etc="1664851820"/>
+<taskprogress task="SYN Stealth Scan" time="1664851203" percent="58.78" remaining="609" etc="1664851812"/>
+<taskprogress task="SYN Stealth Scan" time="1664851272" percent="63.71" remaining="534" etc="1664851806"/>
+<taskprogress task="SYN Stealth Scan" time="1664851341" percent="68.66" remaining="460" etc="1664851800"/>
+<taskprogress task="SYN Stealth Scan" time="1664851413" percent="73.74" remaining="384" etc="1664851797"/>
+<taskprogress task="SYN Stealth Scan" time="1664851482" percent="78.69" remaining="311" etc="1664851793"/>
+<taskprogress task="SYN Stealth Scan" time="1664851554" percent="83.80" remaining="236" etc="1664851790"/>
+<taskprogress task="SYN Stealth Scan" time="1664851626" percent="88.94" remaining="161" etc="1664851787"/>
+<taskprogress task="SYN Stealth Scan" time="1664851698" percent="94.08" remaining="86" etc="1664851784"/>
+<taskend task="SYN Stealth Scan" time="1664852047" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1664852047"/>
+<taskend task="Service scan" time="1664852308" extrainfo="5 services on 1 host"/>
+<taskbegin task="Traceroute" time="1664852320"/>
+<taskend task="Traceroute" time="1664852320"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1664852320"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1664852320"/>
+<taskbegin task="NSE" time="1664852320"/>
+<taskend task="NSE" time="1664852332"/>
+<taskbegin task="NSE" time="1664852332"/>
+<taskend task="NSE" time="1664852333"/>
+<taskbegin task="NSE" time="1664852333"/>
+<taskend task="NSE" time="1664852333"/>
+<host starttime="1664850335" endtime="1664852333"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.76" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65291">
+<extrareasons reason="reset" count="65291" proto="tcp" ports="1-78,80-110,112-316,318-514,516-609,611-2470,2472-2579,2581-2909,2911-3074,3076-3274,3276-4146,4148-4453,4455-4487,4489-4625,4627-5342,5344-5818,5820-5915,5917-6181,6183-6374,6376-6558,6560-6643,6645-6658,6660-6786,6788-7257,7259-7263,7265-7347,7349-7954,7956-8208,8210-8513,8515-9154,9156-9303,9305-9693,9695-9764,9766-10376,10378-10385,10387-10910,10912-10921,10923-11185,11187-11491,11493-12360,12362-12421,12423-12620,12622-13078,13080-13341,13343-13396,13398-13613,13615-13619,13621-13724,13726-13746,13748-13992,13994-14297,14299-14597,14599-15468,15470-15875,15877-16621,16623-16794,16796-16859,16861-17012,17014-17106,17108-17315,17317-17664,17666-18068,18070-18291,18293-18360,18362-18441,18443-18486,18488-18933,18935-19171,19173-19216,19218-19827,19829-20074,20076-20261,20263-20264,20266-20544,20546-20561,20563-20608,20610-20870,20872-21226,21228-21475,21477-21977,21979-22021,22023-22185,22187-22364,22366-22482,22484-22673,22675-23707,23709-23852,23854-24184,24186-24200,24202-24340,24342-24486,24488-24619,24621-24966,24968-25136,25138-25943,25945-26699,26701-26979,26981-27647,27649-27723,27725-28223,28225-28534,28536-28671,28673-28965,28967-29234,29236-29272,29274-29356,29358-30171,30173-30326,30328-30514,30516-30701,30703-31122,31124-31534,31536-31600,31602-31651,31653-31964,31966-32263,32265-32297,32299-32458,32460-32633,32635-32750,32752-33267,33269-33656,33658-34067,34069-34078,34080-34487,34489-34978,34980-35077,35079-35430,35432-35987,35989-35996,35998-36077,36079-36352,36354-36379,36381-36864,36866-37138,37140-37467,37469-37604,37606-37958,37960-38713,38715-38825,38827-38913,38915-39246,39248-39307,39309-39382,39384-39694,39696-39932,39934-40069,40071-40498,40500-41013,41015-41042,41044-41049,41051-41206,41208-41794,41796-42159,42161-42288,42290-42326,42328-42545,42547-42571,42573-42939,42941-42972,42974-43264,43266-43276,43278-43294,43296-43572,43574-43950,43952-44498,44500-44816,44818-44954,44956-45014,45016-45074,45076-45576,45578-45669,45671-45771,45773-45974,45976-46155,46157-46544,46546-46632,46634-46650,46652-46962,46964-47069,47071-47074,47077-47311,47313-47353,47355-48054,48056-48173,48175-48241,48243-48482,48484-49057,49059-49164,49166-49579,49581-50209,50211-50366,50368-50583,50585-50800,50802-50872,50874-50905,50907-51005,51007-51256,51258-51518,51520-51820,51822-51981,51983-52490,52492-52974,52976-54077,54079-54640,54642-55259,55261-55744,55746-56004,56006-56049,56051-56581,56583-56599,56601-56624,56626-56638,56640-56649,56651-56866,56868-57086,57088-57094,57096-57348,57350-57930,57932-57940,57942-58033,58035-58115,58117-58471,58473-58918,58920-59036,59038-59502,59504-60511,60513-60718,60720-60794,60796-60870,60872-60875,60877-60891,60893-61896,61898-62095,62097-62232,62234-62551,62553-63691,63693-64092,64094-64259,64261-64480,64482-64626,64628-65198,65200-65290,65292-65535"/>
+</extraports>
+<extraports state="filtered" count="239">
+<extrareasons reason="no-response" count="234" proto="tcp" ports="317,610,2471,2580,2910,3075,3275,4147,4454,4488,4626,5343,5819,5916,6182,6375,6559,6644,6659,7258,7264,7348,7955,8209,8514,9155,9304,9694,9765,10377,10386,10911,10922,11186,11492,12361,12422,12621,13079,13342,13397,13614,13620,13725,13747,13993,14298,14598,15469,15876,16622,16795,16860,17013,17107,17316,17665,18069,18292,18361,18442,18487,18934,19172,19217,19828,20075,20262,20265,20545,20562,20609,20871,21227,21476,21978,22186,22365,22483,22674,23708,23853,24185,24201,24341,24487,24620,24967,25137,25944,26700,26980,27648,27724,28224,28535,28672,28966,29235,29273,29357,30172,30327,30515,30702,31123,31535,31601,31652,31965,32264,32298,32459,32634,32751,33268,33657,34068,34079,34488,34979,35078,35988,35997,36078,36353,36380,36865,37139,37468,37605,37959,38714,38826,38914,39247,39308,39383,39695,39933,40070,40499,41014,41043,41050,41207,41795,42160,42289,42327,42546,42572,42940,42973,43265,43277,43295,43573,43951,44499,44817,44955,45015,45075,45577,45670,45772,45975,46156,46545,46633,46651,46963,47070,47075-47076,47312,47354,48055,48174,48242,48483,49058,49165,49580,50210,50367,50801,50873,50906,51006,51257,51519,51821,51982,52491,52975,54078,54641,55260,55745,56005,56050,56582,56600,56625,56639,56650,56867,57087,57095,57349,57931,58116,58472,58919,59037,59503,60512,60719,60795,60871,60876,60892,61897,62096,62233,62552,63692,64093,64481,64627,65199,65291"/>
+<extrareasons reason="host-unreach" count="5" proto="tcp" ports="35431,50584,57941,58034,64260"/>
+</extraports>
+<port protocol="tcp" portid="79"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="finger" servicefp="SF-Port79-TCP:V=7.92%I=9%D=10/3%Time=633BA055%P=x86_64-pc-linux-gnu%r(GenericLines,12,&quot;No\x20one\x20logged\x20on\r\n&quot;)%r(GetRequest,93,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nGET\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nHTTP/1\.0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(Help,5D,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\nHELP\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(HTTPOptions,93,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nHTTP/1\.0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nOPTIONS\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(RTSPRequest,93,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nOPTIONS\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nRTSP/1\.0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(Hello,5D,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\nEHLO\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(SSLSessionReq,5D,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n\x16\x03\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  GenericLines: &#xa;    No one logged on&#xa;  GetRequest: &#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???&#xa;  HTTPOptions: &#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???&#xa;    OPTIONS ???&#xa;  Hello: &#xa;    Login Name TTY Idle When Where&#xa;    EHLO ???&#xa;  Help: &#xa;    Login Name TTY Idle When Where&#xa;    HELP ???&#xa;  RTSPRequest: &#xa;    Login Name TTY Idle When Where&#xa;    OPTIONS ???&#xa;    RTSP/1.0 ???&#xa;  SSLSessionReq: &#xa;    Login Name TTY Idle When Where"><elem key="GenericLines">&#xa;    No one logged on</elem>
+<elem key="GetRequest">&#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???</elem>
+<elem key="HTTPOptions">&#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???&#xa;    OPTIONS ???</elem>
+<elem key="Hello">&#xa;    Login Name TTY Idle When Where&#xa;    EHLO ???</elem>
+<elem key="Help">&#xa;    Login Name TTY Idle When Where&#xa;    HELP ???</elem>
+<elem key="RTSPRequest">&#xa;    Login Name TTY Idle When Where&#xa;    OPTIONS ???&#xa;    RTSP/1.0 ???</elem>
+<elem key="SSLSessionReq">&#xa;    Login Name TTY Idle When Where</elem>
+</script><script id="finger" output="No one logged on&#xd;&#xa;"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="printer" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="6787"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="http" product="Apache httpd" version="2.4.33" extrainfo="(Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.33</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-title" output="Solaris Dashboard&#xa;Requested resource was https://10.10.10.76:6787/solaris/"><elem key="title">Solaris Dashboard</elem>
+<elem key="redirect_url">https://10.10.10.76:6787/solaris/</elem>
+</script><script id="ssl-cert" output="Subject: commonName=sunday&#xa;Subject Alternative Name: DNS:sunday&#xa;Issuer: commonName=sunday/organizationName=Host Root CA&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-12-08T19:40:00&#xa;Not valid after:  2031-12-06T19:40:00&#xa;MD5:   6bd3 4b32 c05a e5fe a8c8 61f0 4361 414a&#xa;SHA-1: a5eb c880 968c 84aa 10b2 a944 bad2 56ca aed5 b66a&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC4DCCAcqgAwIBAgIHAIqqcz45jjALBgkqhkiG9w0BAQswKDEVMBMGA1UEChMM&#xa;SG9zdCBSb290IENBMQ8wDQYDVQQDEwZzdW5kYXkwHhcNMjExMjA4MTk0MDAwWhcN&#xa;MzExMjA2MTk0MDAwWjARMQ8wDQYDVQQDEwZzdW5kYXkwggEiMA0GCSqGSIb3DQEB&#xa;AQUAA4IBDwAwggEKAoIBAQC67wVPVDRPU/Sahp2QnHx2NlMUQrkyBJrr4TSjS9v6&#xa;/DFKqf3m2XnYuKyFl9BAO8Mi+Hz3ON4nZWmigZGX6LnJpci6whB89pLZdcogruB8&#xa;YMyGuP8y2v3orEBLQ5NrcP6fcKLMp+6PXurvuZDgPH+oXHJyp/w//pkBROQRC0oN&#xa;8dx7Zq2t4ZfDiqhgw1j79V7kZNOjKp8gU1HmQ/BjYEaOfVZNwuTVyqUtfcjuxIio&#xa;JEHaVmhNV9Xp9DAOLBFuTXpsJe3anSjGGP0DWMyNOps2VrZUyJwC22U5jlcp7Rj/&#xa;WWE5gnm6ClH44DXlKMIt8O2vq0MfqvvGeSIFbSOPb6Q3AgMBAAGjKjAoMBEGA1Ud&#xa;EQQKMAiCBnN1bmRheTATBgNVHSUEDDAKBggrBgEFBQcDATALBgkqhkiG9w0BAQsD&#xa;ggEBAC/f3nN6ur2oSSedYNIkf6/+MV3qu8xE+Cqt/SbSk0uSmQ7hYpMhc8Ele/gr&#xa;Od0cweaClKXEhugRwfVW5jmjJXrnSZtOpyz09dMhZMA9RJ9efVfnrn5Qw5gUriMx&#xa;dFMrAnOIXsFu0vnRZLJP7E95NHpZVECnRXCSPjp4iPe/vyl1OuoVLBhoOwZ8O7zw&#xa;WlP/51SiII8LPNyeq+01mCY0mv3RJD9uAeNJawnFwsCo/Tg9/mjk0zxUMaXm80Bb&#xa;qsSmST23vYwuPw3c/91fJI4dWb7uEZJa55hRIU0uMPOLOUpN1kKkGPO+7QCzfedc&#xa;WPptRhU+2UMGhFXHyGV5EJp2zvc=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">sunday</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">sunday</elem>
+<elem key="organizationName">Host Root CA</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BAEF054F54344F53F49A869D909C7C7636531442B932049AEBE134A34BDBFAFC314AA9FDE6D979D8B8AC8597D0403BC322F87CF738DE276569A2819197E8B9C9A5C8BAC2107CF692D975CA20AEE07C60CC86B8FF32DAFDE8AC404B43936B70FE9F70A2CCA7EE8F5EEAEFB990E03C7FA85C7272A7FC3FFE990144E4110B4A0DF1DC7B66ADADE197C38AA860C358FBF55EE464D3A32A9F205351E643F06360468E7D564DC2E4D5CAA52D7DC8EEC488A82441DA56684D57D5E9F4300E2C116E4D7A6C25EDDA9D28C618FD0358CC8D3A9B3656B654C89C02DB65398E5729ED18FF5961398279BA0A51F8E035E528C22DF0EDAFAB431FAAFBC67922056D238F6FA437</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:sunday</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-12-08T19:40:00</elem>
+<elem key="notAfter">2031-12-06T19:40:00</elem>
+</table>
+<elem key="md5">6bd34b32c05ae5fea8c861f04361414a</elem>
+<elem key="sha1">a5ebc880968c84aa10b2a944bad256caaed5b66a</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC4DCCAcqgAwIBAgIHAIqqcz45jjALBgkqhkiG9w0BAQswKDEVMBMGA1UEChMM&#xa;SG9zdCBSb290IENBMQ8wDQYDVQQDEwZzdW5kYXkwHhcNMjExMjA4MTk0MDAwWhcN&#xa;MzExMjA2MTk0MDAwWjARMQ8wDQYDVQQDEwZzdW5kYXkwggEiMA0GCSqGSIb3DQEB&#xa;AQUAA4IBDwAwggEKAoIBAQC67wVPVDRPU/Sahp2QnHx2NlMUQrkyBJrr4TSjS9v6&#xa;/DFKqf3m2XnYuKyFl9BAO8Mi+Hz3ON4nZWmigZGX6LnJpci6whB89pLZdcogruB8&#xa;YMyGuP8y2v3orEBLQ5NrcP6fcKLMp+6PXurvuZDgPH+oXHJyp/w//pkBROQRC0oN&#xa;8dx7Zq2t4ZfDiqhgw1j79V7kZNOjKp8gU1HmQ/BjYEaOfVZNwuTVyqUtfcjuxIio&#xa;JEHaVmhNV9Xp9DAOLBFuTXpsJe3anSjGGP0DWMyNOps2VrZUyJwC22U5jlcp7Rj/&#xa;WWE5gnm6ClH44DXlKMIt8O2vq0MfqvvGeSIFbSOPb6Q3AgMBAAGjKjAoMBEGA1Ud&#xa;EQQKMAiCBnN1bmRheTATBgNVHSUEDDAKBggrBgEFBQcDATALBgkqhkiG9w0BAQsD&#xa;ggEBAC/f3nN6ur2oSSedYNIkf6/+MV3qu8xE+Cqt/SbSk0uSmQ7hYpMhc8Ele/gr&#xa;Od0cweaClKXEhugRwfVW5jmjJXrnSZtOpyz09dMhZMA9RJ9efVfnrn5Qw5gUriMx&#xa;dFMrAnOIXsFu0vnRZLJP7E95NHpZVECnRXCSPjp4iPe/vyl1OuoVLBhoOwZ8O7zw&#xa;WlP/51SiII8LPNyeq+01mCY0mv3RJD9uAeNJawnFwsCo/Tg9/mjk0zxUMaXm80Bb&#xa;qsSmST23vYwuPw3c/91fJI4dWb7uEZJa55hRIU0uMPOLOUpN1kKkGPO+7QCzfedc&#xa;WPptRhU+2UMGhFXHyGV5EJp2zvc=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="tls-alpn" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="http-server-header" output="Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14"><elem>Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14</elem>
+</script></port>
+<port protocol="tcp" portid="22022"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="7.5" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.5</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 aa:00:94:32:18:60:a4:93:3b:87:a4:b6:f8:02:68:0e (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsG4q9TS6eAOrX6zI+R0CMMkCTfS36QDqQW5NcF/v9vmNWyL6xSZ8x38AB2T+Kbx672RqYCtKmHcZMFs55Q3hoWQE7YgWOJhXw9agE3aIjXiWCNhmmq4T5+zjbJWbF4OLkHzNzZ2qGHbhQD9Kbw9AmyW8ZS+P8AGC5fO36AVvgyS8+5YbA05N3UDKBbQu/WlpgyLfuNpAq9279mfq/MUWWRNKGKICF/jRB3lr2BMD+BhDjTooM7ySxpq7K9dfOgdmgqFrjdE4bkxBrPsWLF41YQy3hV0L/MJQE2h+s7kONmmZJMl4lAZ8PNUqQe6sdkDhL1Ex2+yQlvbyqQZw3xhuJ&#xa;  256 da:2a:6c:fa:6b:b1:ea:16:1d:a6:54:a1:0b:2b:ee:48 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII/0DH8qZiCfAzZNkSaAmT39TyBUFFwjdk8vm7ze+Wwm"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDsG4q9TS6eAOrX6zI+R0CMMkCTfS36QDqQW5NcF/v9vmNWyL6xSZ8x38AB2T+Kbx672RqYCtKmHcZMFs55Q3hoWQE7YgWOJhXw9agE3aIjXiWCNhmmq4T5+zjbJWbF4OLkHzNzZ2qGHbhQD9Kbw9AmyW8ZS+P8AGC5fO36AVvgyS8+5YbA05N3UDKBbQu/WlpgyLfuNpAq9279mfq/MUWWRNKGKICF/jRB3lr2BMD+BhDjTooM7ySxpq7K9dfOgdmgqFrjdE4bkxBrPsWLF41YQy3hV0L/MJQE2h+s7kONmmZJMl4lAZ8PNUqQe6sdkDhL1Ex2+yQlvbyqQZw3xhuJ</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">aa0094321860a4933b87a4b6f802680e</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAII/0DH8qZiCfAzZNkSaAmT39TyBUFFwjdk8vm7ze+Wwm</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">da2a6cfa6bb1ea161da654a10b2bee48</elem>
+</table>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="79"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="30746"/>
+<osmatch name="Oracle Solaris 10" accuracy="94" line="92250">
+<osclass type="general purpose" vendor="Oracle" osfamily="Solaris" osgen="10" accuracy="94"><cpe>cpe:/o:oracle:solaris:10</cpe></osclass>
+</osmatch>
+<osmatch name="Oracle Solaris 11 or OpenIndiana" accuracy="93" line="92379">
+<osclass type="general purpose" vendor="Oracle" osfamily="Solaris" osgen="11" accuracy="93"><cpe>cpe:/o:oracle:solaris:11</cpe></osclass>
+<osclass type="general purpose" vendor="illumos" osfamily="OpenIndiana" accuracy="93"><cpe>cpe:/o:illumos:openindiana</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 11.3" accuracy="93" line="100663">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="11" accuracy="93"><cpe>cpe:/o:sun:sunos:11.3</cpe></osclass>
+</osmatch>
+<osmatch name="Oracle Solaris 11" accuracy="93" line="92359">
+<osclass type="general purpose" vendor="Oracle" osfamily="Solaris" osgen="11" accuracy="93"><cpe>cpe:/o:oracle:solaris:11</cpe></osclass>
+</osmatch>
+<osmatch name="Nexenta OS 3.0 - 3.1.2 (OpenSolaris snv_130 - snv_134f)" accuracy="92" line="88849">
+<osclass type="general purpose" vendor="Nexenta" osfamily="Nexenta" accuracy="92"><cpe>cpe:/o:nexenta:nexenta</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 11 (snv_151a) or OpenIndiana oi_147" accuracy="92" line="100615">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="11" accuracy="92"><cpe>cpe:/o:sun:sunos:5.11</cpe></osclass>
+<osclass type="general purpose" vendor="illumos" osfamily="OpenIndiana" accuracy="92"><cpe>cpe:/o:illumos:openindiana</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 11 (snv_151a) or OpenIndiana oi_147 - oi_151a" accuracy="92" line="100643">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="11" accuracy="92"><cpe>cpe:/o:sun:sunos:5.11</cpe></osclass>
+<osclass type="general purpose" vendor="illumos" osfamily="OpenIndiana" accuracy="92"><cpe>cpe:/o:illumos:openindiana</cpe></osclass>
+</osmatch>
+<osmatch name="Sun OpenSolaris snv_129" accuracy="91" line="100104">
+<osclass type="general purpose" vendor="Sun" osfamily="OpenSolaris" accuracy="91"><cpe>cpe:/o:sun:opensolaris</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Storage 7410 NAS device" accuracy="90" line="99960">
+<osclass type="storage-misc" vendor="Sun" osfamily="embedded" accuracy="90"><cpe>cpe:/h:sun:storage_7410</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 11" accuracy="90" line="100543">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="11" accuracy="90"><cpe>cpe:/o:sun:sunos:5.11</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.92%E=4%D=10/3%OT=79%CT=1%CU=30746%PV=Y%DS=2%DC=T%G=Y%TM=633BA16&#xa;OS:D%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=&#xa;OS:7)OPS(O1=ST11M539NW2%O2=ST11M539NW2%O3=NNT11M539NW2%O4=ST11M539NW2%O5=ST&#xa;OS:11M539NW2%O6=ST11M539)WIN(W1=FB06%W2=FB06%W3=FA38%W4=FA3B%W5=FA3B%W6=FFF&#xa;OS:7)ECN(R=Y%DF=Y%T=3C%W=FAB0%O=M539NNSNW2%CC=Y%Q=)T1(R=Y%DF=Y%T=3C%S=O%A=S&#xa;OS:+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=3C%W=FA09%S=O%A=S+%F=AS%O=ST11M539NW&#xa;OS:2%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W&#xa;OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;OS:T7(R=N)U1(R=Y%DF=N%T=FF%IPL=70%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE&#xa;OS:(R=Y%DFI=Y%T=FF%CD=S)&#xa;"/>
+</os>
+<uptime seconds="1996" lastboot="Mon Oct  3 22:25:37 2022"/>
+<distance value="2"/>
+<tcpsequence index="263" difficulty="Good luck!" values="22BC29B7,947AF9E7,1A561B40,6D158A24,40E7A7A9,429B3140"/>
+<ipidsequence class="Incremental" values="10FA,10FB,10FC,10FD,10FE,10FF"/>
+<tcptssequence class="100HZ" values="30643,3064A,30656,3065D,30668,30672"/>
+<trace port="51789" proto="tcp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="68.55"/>
+<hop ttl="2" ipaddr="10.10.10.76" rtt="17.46"/>
+</trace>
+<times srtt="30808" rttvar="13144" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1664852333"/>
+<taskend task="NSE" time="1664852333"/>
+<taskbegin task="NSE" time="1664852333"/>
+<taskend task="NSE" time="1664852333"/>
+<taskbegin task="NSE" time="1664852333"/>
+<taskend task="NSE" time="1664852333"/>
+<runstats><finished time="1664852333" timestr="Mon Oct  3 22:58:53 2022" summary="Nmap done at Mon Oct  3 22:58:53 2022; 1 IP address (1 host up) scanned in 1999.02 seconds" elapsed="1999.02" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

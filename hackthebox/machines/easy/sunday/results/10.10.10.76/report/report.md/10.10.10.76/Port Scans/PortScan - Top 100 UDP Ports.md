@@ -1,0 +1,46 @@
+```bash
+nmap -vv --reason -Pn -T4 -sU -A --top-ports 100 -oN "/home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/_top_100_udp_nmap.txt" -oX "/home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/xml/_top_100_udp_nmap.xml" 10.10.10.76
+```
+
+[/home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/_top_100_udp_nmap.txt](file:///home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/_top_100_udp_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Mon Oct  3 22:25:34 2022 as: nmap -vv --reason -Pn -T4 -sU -A --top-ports 100 -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/xml/_top_100_udp_nmap.xml 10.10.10.76
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Increasing send delay for 10.10.10.76 from 0 to 50 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.10.10.76 from 50 to 100 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.10.10.76 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.76 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.76 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.76 from 800 to 1000 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for 10.10.10.76
+Host is up, received user-set (0.029s latency).
+Scanned at 2022-10-03 22:25:35 EDT for 84s
+Not shown: 99 closed udp ports (port-unreach)
+PORT    STATE SERVICE REASON               VERSION
+111/udp open  rpcbind udp-response ttl 254 2-4 (RPC #100000)
+Device type: general purpose|storage-misc
+Running: illumos OpenIndiana, Joyent SmartOS, Nexenta, Oracle Solaris 10|11, Sun embedded, Sun OpenSolaris, Sun Solaris 11
+OS CPE: cpe:/o:illumos:openindiana cpe:/o:joyent:smartos cpe:/o:nexenta:nexenta cpe:/o:oracle:solaris:10 cpe:/o:oracle:solaris:11 cpe:/h:sun:storage_7410 cpe:/o:sun:opensolaris cpe:/o:sun:sunos:5.11
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.92%E=4%D=10/3%OT=%CT=%CU=7%PV=Y%DS=2%DC=T%G=N%TM=633B99F3%P=x86_64-pc-linux-gnu)
+SEQ(CI=I%II=I)
+T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=FF%IPL=70%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=Y%T=FF%CD=S)
+
+Network Distance: 2 hops
+
+TRACEROUTE (using port 49185/udp)
+HOP RTT      ADDRESS
+1   12.98 ms 10.10.14.1
+2   13.32 ms 10.10.10.76
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  3 22:26:59 2022 -- 1 IP address (1 host up) scanned in 85.28 seconds
+
+```

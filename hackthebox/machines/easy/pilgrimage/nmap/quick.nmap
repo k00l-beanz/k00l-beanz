@@ -1,0 +1,9 @@
+# Nmap 7.94 scan initiated Mon Oct  9 16:57:01 2023 as: nmap -p- --min-rate=5000 -oN nmap/quick.nmap 10.10.11.219
+Nmap scan report for pilgrimage.htb (10.10.11.219)
+Host is up (0.053s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Mon Oct  9 16:57:13 2023 -- 1 IP address (1 host up) scanned in 11.80 seconds

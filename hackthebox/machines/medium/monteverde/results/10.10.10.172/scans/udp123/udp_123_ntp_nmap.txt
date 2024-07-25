@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Tue Sep 20 19:24:46 2022 as: nmap -vv --reason -Pn -T4 -sU -sV -p 123 "--script=banner,(ntp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp123/udp_123_ntp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp123/xml/udp_123_ntp_nmap.xml 10.10.10.172
+Nmap scan report for MEGABANK.LOCAL (10.10.10.172)
+Host is up, received user-set (0.038s latency).
+Scanned at 2022-09-20 19:24:47 EDT for 10s
+
+PORT    STATE SERVICE REASON               VERSION
+123/udp open  ntp     udp-response ttl 127 NTP v3
+| ntp-info: 
+|_  receive time stamp: 2022-09-20T23:24:56
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 20 19:24:57 2022 -- 1 IP address (1 host up) scanned in 10.78 seconds

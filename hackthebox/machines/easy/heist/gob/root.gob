@@ -1,0 +1,7 @@
+/images              [36m (Status: 301)[0m [Size: 150][34m [--> http://10.10.10.149/images/][0m
+/index.php           [36m (Status: 302)[0m [Size: 0][34m [--> login.php][0m
+/login.php           [32m (Status: 200)[0m [Size: 2058]
+/issues.php          [36m (Status: 302)[0m [Size: 16][34m [--> login.php][0m
+/css                 [36m (Status: 301)[0m [Size: 147][34m [--> http://10.10.10.149/css/][0m
+/js                  [36m (Status: 301)[0m [Size: 146][34m [--> http://10.10.10.149/js/][0m
+/attachments         [36m (Status: 301)[0m [Size: 155][34m [--> http://10.10.10.149/attachments/][0m

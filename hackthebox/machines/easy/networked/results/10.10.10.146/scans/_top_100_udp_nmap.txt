@@ -1,0 +1,128 @@
+# Nmap 7.92 scan initiated Tue Sep 27 23:59:43 2022 as: nmap -vv --reason -Pn -T4 -sU -A --top-ports 100 -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/xml/_top_100_udp_nmap.xml 10.10.10.146
+Increasing send delay for 10.10.10.146 from 0 to 50 due to 11 out of 17 dropped probes since last increase.
+Warning: 10.10.10.146 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.146 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.146 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.146 from 800 to 1000 due to 11 out of 26 dropped probes since last increase.
+Nmap scan report for 10.10.10.146
+Host is up, received user-set (0.013s latency).
+Scanned at 2022-09-27 23:59:50 EDT for 309s
+
+PORT      STATE         SERVICE         REASON                 VERSION
+7/udp     filtered      echo            host-prohibited ttl 63
+9/udp     filtered      discard         host-prohibited ttl 63
+17/udp    filtered      qotd            host-prohibited ttl 63
+19/udp    filtered      chargen         host-prohibited ttl 63
+49/udp    filtered      tacacs          host-prohibited ttl 63
+53/udp    open|filtered domain          no-response
+67/udp    filtered      dhcps           host-prohibited ttl 63
+68/udp    filtered      dhcpc           host-prohibited ttl 63
+69/udp    filtered      tftp            host-prohibited ttl 63
+80/udp    filtered      http            host-prohibited ttl 63
+88/udp    filtered      kerberos-sec    host-prohibited ttl 63
+111/udp   open|filtered rpcbind         no-response
+120/udp   open|filtered cfdptkt         no-response
+123/udp   filtered      ntp             host-prohibited ttl 63
+135/udp   open|filtered msrpc           no-response
+136/udp   filtered      profile         host-prohibited ttl 63
+137/udp   filtered      netbios-ns      host-prohibited ttl 63
+138/udp   filtered      netbios-dgm     host-prohibited ttl 63
+139/udp   filtered      netbios-ssn     host-prohibited ttl 63
+158/udp   open|filtered pcmail-srv      no-response
+161/udp   open|filtered snmp            no-response
+162/udp   open|filtered snmptrap        no-response
+177/udp   filtered      xdmcp           host-prohibited ttl 63
+427/udp   filtered      svrloc          host-prohibited ttl 63
+443/udp   open|filtered https           no-response
+445/udp   filtered      microsoft-ds    host-prohibited ttl 63
+497/udp   filtered      retrospect      host-prohibited ttl 63
+500/udp   open|filtered isakmp          no-response
+514/udp   filtered      syslog          host-prohibited ttl 63
+515/udp   filtered      printer         host-prohibited ttl 63
+518/udp   open|filtered ntalk           no-response
+520/udp   open|filtered route           no-response
+593/udp   open|filtered http-rpc-epmap  no-response
+623/udp   filtered      asf-rmcp        host-prohibited ttl 63
+626/udp   open|filtered serialnumberd   no-response
+631/udp   filtered      ipp             host-prohibited ttl 63
+996/udp   filtered      vsinet          host-prohibited ttl 63
+997/udp   filtered      maitrd          host-prohibited ttl 63
+998/udp   filtered      puparp          host-prohibited ttl 63
+999/udp   open|filtered applix          no-response
+1022/udp  filtered      exp2            host-prohibited ttl 63
+1023/udp  open|filtered unknown         no-response
+1025/udp  filtered      blackjack       host-prohibited ttl 63
+1026/udp  filtered      win-rpc         host-prohibited ttl 63
+1027/udp  open|filtered unknown         no-response
+1028/udp  open|filtered ms-lsa          no-response
+1029/udp  filtered      solid-mux       host-prohibited ttl 63
+1030/udp  open|filtered iad1            no-response
+1433/udp  open|filtered ms-sql-s        no-response
+1434/udp  open|filtered ms-sql-m        no-response
+1645/udp  open|filtered radius          no-response
+1646/udp  open|filtered radacct         no-response
+1701/udp  open|filtered L2TP            no-response
+1718/udp  filtered      h225gatedisc    host-prohibited ttl 63
+1719/udp  open|filtered h323gatestat    no-response
+1812/udp  open|filtered radius          no-response
+1813/udp  open|filtered radacct         no-response
+1900/udp  filtered      upnp            host-prohibited ttl 63
+2000/udp  filtered      cisco-sccp      host-prohibited ttl 63
+2048/udp  open|filtered dls-monitor     no-response
+2049/udp  open|filtered nfs             no-response
+2222/udp  filtered      msantipiracy    host-prohibited ttl 63
+2223/udp  open|filtered rockwell-csp2   no-response
+3283/udp  open|filtered netassistant    no-response
+3456/udp  open|filtered IISrpc-or-vat   no-response
+3703/udp  filtered      adobeserver-3   host-prohibited ttl 63
+4444/udp  filtered      krb524          host-prohibited ttl 63
+4500/udp  filtered      nat-t-ike       host-prohibited ttl 63
+5000/udp  filtered      upnp            host-prohibited ttl 63
+5060/udp  filtered      sip             host-prohibited ttl 63
+5353/udp  open|filtered zeroconf        no-response
+5632/udp  open|filtered pcanywherestat  no-response
+9200/udp  open|filtered wap-wsp         no-response
+10000/udp open|filtered ndmp            no-response
+17185/udp open|filtered wdbrpc          no-response
+20031/udp open|filtered bakbonenetvault no-response
+30718/udp open|filtered unknown         no-response
+31337/udp filtered      BackOrifice     host-prohibited ttl 63
+32768/udp filtered      omad            host-prohibited ttl 63
+32769/udp filtered      filenet-rpc     host-prohibited ttl 63
+32771/udp open|filtered sometimes-rpc6  no-response
+32815/udp filtered      unknown         host-prohibited ttl 63
+33281/udp open|filtered unknown         no-response
+49152/udp open|filtered unknown         no-response
+49153/udp filtered      unknown         host-prohibited ttl 63
+49154/udp open|filtered unknown         no-response
+49156/udp filtered      unknown         host-prohibited ttl 63
+49181/udp open|filtered unknown         no-response
+49182/udp filtered      unknown         host-prohibited ttl 63
+49185/udp filtered      unknown         host-prohibited ttl 63
+49186/udp filtered      unknown         host-prohibited ttl 63
+49188/udp filtered      unknown         host-prohibited ttl 63
+49190/udp open|filtered unknown         no-response
+49191/udp filtered      unknown         host-prohibited ttl 63
+49192/udp filtered      unknown         host-prohibited ttl 63
+49193/udp filtered      unknown         host-prohibited ttl 63
+49194/udp filtered      unknown         host-prohibited ttl 63
+49200/udp filtered      unknown         host-prohibited ttl 63
+49201/udp filtered      unknown         host-prohibited ttl 63
+65024/udp filtered      unknown         host-prohibited ttl 63
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.92%E=4%D=9/28%OT=%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=6333C7EB%P=x86_64-pc-linux-gnu)
+SEQ(II=I)
+U1(R=N)
+IE(R=Y%DFI=N%TG=40%CD=S)
+
+Network Distance: 2 hops
+
+TRACEROUTE (using port 2222/udp)
+HOP RTT      ADDRESS
+1   11.53 ms 10.10.14.1
+2   11.16 ms 10.10.10.146
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 28 00:04:59 2022 -- 1 IP address (1 host up) scanned in 316.75 seconds

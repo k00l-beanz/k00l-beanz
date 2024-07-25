@@ -1,0 +1,106 @@
+# Nmap 7.92 scan initiated Mon Oct 10 17:52:01 2022 as: nmap -vv --reason -Pn -T4 -sV -p 1337 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp1337/tcp_1337_http_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp1337/xml/tcp_1337_http_nmap.xml 10.10.10.52
+Nmap scan report for mantis.htb.local (10.10.10.52)
+Host is up, received user-set (0.015s latency).
+Scanned at 2022-10-10 17:52:02 EDT for 192s
+
+Bug in http-security-headers: no string output.
+PORT     STATE SERVICE REASON          VERSION
+1337/tcp open  http    syn-ack ttl 127 Microsoft IIS httpd 7.5
+|_http-wordpress-enum: Nothing found amongst the top 100 resources,use --script-args search-limit=<number|all> for deeper analysis)
+| http-useragent-tester: 
+|   Status for browser useragent: 200
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|_    WWW-Mechanize/1.34
+|_http-errors: Couldn't find any error pages.
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=mantis.htb.local
+|     
+|     Path: http://mantis.htb.local:1337/
+|     Line number: 7
+|     Comment: 
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|         
+|_        -->
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-chrono: Request times for /; avg: 235.65ms; min: 153.15ms; max: 558.12ms
+|_http-devframework: ASP.NET detected. Found related header.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+|_http-title: IIS7
+|_http-date: Mon, 10 Oct 2022 21:52:14 GMT; -3s from local time.
+|_http-drupal-enum: Nothing found amongst the top 100 resources,use --script-args number=<number|all> for deeper analysis)
+|_http-fetch: Please enter the complete path of the directory to save data in.
+| http-sitemap-generator: 
+|   Directory structure:
+|     /
+|       Other: 1; png: 1
+|   Longest directory structure:
+|     Depth: 0
+|     Dir: /
+|   Total files found (by extension):
+|_    Other: 1; png: 1
+| http-vhosts: 
+| 127 names had status 200
+|_sql.htb.local
+| http-headers: 
+|   Content-Length: 689
+|   Content-Type: text/html
+|   Last-Modified: Fri, 01 Sep 2017 13:02:22 GMT
+|   Accept-Ranges: bytes
+|   ETag: "55b5e08c2223d31:0"
+|   Server: Microsoft-IIS/7.5
+|   X-Powered-By: ASP.NET
+|   Date: Mon, 10 Oct 2022 21:52:13 GMT
+|   Connection: close
+|   
+|_  (Request type: HEAD)
+|_http-config-backup: ERROR: Script execution failed (use -d to debug)
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+| http-php-version: Logo query returned unknown hash dfbd1ee66a4e792349591b88660c0956
+|_Credits query returned unknown hash dfbd1ee66a4e792349591b88660c0956
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-server-header: Microsoft-IIS/7.5
+|_http-feed: Couldn't find any feeds.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+|_http-mobileversion-checker: No mobile version detected.
+|_http-malware-host: Host appears to be clean
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 10 17:55:14 2022 -- 1 IP address (1 host up) scanned in 192.11 seconds

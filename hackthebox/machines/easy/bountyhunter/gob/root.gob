@@ -1,0 +1,12 @@
+/.html               [33m (Status: 403)[0m [Size: 277]
+/.php                [33m (Status: 403)[0m [Size: 277]
+/index.php           [32m (Status: 200)[0m [Size: 25169]
+/resources           [36m (Status: 301)[0m [Size: 316][34m [--> http://10.10.11.100/resources/][0m
+/assets              [36m (Status: 301)[0m [Size: 313][34m [--> http://10.10.11.100/assets/][0m
+/portal.php          [32m (Status: 200)[0m [Size: 125]
+/css                 [36m (Status: 301)[0m [Size: 310][34m [--> http://10.10.11.100/css/][0m
+/db.php              [32m (Status: 200)[0m [Size: 0]
+/js                  [36m (Status: 301)[0m [Size: 309][34m [--> http://10.10.11.100/js/][0m
+/.html               [33m (Status: 403)[0m [Size: 277]
+/.php                [33m (Status: 403)[0m [Size: 277]
+/server-status       [33m (Status: 403)[0m [Size: 277]

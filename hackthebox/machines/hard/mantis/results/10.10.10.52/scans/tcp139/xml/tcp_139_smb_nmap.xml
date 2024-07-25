@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Mon Oct 10 17:32:46 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 139 &quot;-&#45;script=banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp139/tcp_139_smb_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp139/xml/tcp_139_smb_nmap.xml 10.10.10.52 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 139 &quot;-&#45;script=banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp139/tcp_139_smb_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp139/xml/tcp_139_smb_nmap.xml 10.10.10.52" start="1665437566" startstr="Mon Oct 10 17:32:46 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="139"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1665437567"/>
+<taskend task="NSE" time="1665437567"/>
+<taskbegin task="NSE" time="1665437567"/>
+<taskend task="NSE" time="1665437567"/>
+<taskbegin task="NSE" time="1665437567"/>
+<taskend task="NSE" time="1665437567"/>
+<taskbegin task="SYN Stealth Scan" time="1665437567"/>
+<taskend task="SYN Stealth Scan" time="1665437567" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1665437567"/>
+<taskend task="Service scan" time="1665437573" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1665437573"/>
+<taskprogress task="NSE" time="1665437604" percent="91.43" remaining="3" etc="1665437607"/>
+<taskprogress task="NSE" time="1665437634" percent="97.14" remaining="2" etc="1665437636"/>
+<taskprogress task="NSE" time="1665437664" percent="97.14" remaining="3" etc="1665437667"/>
+<taskprogress task="NSE" time="1665437694" percent="97.14" remaining="4" etc="1665437698"/>
+<taskprogress task="NSE" time="1665437724" percent="97.14" remaining="5" etc="1665437728"/>
+<taskprogress task="NSE" time="1665437754" percent="97.14" remaining="6" etc="1665437759"/>
+<taskprogress task="NSE" time="1665437784" percent="97.14" remaining="7" etc="1665437790"/>
+<taskprogress task="NSE" time="1665437814" percent="97.14" remaining="8" etc="1665437821"/>
+<taskprogress task="NSE" time="1665437844" percent="97.14" remaining="8" etc="1665437852"/>
+<taskprogress task="NSE" time="1665437874" percent="97.14" remaining="9" etc="1665437883"/>
+<taskprogress task="NSE" time="1665437904" percent="97.14" remaining="10" etc="1665437914"/>
+<taskprogress task="NSE" time="1665437934" percent="97.14" remaining="11" etc="1665437945"/>
+<taskprogress task="NSE" time="1665437964" percent="97.14" remaining="12" etc="1665437976"/>
+<taskprogress task="NSE" time="1665437994" percent="97.14" remaining="13" etc="1665438006"/>
+<taskprogress task="NSE" time="1665438024" percent="97.14" remaining="14" etc="1665438037"/>
+<taskprogress task="NSE" time="1665438054" percent="97.14" remaining="15" etc="1665438068"/>
+<taskend task="NSE" time="1665438083"/>
+<taskbegin task="NSE" time="1665438083"/>
+<taskend task="NSE" time="1665438095"/>
+<taskbegin task="NSE" time="1665438095"/>
+<taskend task="NSE" time="1665438095"/>
+<host starttime="1665437567" endtime="1665438095"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.52" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mantis.htb.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="netbios-ssn" product="Windows Server 2008 R2 Standard 7601 Service Pack 1 netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="smb-enum-services" output="ERROR: Script execution failed (use -d to debug)"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  note: ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  account_used: &lt;blank&gt;&#xa;  \\10.10.10.52\ADMIN$: &#xa;    warning: Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED&#xa;    Anonymous access: &lt;none&gt;&#xa;  \\10.10.10.52\C$: &#xa;    warning: Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED&#xa;    Anonymous access: &lt;none&gt;&#xa;  \\10.10.10.52\IPC$: &#xa;    warning: Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED&#xa;    Anonymous access: READ&#xa;  \\10.10.10.52\NETLOGON: &#xa;    warning: Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED&#xa;    Anonymous access: &lt;none&gt;"><elem key="note">ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)</elem>
+<elem key="account_used">&lt;blank&gt;</elem>
+<table key="\\10.10.10.52\ADMIN$">
+<elem key="warning">Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED</elem>
+<elem key="Anonymous access">&lt;none&gt;</elem>
+</table>
+<table key="\\10.10.10.52\C$">
+<elem key="warning">Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED</elem>
+<elem key="Anonymous access">&lt;none&gt;</elem>
+</table>
+<table key="\\10.10.10.52\IPC$">
+<elem key="warning">Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED</elem>
+<elem key="Anonymous access">READ</elem>
+</table>
+<table key="\\10.10.10.52\NETLOGON">
+<elem key="warning">Couldn&apos;t get details for share: NT_STATUS_ACCESS_DENIED</elem>
+<elem key="Anonymous access">&lt;none&gt;</elem>
+</table>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2008::sp1&#xa;  Computer name: mantis&#xa;  NetBIOS computer name: MANTIS\x00&#xa;  Domain name: htb.local&#xa;  Forest name: htb.local&#xa;  FQDN: mantis.htb.local&#xa;  System time: 2022-10-10T17:33:02-04:00&#xa;"><elem key="os">Windows Server 2008 R2 Standard 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows Server 2008 R2 Standard 6.1</elem>
+<elem key="server">MANTIS\x00</elem>
+<elem key="date">2022-10-10T17:33:02-04:00</elem>
+<elem key="fqdn">mantis.htb.local</elem>
+<elem key="domain_dns">htb.local</elem>
+<elem key="forest_dns">htb.local</elem>
+<elem key="workgroup">HTB\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2008::sp1</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.1: &#xa;    Message signing enabled and required"><table key="2.1">
+<elem>Message signing enabled and required</elem>
+</table>
+</script><script id="smb-print-text" output="false">false</script><script id="smb2-capabilities" output="&#xa;  2.0.2: &#xa;    Distributed File System&#xa;  2.1: &#xa;    Distributed File System&#xa;    Leasing"><table key="2.0.2">
+<elem>Distributed File System</elem>
+</table>
+<table key="2.1">
+<elem>Distributed File System</elem>
+<elem>Leasing</elem>
+</table>
+</script><script id="smb-protocols" output="&#xa;  dialects: &#xa;    NT LM 0.12 (SMBv1) [dangerous, but default]&#xa;    2.0.2&#xa;    2.1"><table key="dialects">
+<elem>NT LM 0.12 (SMBv1) [dangerous, but default]</elem>
+<elem>2.0.2</elem>
+<elem>2.1</elem>
+</table>
+</script><script id="smb-security-mode" output="&#xa;  account_used: &lt;blank&gt;&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: required"><elem key="account_used">&lt;blank&gt;</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">required</elem>
+</script><script id="smb-vuln-ms10-061" output="NT_STATUS_ACCESS_DENIED">false</script><script id="smb-mbenum" output="&#xa;  ERROR: Call to Browser Service failed with status = 2184"/><script id="smb2-time" output="&#xa;  date: 2022-10-10T21:33:13&#xa;  start_date: 2022-10-10T21:16:41"><elem key="date">2022-10-10T21:33:13</elem>
+<elem key="start_date">2022-10-10T21:16:41</elem>
+</script></hostscript><times srtt="11815" rttvar="11815" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1665438095"/>
+<taskend task="NSE" time="1665438095"/>
+<taskbegin task="NSE" time="1665438095"/>
+<taskend task="NSE" time="1665438095"/>
+<taskbegin task="NSE" time="1665438095"/>
+<taskend task="NSE" time="1665438095"/>
+<runstats><finished time="1665438095" timestr="Mon Oct 10 17:41:35 2022" summary="Nmap done at Mon Oct 10 17:41:35 2022; 1 IP address (1 host up) scanned in 528.76 seconds" elapsed="528.76" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

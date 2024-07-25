@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Wed Jul 27 16:00:21 2022 as: nmap -sC -sV -oN _tcp9389.nmap -Pn -p9389 10.10.10.161
+Nmap scan report for 10.10.10.161
+Host is up (0.013s latency).
+
+PORT     STATE SERVICE VERSION
+9389/tcp open  mc-nmf  .NET Message Framing
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 27 16:00:28 2022 -- 1 IP address (1 host up) scanned in 6.63 seconds

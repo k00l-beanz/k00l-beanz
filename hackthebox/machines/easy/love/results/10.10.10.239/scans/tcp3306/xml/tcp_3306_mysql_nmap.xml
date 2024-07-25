@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Thu Aug  4 19:14:04 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 3306 &quot;-&#45;script=banner,(mysql* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/tcp3306/tcp_3306_mysql_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/tcp3306/xml/tcp_3306_mysql_nmap.xml 10.10.10.239 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 3306 &quot;-&#45;script=banner,(mysql* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/tcp3306/tcp_3306_mysql_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/tcp3306/xml/tcp_3306_mysql_nmap.xml 10.10.10.239" start="1659654844" startstr="Thu Aug  4 19:14:04 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="3306"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1659654845"/>
+<taskend task="NSE" time="1659654845"/>
+<taskbegin task="NSE" time="1659654845"/>
+<taskend task="NSE" time="1659654845"/>
+<taskbegin task="NSE" time="1659654845"/>
+<taskend task="NSE" time="1659654845"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1659654845"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1659654845"/>
+<taskbegin task="SYN Stealth Scan" time="1659654845"/>
+<taskend task="SYN Stealth Scan" time="1659654845" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1659654845"/>
+<taskend task="Service scan" time="1659654846" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1659654846"/>
+<taskend task="NSE" time="1659654846"/>
+<taskbegin task="NSE" time="1659654846"/>
+<taskend task="NSE" time="1659654847"/>
+<taskbegin task="NSE" time="1659654847"/>
+<taskend task="NSE" time="1659654847"/>
+<host starttime="1659654845" endtime="1659654847"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.239" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="mysql" servicefp="SF-Port3306-TCP:V=7.92%I=7%D=8/4%Time=62EC52BD%P=x86_64-pc-linux-gnu%r(NULL,4A,&quot;F\0\0\x01\xffj\x04Host\x20&apos;10\.10\.14\.10&apos;\x20is\x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server&quot;)%r(SMBProgNeg,4A,&quot;F\0\0\x01\xffj\x04Host\x20&apos;10\.10\.14\.10&apos;\x20is\x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server&quot;)%r(oracle-tns,4A,&quot;F\0\0\x01\xffj\x04Host\x20&apos;10\.10\.14\.10&apos;\x20is\x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server&quot;)%r(giop,4A,&quot;F\0\0\x01\xffj\x04Host\x20&apos;10\.10\.14\.10&apos;\x20is\x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  NULL, SMBProgNeg, giop, oracle-tns: &#xa;    Host &apos;10.10.14.10&apos; is not allowed to connect to this MariaDB server"><elem key="NULL, SMBProgNeg, giop, oracle-tns">&#xa;    Host &apos;10.10.14.10&apos; is not allowed to connect to this MariaDB server</elem>
+</script><script id="banner" output="F\x00\x00\x01\xFFj\x04Host &apos;10.10.14.10&apos; is not allowed to conn&#xa;ect to this MariaDB server"/><script id="mysql-info" output="&#xa;  MySQL Error: Host &apos;10.10.14.10&apos; is not allowed to connect to this MariaDB server"><elem key="MySQL Error">Host &apos;10.10.14.10&apos; is not allowed to connect to this MariaDB server</elem>
+</script><script id="mysql-empty-password" output="Host &apos;10.10.14.10&apos; is not allowed to connect to this MariaDB server"/><script id="mysql-vuln-cve2012-2122" output="ERROR: Script execution failed (use -d to debug)"/></port>
+</ports>
+<times srtt="15128" rttvar="15128" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1659654847"/>
+<taskend task="NSE" time="1659654847"/>
+<taskbegin task="NSE" time="1659654847"/>
+<taskend task="NSE" time="1659654847"/>
+<taskbegin task="NSE" time="1659654847"/>
+<taskend task="NSE" time="1659654847"/>
+<runstats><finished time="1659654847" timestr="Thu Aug  4 19:14:07 2022" summary="Nmap done at Thu Aug  4 19:14:07 2022; 1 IP address (1 host up) scanned in 2.66 seconds" elapsed="2.66" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

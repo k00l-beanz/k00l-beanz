@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Mon Sep 19 18:45:09 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 445 &quot;-&#45;script=banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/active/results/10.10.10.100/scans/tcp445/tcp_445_smb_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/active/results/10.10.10.100/scans/tcp445/xml/tcp_445_smb_nmap.xml 10.10.10.100 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 445 &quot;-&#45;script=banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/active/results/10.10.10.100/scans/tcp445/tcp_445_smb_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/active/results/10.10.10.100/scans/tcp445/xml/tcp_445_smb_nmap.xml 10.10.10.100" start="1663627509" startstr="Mon Sep 19 18:45:09 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1663627510"/>
+<taskend task="NSE" time="1663627510"/>
+<taskbegin task="NSE" time="1663627510"/>
+<taskend task="NSE" time="1663627510"/>
+<taskbegin task="NSE" time="1663627510"/>
+<taskend task="NSE" time="1663627510"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1663627510"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1663627510"/>
+<taskbegin task="SYN Stealth Scan" time="1663627510"/>
+<taskend task="SYN Stealth Scan" time="1663627510" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1663627510"/>
+<taskend task="Service scan" time="1663627517" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1663627517"/>
+<taskprogress task="NSE" time="1663627548" percent="95.71" remaining="2" etc="1663627549"/>
+<taskend task="NSE" time="1663627550"/>
+<taskbegin task="NSE" time="1663627550"/>
+<taskend task="NSE" time="1663627551"/>
+<taskbegin task="NSE" time="1663627551"/>
+<taskend task="NSE" time="1663627551"/>
+<host starttime="1663627510" endtime="1663627551"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="microsoft-ds" method="table" conf="3"/><script id="smb-enum-services" output="ERROR: Script execution failed (use -d to debug)"/></port>
+</ports>
+<hostscript><script id="smb-vuln-ms10-061" output="Could not negotiate a connection:SMB: Failed to receive bytes: ERROR">false</script><script id="smb2-capabilities" output="&#xa;  2.0.2: &#xa;    Distributed File System&#xa;  2.1: &#xa;    Distributed File System&#xa;    Leasing&#xa;    Multi-credit operations"><table key="2.0.2">
+<elem>Distributed File System</elem>
+</table>
+<table key="2.1">
+<elem>Distributed File System</elem>
+<elem>Leasing</elem>
+<elem>Multi-credit operations</elem>
+</table>
+</script><script id="smb-protocols" output="&#xa;  dialects: &#xa;    2.0.2&#xa;    2.1"><table key="dialects">
+<elem>2.0.2</elem>
+<elem>2.1</elem>
+</table>
+</script><script id="smb-mbenum" output="&#xa;  ERROR: Failed to connect to browser service: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR"/><script id="smb2-security-mode" output="&#xa;  2.1: &#xa;    Message signing enabled and required"><table key="2.1">
+<elem>Message signing enabled and required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2022-09-19T22:45:25&#xa;  start_date: 2022-09-19T03:56:24"><elem key="date">2022-09-19T22:45:25</elem>
+<elem key="start_date">2022-09-19T03:56:24</elem>
+</script><script id="smb-print-text" output="false">false</script></hostscript><times srtt="17283" rttvar="17283" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1663627551"/>
+<taskend task="NSE" time="1663627551"/>
+<taskbegin task="NSE" time="1663627551"/>
+<taskend task="NSE" time="1663627551"/>
+<taskbegin task="NSE" time="1663627551"/>
+<taskend task="NSE" time="1663627551"/>
+<runstats><finished time="1663627551" timestr="Mon Sep 19 18:45:51 2022" summary="Nmap done at Mon Sep 19 18:45:51 2022; 1 IP address (1 host up) scanned in 41.87 seconds" elapsed="41.87" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

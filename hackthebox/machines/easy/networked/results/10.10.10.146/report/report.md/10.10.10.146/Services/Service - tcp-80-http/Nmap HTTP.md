@@ -1,0 +1,104 @@
+```bash
+nmap -vv --reason -Pn -T4 -sV -p 80 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/tcp_80_http_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/xml/tcp_80_http_nmap.xml" 10.10.10.146
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/tcp_80_http_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/tcp_80_http_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Wed Sep 28 00:00:15 2022 as: nmap -vv --reason -Pn -T4 -sV -p 80 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/tcp_80_http_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/networked/results/10.10.10.146/scans/tcp80/xml/tcp_80_http_nmap.xml 10.10.10.146
+Nmap scan report for 10.10.10.146
+Host is up, received user-set (0.012s latency).
+Scanned at 2022-09-28 00:00:22 EDT for 16s
+
+Bug in http-security-headers: no string output.
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+|_http-malware-host: Host appears to be clean
+| http-enum: 
+|   /backup/: Backup folder w/ directory listing
+|   /icons/: Potentially interesting folder w/ directory listing
+|_  /uploads/: Potentially interesting folder
+|_http-wordpress-enum: Nothing found amongst the top 100 resources,use --script-args search-limit=<number|all> for deeper analysis)
+|_http-mobileversion-checker: No mobile version detected.
+| http-vhosts: 
+|_128 names had status 200
+|_http-errors: Couldn't find any error pages.
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-drupal-enum: Nothing found amongst the top 100 resources,use --script-args number=<number|all> for deeper analysis)
+| http-headers: 
+|   Date: Wed, 28 Sep 2022 04:00:31 GMT
+|   Server: Apache/2.4.6 (CentOS) PHP/5.4.16
+|   X-Powered-By: PHP/5.4.16
+|   Connection: close
+|   Content-Type: text/html; charset=UTF-8
+|   
+|_  (Request type: HEAD)
+| http-php-version: Logo query returned unknown hash 263b9a39ef80c28054c9297fe8afc6ec
+| Versions from credits query (more accurate): 5.4.15 - 5.4.45
+|_Version from header x-powered-by: PHP/5.4.16
+| http-useragent-tester: 
+|   Status for browser useragent: 200
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|_    WWW-Mechanize/1.34
+|_http-fetch: Please enter the complete path of the directory to save data in.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-devframework: Couldn't determine the underlying framework or CMS. Try increasing 'httpspider.maxpagecount' value to spider more pages.
+|_http-chrono: Request times for /; avg: 188.12ms; min: 175.99ms; max: 206.19ms
+|_http-date: Wed, 28 Sep 2022 04:00:30 GMT; -1s from local time.
+|_http-server-header: Apache/2.4.6 (CentOS) PHP/5.4.16
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+| http-trace: TRACE is enabled
+| Headers:
+| Date: Wed, 28 Sep 2022 04:00:28 GMT
+| Server: Apache/2.4.6 (CentOS) PHP/5.4.16
+| Connection: close
+| Transfer-Encoding: chunked
+|_Content-Type: message/http
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-vuln-cve2017-1001000: ERROR: Script execution failed (use -d to debug)
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-config-backup: ERROR: Script execution failed (use -d to debug)
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.10.10.146
+|     
+|     Path: http://10.10.10.146:80/
+|     Line number: 6
+|     Comment: 
+|_        <!-- upload and gallery not yet linked -->
+| http-sitemap-generator: 
+|   Directory structure:
+|     /
+|       Other: 1
+|   Longest directory structure:
+|     Depth: 0
+|     Dir: /
+|   Total files found (by extension):
+|_    Other: 1
+|_http-feed: Couldn't find any feeds.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 28 00:00:38 2022 -- 1 IP address (1 host up) scanned in 23.54 seconds
+
+```

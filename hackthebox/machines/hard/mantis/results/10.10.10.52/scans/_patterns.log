@@ -1,0 +1,30 @@
+Matched Pattern: Powered-By: ASP.NET
+
+Matched Pattern: Powered by <a href="http://www.orchardproject.net" target="_blank">Orchard</a></span> <span class="copyright">&#169; The Theme Machine 2022.</span></div>
+
+Identified Architecture: 64-bit
+
+Nmap script found a potential vulnerability. (State: VULNERABLE)
+
+CVE Identified: CVE-2014-3566
+
+CVE Identified: CVE-2014-3566
+
+CVE Identified: CVE-2014-3566
+
+Identified HTTP Server: Microsoft-IIS/7.5
+
+Matched Pattern: Powered-By: ASP.NET
+
+Nmap script found a potential vulnerability. (State: VULNERABLE)
+
+CVE Identified: CVE-2014-3566
+
+CVE Identified: CVE-2014-3566
+
+CVE Identified: CVE-2014-3566
+
+Identified HTTP Server: Microsoft-IIS/7.5
+
+Identified HTTP Server: Microsoft-HTTPAPI/2.0
+

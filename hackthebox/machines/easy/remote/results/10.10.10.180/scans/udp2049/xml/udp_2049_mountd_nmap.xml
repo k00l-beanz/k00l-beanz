@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Tue Aug  2 14:53:31 2022 as: nmap -vv -&#45;reason -Pn -T4 -sU -sV -p 2049 &quot;-&#45;script=banner,nfs* and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/udp2049/udp_2049_mountd_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/udp2049/xml/udp_2049_mountd_nmap.xml 10.10.10.180 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sU -sV -p 2049 &quot;-&#45;script=banner,nfs* and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/udp2049/udp_2049_mountd_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/udp2049/xml/udp_2049_mountd_nmap.xml 10.10.10.180" start="1659466411" startstr="Tue Aug  2 14:53:31 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="1" services="2049"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1659466412"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1659466412"/>
+<taskbegin task="UDP Scan" time="1659466412"/>
+<taskend task="UDP Scan" time="1659466412" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1659466412"/>
+<taskend task="Service scan" time="1659466412" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<host starttime="1659466412" endtime="1659466412"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.180" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="2049"><state state="open" reason="udp-response" reason_ttl="127"/><service name="mountd" version="1-3" extrainfo="RPC #100005" method="probed" conf="10"/><script id="nfs-showmount" output="&#xa;  /site_backups &#xa;"/></port>
+</ports>
+<times srtt="27316" rttvar="27316" to="136580"/>
+</host>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<taskbegin task="NSE" time="1659466412"/>
+<taskend task="NSE" time="1659466412"/>
+<runstats><finished time="1659466412" timestr="Tue Aug  2 14:53:32 2022" summary="Nmap done at Tue Aug  2 14:53:32 2022; 1 IP address (1 host up) scanned in 0.64 seconds" elapsed="0.64" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

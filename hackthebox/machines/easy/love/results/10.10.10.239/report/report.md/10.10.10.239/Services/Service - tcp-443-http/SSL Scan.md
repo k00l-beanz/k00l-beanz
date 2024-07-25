@@ -1,0 +1,195 @@
+```bash
+sslscan --show-certificate --no-colour 10.10.10.239:443 2>&1
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/tcp443/tcp_443_sslscan.html](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/tcp443/tcp_443_sslscan.html):
+
+```
+Version: 2.0.15-static
+OpenSSL 1.1.1q-dev  xx XXX xxxx
+
+Connected to 10.10.10.239
+
+Testing SSL server 10.10.10.239 on port 443 using SNI name 10.10.10.239
+
+  SSL/TLS Protocols:
+SSLv2     disabled
+SSLv3     disabled
+TLSv1.0   enabled
+TLSv1.1   enabled
+TLSv1.2   enabled
+TLSv1.3   enabled
+
+  TLS Fallback SCSV:
+Server supports TLS Fallback SCSV
+
+  TLS renegotiation:
+Secure session renegotiation supported
+
+  TLS Compression:
+Compression disabled
+
+  Heartbleed:
+TLSv1.3 not vulnerable to heartbleed
+TLSv1.2 not vulnerable to heartbleed
+TLSv1.1 not vulnerable to heartbleed
+TLSv1.0 not vulnerable to heartbleed
+
+  Supported Server Cipher(s):
+Preferred TLSv1.3  256 bits  TLS_AES_256_GCM_SHA384        Curve 25519 DHE 253
+Accepted  TLSv1.3  256 bits  TLS_CHACHA20_POLY1305_SHA256  Curve 25519 DHE 253
+Accepted  TLSv1.3  128 bits  TLS_AES_128_GCM_SHA256        Curve 25519 DHE 253
+Preferred TLSv1.2  256 bits  ECDHE-RSA-AES256-GCM-SHA384   Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  DHE-RSA-AES256-GCM-SHA384     DHE 2048 bits
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-CHACHA20-POLY1305   Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  DHE-RSA-CHACHA20-POLY1305     DHE 2048 bits
+Accepted  TLSv1.2  256 bits  DHE-RSA-AES256-CCM8           DHE 2048 bits
+Accepted  TLSv1.2  256 bits  DHE-RSA-AES256-CCM            DHE 2048 bits
+Accepted  TLSv1.2  256 bits  ECDHE-ARIA256-GCM-SHA384      Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  DHE-RSA-ARIA256-GCM-SHA384    DHE 2048 bits
+Accepted  TLSv1.2  128 bits  ECDHE-RSA-AES128-GCM-SHA256   Curve 25519 DHE 253
+Accepted  TLSv1.2  128 bits  DHE-RSA-AES128-GCM-SHA256     DHE 2048 bits
+Accepted  TLSv1.2  128 bits  DHE-RSA-AES128-CCM8           DHE 2048 bits
+Accepted  TLSv1.2  128 bits  DHE-RSA-AES128-CCM            DHE 2048 bits
+Accepted  TLSv1.2  128 bits  ECDHE-ARIA128-GCM-SHA256      Curve 25519 DHE 253
+Accepted  TLSv1.2  128 bits  DHE-RSA-ARIA128-GCM-SHA256    DHE 2048 bits
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-AES256-SHA384       Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  DHE-RSA-AES256-SHA256         DHE 2048 bits
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-CAMELLIA256-SHA384  Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  DHE-RSA-CAMELLIA256-SHA256    DHE 2048 bits
+Accepted  TLSv1.2  128 bits  ECDHE-RSA-AES128-SHA256       Curve 25519 DHE 253
+Accepted  TLSv1.2  128 bits  DHE-RSA-AES128-SHA256         DHE 2048 bits
+Accepted  TLSv1.2  128 bits  ECDHE-RSA-CAMELLIA128-SHA256  Curve 25519 DHE 253
+Accepted  TLSv1.2  128 bits  DHE-RSA-CAMELLIA128-SHA256    DHE 2048 bits
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-AES256-SHA          Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  DHE-RSA-AES256-SHA            DHE 2048 bits
+Accepted  TLSv1.2  256 bits  DHE-RSA-CAMELLIA256-SHA       DHE 2048 bits
+Accepted  TLSv1.2  128 bits  ECDHE-RSA-AES128-SHA          Curve 25519 DHE 253
+Accepted  TLSv1.2  128 bits  DHE-RSA-AES128-SHA            DHE 2048 bits
+Accepted  TLSv1.2  128 bits  DHE-RSA-CAMELLIA128-SHA       DHE 2048 bits
+Accepted  TLSv1.2  256 bits  AES256-GCM-SHA384
+Accepted  TLSv1.2  256 bits  AES256-CCM8
+Accepted  TLSv1.2  256 bits  AES256-CCM
+Accepted  TLSv1.2  256 bits  ARIA256-GCM-SHA384
+Accepted  TLSv1.2  128 bits  AES128-GCM-SHA256
+Accepted  TLSv1.2  128 bits  AES128-CCM8
+Accepted  TLSv1.2  128 bits  AES128-CCM
+Accepted  TLSv1.2  128 bits  ARIA128-GCM-SHA256
+Accepted  TLSv1.2  256 bits  AES256-SHA256
+Accepted  TLSv1.2  256 bits  CAMELLIA256-SHA256
+Accepted  TLSv1.2  128 bits  AES128-SHA256
+Accepted  TLSv1.2  128 bits  CAMELLIA128-SHA256
+Accepted  TLSv1.2  256 bits  AES256-SHA
+Accepted  TLSv1.2  256 bits  CAMELLIA256-SHA
+Accepted  TLSv1.2  128 bits  AES128-SHA
+Accepted  TLSv1.2  128 bits  CAMELLIA128-SHA
+Accepted  TLSv1.2  128 bits  DHE-RSA-SEED-SHA              DHE 2048 bits
+Accepted  TLSv1.2  128 bits  SEED-SHA
+Preferred TLSv1.1  256 bits  ECDHE-RSA-AES256-SHA          Curve 25519 DHE 253
+Accepted  TLSv1.1  256 bits  DHE-RSA-AES256-SHA            DHE 2048 bits
+Accepted  TLSv1.1  256 bits  DHE-RSA-CAMELLIA256-SHA       DHE 2048 bits
+Accepted  TLSv1.1  128 bits  ECDHE-RSA-AES128-SHA          Curve 25519 DHE 253
+Accepted  TLSv1.1  128 bits  DHE-RSA-AES128-SHA            DHE 2048 bits
+Accepted  TLSv1.1  128 bits  DHE-RSA-CAMELLIA128-SHA       DHE 2048 bits
+Accepted  TLSv1.1  256 bits  AES256-SHA
+Accepted  TLSv1.1  256 bits  CAMELLIA256-SHA
+Accepted  TLSv1.1  128 bits  AES128-SHA
+Accepted  TLSv1.1  128 bits  CAMELLIA128-SHA
+Accepted  TLSv1.1  128 bits  DHE-RSA-SEED-SHA              DHE 2048 bits
+Accepted  TLSv1.1  128 bits  SEED-SHA
+Accepted  TLSv1.1  128 bits  IDEA-CBC-SHA
+Preferred TLSv1.0  256 bits  ECDHE-RSA-AES256-SHA          Curve 25519 DHE 253
+Accepted  TLSv1.0  256 bits  DHE-RSA-AES256-SHA            DHE 2048 bits
+Accepted  TLSv1.0  256 bits  DHE-RSA-CAMELLIA256-SHA       DHE 2048 bits
+Accepted  TLSv1.0  128 bits  ECDHE-RSA-AES128-SHA          Curve 25519 DHE 253
+Accepted  TLSv1.0  128 bits  DHE-RSA-AES128-SHA            DHE 2048 bits
+Accepted  TLSv1.0  128 bits  DHE-RSA-CAMELLIA128-SHA       DHE 2048 bits
+Accepted  TLSv1.0  256 bits  AES256-SHA
+Accepted  TLSv1.0  256 bits  CAMELLIA256-SHA
+Accepted  TLSv1.0  128 bits  AES128-SHA
+Accepted  TLSv1.0  128 bits  CAMELLIA128-SHA
+Accepted  TLSv1.0  128 bits  DHE-RSA-SEED-SHA              DHE 2048 bits
+Accepted  TLSv1.0  128 bits  SEED-SHA
+Accepted  TLSv1.0  128 bits  IDEA-CBC-SHA
+
+  Server Key Exchange Group(s):
+TLSv1.3  128 bits  secp256r1 (NIST P-256)
+TLSv1.3  192 bits  secp384r1 (NIST P-384)
+TLSv1.3  260 bits  secp521r1 (NIST P-521)
+TLSv1.3  128 bits  x25519
+TLSv1.3  224 bits  x448
+TLSv1.2  128 bits  secp256r1 (NIST P-256)
+TLSv1.2  192 bits  secp384r1 (NIST P-384)
+TLSv1.2  260 bits  secp521r1 (NIST P-521)
+TLSv1.2  128 bits  x25519
+TLSv1.2  224 bits  x448
+
+  SSL Certificate:
+    Certificate blob:
+-----BEGIN CERTIFICATE-----
+MIIDozCCAosCFFhDHcnclWJmeuqOK/LQv3XDNEu4MA0GCSqGSIb3DQEBCwUAMIGN
+MQswCQYDVQQGEwJpbjEKMAgGA1UECAwBbTEPMA0GA1UEBwwGbm9yd2F5MRYwFAYD
+VQQKDA1WYWxlbnRpbmVDb3JwMREwDwYDVQQLDAhsb3ZlLmh0YjEZMBcGA1UEAwwQ
+c3RhZ2luZy5sb3ZlLmh0YjEbMBkGCSqGSIb3DQEJARYMcm95QGxvdmUuaHRiMB4X
+DTIxMDExODE0MDAxNloXDTIyMDExODE0MDAxNlowgY0xCzAJBgNVBAYTAmluMQow
+CAYDVQQIDAFtMQ8wDQYDVQQHDAZub3J3YXkxFjAUBgNVBAoMDVZhbGVudGluZUNv
+cnAxETAPBgNVBAsMCGxvdmUuaHRiMRkwFwYDVQQDDBBzdGFnaW5nLmxvdmUuaHRi
+MRswGQYJKoZIhvcNAQkBFgxyb3lAbG92ZS5odGIwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDQlH1J/AwbEm2Hnh4Bizch08sUHlHg7vAMGEB14LPq9G20
+PL/6QmYxJOWBPjBWWywNYK3cPIFY8yUmYlLBiVI0piRfaSj7wTLW3GFSPhrpmfz0
+0zJMKeyBOD0+1K9BxiUQNVyEnihsULZKLmZcF6LhOIhiONEL6mKKr2/mHLgfoR7U
+vM7OmmywdLRgLfXN2Cgpkv7ciEARU0phRq2p1s4W9Hn3XEU8iVqgfFXs/ZNyX3r8
+LtDiQUavwn2s+Hta0mslI0waTmyOsNrE4wgcdcF9kLK/9ttM1ugTJSQAQWbYo5LD
+2bVw7JidPhX8mELviftIv5W1LguCb3uVb6ipfShxAgMBAAEwDQYJKoZIhvcNAQEL
+BQADggEBANB5x2U0QuQdc9niiW8XtGVqlUZOpmToxstBm4r0Djdqv/Z73I/qys0A
+y7crcy9dRO7M80Dnvj0ReGxoWN/95ZA4GSL8TUfIfXbonrCKFiXOOuS8jCzC9LWE
+nP4jUUlAOJv6uYDajoD3NfbhW8uBvopO+8nywbQdiffatKO35McSl7ukvIK+d7gz
+oool/rMp/fQ40A1nxVHeLPOexyB3YJIMAhm4NexfJ2TKxs10C+lJcuOxt7MhOk0h
+zSPL/pMbMouLTXnIsh4SdJEzEkNnuO69yQoN8XgjM7vHvZQIlzs1R5pk4WIgKHSZ
+0drwvFE50xML9h2wrGh7L9/CSbhIhO8=
+-----END CERTIFICATE-----
+    Version: 0
+    Serial Number: 58:43:1d:c9:dc:95:62:66:7a:ea:8e:2b:f2:d0:bf:75:c3:34:4b:b8
+    Signature Algorithm: sha256WithRSAEncryption
+    Issuer: /C=in/ST=m/L=norway/O=ValentineCorp/OU=love.htb/CN=staging.love.htb/emailAddress=roy@love.htb
+    Not valid before: Jan 18 14:00:16 2021 GMT
+    Not valid after: Jan 18 14:00:16 2022 GMT
+    Subject: /C=in/ST=m/L=norway/O=ValentineCorp/OU=love.htb/CN=staging.love.htb/emailAddress=roy@love.htb
+    Public Key Algorithm: NULL
+    RSA Public Key: (2048 bit)
+      RSA Public-Key: (2048 bit)
+      Modulus:
+          00:d0:94:7d:49:fc:0c:1b:12:6d:87:9e:1e:01:8b:
+          37:21:d3:cb:14:1e:51:e0:ee:f0:0c:18:40:75:e0:
+          b3:ea:f4:6d:b4:3c:bf:fa:42:66:31:24:e5:81:3e:
+          30:56:5b:2c:0d:60:ad:dc:3c:81:58:f3:25:26:62:
+          52:c1:89:52:34:a6:24:5f:69:28:fb:c1:32:d6:dc:
+          61:52:3e:1a:e9:99:fc:f4:d3:32:4c:29:ec:81:38:
+          3d:3e:d4:af:41:c6:25:10:35:5c:84:9e:28:6c:50:
+          b6:4a:2e:66:5c:17:a2:e1:38:88:62:38:d1:0b:ea:
+          62:8a:af:6f:e6:1c:b8:1f:a1:1e:d4:bc:ce:ce:9a:
+          6c:b0:74:b4:60:2d:f5:cd:d8:28:29:92:fe:dc:88:
+          40:11:53:4a:61:46:ad:a9:d6:ce:16:f4:79:f7:5c:
+          45:3c:89:5a:a0:7c:55:ec:fd:93:72:5f:7a:fc:2e:
+          d0:e2:41:46:af:c2:7d:ac:f8:7b:5a:d2:6b:25:23:
+          4c:1a:4e:6c:8e:b0:da:c4:e3:08:1c:75:c1:7d:90:
+          b2:bf:f6:db:4c:d6:e8:13:25:24:00:41:66:d8:a3:
+          92:c3:d9:b5:70:ec:98:9d:3e:15:fc:98:42:ef:89:
+          fb:48:bf:95:b5:2e:0b:82:6f:7b:95:6f:a8:a9:7d:
+          28:71
+      Exponent: 65537 (0x10001)
+  Verify Certificate:
+    self signed certificate
+
+  SSL Certificate:
+Signature Algorithm: sha256WithRSAEncryption
+RSA Key Strength:    2048
+
+Subject:  staging.love.htb
+Issuer:   staging.love.htb
+
+Not valid before: Jan 18 14:00:16 2021 GMT
+Not valid after:  Jan 18 14:00:16 2022 GMT
+
+
+```

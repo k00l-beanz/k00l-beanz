@@ -1,0 +1,4 @@
+/.html               [33m (Status: 403)[0m [Size: 178]
+/test                [32m (Status: 200)[0m [Size: 5]
+/backup              [36m (Status: 301)[0m [Size: 194][34m [--> http://10.10.10.111:9999/dev/backup/][0m
+/.html               [33m (Status: 403)[0m [Size: 178]

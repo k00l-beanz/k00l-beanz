@@ -1,0 +1,3507 @@
+Standard Jet DB
+ Connect Database DateCreate DateUpdate
+ Flags ForeignName LvExtra LvModule LvProp Name
+ Owner ParentId RmtInfoLong RmtInfoShort Type ParentIdName
+ FInheritable ObjectId
+ Attribute Expression Flag LvExtra
+ Name1
+ Name2 ObjectId
+ Order
+ "ObjectIdAttribute
+ ccolumn
+ grbit icolumn szColumn szObject$szReferencedColumn$szReferencedObject szRelationship
+ szObject$szReferencedObject szRelationship
+ OJmJJMMQkkfJUQk
+ iQ^JmYdbkWYfk
+ SYikmdfQb+ `JfOddifdk `diQMJiOQ`fUidof `diQMJiOUidof `diQMJiOkQm sYQUJbOS`m JMmY`QxdbQk JMob^dM\Md`L sJYmSdifidMQkkOJmJ JmmMJ^M^dU JmmQuMQfmYdb JoOYmQOQuM Uidof+ fQi`YkkYdbk fQi`YkkYdb fQi`YkkYdbk JomWOQqYMQ JOOYmYdbOJmJ
+ OJmJmiJbk^JmYdb dfQiJmdimQ`f^JmQ
+ fQikdbJ^dfmYdb kmiiQkdoiMQ kmimiJbk^JmYdb kvkmQ`dfmYdb LYdmQ`f^JmQ MWQM\QuJMm MWQM\Ybdom Mokmd`iQfdim OLJff+ qYQs`dOQ^ OLLJM\of^dU OQfJim`Qbmk OQfmokQOkMWk MdbmQbm+ mvfQ Q`fYmQ`OQSYbQ SJMQmQ`fQu SYbUQiqQYb SYbUQiqQYbQu ^QJqQM^Jkk ^QJqQM^Jkk8 `kvkJMMQkkdL[QMmk `kvkJMMQkku`^ `kvkdL[QMmk `kvkhoQiYQk `kvkiQ^JmYdbkWYfk dSS^YbQfQi`YmOddik dSS^YbQfQi`YmUidofk dSS^YbQfQi`YmokQik
+ dfQiJmQM`Ok fQikdbbQ^+ JiQJ fQikdbbQ^+ MJiOmvfQ fQikdbbQ^+ Q`fMWJbUQ fQikdbbQ^+ YkkoQMJiO fQikdbbQ^+ iQfdimSYQ^O iQfdimYmQ` kQMoiYmvOQmJY^k
+ sYQUJbOS`m
+ mQ`f^JmQQu m`ffQi`YmOddik m`ffQi`YmUidofk
+ m`ffQi`YmokQik okQiJM`JMWYbQk okQiJMfiYqY^QUQ okQiYbSd+ JmmJiQJ okQik`JMWYbQk okQiofOJmQk okQiokQOkM^JkkQk YbkmJbm`kU x\JmmQbOJbMQ`dbmWkmJmYkmYMk JMMQkk^Jvdom m`ffQi`YmOddik m`ffQi`YmUidofk
+ m`ffQi`YmokQik okQiJM`JMWYbQk okQiJMfiYqY^QUQ okQiYbSd+ JmmJiQJ okQik`JMWYbQk okQiofOJmQk okQiokQOkM^JkkQk YbkmJbm`kU x\JmmQbOJbMQ`dbmWkmJmYkmYMk JMMQkk^Jvdom
+ AuditedExc BBB66666664  attexception attcalclog BBB66666664  att_waitforprocessdata
+ ZZZNNNNNNNL  att_attreport @@@44444442 
+ >>>22222220  action_log BBB66666664  ACTimeZones DDD88888886  @@@44444442  acc_wiegandfmt acc_timesegµ pDDD88888886  acc_morecardgroup
+ PPPDDDDDDDB 
+ acc_morecardempgroup VVVJJJJJJJH  acc_mapdoorpos acc_linkageio acc_levelset_door_group \\\PPPPPPPN  acc_levelset acc_interlock acc_holidays acc_firstopen_emp PPPDDDDDDDB  acc_firstopen >>>22222220  acc_antiback  acc_antiback AccessLayout
+ Reports O0000000000.  Modules O0000000000.  DataAccessPages MSysRelationships MDDDDDDDDDDB  MSysQueries M88888888886  MSysACEs M22222222220  MSysObjects M88888888886  Relationships Databases M44444444442 
+ change_operator change_time create_operator create_time delete_operator delete_time status device_id one_mode two_mode three_mode four_mode five_mode six_mode seven_mode eight_mode nine_mode AntibackType PrimaryKey
+ acc_antiback.nine_mode5
+ acc_antiback.eight_mode6
+ acc_antiback.seven_mode6
+ acc_antiback.six_mode4
+ acc_antiback.five_mode5
+ acc_antiback.four_mode5
+ acc_antiback.three_mode6
+ acc_antiback.two_mode4
+ acc_antiback.one_mode4
+ acc_antiback.device_id5
+ acc_antiback.status2
+ acc_antiback.delete_time7
+ acc_antiback.delete_operator;
+ acc_antiback.create_time7
+ acc_antiback.create_operator;
+ acc_antiback.change_time7
+ acc_antiback.change_operator;
+ acc_antiback.id.
+ acc_antiback)))
+ change_operator change_time create_operator create_time delete_operator delete_time status device_id door_no door_name lock_delay back_lock sensor_delay opendoor_type inout_state lock_active_id long_open_id wiegand_fmt_id"card_intervaltime reader_type is_att force_pwd supper_pwd$door_sensor_status map_id duration_apb reader_io_state open_door_delay door_normal_open$enable_normal_open*disenable_normal_open wiegandInType wiegandOutType$wiegand_fmt_out_id
+ SRBOn ManualCtlMode ErrTimes SensorAlarmTime InTimeAPB device_id duration_apb lock_active_id long_open_id map_id PrimaryKey wiegand_fmt_id
+ change_operator change_time create_operator create_time delete_operator delete_time status door_id timeseg_id PrimaryKey timeseg_id
+ accfirstopen_id employee_id accfirstopen_id employee_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status holiday_name holiday_type start_date end_date loop_by_year memo HolidayNo HolidayTZ PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status device_id one_mode two_mode three_mode four_mode InterlockType PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status level_name level_timeseg_id id level_timeseg_id PrimaryKey acclevelset_id accdoor_id accdoor_no_exp"accdoor_device_id level_timeseg_id
+ accdoor_id acclevelset_id PrimaryKey
+ acclevelset_id employee_id acclevelset_id employee_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status linkage_name device_id trigger_opt in_address_hide in_address out_type_hide out_address_hide out_address action_type delay_time$video_linkageio_id lchannel_num lchannel_num PrimaryKey$video_linkageio_id
+ change_operator change_time create_operator create_time delete_operator delete_time status map_name map_path area_id
+ width height
+ PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status map_door_id map_id
+ width left map_door_id map_id PrimaryKey
+ Wiegand66QFFFF Wiegand50QFFFF Wiegand37aRFFFF Wiegand37QFFFF Wiegand36QFFFF Wiegand34aRFFFF Wiegand34QFFFF Wiegand26aRFFFF Wiegand26QFFFF
+ SRBOnMFFFF AutoMatchWiegandFmt[FFFF Orientation OrderByOn NameMap DefaultView8DisplayViewsOnSharePointSite TotalsRow FilterOnLoad OrderByOnLoad HideNewField Required ColumnWidth ColumnOrder ColumnHidden TextAlign AggregateType AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces DefaultValue GUID ValidationRule ValidationText Filter OrderBy Description Format Caption SmartTags InputMaskz
+Œ MachineAliasŒ ConnectTypeŒ SerialPort
+Œ MachineNumberŒ CommPasswordŒ UILanguageŒ DateFormat
+Œ InOutRecordWarnŒ managercountŒ fingercountŒ SecretCountŒ FirmwareVersionŒ ProductTypeŒ LockControlŒ ProduceKindŒ PhotoStampŒ IsIfChangeConfigServer2Œ change_operatorŒ change_time
+Œ create_operator
+Œ create_timeŒ delete_operatorŒ delete_timeŒ device_typeŒ last_activityŒ trans_timesŒ TransIntervalŒ oplog_stampŒ photo_stampŒ device_nameŒ transaction_countŒ max_user_countŒ max_finger_count
+Œ max_attlog_count
+ BadgeNumber BadgeNumber DefaultValue"
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ swacc_levelset_door_group´ acclevelset_id´ accdoor_id
+ acclevelset_id
+ accdoor_id
+ accdoor_no_exp
+ "accdoor_device_id
+  level_timeseg_id
+Œ flash_size
+Œ free_flash_sizeŒ lng_encodeŒ brightnessŒ oem_vendorŒ agent_ipaddress
+Œ subnet_maskŒ acpanel_typeŒ four_to_twoŒ video_loginŒ fp_mthresholdŒ max_comm_sizeŒ max_comm_countŒ door_countŒ reader_countŒ aux_in_countŒ aux_out_countŒ IsOnlyRFMachine
+Œ com_address
+ MachineAlias
+ ConnectType
+ SerialPort
+ MachineNumber
+ UILanguage
+ DateFormat
+ InOutRecordWarn
+ anagercount
+ fingercount
+ SecretCount
+ LockControl
+ ProduceKind
+ PhotoStamp
+ CommPassword
+ FirmwareVersion
+ ProductType
+ .IsIfChangeConfigServer2
+ change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ device_type
+ last_activity
+ trans_times
+ TransInterval
+ oplog_ LVAL
+ photo_stamp
+ 1111101000
+ device_name
+ "transaction_count
+ max_user_count
+  max_finger_count
+  max_attlog_count
+ flash_size
+ free_flash_size
+ lng_encode
+ brightness
+ oem_vendor
+ agent_ipaddress
+ subnet_mask
+ acpanel_type
+ four_to_two
+ video_login
+ fp_mthreshold
+ max_comm_size
+ max_comm_count
+ change_operator change_time create_operator create_time delete_operator delete_time status group_name memo StdGroupNo StdGroupTz StdGroupVT"StdValidOnHoliday PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status comb_id group_id opener_number comb_id group_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status door_id comb_name CombNo PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status timeseg_name memo sunday_start1 sunday_end1 sunday_start2 sunday_end2 sunday_start3 sunday_end3 monday_start1 monday_end1 monday_start2 monday_end2 monday_start3 monday_end3 tuesday_start1 tuesday_end1 tuesday_start2 tuesday_end2 tuesday_start3 tuesday_end3 wednesday_start1 wednesday_end1 wednesday_start2 wednesday_end2 wednesday_start3 wednesday_end3 thursday_start1 thursday_end1 thursday_start2 thursday_end2 thursday_start3 thursday_end3 friday_start1 friday_end1 friday_start2 friday_end2 friday_start3 friday_end3 saturday_start1 saturday_end1 saturday_start2 saturday_end2 saturday_start3
+saturday_end3&holidaytype1_start1"holidaytype1_end1&holidaytype1_start2"holidaytype1_end2&holidaytype1_start3"holidaytype1_end3&holidaytype2_start1"holidaytype2_end1&holidaytype2_start2"holidaytype2_end2&holidaytype2_start3"holidaytype2_end3&holidaytype3_start1"holidaytype3_end1&holidaytype3_start2"holidaytype3_end2&holidaytype3_start3"holidaytype3_end3
+ TimeZone1Id TimeZone2Id TimeZon e3Id"TimeZoneHolidayId PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status wiegand_name wiegand_count odd_start odd_count even_start even_count cid_start cid_count comp_start comp_count PrimaryKey
+ GroupID Name TimeZone1 TimeZone2 TimeZone3 holidayvaild verifystyle 0Index_D86F8037_B87F_4A67
+ primaryid holidayid begindate enddate timezone holidayid PrimaryKey
+ TimeZoneID Name SunStart SunEnd MonStart MonEnd TuesStart TuesEnd WedStart WedEnd ThursStart ThursEnd FriStart FriEnd SatStart SatEnd 0Index_9EF13579_8C36_4679
+ action_time user_id content_type_id object_id object_repr action_flag change_message content_type_id object_id PrimaryKey user_id
+ AccLevelsetEmpÿþ Delete personnel permissions informationX UserInfoÿþ Personnel Changes510> Departmentsÿþ Add DepartmentExecutiveD UserInfoÿþ Add Personnel510: AuthUserÿþ Add Personnelbackup_adminC AuthUserÿþ Add Personnelengineer? AuthUserÿþ Delete Personnel26< AuthUserÿþ Modify Personneladmin? UserInfoÿþ Add Personnel505: UserInfoÿþ Add Personnel502: UserInfoÿþ Add Personnel511: AuthUserÿþ Add Personnelengineer1@ AccLevelsetEmpÿþ Delete personnel permissions informationX UserInfoÿþ Personnel Changes538> AccLevelsetEmpÿþ Delete personnel permissions informationX UserInfoÿþ Personnel Changes538> Departmentsÿþ Add DepartmentSales@ Departmentsÿþ Add DepartmentFinanceB Departmentsÿþ Add DepartmentIT= UserInfoÿþ Add Personnel538: AuthUserÿþ Modify Personneladmin? AuthUserÿþ Modify Personneladmin? AuthUserÿþ Add Personneladmin< AccTimesegÿþ Time Zone Edit24-Hour AccessibleL AccTimesegÿþ Add Time Zone24-Hour AccessibleK
+ UnlockCombID Name Group01 Group02 Group03 Group04 Group05 0Index_BD290E32_43BB_4DBE
+ Operator EnrollNumber LogTime MachineAlias AlarmType 0Index_97EE5876_B43E_402F
+ user_id area_id PrimaryKey user_id
+ ItemName ItemType Author_id ItemValue Published Author_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status UserID_id starttime endtime flag PrimaryKey UserID_id DeptID UserId StartDate EndDate OperTime Type PrimaryKey UserId
+ change_operator change_time create_operator create_time delete_operator delete_time status UserId StartTime EndTime ExceptionID AuditExcID OldAuditExcID OverlapTime TimeLong InScopeTime AttDate"OverlapWorkDayTai OverlapWorkDay schindex Minsworkday Minsworkday1
+ schid
+ AuditExcID ExceptionID OldAuditExcID PrimaryKey
+ schid UserId
+ PARANAME PARATYPE PARAVALUE 0Index_DD188E0E_5A38_448C
+ DBVersionAccess26$   OutOverTime0 NoLeave1002
+ NoBreakOut1012 NoBreakIn1012 MinsWorkDay420 MinsNotOverTime60$   MinsNoLeave60 MinsNoIn60 MinsNoBreakOut60" MinsNoBreakIn60  MinsLate10 MinsEarly5 DBVersion372 CheckOutColor12910591, CheckInColor16777151* ACDBVersion381 JMOLqQikYdb MWQM\YbMd^di MWQM\domMd^di OLqQikYdbJMMQkk `YbkbdLiQJ\Yb `YbkbdLiQJ\dom `Ybkbd^QJqQ `YbkbdmdqQimY`Q
+ `Ybksdi\OJv bdLiQJ\dom
+ domdqQimY`Q
+ AEID UserId CheckTime NewExcID IsLeave
+ UName
+ UTime 0Index_242CBB44_8583_4AB4
+ name Permission Remark PrimaryKey
+ MSysAccessObjects ODDDDDDDDDDB  >>>22222220  LeaveClass1 DDD88888886  LeaveClass
+ BBB66666664  iclock_testdata_admin_dept bbbVVVVVVVT  iclock_testdata_admin_area bbbVVVVVVVT 
+ iclock_testdata iclock_oplog iclock_dstime
+ >>>22222220  EXCNOTES O22222222220  empitemdefine django_session django_content_type TTTHHHHHHHF  devcmds_bak DDD88888886  DeptUsedSchs
+ @@@44444442  DEPARTMENTS <sDDD88888886  dbbackuplog
+ DDD88888886 
+ CHECKINOUT BBB66666664  CHECKEXACT
+ BBB66666664  base_systemoption PPPDDDDDDDB  base_strtranslation
+ TTTHHHHHHHF  base_strresource NNNBBBBBBB@  base_personaloption
+ TTTHHHHHHHF  base_operatortemplateµ pXXXLLLLLLLJ  base_datatranslation VVVJJJJJJJH  base_basecode base_appoption
+ base_additiondata PPPDDDDDDDB  auth_user_user_permissions bbbVVVVVVVT  auth_user_groups NNNBBBBBBB@  @@@44444442  auth_permission auth_message auth_group_permissions ZZZNNNNNNNL 
+ door_count
+ reader_count
+ aux_in_count
+ aux_out_count
+ IsOnlyRFMachine
+ com_address
+ SimpleEventType
+ IsWireless
+ administrator; Administrator< 4555555555555Q
+ group_id permission_id permission_id PrimaryKey
+ user_id message PrimaryKey user_id
+ name content_type_id codename codename content_type_id PrimaryKey
+–ÿþ ppermission
+ username password Status last_login RoleID Remark PrimaryKey RoleID backup_adminÿþ admin engineerÿþ access4u@security adminÿþ admin adminÿþ admin
+ user_id group_id PrimaryKey user_id
+ user_id permission_id permission_id PrimaryKey user_id USERID MachineID
+ create_time user_id content_type_id object_id
+ value data delete_time content_type_id object_id PrimaryKey user_id
+ change_operator change_time create_operator create_time delete_operator delete_time status optname
+ value discribe PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status content content_class display
+ value remark is_add PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status content_type_id property language
+ value display content_type_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status user_id template1 finger_id
+ valid fpversion bio_type
+ utime bitmap_picture bitmap_picture2 bitmap_picture3 bitmap_picture4 use_type template2 template3 template_flag
+ PrimaryKey user_id
+ valid
+ change_operator change_time create_operator create_time delete_operator delete_time status name app_label catalog
+ group widget required validator verbose_name help_text visible default read_only for_personal type PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status option_id
+ value user_id
+ option_id PrimaryKey user_id
+ change_operator change_time create_operator create_time delete_operator delete_time status
+ PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status str_id language display PrimaryKey str_id
+ change_operator change_time create_operator create_time delete_operator delete_time status option_id
+ value option_id PrimaryKey
+ EXACTID USERID CHECKTIME CHECKTYPE
+ ISADD
+ YUYIN ISMODIFY ISDELETE INCOUNT ISCOUNT MODIFYBY DATE EXACTID PrimaryKey
+ USERID CHECKTIME CHECKTYPE VERIFYCODE SENSORID Memoinfo WorkCode UserExtFmt
+ LOGID MachineId 0Index_FBDDB8A2_33F1_4744
+ change_operator change_time create_operator create_time delete_operator delete_time status model_id name info viewtype model_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status user_id starttime imflag successflag PrimaryKey user_id
+ DEPTID DEPTNAME SUPDEPTID InheritParentSch InheritDeptSch&InheritDeptSchClass AutoSchPlan InLate OutEarly InheritDeptRule$MinAutoSchInterval RegisterOT DefaultSchId Holiday OverTime change_operator change_time create_operator create_time delete_operator delete_time status code type invalidate code DEPTNAME0Index_12256B17_45F9_4BE1
+ Executive2504ffbb^^L Sales2501^^ZZVVL ultSchId8888 Finance2502bb^^ZZL
+ S.DEIT2503XXTTPPL
+ Company Name1ffddddL
+ user_id dept_id PrimaryKey user_id
+ DeptId
+ SchId DEPT_USED_SCH
+ change_operator change_time create_operator create_time delete_operator delete_time status
+ CmdOperate_id CmdContent CmdCommitTime CmdTransTime CmdOverTime CmdReturn CmdReturnContent CmdImmediately CmdOperate_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status
+ CmdOperate_id CmdContent CmdCommitTime CmdTransTime CmdOverTime CmdReturn CmdReturnContent CmdImmediately CmdOperate_id PrimaryKey
+ ECnt OpTime PrimaryKey
+ name app_label
+ model PrimaryKey
+ session_key session_data expire_date PrimaryKey session_key
+ USERID OperateTime manipulationID Params1 Params2 Params3 Params4 SensorId
+ ItemName ItemType Author_id ItemValue Published Author_id PrimaryKey
+ USERID ATTDATE
+ NOTES
+ TEMPLATEID USERNO SIZE FACEID
+ VALID RESERVE ACTIVETIME VFCOUNT TEMPLATE FaceType$StateMigrationFlag FACEID0Index_315CBFEA_09D3_4FC8 TEMPLATEID USERNO
+ VALID
+ HOLIDAYID HOLIDAYNAME HOLIDAYYEAR HOLIDAYMONTH HOLIDAYDAY STARTTIME DURATION HOLIDAYTYPE XINBIE
+ MINZU DeptID HOLIDAYNAME0Index_F7CE3417_8F6F_404B
+ change_operator change_time create_operator create_time delete_operator delete_time status dst_name mode start_time end_time PrimaryKey
+ OPTime Object Param1 Param2 Param3 PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status dept_id area_id area_id dept_id PrimaryKey
+ testdata_id area_id PrimaryKey testdata_id
+ testdata_id department_id department_id PrimaryKey testdata_id
+ LeaveId LeaveName MinUnit Unit RemaindProc RemaindCount ReportSymbol Deduct
+ Color Classify Code 0Index_EB3AE9CA_0DD3_463A Leave_3          Leave_2          NGPSHFB Leave_1          uGPBHFB
+ LeaveId LeaveName MinUnit Unit RemaindProc RemaindCount ReportSymbol Deduct LeaveType
+ Color Classify Calc Code 0Index_A94FDFEF_6B14_486B
+ If(AttItem(CheckOut)=null,If(AttItem(OffDuty)=null,0,if((AttItem(LeaveEnd1)=null) or (AttItem(LeaveEnd1)<AttItem(OffDuty)),if((AttItem(LeaveEnd2)=null) or (AttItem(LeaveEnd2)<AttItem(OffDuty)),if(((AttItem(LeaveEnd3)=null) or (AttItem(LeaveEnd3)<AttItem(OffDuty))) and AttItem(DutyOff),1,0),0),0)),0)If(AttItem(CheckIn)=null,If(AttItem(OnDuty)=null,0,if(((AttItem(LeaveStart1)=null) or (AttItem(LeaveStart1)>AttItem(OnDuty))) and AttItem(DutyOn),1,0)),0)if(HolidayId(1)=1, AttItem(MinOverTime),0)if((AttItem(LeaveType1)>0) and (AttItem(LeaveType1)<999),AttItem(LeaveTime1),0)+if((AttItem(LeaveType2)>0) and (AttItem(LeaveType2)<999),AttItem(LeaveTime2),0)+if((AttItem(LeaveType3)>0) and (AttItem(LeaveType3)<999),AttItem(LeaveTime3),0)+if((AttItem(LeaveType4)>0) and (AttItem(LeaveType4)<999),AttItem(LeaveTime4),0)+if((AttItem(LeaveType5)>0) and (AttItem(LeaveType5)<999),AttItem(LeaveTime5),0)if(AttItem(LeaveType1)=999,AttItem(LeaveTime1),0)+if(AttItem(LeaveType2)=999,AttItem(LeaveTime2),0)+if(AttItem(LeaveType3)=999,AttItem(LeaveTime3),0)+if(AttItem(LeaveType4)=999,AttItem(LeaveTime4),0)+if(AttItem(LeaveType5)=999,AttItem(LeaveTime5),0)
+ Leave_1013      FOT AttItem(MayOverTime) lJJD Leave_1012      
+ Leave_1011      BOUT}NNLD
+ Leave_1010      ROT{ LLJD Leave_1009      *g~{ Leave_1008      *g~{0R[ Leave_1007      
+ Leave_1006      OT2=T
+ Leave_1005      OT+ AttItem(MinOverTime)lJHD Leave_1004       AttItem(MinAbsent)jJHD Leave_1003       GPGP Leave_1002       AttItem(minEarly)iJHD Leave_1001       AttItem(minLater)iJHD Leave_1000      ck8^ JJHD Leave_999       lQ
+ MachineAlias ConnectType SerialPort Port Baudrate MachineNumber IsHost Enabled CommPassword UILanguage DateFormat InOutRecordWarn Idle
+ Voice managercount usercount fingercount SecretCount FirmwareVe
+ change_operator change_time create_operator create_time delete_operator delete_time status cardtypecode cardtypename cardtypecode PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status changeno UserID_id changedate changepostion oldvalue newvalue changereason isvalid approvalstatus remark PrimaryKey UserID_id
+ change_operator change_time create_operator create_time delete_operator delete_time status UserID_id cardno"effectivenessdate isvalid cardpwd failuredate cardstatus issuedate PrimaryKey UserID_id
+ change_operator change_time create_operator create_time delete_operator delete_time status UserID_id leavedate leavetype reason isReturnTools isReturnClothes isReturnCard isClassAtt isClassAccess PrimaryKey UserID_id
+ FVID UserID FingerID Template Size DuressFlag UserCode Fv_ID_Index$StateMigrationFlag FingerVein_PK MSysAccounts
+ Root Entry
+ DataAccessPages
+ CustomGroups VBAProject AcessVBAData CustomGroups VBAProject AcessVBAData
+ _VBA_PROJECT
+ Root Entry ID="{B30AFA92-66F4-4060-9CBA-EAEF20756DC0}"
+ Name="att2000"
+ HelpContextID="0"
+ VersionCompatible32="393222000"
+ CMG="B0B24FB553B553B553B553"
+ DPB="60629F60A060A060"
+ GC="1012EF10F010F0EF"
+ [Host Extender Info]
+ &H00000001={3832D640-CF90-11CF-8E43-00A0C911005A};VBE;&H00000000
+ INNT\Sys@tem32\
+ CAA006D2(EA4 ogram Fi les\Comm,on€ 9\m@sado21 icrosoft  ActiveX
+*\G{000204EF-0000-0000-C000-000000000046}#4.0#9#C:\PROGRA~1\COMMON~1\MICROS~1\VBA\VBA6\VBE6.DLL#Visual Basic For Applications
+ *\G{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}#9.0#0#C:\Program Files\M icrosoft Office\Office\MSACC9.OLB#Microsoft Access 9.0 Object Library *\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINNT\System32\stdole2.tlb#OLE Automation
+*\G{00000201-0000-0010-8000-00AA006D2EA4}#2.1#0#C:\Program Files\Common Files\System\ADO\msado21.tlb#Microsoft ActiveX Data Objects 2.1 Library
+ LValue ObjectGuid ObjectName Property
+ Value Id$ObjectGuidProperty$ObjectNameProperty
+ NUM_RUNID
+ OLDID NAME STARTDATE ENDDATE CYLE
+ UNITS 0Index_62107732_4CEB_4016
+ dbapp_viewmodel
+ FingerVein BBB66666664  dbapp_viewmodel
+ base_optionµ pDDD88888886  AUTHDEVICE
+ BBB66666664  auth_group BBB66666664  >>>22222220  ACUnlockComb acc_morecardset acc_levelset_emp NNNBBBBBBB@  Scripts O0000000000.  ZKAttendanceMonthStatisticsµ pdddXXXXXXXV  worktable_usrmsg NNNBBBBBBB@  worktable_msgtype PPPDDDDDDDB  worktable_instantmsg
+ VVVJJJJJJJH  worktable_groupmsg RRRFFFFFFFD  UserUpdates DDD88888886  UsersMachines userinfo_attarea NNNBBBBBBB@  >>>22222220 
+ UserACPrivilege UserACMachines USER_SPEDAY
+ DDD88888886  USER_OF_RUN DDD88888886 µ p>>>22222220  @@@44444442  TBSMSALLOT BBB66666664  888,,,,,,,*  888,,,,,,,* 
+ @@@44444442  SECURITYDETAILSµ p>>>22222220  ReportItem BBB66666664  personnel_leavelog RRRFFFFFFFD  personnel_empchange TTTHHHHHHHF  personnel_cardtype RRRFFFFFFFD  personnel_area
+ operatecmdsµ pDDD88888886  NUM_RUN_DEIL
+ NUM_RUNID STARTTIME ENDTIME
+ SDAYS
+ EDAYS SCHCLASSID OverTime 0Index_E91501C7_FB87_4DD4
+ change_operator change_time create_operator create_time delete_operator delete_time status Author_id CmdContent CmdCommitTime commit_time CmdReturn process_count success_flag receive_data cmm_type cmm_system PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status areaid areaname parent_id remark
+ parent_id PrimaryKey
+ RIID RIIndex ShowIt RIName UnitName Formula CalcBySchClass StatisticMethod CalcLast
+ Notes 0Index_532D27E1_C340_4200
+ schClassid schName StartTime EndTime LateMinutes EarlyMinutes CheckIn CheckOut
+ Color AutoBind CheckInTime1 CheckInTime2 CheckOutTime1 CheckOutTime2 WorkDay SensorID WorkMins 0Index_F293CCC0_700E_4CE1
+  SECURITYDETAILID USERID DEPTID SCHEDULE USERINFO ENROLLFINGERS REPORTVIEW REPORT ReadOnly FullControl 0Index_130BEBC5_A33F_44BA
+ EVENT USERID EnrollNumber parameter EVENTTIME SENSORID OPERATOR
+ SHIFTID NAME USHIFTID STARTDATE ENDDATE RUNNUM SCH1 SCH2 SCH3 SCH4 SCH5 SCH6 SCH7 SCH8 SCH9
+ SCH10
+ SCH11
+ SCH12
+ CYCLE
+ UNITS 0Index_0218CF98_6805_49F2
+ Operator LogTime MachineAlias LogTag LogDescr 0Index_B2218533_AD60_4352
+ PreName ONEKEY
+ REFERENCE SMSREF USERREF
+ GENTM 0Index_2B41633A_C73E_47B0
+ REFERENCE
+ SMSID SMSINDEX SMSTYPE SMSCONTENT SMSSTARTTM SMSTMLENG
+ GENTM 0Index_790D54EC_EA59_4D8D
+ TEMPLATEID USERID FINGERID TEMPLATE TEMPLATE2 BITMAPPICTURE BITMAPPICTURE2 BITMAPPICTURE3 BITMAPPICTURE4 USETYPE EMACHINENUM TEMPLATE1 Flag DivisionFP TEMPLATE4 TEMPLATE3 change_operator change_time create_operator create_time delete_operator delete_time status
+ Valid Fpversion bio_type
+ UTime FP10SIZE DuressFlag TEMPLATESIZE$StateMigrationFlag 0Index_8AD63480_C50C_4FD5 USERFINGER
+ Valid
+ USERID NUM_OF_RUN_ID STARTDATE ENDDATE ISNOTOF_RUN ORDER_RUN 0Index_6C3410BB_8A36_4078
+ USERID STARTSPECDAY ENDSPECDAY DATEID YUANYING DATE 0Index_55806E2A_861F_4852
+ USERID COMETIME LEAVETIME TYPE FLAG SCHCLASSID OVERTIME 0Index_B9028242_B6B8_4B02 UserID Deviceid UserAC_Machines
+ UserID DeviceID ACGroupID IsUseGroup TimeZone1 TimeZone2 TimeZone3 verifystyle pk_privilege
+ USERID Badgenumber name Gender
+ TITLE
+ PAGER BIRTHDAY HIREDDAY street CITY
+ STATE OPHONE FPHONE$VERIFICATIONMETHOD DEFAULTDEPTID SECURITYFLAGS INLATE OUTEARLY OVERTIME HOLIDAY
+ MINZU PASSWORD LUNCHDURATION
+ PHOTO mverifypass
+ Notes privilege InheritDeptSch&InheritDeptSchClass AutoSchPlan$MinAutoSchInterval RegisterOT InheritDeptRule EMPRIVILEGE CardNo change_operator change_time create_operator create_time delete_operator delete_time status lastname AccGroup TimeZones identitycard
+ UTime Education OffDuty DelTag"morecard_group_id set_valid_time acc_startdate acc_enddate birthplace Political contry hiretype
+ email firedate
+ isatt homeaddress emptype bankcode1 bankcode2 isblacklist Iuser1 Iuser2 Iuser3 Iuser4 Iuser5 Cuser1 Cuser2 Cuser3 Cuser4 Cuser5 Duser1 Duser2 Duser3 Duser4 Duser5 reserve OfflineBeginDate OfflineEndDate
+ 3333333333333333333333333333ÿþ 333333333333333333333333333333333333333333333333333333333
+ employee_id area_id area_id employee_id PrimaryKey USERID DEVICEID
+ UpdateId BadgeNumber 0Index_3E1FEDAF_9034_4CAF UserId
+ SchId USER_USED_SCL
+ change_operator change_time create_operator create_time delete_operator delete_time status msgtype_id group_id
+ msgtype_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status"monitor last time msgtype_id content msgtype_id PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status msgtype_name msgtype_value msg_keep_time msg_ahead_remind type PrimaryKey
+ change_operator change_time create_operator create_time delete_operator delete_time status user_id msg_id msg_id PrimaryKey user_id
+ USERID PortalSite Department Employee Year
+ Month YingDao ShiDao ChiDao ZaoTui KuangGong JiaBan WaiChu YinGongWaiChu GongZuoShiJian YingQian QianDao QianTui WeiQianDao WeiQianTui QingJia PingRi ZhouMo JieJiaRi ChuQinShiJian PingRiJiaBan ZhouMoJiaBan JieJiaRiJiaBan <PK_ZKAttendanceMonthStatistics ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces+
+ÝÏ´ wacc_firstopen
+¶ change_operator
+¶ change_time
+¶ create_operator
+¶ create_time
+¶ delete_operator
+¶ delete_time
+¶ timeseg_id
+ change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ timeseg_id
+ ODBCTimeout MaxRecords RecordLocks RecordsetType Filter OrderBy OrderByOn Orientation NameMap DefaultView GUID
+ acc_antiback change_operator change_time create_operator
+ create_time delete_operator delete_time
+ three_mode seven_mode eight_mode AccessVersion
+ Build*
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesM
+ acc_antiback change_operator change_time create_operator
+ create_time delete_operator delete_time
+ three_mode seven_mode eight_mode AntibackType change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ three_mode
+ seven_mode
+ eight_mode
+ AntibackType
+ acc_antiback ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9reader_io_state
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesw
+ swacc_firstopen_empâ accfirstopen_idâ employee_id
+ accfirstopen_id
+ employee_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces#
+ acc_holidays
+¨® <'change_operator¨® <'change_time¨® <'create_operator¨® <'create_time¨® <'delete_operator¨® <'delete_time
+¨® <'holiday_name¨® <'holiday_type¨® <'start_date¨® <'loop_by_year
+ change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ holiday_name
+ holiday_type
+ start_date
+ loop_by_year
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces#
+ acc_interlock…£ change_operator…£ change_time
+…£ create_operator…£ create_time…£ delete_operator…£ delete_time…£ three_mode
+…£ InterlockType change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ three_mode
+ InterlockType
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ swacc_levelset_door_group´ acclevelset_id´ accdoor_id
+ acclevelset_id
+ accdoor_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces;
+ swacc_levelset change_operator change_time create_operator create_time delete_operator delete_time level_name
+ level_timeseg_id change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ level_name
+  level_timeseg_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacess
+ swacc_levelset_emp acclevelset_id employee_id
+ acclevelset_id
+ employee_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ swacc_linkageio ~mchange_operator ~mchange_time
+ ~mcreate_operator ~mcreate_time ~mdelete_operator ~mdelete_time
+ ~mlinkage_name ~mdevice_id ~mtrigger_opt ~min_address_hide ~min_address ~mout_type_hide ~mout_address_hide ~mout_address ~maction_type ~mdelay_time
+ ~mvideo_linkageio_id ~mlchannel_num change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ linkage_name
+ trigger_opt
+ in_address_hide
+ in_address
+ out_type_hide
+  out_address_hide
+ out_address
+ action_type
+ delay_time
+ $video_linkageio_id
+ lchannel_num
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+‚ 8IKD $xchange_operator‚ 8IKD $xchange_time‚ 8IKD $xcreate_operator‚ 8IKD $xcreate_time‚ 8IKD $xdelete_operator‚ 8IKD $xdelete_time‚ 8IKD $xstatus‚ 8IKD $xmap_name
+‚ 8IKD $xmap_path‚ 8IKD $xarea_id‚ 8IKD $xwidth
+‚ 8IKD $xheight change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÏ´ wacc_mapdoorpos
+ @change_operator
+ @change_time
+ @create_operator
+ @create_time
+ @delete_operator
+ @delete_time
+ @map_door_id
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ map_door_id
+ change_operator change_time create_operator create_time delete_operator delete_time status log_tag time card_no device_id device_sn device_name verified
+ state event_type description event_point_type event_point_id event_point_name
+ PrimaryKey ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces3
+ÝÏ€ wacc_morecardempgroupÔ Fchange_operator
+Ô Fchange_time
+Ô Fcreate_operatorÔ Fcreate_timeÔ Fdelete_operatorÔ Fdelete_time
+Ô Fgroup_name change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ group_name
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacess
+ acc_morecardgroup”Ý Zpylchange_operator
+”Ý Zpylchange_time”Ý Zpylcreate_operator”Ý Zpylcreate_time”Ý Zpyldelete_operator”Ý Zpyldelete_time”Ý Zpylstatus”Ý Zpylcomb_id
+”Ý Zpylgroup_id”Ý Zpylopener_number change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ opener_number
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces-
+ *acc_morecardset
+ pchange_operator pchange_time
+ pcreate_operator pcreate_time pdelete_operator
+ pdelete_time pcomb_name change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ wacc_timeseg
+ change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ timeseg_name
+ sunday_start1
+ sunday_end1
+ sunday_start2
+ sunday_end2
+ sunday_start3
+ sunday_end3
+ monday_start1
+ monday_end1
+ monday_start2
+ monday_end2
+ monday_start3
+ monday_end3
+ tuesday_start1
+ tuesday_end1
+ tuesday_start2
+ tuesday_end2
+ tuesday_start3
+ tuesday_end3
+ wednesday_start1
+ wednesday_end1
+ wednesday_start2
+ wednesday_end2
+ wednesday_start3
+ wednesday_end3
+ thursday_start1
+ thursday_end1
+ thursday_start2
+ thursday_end2
+ thursday_start3
+ thursday_end3
+ friday_start1
+ friday_end1
+ friday_start2
+ friday_end2
+ friday_start3
+ friday_end3
+ saturday_start1
+ saturday_end1
+ saturday_start2
+ saturday_end2
+ saturday_start3
+ saturday_end3
+ holidaytype1_start1
+ holidaytype1_end1
+ holidaytype1_start2
+ holidaytype1_end2
+ holidaytype1_start3
+ holidaytype1_end3
+ holidaytype2_start1
+ holidaytype2_end1
+ holidaytype2_start2
+ holidaytype2_end2
+ holidaytype2_start3
+ holidaytype2_end3
+ holidaytype3_start1
+ holidaytype3_end1
+ holidaytype3_start2
+ holidaytype3_end2
+ holidaytype3_start3
+ holidaytype3_end3
+ change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ timeseg_name
+ sunday_start1
+ sunday_end1
+ sunday_end2
+ sunday_end3
+ monday_start1
+ monday_start3
+ monday_end1
+ tuesday_start1
+ tuesday_end1
+  wednesday_start1
+ wednesday_end1
+ dnesday_end3
+ thursday_start1
+ thursday_end1
+ thursday_end3
+ friday_start1
+ friday_start3
+ friday_end1
+ friday_end3
+ saturday_start1
+ saturday_start3
+ saturday_end1
+ saturday_end3
+ &holidaytype1_start1
+ &holidaytype1_start3
+ "holidaytype1_end1
+ "holidaytype1_end3
+ &holidaytype2_start1
+ &holidaytype2_start3
+ "holidaytype2_end1
+ "holidaytype2_end3
+ &holidaytype3_start1
+ &holidaytype3_start3
+ "holidaytype3_end1
+ "holidaytype3_end3
+ sunday_start2
+ sunday_start3
+ monday_start2
+ monday_end2
+ monday_end3
+ tuesday_start2
+ tuesday_end2
+ tuesday_start3
+ tuesday_end3
+  wednesday_start2
+ wednesday_end2
+  wednesday_start3
+ thursday_start2
+ thursday_end2
+ thursday_start3
+ friday_start2
+ friday_end2
+ saturday_start2
+ saturday_end2
+ &holidaytype1_start2
+ "holidaytype1_end2
+ &holidaytype2_start2
+ "holidaytype2_end2
+ &holidaytype3_start2
+ "holidaytype3_end2
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces%
+ÝÏÅ wacc_wiegandfmt±á change_operator±á change_time±á create_operator
+±á create_time±á delete_operator±á delete_time±á wiegand_name
+±á wiegand_count±á even_start±á even_count±á comp_start±á comp_count change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ wiegand_name
+ wiegand_count
+ even_start
+ even_count
+ comp_start
+ comp_count
+ Orientation OrderByOn NameMap DefaultView8DisplayViewsOnSharePointSite TotalsRow FilterOnLoad OrderByOnLoad HideNewField Required ColumnWidth ColumnOrder ColumnHidden DecimalPlaces DisplayControl TextAlign AggregateType DefaultValue AllowZeroLength IMEMode IMESentenceMode$UnicodeCompression GUID ValidationRule ValidationText Filter OrderBy Description Format InputMask Caption SmartTags
+„ holidayvaild„ verifystyle
+ holidayvaild
+ verifystyle
+ Orientation OrderByOn NameMap DefaultView8DisplayViewsOnSharePointSite TotalsRow FilterOnLoad OrderByOnLoad HideNewField ColumnWidth ColumnOrder ColumnHidden TextAlign AggregateType DecimalPlaces Required DisplayControl IMEMode IMESentenceMode ShowDatePicker GUID ValidationRule ValidationText Filter OrderBy Description Format Caption SmartTags InputMask DefaultValue
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue DisplayControl SmartTags AllowZeroLength IMEMode IMESentenceMode$UnicodeCompression] TimeZoneID
+ ACTimeZones u]TimeZoneID u]SunStart u]MonStart u]TuesStart
+ u]WedStart u]ThursStart u]ThursEnd u]FriStart u]SatStart
+ ThursStart
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue DisplayControl SmartTags AllowZeroLength IMEMode IMESentenceMode$UnicodeCompressiona UnlockCombID
+ ACUnlockCombà UnlockCombID
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ waction_logž action_timež content_type_idž object_reprž action_flagž change_message object_repr
+ action_time
+ content_type_id
+ action_flag
+ change_message
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesO
+ wareaadmin
+ Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces:
+Ðáò uEnrollNumberÐáò uMachineAliasÐáò uAlarmType
+ EnrollNumber
+ MachineAlias
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÏ swatt_attreporté‘ ,Author_idé‘ ,ItemValueé‘ ,Published
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+  att_waitforprocessdata ;[change_operator ;[change_time ;[create_operator ;[create_time ;[delete_operator ;[delete_time ;[UserID_id ;[starttime change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags DecimalPlaces InputMask DefaultValue DisplayControl IMEMode IMESentenceMode AllowZeroLength$UnicodeCompression>
+ AuditedExc
+ !KCheckTime !KNewExcID
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces-
+ Bwattcalclog
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ BwattexceptionÜ 7change_operatorÜ 7change_timeÜ 7create_operatorÜ 7create_timeÜ 7delete_operatorÜ 7delete_timeÜ 7StartTimeÜ 7ExceptionIDÜ 7AuditExcIDÜ 7OldAuditExcIDÜ 7OverlapTimeÜ 7InScopeTimeÜ 7OverlapWorkDayTaiÜ 7OverlapWorkDayÜ 7Minsworkday
+Ü 7Minsworkday1 change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ ExceptionID
+ AuditExcID
+ OldAuditExcID
+ OverlapTime
+ InScopeTime
+ "OverlapWorkDayTai
+ OverlapWorkDay
+ Minsworkday
+ Minsworkday1
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesU
+ÝÏ <wauth_message
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesw
+ÝÏ <wauth_group_permissions permission_id
+ permission_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags
+ auth_groupÛ Permission
+ Permission
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces3
+ last_login
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces3
+ last_login
+ last_login
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags DecimalPlaces InputMask DefaultValue DisplayControl:
+ AUTHDEVICE
+´å nMachineID
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces}
+ÝÏ <wauth_user_user_permissions permission_id
+ permission_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces_
+ uauth_user_groups
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ ubase_additiondata
+ create_time content_type_id delete_time
+ create_time
+ content_type_id
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces]
+ ubase_appoption
+ change_operator change_time create_operator create_time delete_operator delete_time
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÏ <wbase_basecode
+¬ change_operator¬ change_time¬ create_operator¬ create_time
+¬ delete_operator
+¬ delete_time¬ content_class
+ change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ content_class
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ ubase_datatranslation
+½ vchange_operator½ vchange_time½ vcreate_operator½ vcreate_time½ vdelete_operator½ vdelete_time½ vcontent_type_id change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ content_type_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesg
+ ubase_operatortemplateú change_operatorú change_timeú create_operator
+ú create_timeú delete_operatorú delete_time
+ú bitmap_pictureú bitmap_picture2ú bitmap_picture3ú bitmap_picture4ú template_flag
+ change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ bitmap_picture
+ bitmap_picture2
+ bitmap_picture3
+ bitmap_picture4
+ template_flag
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ ubase_option
+  change_operator  change_time  create_operator  create_time  delete_operator  delete_time  verbose_name
+  for_personal change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ verbose_name
+ default LVAL
+ for_personal
+ "CharField" ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesi
+ÝÏ <wbase_personaloptionÌûÜ zchange_operatorÌûÜ zchange_timeÌûÜ zcreate_operatorÌûÜ zcreate_timeÌûÜ zdelete_operatorÌûÜ zdelete_timeÌûÜ zoption_id change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ ubase_strresource
+ç vg1change_operatorç vg1change_timeç vg1create_operatorç vg1create_timeç vg1delete_operatorç vg1delete_time change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesi
+ base_strtranslation change_operator change_time create_operator create_time delete_operator delete_time change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces-
+ ubase_systemoptionÙ  change_operatorÙ  change_timeÙ  create_operatorÙ  create_timeÙ  delete_operatorÙ  delete_time
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption Required DisplayControl IMEMode AllowZeroLength$UnicodeCompression GUIDw
+ CHECKEXACT
+ Orientation OrderByOn NameMap DefaultView8DisplayViewsOnSharePointSite TotalsRow FilterOnLoad OrderByOnLoad HideNewField Required ColumnWidth ColumnOrder ColumnHidden TextAlign AggregateType DefaultValue GUID ValidationRule ValidationText Filter OrderBy Description Format DecimalPlaces InputMask Caption DisplayControl SmartTags IMEMode IMESentenceMode AllowZeroLength$UnicodeCompression
+ vCHECKINOUTü 3CHECKTIMEü 3CHECKTYPEü 3VERIFYCODEü 3UserExtFmt
+ VERIFYCODE
+ UserExtFmt
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue Required DisplayControl SmartTags!
+ DeptUsedSchs
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÏ <wdbapp_viewmodel change_operator change_time create_operator create_time delete_operator delete_time change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesO
+ udeptadmin
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ dbbackuplog change_operator change_time create_operator create_time delete_operator delete_time
+ successflag change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ successflag
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ udevcmds_bak Bchange_operator Bchange_time Bcreate_operator
+ Bcreate_time Bdelete_operator Bdelete_time BCmdOperate_id BCmdContent BCmdCommitTime BCmdTransTime BCmdOverTime
+ BCmdReturn BCmdReturnContent BCmdImmediately change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ CmdOperate_id
+ CmdContent
+ CmdCommitTime
+ CmdTransTime
+ CmdOverTime
+  CmdReturnContent
+ CmdImmediately
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags
+ÝÏ <wdjango_content_type
+ -app_label
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ "TRANSACT"p
+ TEMPLATEEx O66666666664  FingerVeinEx FaceTempEx O66666666664  BioTemplate DDD88888886  ReportField O88888888886  CustomReport STD_WiegandFmt acc_auxiliary acc_reader O66666666664  ParamSet O22222222220  TmpPermitDoors TmpPermitUsers TmpPermitGroups LossCard O22222222220  OfflinePermitDoors OFFFFFFFFFFD  OfflinePermitUsers OFFFFFFFFFFD  OfflinePermitGroups OHHHHHHHHHHF  acc_monitor_log UserUsedSClasses NNNBBBBBBB@  USER_TEMP_SCH
+ @@@44444442  personnel_issuecard
+ TTTHHHHHHHF  MSysAccessXML
+ >>>22222220  Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags DecimalPlaces InputMask DefaultValue DisplayControl IMEMode IMESentenceMode AllowZeroLength$UnicodeCompression:
+ OperateTime
+ %7OperateTime %7manipulationID %7SensorId manipulationID
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags}
+ÝÏ <wdjango_session session_key session_data expire_date session_key
+ session_data
+ expire_date
+ Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlacesJ TEMPLATEID
+ ACTIVETIME
+ TEMPLATEID
+ ACTIVETIME
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+  z1empitemdefine
+û UQItemNameû UQItemType
+û UQAuthor_idû UQItemValueû UQPublished
+ Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlacesH
+ HOLIDAYDAY
+—ü HHOLIDAYID
+—ü HHOLIDAYNAME—ü HHOLIDAYYEAR
+—ü HHOLIDAYMONTH—ü HHOLIDAYDAY—ü HSTARTTIME—ü HHOLIDAYTYPE
+ HOLIDAYNAME
+ HOLIDAYYEAR
+ HOLIDAYMONTH
+ HOLIDAYTYPE
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ iclock_dstime change_operator change_time create_operator create_time delete_operator delete_time start_time change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ start_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÏ <wiclock_oplog
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesy
+ÝÏ <wiclock_testdata_admin_areaùõ testdata_id
+ testdata_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces)
+ÝÏ <wiclock_testdataâŠ change_operatorâŠ change_timeâŠ create_operatorâŠ create_timeâŠ delete_operator
+âŠ delete_time
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ Orientation OrderByOn NameMap Required ColumnWidth ColumnOrder ColumnHidden AllowZeroLength DisplayControl IMEMode$UnicodeCompression DefaultValue DecimalPlaces GUID ValidationRule ValidationText Filter OrderBy DefaultView Description Format Caption SmartTags InputMask IMESentenceMode+
+ LeaveClass
+¥ RemaindProc¥ RemaindCount¥ ReportSymbol
+ RemaindProc
+ RemaindCount
+ ReportSymbol
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ uiclock_testdata_admin_dept Mtestdata_id Mdepartment_id
+ testdata_id
+ department_id
+ Required DefaultValue'
+ OrderByOn NameMap RowHeight Orientation DefaultView8DisplayViewsOnSharePointSite TotalsRow FilterOnLoad OrderByOnLoad HideNewField Required ColumnWidth ColumnOrder ColumnHidden TextAlign AggregateType DefaultValue GUID ValidationRule ValidationText Filter OrderBy Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces
+ LeaveClass1
+ê RemaindProcê RemaindCountê ReportSymbol
+ RemaindProc
+ RemaindCount
+ ReportSymbol
+ Required DefaultValue'
+ GroupName BeginDate EndDate
+ 0Index_DD809749_2CD9_4D5F
+ arNo carType carBrand carColor BADGENUMBER identitycard0Index_37D1A1C3_AF9B_4B1E"morecard_group_id
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ reader_io_state
+ open_door_delay wiegandInType
+ wiegandOutType
+ $wiegand_fmt_out_id
+ Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DisplayControl IMEMode GUIDs
+ SCHCLASSID
+ NUM_RUN_DEIL š @NUM_RUNID
+ š @STARTTIME
+ š @SCHCLASSID
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces+
+ uoperatecmdsÔ»ú change_operator
+Ô»ú change_timeÔ»ú create_operatorÔ»ú create_timeÔ»ú delete_operatorÔ»ú delete_time
+Ô»ú CmdContentÔ»ú CmdCommitTime
+Ô»ú commit_timeÔ»ú process_countÔ»ú success_flagÔ»ú receive_data
+Ô»ú cmm_system
+ change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ CmdContent
+ CmdCommitTime
+ commit_time
+ process_count
+ success_flag
+ receive_data
+ cmm_system
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesC
+ÝÏ <wpersonnel_cardtype
+ì÷ vPchange_operator
+ì÷ vPchange_time
+ì÷ vPcreate_operator
+ì÷ vPcreate_time
+ì÷ vPdelete_operator
+ì÷ vPdelete_time
+ì÷ vPcardtypecode
+ì÷ vPcardtypename
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ cardtypecode
+ cardtypename
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ personnel_empchange¾ 'gchange_operator¾ 'gchange_time¾ 'gcreate_operator¾ 'gcreate_time¾ 'gdelete_operator¾ 'gdelete_time¾ 'gchangeno¾ 'gUserID_id
+¾ 'gchangedate¾ 'gchangepostion¾ 'goldvalue¾ 'gnewvalue¾ 'gchangereason¾ 'gapprovalstatus change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ changedate
+ changepostion
+ changereason
+ approvalstatus
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ personnel_issuecard
+·¦ -change_operator
+·¦ -change_time
+·¦ -create_operator
+·¦ -create_time
+·¦ -delete_operator
+·¦ -delete_time
+·¦ -UserID_id
+·¦ -effectivenessdate
+·¦ -failuredate
+·¦ -cardstatus
+·¦ -issuedate
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ "effectivenessdate
+ failuredate
+ cardstatus
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+  z1personnel_leavelog÷ change_operator÷ change_time÷ create_operator÷ create_time
+÷ delete_operator÷ delete_time
+÷ isReturnTools÷ isReturnClothes÷ isReturnCard÷ isClassAtt÷ isClassAccess
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ isReturnTools
+ isReturnClothes
+ isReturnCard
+ isClassAtt
+ isClassAccess
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags DecimalPlaces InputMask DefaultValue DisplayControl AllowZeroLength IMEMode IMESentenceMode$UnicodeCompression>
+ ReportItem
+‚– CalcBySchClass
+‚– StatisticMethod
+ CalcBySchClass
+ StatisticMethod
+ Orientation OrderByOn NameMap Required ColumnWidth ColumnOrder ColumnHidden AllowZeroLength DisplayControl IMEMode$UnicodeCompression DefaultValue DecimalPlaces GUID ValidationRule ValidationText Filter OrderBy DefaultView Description Format Caption SmartTags InputMask IMESentenceMode
+ schClassid LateMinutes EarlyMinutes CheckInTime1 CheckInTime2 CheckOutTime1 CheckOutTime2
+ schClassid
+ LateMinutes
+ EarlyMinutes
+ CheckInTime1
+ CheckInTime2
+ CheckOutTime1
+ CheckOutTime2
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags DecimalPlaces InputMask DefaultValue DisplayControl AllowZeroLength IMEMode IMESentenceMode$UnicodeCompressionV  SECURITYDETAILID
+ SECURITYDETAILS
+´ SECURITYDETAILID
+´ ENROLLFINGERS´ REPORTVIEW´ FullControl
+ ENROLLFINGERS
+ REPORTVIEW
+ FullControl
+ Required DefaultValue#
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask DefaultValue AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces:
+Þ ?EnrollNumberÞ ?parameterÞ ?EVENTTIME EnrollNumber
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags DecimalPlaces InputMask DefaultValue DisplayControl:
+ UsersMachines ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces:
+ QMachineAlias
+ MachineAlias
+ Required DefaultValue! STARTSPECDAY ENDSPECDAY  Required DefaultValue! NUM_OF_RUN_ID ISNOTOF_RUN
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue DisplayControl SmartTags AllowZeroLength IMEMode IMESentenceMode$UnicodeCompression[
+§ SMSCONTENT§ SMSSTARTTM
+ SMSCONTENT
+ SMSSTARTTM
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue DisplayControl SmartTags AllowZeroLength IMEMode IMESentenceMode$UnicodeCompression[
+ TBSMSALLOT
+ø¡ QREFERENCE
+ Orientation OrderByOn NameMap Required ColumnWidth ColumnOrder ColumnHidden DecimalPlaces DisplayControl DefaultValue GUID ValidationRule ValidationText Filter OrderBy DefaultView Description Format Caption SmartTags InputMask AllowZeroLength IMEMode IMESentenceMode$UnicodeCompression_
+ qvTEMPLATE¼ TEMPLATEID¼ BITMAPPICTURE¼ BITMAPPICTURE2¼ BITMAPPICTURE3¼ BITMAPPICTURE4¼ EMACHINENUM
+¼ DivisionFP¼ change_operator¼ change_time¼ create_operator¼ create_time¼ delete_operator¼ delete_time
+ TEMPLATEID
+ BITMAPPICTURE
+ BITMAPPICTURE2
+ BITMAPPICTURE3
+ BITMAPPICTURE4
+ DivisionFP
+ EMACHINENUM
+ change_operator
+ change_time create_operator
+ create_time delete_operator
+ delete_time
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacese
+ userinfo_attarea employee_id
+ employee_id
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue DisplayControl SmartTagsU
+ UserACMachines Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DisplayControl IMEMode GUIDm
+ SCHCLASSID
+ USER_TEMP_SCH‹ SCHCLASSID
+ ChkPwd
+ ChkFp 0Index_662BE44F_87B0_4669 ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue Required DisplayControl SmartTags)
+ UserUsedSClasses
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask DefaultValue AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompressionF
+ UserUpdates BadgeNumber BadgeNumber
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces7
+  z1worktable_groupmsgš± change_operatorš± change_timeš± create_operatorš± create_timeš± delete_operatorš± delete_timeš± msgtype_id change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ msgtype_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+  z1worktable_instantmsg Xchange_operator Xchange_time Xcreate_operator Xcreate_time Xdelete_operator Xdelete_time Xmonitor last time Xmsgtype_id change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ "monitor last time
+ msgtype_id
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ uworktable_msgtypeÇ @change_operatorÇ @change_timeÇ @create_operatorÇ @create_timeÇ @delete_operatorÇ @delete_timeÇ @msgtype_nameÇ @msgtype_valueÇ @msg_keep_timeÇ @msg_ahead_remind change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ msgtype_name
+ msgtype_value
+ msg_keep_time
+  msg_ahead_remind
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces)
+ uworktable_usrmsg
+ change_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ Required ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format DecimalPlaces InputMask Caption DefaultValue DisplayControl SmartTagsM
+ ZKAttendanceMonthStatistics PortalSite Department YinGongWaiChu GongZuoShiJian
+ WeiQianDao WeiQianTui ChuQinShiJian
+ PingRiJiaBan ZhouMoJiaBan JieJiaRiJiaBan
+ PortalSite
+ Department
+ YinGongWaiChu
+ GongZuoShiJian
+ WeiQianDao
+ WeiQianTui
+ ChuQinShiJian
+ PingRiJiaBan
+ ZhouMoJiaBan
+ JieJiaRiJiaBan
+ Temp-Supervisor&Initialize SystemR..
+ 24-Hour Accessibleÿþ 24-Hour Accessible: GroupId DeviceId DoorNo 0Index_0036E9A4_1F0B_4A0D
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ uauth_permissionÁ fcontent_type_id
+ content_type_id
+ Leave_1         SickBLJB Leave_2         VacationSTRB OrderByOn NameMap RowHeight Orientation DefaultView8DisplayViewsOnSharePointSite TotalsRow FilterOnLoad OrderByOnLoad HideNewField Required ColumnWidth ColumnOrder ColumnHidden TextAlign AggregateType DefaultValue GUID ValidationRule ValidationText Filter OrderBy Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces
+ LeaveClass1
+ê RemaindProcê RemaindCountê ReportSymbol
+ RemaindProc
+ RemaindCount
+ ReportSymbol
+ Orientation OrderByOn NameMap Required ColumnWidth ColumnOrder ColumnHidden AllowZeroLength DisplayControl IMEMode$UnicodeCompression DefaultValue DecimalPlaces GUID ValidationRule ValidationText Filter OrderBy DefaultView Description Format Caption SmartTags InputMask IMESentenceMode+
+ LeaveClass
+¥ RemaindProc¥ RemaindCount¥ ReportSymbol
+ RemaindProc
+ RemaindCount
+ ReportSymbol
+ Leave_3         OtherTNLB Required DefaultValue ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format Caption SmartTags InputMask AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlacesB
+  InheritParentSch
+ InheritDeptSch
+ &InheritDeptSchClass
+ AutoSchPlan
+ InheritDeptRule
+ $MinAutoSchInterval
+ RegisterOT
+ DefaultSchId
+ DEPARTMENTS’ InheritParentSch
+’ InheritDeptSch
+’ InheritDeptSchClass’ AutoSchPlan
+’ InheritDeptRule’ MinAutoSchInterval’ RegisterOT’ DefaultSchId
+’ change_operator’ change_time
+’ create_operator’ create_time’ delete_operator
+’ delete_time
+’ invalidate
+ ange_operator
+ change_time
+ create_operator
+ create_time
+ delete_operator
+ delete_time
+ invalidate
+ Leave_999       BleaveG
+ Leave_1000      Normal RRPD BadgeNumber TemplateNO TemplateNOIndex ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ personnel_area± }change_operator
+± }change_time± }create_operator± }create_time
+± }delete_operator
+± }delete_time
+± }parent_id change_operator
+ create_operator
+ change_time
+ create_time
+ delete_operator
+ delete_time
+ Leave_1001      Late> AttItem(minLater)mNLD
+ Leave_1002      Early< AttItem(minEarly)oPND
+ Leave_1003      AfLL
+ Leave_1004      AbsentA AttItem(MinAbsent)rRPD
+ Leave_1007      Rest-NNLD
+ Leave_1008      N/In[4
+ Leave_1009      N/Out]X
+ Leave_1012      OUTLLLJD
+ CardNo LossDate 0Index_C6FE1E04_0E4B_401C
+ GroupName BeginDate EndDate 0Index_08B3FE84_204C_4176
+ GroupId CertifiNo UserName Gender CardNo OfflineBeginDate OfflineEndDate 0Index_019BD677_F336_46BA GroupId DeviceId DoorNo 0Index_54FC27CA_01CD_4DA0
+ ParamName ParamValue 0Index_23B20F68_4247_441B
+ door_id reader_no reader_name reader_state 0Index_F6AEB856_48A8_4AA4
+ device_id aux_no printer_number aux_name aux_state
+ 0Index_D2E0455E_2378_4333
+ DoorId OutWiegandFmt OutFailureId OutAreaCode OutPulseWidth OutPulseInterval OutContent InWiegandFmt InBitCount InPulseWidth InPulseInterval InContent 0Index_7EDAF70E_10A7_4A45 BadgeNumber TemplateNO ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+Âó $change_operatorÂó $change_timeÂó $create_operatorÂó $create_timeÂó $delete_operator
+Âó $delete_timeÂó $CmdOperate_idÂó $CmdContentÂó $CmdCommitTimeÂó $CmdTransTimeÂó $CmdOverTimeÂó $CmdReturnÂó $CmdReturnContentÂó $CmdImmediately change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ CmdOperate_id
+ CmdCommitTime
+ CmdTransTime
+ CmdOverTime
+  CmdReturnContent
+ CmdImmediately
+ CmdContent
+ ReportName Memo 0Index_9F0C0153_4D35_460D
+ CRId TableName FieldName ShowIndex
+ PK_ReportField
+ UserID BadgeNumber CreateOperator CreateTime ValidFlag IsDuress BioType Version DataFormat TemplateNO TemplateNOIndex nOldType TemplateData
+ 0Index_49C6FF88_2758_4192 IX_BioTemplate
+ TEMPLATEID USERNO SIZE FACEID
+ VALID RESERVE ACTIVETIME VFCOUNT TEMPLATE FaceType$StateMigrationFlag
+ FVID UserID FingerID Template Size DuressFlag UserCode Fv_ID_Index$StateMigrationFlag Orientation OrderByOn NameMap DefaultView ColumnWidth ColumnOrder ColumnHidden Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression DecimalPlaces DefaultValue GUID ValidationRule ValidationText Filter OrderBy Description Format Caption SmartTags InputMask
+ acc_monitor_log
+ change_operator change_time create_operator create_time delete_operator delete_time device_name
+ event_type description event_point_type event_point_id event_point_name change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ event_type
+ description
+  event_point_type
+ event_point_id
+  event_point_name
+ TEMPLATEID USERID FINGERID TEMPLATE TEMPLATE2 BITMAPPICTURE BITMAPPICTURE2 BITMAPPICTURE3 BITMAPPICTURE4 USETYPE EMACHINENUM TEMPLATE1 Flag DivisionFP TEMPLATE4 TEMPLATE3 change_operator change_time create_operator create_time delete_operator delete_time status
+ Valid Fpversion bio_type
+ UTime FP10SIZE DuressFlag TEMPLATESIZE$StateMigrationFlag
+ rsion ProductType LockControl Purpose ProduceKind PhotoStamp.IsIfChangeConfigServer2 pushver change_operator change_time create_operator create_time delete_operator delete_time status device_type last_activity trans_times TransInterval log_stamp oplog_stamp photo_stamp UpdateDB device_name"transaction_count main_time max_user_count max_finger_count max_attlog_count alg_ver flash_size free_flash_size language lng_encode volume is_tft platform brightness oem_vendor city AccFun
+ TZAdj comm_type agent_ipaddress subnet_mask gateway area_id acpanel_type sync_time four_to_two video_login fp_mthreshold Fpversion max_comm_size max_comm_count realtime
+ delay encrypt dstime_id door_count reader_count aux_in_count aux_out_count IsOnlyRFMachine
+ alias ipaddress com_port com_address DeviceNetmask DeviceGetway SimpleEventType FvFunOn fvcount deviceOption DevSDKType UTableDesc IsTFTMachine PinWidth UserExtFmt FP1_NThreshold FP1_1Threshold Face1_NThreshold Face1_1Threshold Only1_1Mode OnlyCheckCard(MifireMustRegistered RFCardOn Mifire MifireId
+ NetOn RS232On RS485On FreeType FreeTime NoDisplayFun VoiceTipsOn TOMenu StdVolume
+ VRYVH KeyPadBeep BatchUpdate CardFun FaceFunOn FaceCount TimeAPBFunOn FingerFunOn"CompatOldFirmware ParamValues WirelessSSID WirelessKey WirelessAddr WirelessMask WirelessGateWay IsWireless
+ ACFun BiometricType BiometricVersion"BiometricMaxCount$BiometricUsedCount WIFI WIFIOn WIFIDHCP area_id dstime_id0Index_E1557C41_C090_4525 lng_encode)
+ acc_monitor_log roup acc_antiback 
+ 5100F123321 Nunes Monica
+ 5050M666666 Jones Mary
+ 5020F000000 Rahman Sunita
+ 5110M010101 Smith Mark
+ N5380M020481 Carter John ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ÝÄ 9ReaderIOState
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ inout_state
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ReaderIOState
+ acc_door or_log acc_antiback  in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesk
+ 6vacc_door
+ÝÄ 9change_operator
+ÝÄ 9change_time
+ÝÄ 9create_operator
+ÝÄ 9create_time
+ÝÄ 9delete_operator
+ÝÄ 9delete_time
+ÝÄ 9device_id
+ÝÄ 9door_name
+ÝÄ 9lock_delay
+ÝÄ 9back_lock
+ÝÄ 9sensor_delay
+ÝÄ 9opendoor_type
+ÝÄ 9inout_state
+ÝÄ 9lock_active_id
+ÝÄ 9long_open_id
+ÝÄ 9wiegand_fmt_id
+ÝÄ 9card_intervaltime
+ÝÄ 9reader_type
+ÝÄ 9force_pwd
+ÝÄ 9supper_pwd
+ÝÄ 9door_sensor_status
+ÝÄ 9duration_apb
+ change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ lock_delay
+ sensor_delay
+ opendoor_type
+ lock_active_id
+ long_open_id
+ wiegand_fmt_id
+ "card_intervaltime
+ reader_type
+ $door_sensor_status
+ duration_apb
+ supper_pwd
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlacesa
+ vacc_monitor_logõ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_address
+õ¾ñ event_typeõ¾ñ trigger_optõ¾ñ description change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type "event_point_value ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_nameõ¾ñ in_addressõ¾ñ out_addressõ¾ñ event_typeõ¾ñ trigger_optõ¾ñ descriptionõ¾ñ event_point_typeõ¾ñ event_point_value change_operator
+ create_operator
+ delete_operator
+ change_time
+ create_time
+ delete_time
+ device_name
+ in_address
+ out_address
+ trigger_opt
+ event_type
+ description
+  event_point_type
+ "event_point_value
+ ValidationRule ValidationText Orientation Filter OrderBy OrderByOn NameMap DefaultView GUID ColumnWidth ColumnOrder ColumnHidden Description Format InputMask Caption DefaultValue Required AllowZeroLength DisplayControl IMEMode IMESentenceMode$UnicodeCompression SmartTags DecimalPlaces
+ vacc_monitor_log
+õ¾ñ change_operatorõ¾ñ change_timeõ¾ñ create_operatorõ¾ñ create_timeõ¾ñ delete_operatorõ¾ñ delete_time
+õ¾ñ device_name

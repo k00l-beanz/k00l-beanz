@@ -1,0 +1,11 @@
+/index               [32m (Status: 200)[0m [Size: 3768]
+/.html               [33m (Status: 403)[0m [Size: 153]
+/info                [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/.git/info/][0m
+/config              [32m (Status: 200)[0m [Size: 92]
+/logs                [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/.git/logs/][0m
+/objects             [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/.git/objects/][0m
+/description         [32m (Status: 200)[0m [Size: 73]
+/branches            [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/.git/branches/][0m
+/refs                [36m (Status: 301)[0m [Size: 169][34m [--> http://pilgrimage.htb/.git/refs/][0m
+/.html               [33m (Status: 403)[0m [Size: 153]
+/HEAD                [32m (Status: 200)[0m [Size: 23]

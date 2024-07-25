@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.18.6-2-Debian <<>> -p 53 -x 10.10.10.100 @10.10.10.100
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: FORMERR, id: 64644
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 5b09a9295c228339 (echoed)
+;; QUESTION SECTION:
+;100.10.10.10.in-addr.arpa.	IN	PTR
+
+;; Query time: 12 msec
+;; SERVER: 10.10.10.100#53(10.10.10.100) (UDP)
+;; WHEN: Mon Sep 19 18:50:17 EDT 2022
+;; MSG SIZE  rcvd: 66
+
+

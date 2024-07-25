@@ -1,0 +1,103 @@
+```bash
+nmap -vv --reason -Pn -T4 -sV -sC --version-all -A --osscan-guess -p- -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/_full_tcp_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/xml/_full_tcp_nmap.xml" 10.10.10.239
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/_full_tcp_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/_full_tcp_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Thu Aug  4 19:12:57 2022 as: nmap -vv --reason -Pn -T4 -sV -sC --version-all -A --osscan-guess -p- -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/_full_tcp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/love/results/10.10.10.239/scans/xml/_full_tcp_nmap.xml 10.10.10.239
+Increasing send delay for 10.10.10.239 from 0 to 5 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.239 from 5 to 10 due to 25 out of 62 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -1089512 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1089512 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1114934 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1114934 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1122523 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1122523 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -538430 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -538430 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -563620 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -563620 microseconds.  Ignoring time.
+Nmap scan report for 10.10.10.239
+Host is up, received user-set (0.015s latency).
+Scanned at 2022-08-04 19:12:57 EDT for 1370s
+Not shown: 65521 closed tcp ports (reset)
+PORT      STATE SERVICE      REASON          VERSION
+135/tcp   open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+445/tcp   open  microsoft-ds syn-ack ttl 127 Windows 10 Pro 19042 microsoft-ds (workgroup: WORKGROUP)
+5000/tcp  open  http         syn-ack ttl 127 Apache httpd 2.4.46 (OpenSSL/1.1.1j PHP/7.3.27)
+|_http-title: 403 Forbidden
+|_http-server-header: Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27
+5040/tcp  open  unknown      syn-ack ttl 127
+5985/tcp  open  http         syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+7680/tcp  open  pando-pub?   syn-ack ttl 127
+47001/tcp open  http         syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49669/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49670/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+Aggressive OS guesses: Microsoft Windows 10 1709 - 1909 (96%), Microsoft Windows Longhorn (94%), Microsoft Windows 10 1709 - 1803 (93%), Microsoft Windows 10 1809 - 1909 (93%), Microsoft Windows 10 1703 (92%), Microsoft Windows Server 2008 R2 (92%), Microsoft Windows Server 2008 SP2 (92%), Microsoft Windows 7 SP1 (92%), Microsoft Windows 8.1 Update 1 (92%), Microsoft Windows 10 1511 (92%)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=8/4%OT=135%CT=1%CU=32444%PV=Y%DS=2%DC=T%G=Y%TM=62EC57D
+OS:3%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10D%TS=U)SEQ(SP=101%GCD=1%I
+OS:SR=10D%CI=RD%TS=U)OPS(O1=M539NW8NNS%O2=M539NW8NNS%O3=M539NW8%O4=M539NW8N
+OS:NS%O5=M539NW8NNS%O6=M539NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%
+OS:W6=FF70)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M539NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y
+OS:%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%
+OS:O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=N)T6(R=Y%D
+OS:F=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=
+OS:G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: Hosts: LOVE, www.love.htb; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 2h42m14s, deviation: 4h02m29s, median: 22m13s
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 12647/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 46453/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 62928/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 21885/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: Love
+|   NetBIOS computer name: LOVE\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2022-08-04T16:57:46-07:00
+| smb2-time: 
+|   date: 2022-08-04T23:57:48
+|_  start_date: N/A
+
+TRACEROUTE (using port 8653/tcp)
+HOP RTT      ADDRESS
+1   11.73 ms 10.10.14.1
+2   11.76 ms 10.10.10.239
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  4 19:35:47 2022 -- 1 IP address (1 host up) scanned in 1370.50 seconds
+
+```

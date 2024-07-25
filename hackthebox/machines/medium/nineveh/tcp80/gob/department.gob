@@ -1,0 +1,8 @@
+/files                (Status: 301) [Size: 321] [--> http://10.10.10.43/department/files/]
+/header.php           (Status: 200) [Size: 670]
+/footer.php           (Status: 200) [Size: 51]
+/login.php            (Status: 200) [Size: 1560]
+/index.php            (Status: 200) [Size: 68]
+/css                  (Status: 301) [Size: 319] [--> http://10.10.10.43/department/css/]
+/logout.php           (Status: 302) [Size: 0] [--> login.php]
+/manage.php           (Status: 302) [Size: 0] [--> login.php]

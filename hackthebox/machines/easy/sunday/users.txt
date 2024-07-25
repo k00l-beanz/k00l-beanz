@@ -1,0 +1,31 @@
+access
+adm
+admin
+aiuser
+anne marie
+bin
+daemon
+dee dee
+dhcpserv
+dladm
+ftp
+ike
+ikeuser
+jo ann
+la verne
+line
+lp
+message
+miof mela
+netadm
+netcfg
+noaccess
+nobody
+nobody4
+openldap
+root
+sammy
+sshd
+sunny
+sys
+zsa zsa

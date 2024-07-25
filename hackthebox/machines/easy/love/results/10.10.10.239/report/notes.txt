@@ -1,0 +1,64 @@
+[*] msrpc found on tcp/135.
+
+
+
+[*] http found on tcp/443.
+
+
+
+[*] microsoft-ds found on tcp/445.
+
+
+
+[*] mysql found on tcp/3306.
+
+
+
+[*] http found on tcp/5000.
+
+
+
+[*] unknown found on tcp/5040.
+
+
+
+[*] http found on tcp/5985.
+
+
+
+[*] pando-pub found on tcp/7680.
+
+
+
+[*] http found on tcp/47001.
+
+
+
+[*] msrpc found on tcp/49664.
+
+
+
+[*] msrpc found on tcp/49665.
+
+
+
+[*] msrpc found on tcp/49666.
+
+
+
+[*] msrpc found on tcp/49667.
+
+
+
+[*] msrpc found on tcp/49668.
+
+
+
+[*] msrpc found on tcp/49669.
+
+
+
+[*] msrpc found on tcp/49670.
+
+
+

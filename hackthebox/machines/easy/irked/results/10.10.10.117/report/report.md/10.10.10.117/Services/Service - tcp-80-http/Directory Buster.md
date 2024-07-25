@@ -1,0 +1,36 @@
+```bash
+feroxbuster -u http://10.10.10.117:80/ -t 10 -w /root/.config/AutoRecon/wordlists/dirbuster.txt -x "txt,html,php,asp,aspx,jsp" -v -k -n -q -e -o "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp80/tcp_80_http_feroxbuster_dirbuster.txt"
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp80/tcp_80_http_feroxbuster_dirbuster.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp80/tcp_80_http_feroxbuster_dirbuster.txt):
+
+```
+200      GET      210l      600w    34697c http://10.10.10.117/irked.jpg
+200      GET        3l        7w       72c http://10.10.10.117/
+403      GET       11l       32w      292c http://10.10.10.117/.html
+403      GET       11l       32w      291c http://10.10.10.117/.hta
+403      GET       11l       32w      296c http://10.10.10.117/.htaccess
+403      GET       11l       32w      296c http://10.10.10.117/.htpasswd
+403      GET       11l       32w      295c http://10.10.10.117/.hta.txt
+403      GET       11l       32w      300c http://10.10.10.117/.htpasswd.txt
+403      GET       11l       32w      300c http://10.10.10.117/.htaccess.txt
+403      GET       11l       32w      296c http://10.10.10.117/.hta.html
+403      GET       11l       32w      301c http://10.10.10.117/.htaccess.html
+403      GET       11l       32w      301c http://10.10.10.117/.htpasswd.html
+403      GET       11l       32w      295c http://10.10.10.117/.hta.php
+403      GET       11l       32w      300c http://10.10.10.117/.htaccess.php
+403      GET       11l       32w      300c http://10.10.10.117/.htpasswd.php
+403      GET       11l       32w      295c http://10.10.10.117/.hta.asp
+403      GET       11l       32w      300c http://10.10.10.117/.htaccess.asp
+403      GET       11l       32w      300c http://10.10.10.117/.htpasswd.asp
+403      GET       11l       32w      301c http://10.10.10.117/.htaccess.aspx
+403      GET       11l       32w      301c http://10.10.10.117/.htpasswd.aspx
+403      GET       11l       32w      296c http://10.10.10.117/.hta.aspx
+403      GET       11l       32w      300c http://10.10.10.117/.htpasswd.jsp
+403      GET       11l       32w      300c http://10.10.10.117/.htaccess.jsp
+403      GET       11l       32w      295c http://10.10.10.117/.hta.jsp
+200      GET        3l        7w       72c http://10.10.10.117/index.html
+301      GET        9l       28w      313c http://10.10.10.117/manual => http://10.10.10.117/manual/
+403      GET       11l       32w      300c http://10.10.10.117/server-status
+
+```

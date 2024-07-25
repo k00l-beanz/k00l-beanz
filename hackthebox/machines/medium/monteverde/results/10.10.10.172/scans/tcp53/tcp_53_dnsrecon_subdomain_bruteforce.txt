@@ -1,0 +1,12 @@
+[*] Using the dictionary file: /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt (provided by user)
+[*] brt: Performing host and subdomain brute force against MEGABANK.LOCAL...
+[+] 	 A gc._msdcs.MEGABANK.LOCAL 10.10.10.172
+[+] 	 AAAA gc._msdcs.MEGABANK.LOCAL dead:beef::208
+[+] 	 AAAA gc._msdcs.MEGABANK.LOCAL dead:beef::f87f:79f8:42e7:b7c6
+[+] 	 A domaindnszones.MEGABANK.LOCAL 10.10.10.172
+[+] 	 AAAA domaindnszones.MEGABANK.LOCAL dead:beef::208
+[+] 	 AAAA domaindnszones.MEGABANK.LOCAL dead:beef::f87f:79f8:42e7:b7c6
+[+] 	 A forestdnszones.MEGABANK.LOCAL 10.10.10.172
+[+] 	 AAAA forestdnszones.MEGABANK.LOCAL dead:beef::208
+[+] 	 AAAA forestdnszones.MEGABANK.LOCAL dead:beef::f87f:79f8:42e7:b7c6
+[+] 9 Records Found

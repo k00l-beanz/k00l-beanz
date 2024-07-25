@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Mon Oct 10 17:31:25 2022 as: nmap -vv -&#45;reason -Pn -T4 -sU -A -&#45;top-ports 100 -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/xml/_top_100_udp_nmap.xml 10.10.10.52 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sU -A -&#45;top-ports 100 -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/xml/_top_100_udp_nmap.xml 10.10.10.52" start="1665437485" startstr="Mon Oct 10 17:31:25 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="100" services="7,9,17,19,49,53,67-69,80,88,111,120,123,135-139,158,161-162,177,427,443,445,497,500,514-515,518,520,593,623,626,631,996-999,1022-1023,1025-1030,1433-1434,1645-1646,1701,1718-1719,1812-1813,1900,2000,2048-2049,2222-2223,3283,3456,3703,4444,4500,5000,5060,5353,5632,9200,10000,17185,20031,30718,31337,32768-32769,32771,32815,33281,49152-49154,49156,49181-49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1665437486"/>
+<taskend task="NSE" time="1665437486"/>
+<taskbegin task="NSE" time="1665437486"/>
+<taskend task="NSE" time="1665437486"/>
+<taskbegin task="NSE" time="1665437486"/>
+<taskend task="NSE" time="1665437486"/>
+<taskbegin task="UDP Scan" time="1665437486"/>
+<taskend task="UDP Scan" time="1665437601" extrainfo="100 total ports"/>
+<taskbegin task="Service scan" time="1665437601"/>
+<taskprogress task="Service scan" time="1665437667" percent="21.05" remaining="248" etc="1665437915"/>
+<taskend task="Service scan" time="1665437704" extrainfo="19 services on 1 host"/>
+<taskbegin task="Traceroute" time="1665437705"/>
+<taskend task="Traceroute" time="1665437707"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1665437707"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1665437707"/>
+<taskbegin task="NSE" time="1665437708"/>
+<taskprogress task="NSE" time="1665437739" percent="98.84" remaining="1" etc="1665437739"/>
+<taskprogress task="NSE" time="1665437769" percent="99.23" remaining="1" etc="1665437769"/>
+<taskprogress task="NSE" time="1665437799" percent="99.34" remaining="1" etc="1665437800"/>
+<taskprogress task="NSE" time="1665437829" percent="99.73" remaining="1" etc="1665437829"/>
+<taskend task="NSE" time="1665437851"/>
+<taskbegin task="NSE" time="1665437851"/>
+<taskend task="NSE" time="1665437852"/>
+<taskbegin task="NSE" time="1665437852"/>
+<taskend task="NSE" time="1665437852"/>
+<host starttime="1665437486" endtime="1665437852"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.52" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mantis.htb.local" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="81">
+<extrareasons reason="port-unreach" count="81" proto="udp" ports="7,9,17,19,49,68-69,80,111,120,136,139,158,162,427,443,445,497,515,520,593,623,626,631,996-999,1023,1025-1029,1433-1434,1645-1646,1701,1718-1719,1812-1813,1900,2000,2048-2049,2222-2223,3283,3456,3703,5000,5060,5353,5632,9200,10000,20031,30718,31337,32768-32769,33281,49152-49154,49156,49181-49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+</extraports>
+<port protocol="udp" portid="53"><state state="open" reason="udp-response" reason_ttl="127"/><service name="domain" product="Microsoft DNS" version="6.1.7601 (1DB15CD4)" extrainfo="Windows Server 2008 R2 SP1" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:dns</cpe><cpe>cpe:/o:microsoft:windows_server_2008:r2:sp1</cpe></service><script id="dns-nsid" output="&#xa;  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)"><elem key="bind.version">Microsoft DNS 6.1.7601 (1DB15CD4)</elem>
+</script></port>
+<port protocol="udp" portid="67"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="88"><state state="open" reason="udp-response" reason_ttl="0"/><service name="kerberos-sec" product="Microsoft Windows Kerberos" extrainfo="server time: 2022-10-10 21:33:25Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="udp" portid="123"><state state="open" reason="udp-response" reason_ttl="127"/><service name="ntp" product="NTP" version="v3" method="probed" conf="10"/><script id="ntp-info" output="&#xa;  receive time stamp: 2022-10-10T21:35:21"><elem key="receive time stamp">2022-10-10T21:35:21</elem>
+</script></port>
+<port protocol="udp" portid="135"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="177"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="xdmcp" method="table" conf="3"/></port>
+<port protocol="udp" portid="500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="isakmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="518"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ntalk" method="table" conf="3"/></port>
+<port protocol="udp" portid="1022"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="exp2" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="4444"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="krb524" method="table" conf="3"/></port>
+<port protocol="udp" portid="4500"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="nat-t-ike" method="table" conf="3"/></port>
+<port protocol="udp" portid="17185"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wdbrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="32815"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="7"/>
+<osfingerprint fingerprint="SCAN(V=7.92%E=4%D=10/10%OT=%CT=%CU=7%PV=Y%DS=2%DC=T%G=N%TM=6344909C%P=x86_64-pc-linux-gnu)&#xa;SEQ(CI=I%II=I)&#xa;T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=80%CD=Z)&#xa;"/>
+</os>
+<distance value="2"/>
+<hostscript><script id="clock-skew" output="12s"><elem key="median">12</elem>
+<elem key="stddev">0</elem>
+<elem key="mean">12</elem>
+<elem key="count">1</elem>
+</script></hostscript><trace port="5000" proto="udp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="14.81"/>
+<hop ttl="2" ipaddr="10.10.10.52" rtt="12.21" host="mantis.htb.local"/>
+</trace>
+<times srtt="189671" rttvar="89374" to="547167"/>
+</host>
+<taskbegin task="NSE" time="1665437852"/>
+<taskend task="NSE" time="1665437852"/>
+<taskbegin task="NSE" time="1665437852"/>
+<taskend task="NSE" time="1665437852"/>
+<taskbegin task="NSE" time="1665437852"/>
+<taskend task="NSE" time="1665437852"/>
+<runstats><finished time="1665437852" timestr="Mon Oct 10 17:37:32 2022" summary="Nmap done at Mon Oct 10 17:37:32 2022; 1 IP address (1 host up) scanned in 366.99 seconds" elapsed="366.99" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

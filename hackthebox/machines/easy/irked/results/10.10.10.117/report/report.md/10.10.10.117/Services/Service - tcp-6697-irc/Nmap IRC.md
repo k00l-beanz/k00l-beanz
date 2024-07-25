@@ -1,0 +1,22 @@
+```bash
+nmap -vv --reason -Pn -T4 -sV --script irc-botnet-channels,irc-info,irc-unrealircd-backdoor -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp6697/tcp_6697_irc_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp6697/xml/tcp_6697_irc_nmap.xml" -p 6697 10.10.10.117
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp6697/tcp_6697_irc_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp6697/tcp_6697_irc_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Tue Sep 27 22:17:54 2022 as: nmap -vv --reason -Pn -T4 -sV --script irc-botnet-channels,irc-info,irc-unrealircd-backdoor -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp6697/tcp_6697_irc_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/tcp6697/xml/tcp_6697_irc_nmap.xml -p 6697 10.10.10.117
+Nmap scan report for 10.10.10.117
+Host is up, received user-set (0.013s latency).
+Scanned at 2022-09-27 22:18:01 EDT for 0s
+
+PORT     STATE SERVICE REASON         VERSION
+6697/tcp open  irc     syn-ack ttl 63 UnrealIRCd (Admin email djmardov@irked.htb)
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.17] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 27 22:18:01 2022 -- 1 IP address (1 host up) scanned in 7.07 seconds
+
+```

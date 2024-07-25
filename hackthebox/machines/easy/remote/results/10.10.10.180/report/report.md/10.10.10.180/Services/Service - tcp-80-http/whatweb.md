@@ -1,0 +1,63 @@
+```bash
+whatweb --color=never --no-errors -a 3 -v http://10.10.10.180:80 2>&1
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp80/tcp_80_http_whatweb.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp80/tcp_80_http_whatweb.txt):
+
+```
+WhatWeb report for http://10.10.10.180:80
+Status    : 200 OK
+Title     : Home - Acme Widgets
+IP        : 10.10.10.180
+Country   : RESERVED, ZZ
+
+Summary   : HTML5, JQuery[3.1.0], Script, Umbraco[7.15.6], X-UA-Compatible[IE=edge]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration
+
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse
+	HTML documents, handle events, perform animations, and add
+	AJAX.
+
+	Version      : 3.1.0
+	Website     : http://jquery.com/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and
+	returns the script language/type.
+
+
+[ Umbraco ]
+	umbraco is an open source project with roots back to year
+	2000 even though it wasn't released as open source until
+	2004.
+
+	Version      : 7.15.6
+	Version      : 7.15.6
+	Google Dorks: (1)
+	Website     : http://www.umbraco.org
+
+[ X-UA-Compatible ]
+	This plugin retrieves the X-UA-Compatible value from the
+	HTTP header and meta http-equiv tag. - More Info:
+	http://msdn.microsoft.com/en-us/library/cc817574.aspx
+
+	String       : IE=edge
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Cache-Control: private
+	Content-Type: text/html; charset=utf-8
+	Content-Encoding: gzip
+	Vary: Accept-Encoding
+	Date: Tue, 02 Aug 2022 18:48:44 GMT
+	Connection: close
+	Content-Length: 2272
+
+
+
+```

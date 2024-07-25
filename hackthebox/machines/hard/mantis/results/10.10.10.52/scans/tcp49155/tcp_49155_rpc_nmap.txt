@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Mon Oct 10 17:32:47 2022 as: nmap -vv --reason -Pn -T4 -sV -p 49155 --script=banner,msrpc-enum,rpc-grind,rpcinfo -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp49155/tcp_49155_rpc_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp49155/xml/tcp_49155_rpc_nmap.xml 10.10.10.52
+Nmap scan report for mantis.htb.local (10.10.10.52)
+Host is up, received user-set (0.012s latency).
+Scanned at 2022-10-10 17:32:47 EDT for 71s
+
+PORT      STATE SERVICE REASON          VERSION
+49155/tcp open  msrpc   syn-ack ttl 127 Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 10 17:33:58 2022 -- 1 IP address (1 host up) scanned in 71.64 seconds

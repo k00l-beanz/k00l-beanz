@@ -1,0 +1,25 @@
+/images              [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/images/][0m
+/.txt                [33m (Status: 403)[0m [Size: 162]
+/.html               [33m (Status: 403)[0m [Size: 162]
+/.js                 [33m (Status: 403)[0m [Size: 162]
+/index.php           [32m (Status: 200)[0m [Size: 23221]
+/home                [32m (Status: 200)[0m [Size: 23221]
+/media               [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/media/][0m
+/templates           [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/templates/][0m
+/modules             [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/modules/][0m
+/plugins             [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/plugins/][0m
+/includes            [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/includes/][0m
+/language            [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/language/][0m
+/README.txt          [32m (Status: 200)[0m [Size: 4942]
+/components          [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/components/][0m
+/api                 [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/api/][0m
+/cache               [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/cache/][0m
+/libraries           [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/libraries/][0m
+/robots.txt          [32m (Status: 200)[0m [Size: 764]
+/tmp                 [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/tmp/][0m
+/LICENSE.txt         [32m (Status: 200)[0m [Size: 18092]
+/layouts             [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/layouts/][0m
+/administrator       [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/administrator/][0m
+/configuration.php   [32m (Status: 200)[0m [Size: 0]
+/htaccess.txt        [32m (Status: 200)[0m [Size: 6858]
+/cli                 [36m (Status: 301)[0m [Size: 178][34m [--> http://dev.devvortex.htb/cli/][0m

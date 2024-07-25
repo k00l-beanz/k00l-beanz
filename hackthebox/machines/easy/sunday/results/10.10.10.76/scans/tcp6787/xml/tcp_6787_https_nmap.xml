@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Mon Oct  3 22:58:53 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 6787 &quot;-&#45;script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)&quot; -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/tcp_6787_https_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/xml/tcp_6787_https_nmap.xml 10.10.10.76 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 6787 &quot;-&#45;script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)&quot; -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/tcp_6787_https_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/xml/tcp_6787_https_nmap.xml 10.10.10.76" start="1664852333" startstr="Mon Oct  3 22:58:53 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="6787"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1664852334"/>
+<taskend task="NSE" time="1664852334"/>
+<taskbegin task="NSE" time="1664852334"/>
+<taskend task="NSE" time="1664852334"/>
+<taskbegin task="NSE" time="1664852334"/>
+<taskend task="NSE" time="1664852334"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1664852334"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1664852334"/>
+<taskbegin task="SYN Stealth Scan" time="1664852334"/>
+<taskend task="SYN Stealth Scan" time="1664852334" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1664852334"/>
+<taskend task="Service scan" time="1664852357" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1664852357"/>
+<taskend task="NSE" time="1664852381"/>
+<taskbegin task="NSE" time="1664852381"/>
+<taskend task="NSE" time="1664852387"/>
+<taskbegin task="NSE" time="1664852387"/>
+<taskend task="NSE" time="1664852388"/>
+<host starttime="1664852334" endtime="1664852388"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.76" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="6787"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="http" product="Apache httpd" version="2.4.33" extrainfo="(Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.33</cpe></service><script id="http-jsonp-detection" output="Couldn&apos;t find any JSONP endpoints."/><script id="http-title" output="Solaris Dashboard&#xa;Requested resource was https://10.10.10.76:6787/solaris/"><elem key="title">Solaris Dashboard</elem>
+<elem key="redirect_url">https://10.10.10.76:6787/solaris/</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-wordpress-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args search-limit=&lt;number|all&gt; for deeper analysis)"/><script id="http-drupal-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args number=&lt;number|all&gt; for deeper analysis)"/><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="ssl-enum-ciphers" output="&#xa;  TLSv1.2: &#xa;    ciphers: &#xa;      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A&#xa;      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A&#xa;      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A&#xa;      TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A&#xa;      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (dh 2048) - A&#xa;      TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A&#xa;      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A&#xa;      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A&#xa;      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A&#xa;      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A&#xa;      TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A&#xa;      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (dh 2048) - A&#xa;      TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A&#xa;      TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A&#xa;      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A&#xa;    compressors: &#xa;      NULL&#xa;    cipher preference: server&#xa;  least strength: A"><table key="TLSv1.2">
+<table key="ciphers">
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="kex_info">secp256r1</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384</elem>
+<elem key="kex_info">secp256r1</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="kex_info">secp256r1</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_AES_256_CBC_SHA256</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_GCM_SHA384</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CBC_SHA256</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_AES_256_CBC_SHA</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_CAMELLIA_256_CBC_SHA</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="kex_info">secp256r1</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="kex_info">secp256r1</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="kex_info">secp256r1</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA</elem>
+<elem key="kex_info">dh 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_GCM_SHA256</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CBC_SHA256</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_AES_128_CBC_SHA</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+<table>
+<elem key="strength">A</elem>
+<elem key="name">TLS_RSA_WITH_CAMELLIA_128_CBC_SHA</elem>
+<elem key="kex_info">rsa 2048</elem>
+</table>
+</table>
+<table key="compressors">
+<elem>NULL</elem>
+</table>
+<elem key="cipher preference">server</elem>
+</table>
+<elem key="least strength">A</elem>
+</script><script id="http-security-headers" output="&#xa;  Strict_Transport_Security: &#xa;    Header: Strict-Transport-Security: max-age=15768000&#xa;  X_Frame_Options: &#xa;    Header: X-Frame-Options: SAMEORIGIN&#xa;    Description: The browser must not display this content in any frame from a page of different origin than the content itself.&#xa;  Cache_Control: &#xa;    Header: Cache-Control: max-age=7200&#xa;  Expires: &#xa;    Header: Expires: Tue, 04 Oct 2022 04:59:26 GMT"><table key="Strict_Transport_Security">
+<elem>Header: Strict-Transport-Security: max-age=15768000</elem>
+</table>
+<table key="X_Frame_Options">
+<elem>Header: X-Frame-Options: SAMEORIGIN</elem>
+<elem>Description: The browser must not display this content in any frame from a page of different origin than the content itself.</elem>
+</table>
+<table key="Cache_Control">
+<elem>Header: Cache-Control: max-age=7200</elem>
+</table>
+<table key="Expires">
+<elem>Header: Expires: Tue, 04 Oct 2022 04:59:26 GMT</elem>
+</table>
+</script><script id="http-vhosts" output="&#xa;128 names had status 302"/><script id="http-server-header" output="Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14"><elem>Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14</elem>
+</script><script id="http-errors" output="Couldn&apos;t find any error pages."/><script id="http-comments-displayer" output="&#xa;Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.10.10.76&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/&#xa;    Line number: 20&#xa;    Comment: &#xa;        &lt;!-&#45; RequireJS bootstrap file -&#45;&gt;&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/&#xa;    Line number: 65&#xa;    Comment: &#xa;        &lt;!-&#45; Provide a temporary loading message, removed later on load -&#45;&gt;&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/&#xa;    Line number: 1&#xa;    Comment: &#xa;        &lt;!-&#45;&#xa;            Copyright (c) 2015, 2018, Oracle and/or its affiliates. All rights reserved.&#xa;        -&#45;&gt;&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/override.css&#xa;    Line number: 20&#xa;    Comment: &#xa;        /* Hide IE&apos;s non-standard text field clear button - we do our own */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/override.css&#xa;    Line number: 38&#xa;    Comment: &#xa;        /* Override black/gray text color for (unselected) Nav tab options */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/webui.css&#xa;    Line number: 14&#xa;    Comment: &#xa;        /* CONTAINERS */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/&#xa;    Line number: 45&#xa;    Comment: &#xa;        /* determines size */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/webui.css&#xa;    Line number: 1&#xa;    Comment: &#xa;        /*&#xa;         * Copyright (c) 2015, 2016, Oracle and/or its affiliates. All rights reserved.&#xa;         */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/override.css&#xa;    Line number: 1&#xa;    Comment: &#xa;        /*&#xa;         * Copyright (c) 2015, 2017, Oracle and/or its affiliates. All rights reserved.&#xa;         */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/webui.css&#xa;    Line number: 40&#xa;    Comment: &#xa;        /* global page box specs */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/css/override.css&#xa;    Line number: 29&#xa;    Comment: &#xa;        /* Override overly large header font sizes introduced in JET 2.3.0 */&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/&#xa;    Line number: 13&#xa;    Comment: &#xa;        &lt;!-&#45; This is the main css file for the default Alta theme -&#45;&gt;&#xa;    &#xa;    Path: https://10.10.10.76:6787/solaris/&#xa;    Line number: 16&#xa;    Comment: &#xa;        &lt;!-&#45; This is where you would add any app specific styling -&#45;&gt;&#xa;"/><script id="ssl-cert" output="Subject: commonName=sunday&#xa;Subject Alternative Name: DNS:sunday&#xa;Issuer: commonName=sunday/organizationName=Host Root CA&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-12-08T19:40:00&#xa;Not valid after:  2031-12-06T19:40:00&#xa;MD5:   6bd3 4b32 c05a e5fe a8c8 61f0 4361 414a&#xa;SHA-1: a5eb c880 968c 84aa 10b2 a944 bad2 56ca aed5 b66a&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC4DCCAcqgAwIBAgIHAIqqcz45jjALBgkqhkiG9w0BAQswKDEVMBMGA1UEChMM&#xa;SG9zdCBSb290IENBMQ8wDQYDVQQDEwZzdW5kYXkwHhcNMjExMjA4MTk0MDAwWhcN&#xa;MzExMjA2MTk0MDAwWjARMQ8wDQYDVQQDEwZzdW5kYXkwggEiMA0GCSqGSIb3DQEB&#xa;AQUAA4IBDwAwggEKAoIBAQC67wVPVDRPU/Sahp2QnHx2NlMUQrkyBJrr4TSjS9v6&#xa;/DFKqf3m2XnYuKyFl9BAO8Mi+Hz3ON4nZWmigZGX6LnJpci6whB89pLZdcogruB8&#xa;YMyGuP8y2v3orEBLQ5NrcP6fcKLMp+6PXurvuZDgPH+oXHJyp/w//pkBROQRC0oN&#xa;8dx7Zq2t4ZfDiqhgw1j79V7kZNOjKp8gU1HmQ/BjYEaOfVZNwuTVyqUtfcjuxIio&#xa;JEHaVmhNV9Xp9DAOLBFuTXpsJe3anSjGGP0DWMyNOps2VrZUyJwC22U5jlcp7Rj/&#xa;WWE5gnm6ClH44DXlKMIt8O2vq0MfqvvGeSIFbSOPb6Q3AgMBAAGjKjAoMBEGA1Ud&#xa;EQQKMAiCBnN1bmRheTATBgNVHSUEDDAKBggrBgEFBQcDATALBgkqhkiG9w0BAQsD&#xa;ggEBAC/f3nN6ur2oSSedYNIkf6/+MV3qu8xE+Cqt/SbSk0uSmQ7hYpMhc8Ele/gr&#xa;Od0cweaClKXEhugRwfVW5jmjJXrnSZtOpyz09dMhZMA9RJ9efVfnrn5Qw5gUriMx&#xa;dFMrAnOIXsFu0vnRZLJP7E95NHpZVECnRXCSPjp4iPe/vyl1OuoVLBhoOwZ8O7zw&#xa;WlP/51SiII8LPNyeq+01mCY0mv3RJD9uAeNJawnFwsCo/Tg9/mjk0zxUMaXm80Bb&#xa;qsSmST23vYwuPw3c/91fJI4dWb7uEZJa55hRIU0uMPOLOUpN1kKkGPO+7QCzfedc&#xa;WPptRhU+2UMGhFXHyGV5EJp2zvc=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">sunday</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">sunday</elem>
+<elem key="organizationName">Host Root CA</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BAEF054F54344F53F49A869D909C7C7636531442B932049AEBE134A34BDBFAFC314AA9FDE6D979D8B8AC8597D0403BC322F87CF738DE276569A2819197E8B9C9A5C8BAC2107CF692D975CA20AEE07C60CC86B8FF32DAFDE8AC404B43936B70FE9F70A2CCA7EE8F5EEAEFB990E03C7FA85C7272A7FC3FFE990144E4110B4A0DF1DC7B66ADADE197C38AA860C358FBF55EE464D3A32A9F205351E643F06360468E7D564DC2E4D5CAA52D7DC8EEC488A82441DA56684D57D5E9F4300E2C116E4D7A6C25EDDA9D28C618FD0358CC8D3A9B3656B654C89C02DB65398E5729ED18FF5961398279BA0A51F8E035E528C22DF0EDAFAB431FAAFBC67922056D238F6FA437</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:sunday</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-12-08T19:40:00</elem>
+<elem key="notAfter">2031-12-06T19:40:00</elem>
+</table>
+<elem key="md5">6bd34b32c05ae5fea8c861f04361414a</elem>
+<elem key="sha1">a5ebc880968c84aa10b2a944bad256caaed5b66a</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC4DCCAcqgAwIBAgIHAIqqcz45jjALBgkqhkiG9w0BAQswKDEVMBMGA1UEChMM&#xa;SG9zdCBSb290IENBMQ8wDQYDVQQDEwZzdW5kYXkwHhcNMjExMjA4MTk0MDAwWhcN&#xa;MzExMjA2MTk0MDAwWjARMQ8wDQYDVQQDEwZzdW5kYXkwggEiMA0GCSqGSIb3DQEB&#xa;AQUAA4IBDwAwggEKAoIBAQC67wVPVDRPU/Sahp2QnHx2NlMUQrkyBJrr4TSjS9v6&#xa;/DFKqf3m2XnYuKyFl9BAO8Mi+Hz3ON4nZWmigZGX6LnJpci6whB89pLZdcogruB8&#xa;YMyGuP8y2v3orEBLQ5NrcP6fcKLMp+6PXurvuZDgPH+oXHJyp/w//pkBROQRC0oN&#xa;8dx7Zq2t4ZfDiqhgw1j79V7kZNOjKp8gU1HmQ/BjYEaOfVZNwuTVyqUtfcjuxIio&#xa;JEHaVmhNV9Xp9DAOLBFuTXpsJe3anSjGGP0DWMyNOps2VrZUyJwC22U5jlcp7Rj/&#xa;WWE5gnm6ClH44DXlKMIt8O2vq0MfqvvGeSIFbSOPb6Q3AgMBAAGjKjAoMBEGA1Ud&#xa;EQQKMAiCBnN1bmRheTATBgNVHSUEDDAKBggrBgEFBQcDATALBgkqhkiG9w0BAQsD&#xa;ggEBAC/f3nN6ur2oSSedYNIkf6/+MV3qu8xE+Cqt/SbSk0uSmQ7hYpMhc8Ele/gr&#xa;Od0cweaClKXEhugRwfVW5jmjJXrnSZtOpyz09dMhZMA9RJ9efVfnrn5Qw5gUriMx&#xa;dFMrAnOIXsFu0vnRZLJP7E95NHpZVECnRXCSPjp4iPe/vyl1OuoVLBhoOwZ8O7zw&#xa;WlP/51SiII8LPNyeq+01mCY0mv3RJD9uAeNJawnFwsCo/Tg9/mjk0zxUMaXm80Bb&#xa;qsSmST23vYwuPw3c/91fJI4dWb7uEZJa55hRIU0uMPOLOUpN1kKkGPO+7QCzfedc&#xa;WPptRhU+2UMGhFXHyGV5EJp2zvc=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="http-devframework" output="Couldn&apos;t determine the underlying framework or CMS. Try increasing &apos;httpspider.maxpagecount&apos; value to spider more pages."/><script id="http-csrf" output="Couldn&apos;t find any CSRF vulnerabilities."/><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 200&#xa;  Redirected To: https://10.10.10.76:6787/solaris/&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    libwww&#xa;    lwp-trivial&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    Python-urllib/2.5&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34"><elem key="Status for browser useragent">200</elem>
+<elem key="Redirected To">https://10.10.10.76:6787/solaris/</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>libwww</elem>
+<elem>lwp-trivial</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>Python-urllib/2.5</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+</script><script id="http-config-backup" output="ERROR: Script execution failed (use -d to debug)"/><script id="http-malware-host" output="Host appears to be clean"/><script id="http-php-version" output="Logo query returned unknown hash 439565e324d91af0cb8a09df9350ea60&#xa;Credits query returned unknown hash 439565e324d91af0cb8a09df9350ea60"/><script id="http-waf-detect" output="IDS/IPS/WAF detected:&#xa;10.10.10.76:6787/?p4yl04d3=&lt;script&gt;alert(document.cookie)&lt;/script&gt;"/><script id="http-mobileversion-checker" output="No mobile version detected."/><script id="http-feed" output="Couldn&apos;t find any feeds."/><script id="http-litespeed-sourcecode-download" output="Request with null byte did not work. This web server might not be vulnerable"/><script id="http-wordpress-users" output="[Error] Wordpress installation was not found. We couldn&apos;t find wp-login.php"/><script id="http-date" output="Tue, 04 Oct 2022 02:59:27 GMT; +5s from local time."><elem key="date">2022-10-04T02:59:27+00:00</elem>
+<elem key="delta">5.0</elem>
+</script><script id="http-enum" output="&#xa;  /solaris/: Potentially interesting folder&#xa;"/><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-sitemap-generator" output="&#xa;  Directory structure:&#xa;    /solaris/&#xa;      Other: 1&#xa;    /solaris/css/&#xa;      css: 2&#xa;    /solaris/css/images/&#xa;      ico: 1&#xa;  Longest directory structure:&#xa;    Depth: 3&#xa;    Dir: /solaris/css/images/&#xa;  Total files found (by extension):&#xa;    Other: 1; css: 2; ico: 1&#xa;"/><script id="http-headers" output="&#xa;  Date: Tue, 04 Oct 2022 02:59:24 GMT&#xa;  Server: Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14&#xa;  X-Frame-Options: SAMEORIGIN&#xa;  Last-Modified: Fri, 17 Aug 2018 02:07:09 GMT&#xa;  ETag: &quot;f46-57398045d4d40&quot;&#xa;  Accept-Ranges: bytes&#xa;  Content-Length: 3910&#xa;  Cache-Control: max-age=7200&#xa;  Expires: Tue, 04 Oct 2022 04:59:24 GMT&#xa;  Vary: Accept-Encoding&#xa;  Strict-Transport-Security: max-age=15768000&#xa;  Connection: close&#xa;  Content-Type: text/html&#xa;  &#xa;  (Request type: HEAD)&#xa;"/><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="http-chrono" output="Request times for /solaris/; avg: 249.93ms; min: 214.08ms; max: 319.67ms"/></port>
+</ports>
+<times srtt="22759" rttvar="22759" to="113795"/>
+</host>
+<taskbegin task="NSE" time="1664852388"/>
+<taskend task="NSE" time="1664852388"/>
+<taskbegin task="NSE" time="1664852388"/>
+<taskend task="NSE" time="1664852388"/>
+<taskbegin task="NSE" time="1664852388"/>
+<taskend task="NSE" time="1664852388"/>
+<runstats><finished time="1664852388" timestr="Mon Oct  3 22:59:48 2022" summary="Nmap done at Mon Oct  3 22:59:48 2022; 1 IP address (1 host up) scanned in 54.54 seconds" elapsed="54.54" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

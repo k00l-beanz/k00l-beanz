@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Tue Aug  2 14:48:40 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 21 &quot;-&#45;script=banner,(ftp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/tcp_21_ftp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/xml/tcp_21_ftp_nmap.xml 10.10.10.180 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 21 &quot;-&#45;script=banner,(ftp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/tcp_21_ftp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/xml/tcp_21_ftp_nmap.xml 10.10.10.180" start="1659466120" startstr="Tue Aug  2 14:48:40 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="21"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1659466122"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1659466122"/>
+<taskbegin task="SYN Stealth Scan" time="1659466122"/>
+<taskend task="SYN Stealth Scan" time="1659466122" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1659466122"/>
+<taskend task="Service scan" time="1659466122" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<host starttime="1659466122" endtime="1659466122"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.180" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="ftp-anon" output="Anonymous FTP login allowed (FTP code 230)"/><script id="banner" output="220 Microsoft FTP Service"/><script id="ftp-syst" output="&#xa;  SYST: Windows_NT"><elem key="SYST">Windows_NT</elem>
+</script></port>
+</ports>
+<times srtt="15288" rttvar="15288" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<taskbegin task="NSE" time="1659466122"/>
+<taskend task="NSE" time="1659466122"/>
+<runstats><finished time="1659466122" timestr="Tue Aug  2 14:48:42 2022" summary="Nmap done at Tue Aug  2 14:48:42 2022; 1 IP address (1 host up) scanned in 1.88 seconds" elapsed="1.88" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

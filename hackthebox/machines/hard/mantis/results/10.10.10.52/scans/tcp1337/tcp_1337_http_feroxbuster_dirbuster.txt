@@ -1,0 +1,9 @@
+200      GET      826l     4457w   184946c http://10.10.10.52:1337/welcome.png
+200      GET       32l       53w      689c http://10.10.10.52:1337/
+301      GET        2l       10w      161c http://10.10.10.52:1337/aspnet_client => http://10.10.10.52:1337/aspnet_client/
+301      GET        2l       10w      161c http://10.10.10.52:1337/Aspnet_client => http://10.10.10.52:1337/Aspnet_client/
+301      GET        2l       10w      161c http://10.10.10.52:1337/aspnet_Client => http://10.10.10.52:1337/aspnet_Client/
+301      GET        2l       10w      161c http://10.10.10.52:1337/ASPNET_CLIENT => http://10.10.10.52:1337/ASPNET_CLIENT/
+500      GET       72l      241w     3026c http://10.10.10.52:1337/orchard
+301      GET        2l       10w      161c http://10.10.10.52:1337/Aspnet_Client => http://10.10.10.52:1337/Aspnet_Client/
+500      GET       72l      241w     3026c http://10.10.10.52:1337/Orchard

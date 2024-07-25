@@ -1,0 +1,242 @@
+```bash
+nmap -vv --reason -Pn -T4 -sV -p 6787 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/tcp_6787_https_nmap.txt" -oX "/home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/xml/tcp_6787_https_nmap.xml" 10.10.10.76
+```
+
+[/home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/tcp_6787_https_nmap.txt](file:///home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/tcp_6787_https_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Mon Oct  3 22:58:53 2022 as: nmap -vv --reason -Pn -T4 -sV -p 6787 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/tcp_6787_https_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/easy/sunday/results/10.10.10.76/scans/tcp6787/xml/tcp_6787_https_nmap.xml 10.10.10.76
+Nmap scan report for 10.10.10.76
+Host is up, received user-set (0.023s latency).
+Scanned at 2022-10-03 22:58:54 EDT for 54s
+
+PORT     STATE SERVICE  REASON         VERSION
+6787/tcp open  ssl/http syn-ack ttl 59 Apache httpd 2.4.33 ((Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14)
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+| http-title: Solaris Dashboard
+|_Requested resource was https://10.10.10.76:6787/solaris/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-wordpress-enum: Nothing found amongst the top 100 resources,use --script-args search-limit=<number|all> for deeper analysis)
+|_http-drupal-enum: Nothing found amongst the top 100 resources,use --script-args number=<number|all> for deeper analysis)
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-fetch: Please enter the complete path of the directory to save data in.
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|_  least strength: A
+| http-security-headers: 
+|   Strict_Transport_Security: 
+|     Header: Strict-Transport-Security: max-age=15768000
+|   X_Frame_Options: 
+|     Header: X-Frame-Options: SAMEORIGIN
+|     Description: The browser must not display this content in any frame from a page of different origin than the content itself.
+|   Cache_Control: 
+|     Header: Cache-Control: max-age=7200
+|   Expires: 
+|_    Header: Expires: Tue, 04 Oct 2022 04:59:26 GMT
+| http-vhosts: 
+|_128 names had status 302
+|_http-server-header: Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14
+|_http-errors: Couldn't find any error pages.
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.10.10.76
+|     
+|     Path: https://10.10.10.76:6787/solaris/
+|     Line number: 20
+|     Comment: 
+|         <!-- RequireJS bootstrap file -->
+|     
+|     Path: https://10.10.10.76:6787/solaris/
+|     Line number: 65
+|     Comment: 
+|         <!-- Provide a temporary loading message, removed later on load -->
+|     
+|     Path: https://10.10.10.76:6787/solaris/
+|     Line number: 1
+|     Comment: 
+|         <!--
+|             Copyright (c) 2015, 2018, Oracle and/or its affiliates. All rights reserved.
+|         -->
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/override.css
+|     Line number: 20
+|     Comment: 
+|         /* Hide IE's non-standard text field clear button - we do our own */
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/override.css
+|     Line number: 38
+|     Comment: 
+|         /* Override black/gray text color for (unselected) Nav tab options */
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/webui.css
+|     Line number: 14
+|     Comment: 
+|         /* CONTAINERS */
+|     
+|     Path: https://10.10.10.76:6787/solaris/
+|     Line number: 45
+|     Comment: 
+|         /* determines size */
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/webui.css
+|     Line number: 1
+|     Comment: 
+|         /*
+|          * Copyright (c) 2015, 2016, Oracle and/or its affiliates. All rights reserved.
+|          */
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/override.css
+|     Line number: 1
+|     Comment: 
+|         /*
+|          * Copyright (c) 2015, 2017, Oracle and/or its affiliates. All rights reserved.
+|          */
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/webui.css
+|     Line number: 40
+|     Comment: 
+|         /* global page box specs */
+|     
+|     Path: https://10.10.10.76:6787/solaris/css/override.css
+|     Line number: 29
+|     Comment: 
+|         /* Override overly large header font sizes introduced in JET 2.3.0 */
+|     
+|     Path: https://10.10.10.76:6787/solaris/
+|     Line number: 13
+|     Comment: 
+|         <!-- This is the main css file for the default Alta theme -->
+|     
+|     Path: https://10.10.10.76:6787/solaris/
+|     Line number: 16
+|     Comment: 
+|_        <!-- This is where you would add any app specific styling -->
+| ssl-cert: Subject: commonName=sunday
+| Subject Alternative Name: DNS:sunday
+| Issuer: commonName=sunday/organizationName=Host Root CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-12-08T19:40:00
+| Not valid after:  2031-12-06T19:40:00
+| MD5:   6bd3 4b32 c05a e5fe a8c8 61f0 4361 414a
+| SHA-1: a5eb c880 968c 84aa 10b2 a944 bad2 56ca aed5 b66a
+| -----BEGIN CERTIFICATE-----
+| MIIC4DCCAcqgAwIBAgIHAIqqcz45jjALBgkqhkiG9w0BAQswKDEVMBMGA1UEChMM
+| SG9zdCBSb290IENBMQ8wDQYDVQQDEwZzdW5kYXkwHhcNMjExMjA4MTk0MDAwWhcN
+| MzExMjA2MTk0MDAwWjARMQ8wDQYDVQQDEwZzdW5kYXkwggEiMA0GCSqGSIb3DQEB
+| AQUAA4IBDwAwggEKAoIBAQC67wVPVDRPU/Sahp2QnHx2NlMUQrkyBJrr4TSjS9v6
+| /DFKqf3m2XnYuKyFl9BAO8Mi+Hz3ON4nZWmigZGX6LnJpci6whB89pLZdcogruB8
+| YMyGuP8y2v3orEBLQ5NrcP6fcKLMp+6PXurvuZDgPH+oXHJyp/w//pkBROQRC0oN
+| 8dx7Zq2t4ZfDiqhgw1j79V7kZNOjKp8gU1HmQ/BjYEaOfVZNwuTVyqUtfcjuxIio
+| JEHaVmhNV9Xp9DAOLBFuTXpsJe3anSjGGP0DWMyNOps2VrZUyJwC22U5jlcp7Rj/
+| WWE5gnm6ClH44DXlKMIt8O2vq0MfqvvGeSIFbSOPb6Q3AgMBAAGjKjAoMBEGA1Ud
+| EQQKMAiCBnN1bmRheTATBgNVHSUEDDAKBggrBgEFBQcDATALBgkqhkiG9w0BAQsD
+| ggEBAC/f3nN6ur2oSSedYNIkf6/+MV3qu8xE+Cqt/SbSk0uSmQ7hYpMhc8Ele/gr
+| Od0cweaClKXEhugRwfVW5jmjJXrnSZtOpyz09dMhZMA9RJ9efVfnrn5Qw5gUriMx
+| dFMrAnOIXsFu0vnRZLJP7E95NHpZVECnRXCSPjp4iPe/vyl1OuoVLBhoOwZ8O7zw
+| WlP/51SiII8LPNyeq+01mCY0mv3RJD9uAeNJawnFwsCo/Tg9/mjk0zxUMaXm80Bb
+| qsSmST23vYwuPw3c/91fJI4dWb7uEZJa55hRIU0uMPOLOUpN1kKkGPO+7QCzfedc
+| WPptRhU+2UMGhFXHyGV5EJp2zvc=
+|_-----END CERTIFICATE-----
+|_http-devframework: Couldn't determine the underlying framework or CMS. Try increasing 'httpspider.maxpagecount' value to spider more pages.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+| http-useragent-tester: 
+|   Status for browser useragent: 200
+|   Redirected To: https://10.10.10.76:6787/solaris/
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|_    WWW-Mechanize/1.34
+|_http-config-backup: ERROR: Script execution failed (use -d to debug)
+|_http-malware-host: Host appears to be clean
+| http-php-version: Logo query returned unknown hash 439565e324d91af0cb8a09df9350ea60
+|_Credits query returned unknown hash 439565e324d91af0cb8a09df9350ea60
+| http-waf-detect: IDS/IPS/WAF detected:
+|_10.10.10.76:6787/?p4yl04d3=<script>alert(document.cookie)</script>
+|_http-mobileversion-checker: No mobile version detected.
+|_http-feed: Couldn't find any feeds.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+|_http-date: Tue, 04 Oct 2022 02:59:27 GMT; +5s from local time.
+| http-enum: 
+|_  /solaris/: Potentially interesting folder
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+| http-sitemap-generator: 
+|   Directory structure:
+|     /solaris/
+|       Other: 1
+|     /solaris/css/
+|       css: 2
+|     /solaris/css/images/
+|       ico: 1
+|   Longest directory structure:
+|     Depth: 3
+|     Dir: /solaris/css/images/
+|   Total files found (by extension):
+|_    Other: 1; css: 2; ico: 1
+| http-headers: 
+|   Date: Tue, 04 Oct 2022 02:59:24 GMT
+|   Server: Apache/2.4.33 (Unix) OpenSSL/1.0.2o mod_wsgi/4.5.1 Python/2.7.14
+|   X-Frame-Options: SAMEORIGIN
+|   Last-Modified: Fri, 17 Aug 2018 02:07:09 GMT
+|   ETag: "f46-57398045d4d40"
+|   Accept-Ranges: bytes
+|   Content-Length: 3910
+|   Cache-Control: max-age=7200
+|   Expires: Tue, 04 Oct 2022 04:59:24 GMT
+|   Vary: Accept-Encoding
+|   Strict-Transport-Security: max-age=15768000
+|   Connection: close
+|   Content-Type: text/html
+|   
+|_  (Request type: HEAD)
+|_ssl-date: TLS randomness does not represent time
+|_http-chrono: Request times for /solaris/; avg: 249.93ms; min: 214.08ms; max: 319.67ms
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  3 22:59:48 2022 -- 1 IP address (1 host up) scanned in 54.54 seconds
+
+```

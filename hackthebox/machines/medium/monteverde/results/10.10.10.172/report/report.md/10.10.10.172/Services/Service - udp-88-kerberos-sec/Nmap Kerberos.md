@@ -1,0 +1,21 @@
+```bash
+nmap -vv --reason -Pn -T4 -sU -sV -p 88 --script="banner,krb5-enum-users" -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp88/udp_88_kerberos_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp88/xml/udp_88_kerberos_nmap.xml" 10.10.10.172
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp88/udp_88_kerberos_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp88/udp_88_kerberos_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Tue Sep 20 19:24:46 2022 as: nmap -vv --reason -Pn -T4 -sU -sV -p 88 --script=banner,krb5-enum-users -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp88/udp_88_kerberos_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/udp88/xml/udp_88_kerberos_nmap.xml 10.10.10.172
+Nmap scan report for MEGABANK.LOCAL (10.10.10.172)
+Host is up, received user-set.
+Scanned at 2022-09-20 19:24:46 EDT for 7s
+
+PORT   STATE SERVICE      REASON       VERSION
+88/udp open  kerberos-sec udp-response Microsoft Windows Kerberos (server time: 2022-09-20 23:24:53Z)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 20 19:24:53 2022 -- 1 IP address (1 host up) scanned in 6.51 seconds
+
+```

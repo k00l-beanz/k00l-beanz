@@ -1,0 +1,18 @@
+# Nmap 7.92 scan initiated Thu Aug  4 19:49:21 2022 as: nmap -A -p 7680 -oN tcp_7680_nmap.txt 10.10.10.239
+Nmap scan report for staging.love.htb (10.10.10.239)
+Host is up (0.013s latency).
+
+PORT     STATE SERVICE    VERSION
+7680/tcp open  pando-pub?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Microsoft Windows 10 1709 - 1909 (95%), Microsoft Windows Longhorn (94%), Microsoft Windows 10 1809 - 1909 (93%), Microsoft Windows 10 1703 (92%), Microsoft Windows Server 2008 R2 (92%), Microsoft Windows 7 SP1 (92%), Microsoft Windows 8 (92%), Microsoft Windows Vista SP1 (92%), Microsoft Windows 10 1709 - 1803 (92%), Microsoft Windows 10 1511 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 7680/tcp)
+HOP RTT      ADDRESS
+1   12.11 ms 10.10.14.1
+2   12.48 ms staging.love.htb (10.10.10.239)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  4 19:50:06 2022 -- 1 IP address (1 host up) scanned in 45.47 seconds

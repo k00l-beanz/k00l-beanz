@@ -1,0 +1,75 @@
+# Nmap 7.92 scan initiated Mon Aug  1 17:38:13 2022 as: nmap -vv --reason -Pn -T4 -sV -sC --version-all -A --osscan-guess -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/bastion/results/10.10.10.134/scans/_quick_tcp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/bastion/results/10.10.10.134/scans/xml/_quick_tcp_nmap.xml 10.10.10.134
+Nmap scan report for 10.10.10.134
+Host is up, received user-set (0.014s latency).
+Scanned at 2022-08-01 17:38:13 EDT for 32s
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE      REASON          VERSION
+22/tcp  open  ssh          syn-ack ttl 127 OpenSSH for_Windows_7.9 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 3a:56:ae:75:3c:78:0e:c8:56:4d:cb:1c:22:bf:45:8a (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3bG3TRRwV6dlU1lPbviOW+3fBC7wab+KSQ0Gyhvf9Z1OxFh9v5e6GP4rt5Ss76ic1oAJPIDvQwGlKdeUEnjtEtQXB/78Ptw6IPPPPwF5dI1W4GvoGR4MV5Q6CPpJ6HLIJdvAcn3isTCZgoJT69xRK0ymPnqUqaB+/ptC4xvHmW9ptHdYjDOFLlwxg17e7Sy0CA67PW/nXu7+OKaIOx0lLn8QPEcyrYVCWAqVcUsgNNAjR4h1G7tYLVg3SGrbSmIcxlhSMexIFIVfR37LFlNIYc6Pa58lj2MSQLusIzRoQxaXO4YSp/dM1tk7CN2cKx1PTd9VVSDH+/Nq0HCXPiYh3
+|   256 cc:2e:56:ab:19:97:d5:bb:03:fb:82:cd:63:da:68:01 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBF1Mau7cS9INLBOXVd4TXFX/02+0gYbMoFzIayeYeEOAcFQrAXa1nxhHjhfpHXWEj2u0Z/hfPBzOLBGi/ngFRUg=
+|   256 93:5f:5d:aa:ca:9f:53:e7:f2:82:e6:64:a8:a3:a0:18 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB34X2ZgGpYNXYb+KLFENmf0P0iQ22Q0sjws2ATjFsiN
+135/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+139/tcp open  netbios-ssn  syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds syn-ack ttl 127 Windows Server 2016 Standard 14393 microsoft-ds
+Aggressive OS guesses: Microsoft Windows Server 2016 build 10586 - 14393 (96%), Microsoft Windows Server 2016 (94%), Microsoft Windows Server 2008 SP1 (94%), Microsoft Windows 10 1507 (93%), Microsoft Windows 10 1507 - 1607 (93%), Microsoft Windows 10 1511 (93%), Microsoft Windows Server 2012 (93%), Microsoft Windows Server 2012 R2 (93%), Microsoft Windows Server 2012 R2 Update 1 (93%), Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1 (93%)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=8/1%OT=22%CT=1%CU=32195%PV=Y%DS=2%DC=T%G=Y%TM=62E847E5
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10D%CI=I%TS=A)SEQ(SP=109%GCD
+OS:=1%ISR=10D%TS=A)SEQ(SP=109%GCD=1%ISR=10D%II=I%TS=A)SEQ(SP=108%GCD=1%ISR=
+OS:10C%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=M539NW8ST11%O2=M539NW8ST11%O3=M539NW
+OS:8NNT11%O4=M539NW8ST11%O5=M539NW8ST11%O6=M539ST11)WIN(W1=2000%W2=2000%W3=
+OS:2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M539NW8NNS%CC=Y%
+OS:Q=)ECN(R=N)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S
+OS:=Z%A=S%F=AR%O=%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%
+OS:Q=)T3(R=N)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T4(R=N)T5(R=Y%DF=Y
+OS:%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=N)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T6(R=N)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T7(R=
+OS:N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)U1(R=N
+OS:)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.399 days (since Mon Aug  1 08:03:54 2022)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2022-08-01T21:38:39
+|_  start_date: 2022-08-01T12:04:12
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
+|   Computer name: Bastion
+|   NetBIOS computer name: BASTION\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2022-08-01T23:38:42+02:00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 53299/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 26941/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 22326/udp): CLEAN (Timeout)
+|   Check 4 (port 18741/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+|_clock-skew: mean: -39m54s, deviation: 1h09m14s, median: 3s
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   14.59 ms 10.10.14.1
+2   15.03 ms 10.10.10.134
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  1 17:38:45 2022 -- 1 IP address (1 host up) scanned in 32.13 seconds

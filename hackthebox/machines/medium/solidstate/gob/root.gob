@@ -1,0 +1,10 @@
+/index.html          [32m (Status: 200)[0m [Size: 7776]
+/images              [36m (Status: 301)[0m [Size: 311][34m [--> http://10.10.10.51/images/][0m
+/.html               [33m (Status: 403)[0m [Size: 291]
+/about.html          [32m (Status: 200)[0m [Size: 7183]
+/services.html       [32m (Status: 200)[0m [Size: 8404]
+/assets              [36m (Status: 301)[0m [Size: 311][34m [--> http://10.10.10.51/assets/][0m
+/README.txt          [32m (Status: 200)[0m [Size: 963]
+/LICENSE.txt         [32m (Status: 200)[0m [Size: 17128]
+/.html               [33m (Status: 403)[0m [Size: 291]
+/server-status       [33m (Status: 403)[0m [Size: 299]

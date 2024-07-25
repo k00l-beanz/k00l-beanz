@@ -1,0 +1,54 @@
+```bash
+nmap -vv --reason -Pn -T4 -sU -A --top-ports 100 -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/_top_100_udp_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/xml/_top_100_udp_nmap.xml" 10.10.10.172
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/_top_100_udp_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/_top_100_udp_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Tue Sep 20 18:55:13 2022 as: nmap -vv --reason -Pn -T4 -sU -A --top-ports 100 -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/xml/_top_100_udp_nmap.xml 10.10.10.172
+adjust_timeouts2: packet supposedly had rtt of -334280 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -334280 microseconds.  Ignoring time.
+Nmap scan report for 10.10.10.172
+Host is up, received user-set (0.043s latency).
+Scanned at 2022-09-20 18:55:13 EDT for 1773s
+Not shown: 97 open|filtered udp ports (no-response)
+PORT    STATE SERVICE      REASON               VERSION
+53/udp  open  domain       udp-response ttl 127 (generic dns response: SERVFAIL)
+| fingerprint-strings: 
+|   NBTStat: 
+|_    CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+88/udp  open  kerberos-sec udp-response         Microsoft Windows Kerberos (server time: 2022-09-20 22:55:27Z)
+123/udp open  ntp          udp-response ttl 127 NTP v3
+| ntp-info: 
+|_  receive time stamp: 2022-09-20T23:02:14
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-UDP:V=7.92%I=7%D=9/20%Time=632A44EE%P=x86_64-pc-linux-gnu%r(NBTS
+SF:tat,32,"\x80\xf0\x80\x82\0\x01\0\0\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAAAA
+SF:AAAAAAA\0\0!\0\x01");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing an open TCP port so results incomplete
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.92%E=4%D=9/20%OT=%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=632A4BBE%P=x86_64-pc-linux-gnu)
+SEQ(CI=I%II=I)
+T5(R=Y%DF=Y%TG=80%W=FFFF%S=O%A=O%F=AS%O=M539NW8NNS%RD=0%Q=)
+T7(R=Y%DF=Y%TG=80%W=FFFF%S=O%A=O%F=AS%O=M539NW8NNS%RD=0%Q=)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 10s
+
+TRACEROUTE (using port 123/udp)
+HOP RTT      ADDRESS
+1   17.05 ms 10.10.14.1
+2   45.22 ms 10.10.10.172
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 20 19:24:46 2022 -- 1 IP address (1 host up) scanned in 1773.34 seconds
+
+```

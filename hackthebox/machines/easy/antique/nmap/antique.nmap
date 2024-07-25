@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Sun Oct  9 16:38:58 2022 as: nmap -sC -sV -oN nmap/antique.nmap 10.10.11.107
+Nmap scan report for 10.10.11.107
+Host is up (0.016s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet?
+| fingerprint-strings: 
+|   GenericLines, NULL: 
+|_    JetDirect
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port23-TCP:V=7.92%I=7%D=10/9%Time=63433169%P=x86_64-pc-linux-gnu%r(NULL
+SF:,F,"\nHP\x20JetDirect\n\n")%r(GenericLines,F,"\nHP\x20JetDirect\n\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct  9 16:39:18 2022 -- 1 IP address (1 host up) scanned in 19.96 seconds

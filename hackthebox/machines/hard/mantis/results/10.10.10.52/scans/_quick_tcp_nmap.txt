@@ -1,0 +1,133 @@
+# Nmap 7.92 scan initiated Mon Oct 10 17:31:25 2022 as: nmap -vv --reason -Pn -T4 -sV -sC --version-all -A --osscan-guess -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/_quick_tcp_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/xml/_quick_tcp_nmap.xml 10.10.10.52
+Nmap scan report for mantis.htb.local (10.10.10.52)
+Host is up, received user-set (0.013s latency).
+Scanned at 2022-10-10 17:31:26 EDT for 80s
+Not shown: 981 closed tcp ports (reset)
+PORT      STATE SERVICE      REASON          VERSION
+53/tcp    open  domain       syn-ack ttl 127 Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+88/tcp    open  kerberos-sec syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2022-10-10 21:31:32Z)
+135/tcp   open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp   open  ldap         syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds syn-ack ttl 127 Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds (workgroup: HTB)
+464/tcp   open  kpasswd5?    syn-ack ttl 127
+593/tcp   open  ncacn_http   syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped   syn-ack ttl 127
+1433/tcp  open  ms-sql-s     syn-ack ttl 127 Microsoft SQL Server 2014 12.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   Target_Name: HTB
+|   NetBIOS_Domain_Name: HTB
+|   NetBIOS_Computer_Name: MANTIS
+|   DNS_Domain_Name: htb.local
+|   DNS_Computer_Name: mantis.htb.local
+|   DNS_Tree_Name: htb.local
+|_  Product_Version: 6.1.7601
+|_ssl-date: 2022-10-10T21:32:44+00:00; -1s from scanner time.
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Issuer: commonName=SSL_Self_Signed_Fallback
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2022-10-10T21:17:08
+| Not valid after:  2052-10-10T21:17:08
+| MD5:   5855 f01c ba53 7fa1 eeff 0f91 d9eb 070a
+| SHA-1: 84c6 84d5 f91a 843d cc05 50a3 54e1 a50f 4820 e17c
+| -----BEGIN CERTIFICATE-----
+| MIIB+zCCAWSgAwIBAgIQMv0YW3H6apRPQQvHzgjcezANBgkqhkiG9w0BAQUFADA7
+| MTkwNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEA
+| bABsAGIAYQBjAGswIBcNMjIxMDEwMjExNzA4WhgPMjA1MjEwMTAyMTE3MDhaMDsx
+| OTA3BgNVBAMeMABTAFMATABfAFMAZQBsAGYAXwBTAGkAZwBuAGUAZABfAEYAYQBs
+| AGwAYgBhAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwHQRAzP3P8Eb
+| KNkZ3h248R9BYc4bmdkAoEkM4T4PZpW+qB7Q8ybDq2dDM/Ex28QTMJ922Ltaknj3
+| ENwZsOckQgqsNv1w6N6PcqmiMx6H1ySk0PYL3OdgMOfoBIl+QSG78++PbORuDcE7
+| b0wVVy8mTLneKk4O9L7XqH2nt+2cB18CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBv
+| zYVgA8LJRJR+RP+pr27cTRj4QhrZZxO/osQtV1tQX7R63o+LxY7fdiLnVH2Cq8wK
+| 9SvD4x680RVeIgTvot5iYhafZBDaMs33sMuo0XVRcdBUtEutV/MCz1WVbdLYGV5H
+| Gff3UjhSwE1GUEfmsEoA/J3CtnQZNG4ixK9tyyGFlw==
+|_-----END CERTIFICATE-----
+3268/tcp  open  ldap         syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped   syn-ack ttl 127
+8080/tcp  open  http         syn-ack ttl 127 Microsoft IIS httpd 7.5
+|_http-title: Tossed Salad - Blog
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Microsoft-IIS/7.5
+49152/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49155/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+49157/tcp open  ncacn_http   syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+Device type: general purpose
+Running: Microsoft Windows 2008
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+OS details: Microsoft Windows Server 2008 SP1
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=10/10%OT=53%CT=1%CU=42759%PV=Y%DS=2%DC=T%G=Y%TM=63448F
+OS:7E%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%CI=I%II=I%TS=7)OPS(O1=
+OS:M539NW8ST11%O2=M539NW8ST11%O3=M539NW8NNT11%O4=M539NW8ST11%O5=M539NW8ST11
+OS:%O6=M539ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y
+OS:%DF=Y%T=80%W=2000%O=M539NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD
+OS:=Z)
+
+Uptime guess: 0.011 days (since Mon Oct 10 17:16:19 2022)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: Host: MANTIS; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: mantis
+|   NetBIOS computer name: MANTIS\x00
+|   Domain name: htb.local
+|   Forest name: htb.local
+|   FQDN: mantis.htb.local
+|_  System time: 2022-10-10T17:32:35-04:00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 3494/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 10637/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 19802/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 34485/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2022-10-10T21:32:38
+|_  start_date: 2022-10-10T21:16:41
+|_clock-skew: mean: 47m58s, deviation: 1h47m20s, median: -1s
+| ms-sql-info: 
+|   10.10.10.52:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2014 RTM
+|       number: 12.00.2000.00
+|       Product: Microsoft SQL Server 2014
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+
+TRACEROUTE (using port 143/tcp)
+HOP RTT      ADDRESS
+1   11.97 ms 10.10.14.1
+2   12.34 ms mantis.htb.local (10.10.10.52)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 10 17:32:46 2022 -- 1 IP address (1 host up) scanned in 80.55 seconds

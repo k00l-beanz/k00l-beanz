@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Tue Sep 27 22:17:11 2022 as: nmap -vv -&#45;reason -Pn -T4 -sU -A -&#45;top-ports 100 -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/xml/_top_100_udp_nmap.xml 10.10.10.117 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sU -A -&#45;top-ports 100 -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/_top_100_udp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/irked/results/10.10.10.117/scans/xml/_top_100_udp_nmap.xml 10.10.10.117" start="1664331431" startstr="Tue Sep 27 22:17:11 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="100" services="7,9,17,19,49,53,67-69,80,88,111,120,123,135-139,158,161-162,177,427,443,445,497,500,514-515,518,520,593,623,626,631,996-999,1022-1023,1025-1030,1433-1434,1645-1646,1701,1718-1719,1812-1813,1900,2000,2048-2049,2222-2223,3283,3456,3703,4444,4500,5000,5060,5353,5632,9200,10000,17185,20031,30718,31337,32768-32769,32771,32815,33281,49152-49154,49156,49181-49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1664331431"/>
+<taskend task="NSE" time="1664331431"/>
+<taskbegin task="NSE" time="1664331431"/>
+<taskend task="NSE" time="1664331431"/>
+<taskbegin task="NSE" time="1664331431"/>
+<taskend task="NSE" time="1664331431"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1664331431"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1664331437"/>
+<taskbegin task="UDP Scan" time="1664331437"/>
+<taskend task="UDP Scan" time="1664331525" extrainfo="100 total ports"/>
+<taskbegin task="Service scan" time="1664331525"/>
+<taskprogress task="Service scan" time="1664331587" percent="20.00" remaining="248" etc="1664331835"/>
+<taskend task="Service scan" time="1664331622" extrainfo="15 services on 1 host"/>
+<taskbegin task="Traceroute" time="1664331624"/>
+<taskend task="Traceroute" time="1664331624"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1664331624"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1664331630"/>
+<taskbegin task="NSE" time="1664331630"/>
+<taskprogress task="NSE" time="1664331661" percent="99.76" remaining="1" etc="1664331661"/>
+<taskend task="NSE" time="1664331674"/>
+<taskbegin task="NSE" time="1664331674"/>
+<taskend task="NSE" time="1664331675"/>
+<taskbegin task="NSE" time="1664331675"/>
+<taskend task="NSE" time="1664331675"/>
+<host starttime="1664331438" endtime="1664331675"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="85">
+<extrareasons reason="port-unreach" count="85" proto="udp" ports="7,9,17,19,49,53,67,69,80,88,120,123,135-137,139,158,161-162,177,427,443,445,497,500,515,518,520,593,623,626,996-999,1022-1023,1025-1029,1433-1434,1645-1646,1701,1718-1719,1812-1813,2000,2048-2049,2223,3283,3703,4444,4500,5000,5060,10000,17185,20031,30718,31337,32768-32769,32815,49152-49154,49156,49182,49185-49186,49188,49190-49194,49200-49201,65024"/>
+</extraports>
+<port protocol="udp" portid="68"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="111"><state state="open" reason="udp-response" reason_ttl="63"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version    port/proto  service&#xa;  100000  2,3,4        111/tcp   rpcbind&#xa;  100000  2,3,4        111/udp   rpcbind&#xa;  100000  3,4          111/tcp6  rpcbind&#xa;  100000  3,4          111/udp6  rpcbind&#xa;  100024  1          37435/tcp   status&#xa;  100024  1          42129/udp6  status&#xa;  100024  1          50128/udp   status&#xa;  100024  1          50871/tcp6  status&#xa;"><table key="100000">
+<table key="udp6">
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="addr">::</elem>
+<elem key="owner">superuser</elem>
+</table>
+<table key="local">
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="owner">superuser</elem>
+<elem key="addr">/run/rpcbind.sock</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="addr">0.0.0.0</elem>
+<elem key="owner">superuser</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="addr">0.0.0.0</elem>
+<elem key="owner">superuser</elem>
+</table>
+<table key="tcp6">
+<table key="version">
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">111</elem>
+<elem key="addr">::</elem>
+<elem key="owner">superuser</elem>
+</table>
+</table>
+<table key="100024">
+<table key="tcp6">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">50871</elem>
+<elem key="addr">::</elem>
+<elem key="owner">107</elem>
+</table>
+<table key="udp6">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">42129</elem>
+<elem key="addr">::</elem>
+<elem key="owner">107</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">37435</elem>
+<elem key="addr">0.0.0.0</elem>
+<elem key="owner">107</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">50128</elem>
+<elem key="addr">0.0.0.0</elem>
+<elem key="owner">107</elem>
+</table>
+</table>
+</script></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="514"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="syslog" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="1030"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="iad1" method="table" conf="3"/></port>
+<port protocol="udp" portid="1900"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="udp" portid="2222"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="msantipiracy" method="table" conf="3"/></port>
+<port protocol="udp" portid="3456"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="IISrpc-or-vat" method="table" conf="3"/></port>
+<port protocol="udp" portid="5353"><state state="open" reason="udp-response" reason_ttl="254"/><service name="mdns" product="DNS-based service discovery" method="probed" conf="10"/><script id="dns-service-discovery" output="&#xa;  9/tcp workstation&#xa;    Address=10.10.10.117 dead:beef::250:56ff:feb9:9800&#xa;  80/tcp http&#xa;    Address=10.10.10.117 dead:beef::250:56ff:feb9:9800&#xa;"/></port>
+<port protocol="udp" portid="5632"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="pcanywherestat" method="table" conf="3"/></port>
+<port protocol="udp" portid="9200"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="wap-wsp" method="table" conf="3"/></port>
+<port protocol="udp" portid="32771"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="sometimes-rpc6" method="table" conf="3"/></port>
+<port protocol="udp" portid="33281"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+<port protocol="udp" portid="49181"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="7"/>
+<osfingerprint fingerprint="SCAN(V=7.92%E=4%D=9/27%OT=%CT=%CU=7%PV=Y%DS=2%DC=T%G=N%TM=6333AF9B%P=x86_64-pc-linux-gnu)&#xa;SEQ(CI=I%II=I)&#xa;T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<distance value="2"/>
+<trace port="520" proto="udp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="15.26"/>
+<hop ttl="2" ipaddr="10.10.10.117" rtt="15.26"/>
+</trace>
+<times srtt="13834" rttvar="1455" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1664331675"/>
+<taskend task="NSE" time="1664331675"/>
+<taskbegin task="NSE" time="1664331675"/>
+<taskend task="NSE" time="1664331675"/>
+<taskbegin task="NSE" time="1664331675"/>
+<taskend task="NSE" time="1664331675"/>
+<runstats><finished time="1664331675" timestr="Tue Sep 27 22:21:15 2022" summary="Nmap done at Tue Sep 27 22:21:15 2022; 1 IP address (1 host up) scanned in 244.32 seconds" elapsed="244.32" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

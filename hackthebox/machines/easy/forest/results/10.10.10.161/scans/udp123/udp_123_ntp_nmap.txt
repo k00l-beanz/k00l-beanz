@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Tue Jul 26 18:59:30 2022 as: nmap -vv --reason -Pn -T4 -sU -sV -p 123 "--script=banner,(ntp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/forest/results/10.10.10.161/scans/udp123/udp_123_ntp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/forest/results/10.10.10.161/scans/udp123/xml/udp_123_ntp_nmap.xml 10.10.10.161
+Nmap scan report for 10.10.10.161
+Host is up, received user-set (0.014s latency).
+Scanned at 2022-07-26 18:59:30 EDT for 11s
+
+PORT    STATE SERVICE REASON               VERSION
+123/udp open  ntp     udp-response ttl 127 NTP v3
+| ntp-info: 
+|_  receive time stamp: 2022-07-26T23:07:05
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 26 18:59:41 2022 -- 1 IP address (1 host up) scanned in 10.74 seconds

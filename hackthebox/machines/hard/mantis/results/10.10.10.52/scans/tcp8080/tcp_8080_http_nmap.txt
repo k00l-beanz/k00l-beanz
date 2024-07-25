@@ -1,0 +1,573 @@
+# Nmap 7.92 scan initiated Mon Oct 10 17:32:46 2022 as: nmap -vv --reason -Pn -T4 -sV -p 8080 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp8080/tcp_8080_http_nmap.txt -oX /home/Default/Documents/Repos/cerberus-bytes/Cerberus-bytes/HacktheBox/machines/hard/mantis/results/10.10.10.52/scans/tcp8080/xml/tcp_8080_http_nmap.xml 10.10.10.52
+Nmap scan report for mantis.htb.local (10.10.10.52)
+Host is up, received user-set (0.011s latency).
+Scanned at 2022-10-10 17:32:47 EDT for 1054s
+
+PORT     STATE SERVICE REASON          VERSION
+8080/tcp open  http    syn-ack ttl 127 Microsoft IIS httpd 7.5
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-date: Mon, 10 Oct 2022 21:32:59 GMT; -2s from local time.
+|_http-malware-host: Host appears to be clean
+|_http-config-backup: ERROR: Script execution failed (use -d to debug)
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+|_http-server-header: Microsoft-IIS/7.5
+| http-vhosts: 
+|_128 names had status 200
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+| http-headers: 
+|   Cache-Control: private
+|   Content-Length: 5897
+|   Content-Type: text/html; charset=utf-8
+|   ETag: 5f691e51c77446e48f5715e611403ef6
+|   Server: Microsoft-IIS/7.5
+|   X-Generator: Orchard
+|   X-AspNetMvc-Version: 5.2
+|   X-AspNet-Version: 4.0.30319
+|   X-Powered-By: ASP.NET
+|   Date: Mon, 10 Oct 2022 21:33:01 GMT
+|   Connection: close
+|   
+|_  (Request type: HEAD)
+| http-sitemap-generator: 
+|   Directory structure:
+|     /
+|       Other: 3
+|     /Contents/Item/Display/
+|       Other: 1
+|     /Core/Shapes/scripts/
+|       js: 1
+|     /Themes/TheThemeMachine/Styles/
+|       css: 2
+|     /Users/Account/
+|       Other: 1
+|     /modules/orchard.themes/Content/
+|       ico: 1
+|   Longest directory structure:
+|     Depth: 3
+|     Dir: /Themes/TheThemeMachine/Styles/
+|   Total files found (by extension):
+|_    Other: 5; css: 2; ico: 1; js: 1
+|_http-drupal-enum: Nothing found amongst the top 100 resources,use --script-args number=<number|all> for deeper analysis)
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+|_http-errors: ERROR: Script execution failed (use -d to debug)
+| http-auth-finder: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=mantis.htb.local
+|   url                                                                                                        method
+|   http://mantis.htb.local:8080/Users/Account/LogOn?ReturnUrl=%2F                                             FORM
+|   http://mantis.htb.local:8080/Users/Account/LogOn?ReturnUrl=%2Fpita-pockets-with-a-sun-dried-tomato-flavor  FORM
+|_  http://mantis.htb.local:8080/Users/Account/LogOn?ReturnUrl=%2FContents%2FItem%2FDisplay%2F17               FORM
+| http-feed: 
+| Spidering limited to: maxpagecount=40; withinhost=mantis.htb.local
+|   Found the following feeds: 
+|     RSS (version 2.0): http://mantis.htb.local:8080/rss?containerid=12
+|_    RSS (version 2.0): /rss?containerid=12
+|_http-devframework: ASP.NET detected. Found related header.
+| http-useragent-tester: 
+|   Status for browser useragent: 200
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|_    WWW-Mechanize/1.34
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-chrono: Request times for /; avg: 1357.09ms; min: 723.46ms; max: 2061.38ms
+|_http-fetch: Please enter the complete path of the directory to save data in.
+|_http-mobileversion-checker: No mobile version detected.
+| http-waf-detect: IDS/IPS/WAF detected:
+|_mantis.htb.local:8080/?p4yl04d3=<script>alert(document.cookie)</script>
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-php-version: Logo query returned unknown hash b90bbac2394f0b72938f10609c25c3a8
+|_Credits query returned unknown hash 5eed30771d2b92c0291b47962a038aa7
+|_http-title: Tossed Salad - Blog
+| http-security-headers: 
+|   Cache_Control: 
+|_    Header: Cache-Control: private
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+| http-grep: 
+|   (1) http://mantis.htb.local:8080/pita-pockets-with-a-sun-dried-tomato-flavor: 
+|     (1) ip: 
+|_      + 10.10.10.52
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-wordpress-enum: Nothing found amongst the top 100 resources,use --script-args search-limit=<number|all> for deeper analysis)
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=mantis.htb.local
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 86
+|     Comment: 
+|         /* General
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 452
+|     Comment: 
+|         /* Main
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 299
+|     Comment: 
+|         /* Landscape phones and down */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 43
+|     Comment: 
+|         /* Opt-in outside padding */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 528
+|     Comment: 
+|         /* If zones 1, 2, 3 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 342
+|     Comment: 
+|         /* Breadcrumb */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 333
+|     Comment: 
+|         /* third level */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 465
+|     Comment: 
+|         /* Tags */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 418
+|     Comment: 
+|         /* Zones */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 494
+|     Comment: 
+|         /* Confirmations */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 43
+|     Comment: 
+|         /* Remember focus styles! */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 56
+|     Comment: 
+|         /* HTML 5 elements as block */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 292
+|     Comment: 
+|         /* Landscape phone to portrait tablet */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 455
+|     Comment: 
+|         /* Content lists and details */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 645
+|     Comment: 
+|         /* Tag Cloud
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 506
+|     Comment: 
+|         /* If zone 1 is on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 319
+|     Comment: 
+|         /* first level */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 542
+|     Comment: 
+|         /* If zones 1, 4 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 157
+|     Comment: 
+|         /* Text elements */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 554
+|     Comment: 
+|         /*.split-123 #footer-quad-first, .split-123 #footer-quad-second, .split-123 #footer-quad-third { width:320px; }*/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 61
+|     Comment: 
+|         /* Clearing Floats
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 499
+|     Comment: 
+|         /* red */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 281
+|     Comment: 
+|         /* Navigation */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 618
+|     Comment: 
+|         /* CSS 3 Enhancements 
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 549
+|     Comment: 
+|         /* If zones 1, 3, 4 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 505
+|     Comment: 
+|         /* Aside Zones */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 545
+|     Comment: 
+|         /* If zones 3, 4 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Core/Shapes/scripts/html5.js
+|     Line number: 2
+|     Comment: 
+|         
+|         // Uncompressed source: https://github.com/aFarkas/html5shiv
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 203
+|     Comment: 
+|         /* todo: (heskew) need something other than .inline ... */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 497
+|     Comment: 
+|         /* green */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 514
+|     Comment: 
+|         /* If zones 1, 2 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 122
+|     Comment: 
+|         /* Headings */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 325
+|     Comment: 
+|         /* second level */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 1
+|     Comment: 
+|         /*
+|         Theme: Theme Machine
+|         Author: Orchard Team \xE2\x80\x93 http://www.orchardproject.net
+|         Copyright: 2010, Orchard. All Rights Reserved
+|         */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 537
+|     Comment: 
+|         /* If zone 4 is on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 502
+|     Comment: 
+|         /* Secondary
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 530
+|     Comment: 
+|         /* Quad Footer Zones */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 591
+|     Comment: 
+|         /* Misc
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 553
+|     Comment: 
+|         /*3 zones on - alternate layout*/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 673
+|     Comment: 
+|         /* RTL */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 548
+|     Comment: 
+|         /* If zones 2, 3, 4 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 581
+|     Comment: 
+|         /* Pager
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 525
+|     Comment: 
+|         /* If zones 1, 3 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 285
+|     Comment: 
+|         /* Portrait tablet to landscape and desktop */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 573
+|     Comment: 
+|         /* Content Mode */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 510
+|     Comment: 
+|         /* If zone 2 is on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 555
+|     Comment: 
+|         /*.split-124 #footer-quad-first, .split-124 #footer-quad-second, .split-124 #footer-quad-fourth { width:320px; }*/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 567
+|     Comment: 
+|         /* These are the edit controls that appear when you're logged-in */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 182
+|     Comment: 
+|         /* Forms
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 561
+|     Comment: 
+|         /* Widgets
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 557
+|     Comment: 
+|         /*.split-234 #footer-quad-second, .split-234 #footer-quad-third, .split-234 #footer-quad-fourth { width:320px; }*/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 533
+|     Comment: 
+|         /*1 zone on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 556
+|     Comment: 
+|         /*.split-134 #footer-quad-first, .split-134 #footer-quad-third, .split-134 #footer-quad-fourth { width:320px; }*/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 145
+|     Comment: 
+|         /* Lists */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 74
+|     Comment: 
+|         /* .zone:after self clears every zone container - .widget-control:after self clears any floats used in a widget */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 544
+|     Comment: 
+|         /* If zones 2, 4 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 498
+|     Comment: 
+|         /* yellow */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 566
+|     Comment: 
+|         /* Edit Mode Widgets */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 236
+|     Comment: 
+|         /* todo: (heskew) try to get .text on stuff like .text-box */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 48
+|     Comment: 
+|         /* Tables still need 'cellspacing="0"' in the markup */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 21
+|     Comment: 
+|         /* Reset
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 470
+|     Comment: 
+|         /* Metadata */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 550
+|     Comment: 
+|         /* If zones 1, 2, 4 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 423
+|     Comment: 
+|         /*  Enable this to see zone visualizations
+|             background-color: yellow;
+|             box-shadow:inset 0 0 1px purple;
+|             -moz-box-shadow:inset 0 0 1px purple;
+|             -webkit-box-shadow:inset 0 0 1px purple;
+|             */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 527
+|     Comment: 
+|         /*3 zones on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 89
+|     Comment: 
+|         /* Default font settings. 
+|         The font-size 81.3% sets the base font to 13px 
+|         
+|         Pixels     EMs         Percent Points
+|         6px     0.462em     46.2%     5pt
+|         7px     0.538em     53.8%     5pt
+|         8px     0.615em     61.5%     6pt
+|         9px     0.692em     69.2%     7pt
+|         10px     0.769em     76.9%     8pt
+|         11px     0.846em     84.6%     8pt
+|         12px     0.923em     92.3%     9pt
+|         13px     1em         100%     10pt
+|         14px     1.077em     107.7%     11pt
+|         15px     1.154em     115.4%     11pt
+|         16px     1.231em     123.1%     12pt
+|         17px     1.308em     130.8%     13pt
+|         18px     1.385em     138.5%     14pt
+|         19px     1.462em     146.2%     14pt
+|         20px     1.538em     153.8%     15pt
+|         21px     1.615em     161.5%     16pt
+|         22px     1.692em     169.2%     17pt
+|         23px     1.769em     176.9%     17pt
+|         24px     1.846em     184.6%     18pt
+|         */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 522
+|     Comment: 
+|         /*2 zones on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 242
+|     Comment: 
+|         /* Bootstrap compatible spans */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 272
+|     Comment: 
+|         /* Structure
+|         ***************************************************************/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 524
+|     Comment: 
+|         /* If zones 2, 3 are on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 476
+|     Comment: 
+|         /* Comments */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 536
+|     Comment: 
+|         /* If zone 3 is on */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 519
+|     Comment: 
+|         /* Tripel Zones*/
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 137
+|     Comment: 
+|         /* Aside Headings */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 269
+|     Comment: 
+|         /* RESPONSIVENESS */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 8
+|     Comment: 
+|         /*  Color Palette
+|         **************************************************************
+|         
+|         Background: #fff
+|         Borders: #dbdbdb
+|         Text: #434343
+|         Secondary Text: #999999
+|         Main Accent: #999
+|         Links: #5f97af
+|         */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 339
+|     Comment: 
+|         /* deeper levels */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 271
+|     Comment: 
+|         /* Large desktop */
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/Site.css
+|     Line number: 247
+|     Comment: 
+|         /*Are we using the two classes below?*/
+|     
+|     Path: http://mantis.htb.local:8080/Users/Account/LogOn?ReturnUrl=%2FContents%2FItem%2FDisplay%2F17
+|     Line number: 10
+|     Comment: 
+|         
+|         
+|         <![endif]-->
+|     
+|     Path: http://mantis.htb.local:8080/Themes/TheThemeMachine/Styles/default-grid.css
+|     Line number: 278
+|     Comment: 
+|_        /* Default */
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 10 17:50:21 2022 -- 1 IP address (1 host up) scanned in 1054.57 seconds

@@ -1,0 +1,35 @@
+200      GET       97l      224w     3541c http://10.10.10.52:8080/Users/Account/LogOn
+200      GET      137l      508w     6753c http://10.10.10.52:8080/pita-pockets-with-a-sun-dried-tomato-flavor
+200      GET        6l       18w     5430c http://10.10.10.52:8080/modules/orchard.themes/Content/orchard.ico
+200      GET      137l      547w     6929c http://10.10.10.52:8080/Contents/Item/Display/17
+200      GET      304l      554w     3799c http://10.10.10.52:8080/Themes/TheThemeMachine/Styles/default-grid.css
+200      GET        3l      478w     3874c http://10.10.10.52:8080/Core/Shapes/scripts/html5.js
+200      GET      776l     2850w    21805c http://10.10.10.52:8080/Themes/TheThemeMachine/Styles/Site.css
+200      GET      157l      454w     5897c http://10.10.10.52:8080/
+200      GET       97l      224w     3562c http://10.10.10.52:8080/Users/Account/AccessDenied
+302      GET        3l        8w      163c http://10.10.10.52:8080/ADMIN => /Users/Account/AccessDenied?ReturnUrl=%2FADMIN
+302      GET        3l        8w      163c http://10.10.10.52:8080/Admin => /Users/Account/AccessDenied?ReturnUrl=%2FAdmin
+200      GET      114l      302w     4100c http://10.10.10.52:8080/archive/2017/9
+200      GET       68l      223w     1956c http://10.10.10.52:8080/Modules/Orchard.Blogs/Styles/orchard-blogs-archives.css
+200      GET       16l       28w      478c http://10.10.10.52:8080/Modules/Orchard.Blogs/scripts/orchard-blogs-archives.js
+200      GET        3l     1291w    84242c http://10.10.10.52:8080/Modules/Orchard.Resources/scripts/jquery.min.js
+200      GET       74l      176w     2866c http://10.10.10.52:8080/Archive
+200      GET       74l      176w     2867c http://10.10.10.52:8080/_archive
+302      GET        3l        8w      163c http://10.10.10.52:8080/admin => /Users/Account/AccessDenied?ReturnUrl=%2Fadmin
+200      GET       74l      176w     2866c http://10.10.10.52:8080/archive
+200      GET       87l      194w     2913c http://10.10.10.52:8080/blogs
+200      GET       70l      160w     2453c http://10.10.10.52:8080/tags
+200      GET       74l      176w     2870c http://10.10.10.52:8080/filearchive
+200      GET       74l      176w     2869c http://10.10.10.52:8080/logarchive
+200      GET       74l      176w     2871c http://10.10.10.52:8080/News_Archive
+200      GET       74l      176w     2874c http://10.10.10.52:8080/Stories_Archive
+200      GET       74l      176w     2874c http://10.10.10.52:8080/article_archive
+200      GET       74l      176w     2875c http://10.10.10.52:8080/download-archive
+200      GET       74l      176w     2872c http://10.10.10.52:8080/email_archive
+200      GET       74l      176w     2873c http://10.10.10.52:8080/events_archive
+200      GET       74l      176w     2871c http://10.10.10.52:8080/forumarchive
+200      GET       74l      176w     2874c http://10.10.10.52:8080/handset-archive
+200      GET       74l      176w     2871c http://10.10.10.52:8080/imagearchive
+302      GET        3l        8w      163c http://10.10.10.52:8080/AdMin => /Users/Account/AccessDenied?ReturnUrl=%2FAdMin
+200      GET       74l      176w     2874c http://10.10.10.52:8080/CMS_NEWSarchive
+200      GET       74l      176w     2871c http://10.10.10.52:8080/EmailArchive

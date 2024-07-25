@@ -1,0 +1,25 @@
+```bash
+nmap -vv --reason -Pn -T4 -sV -p 21 --script="banner,(ftp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/tcp_21_ftp_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/xml/tcp_21_ftp_nmap.xml" 10.10.10.180
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/tcp_21_ftp_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/tcp_21_ftp_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Tue Aug  2 14:48:40 2022 as: nmap -vv --reason -Pn -T4 -sV -p 21 "--script=banner,(ftp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/tcp_21_ftp_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/easy/remote/results/10.10.10.180/scans/tcp21/xml/tcp_21_ftp_nmap.xml 10.10.10.180
+Nmap scan report for 10.10.10.180
+Host is up, received user-set (0.015s latency).
+Scanned at 2022-08-02 14:48:42 EDT for 0s
+
+PORT   STATE SERVICE REASON          VERSION
+21/tcp open  ftp     syn-ack ttl 127 Microsoft ftpd
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_banner: 220 Microsoft FTP Service
+| ftp-syst: 
+|_  SYST: Windows_NT
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug  2 14:48:42 2022 -- 1 IP address (1 host up) scanned in 1.88 seconds
+
+```

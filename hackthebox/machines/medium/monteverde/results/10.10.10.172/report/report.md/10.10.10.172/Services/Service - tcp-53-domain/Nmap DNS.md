@@ -1,0 +1,25 @@
+```bash
+nmap -vv --reason -Pn -T4 -sV -p 53 --script="banner,(dns* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/tcp53/tcp_53_dns_nmap.txt" -oX "/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/tcp53/xml/tcp_53_dns_nmap.xml" 10.10.10.172
+```
+
+[/home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/tcp53/tcp_53_dns_nmap.txt](file:///home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/tcp53/tcp_53_dns_nmap.txt):
+
+```
+# Nmap 7.92 scan initiated Tue Sep 20 18:59:04 2022 as: nmap -vv --reason -Pn -T4 -sV -p 53 "--script=banner,(dns* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/tcp53/tcp_53_dns_nmap.txt -oX /home/Default/Documents/Repos/Default_/Platforms/HacktheBox/machines/medium/monteverde/results/10.10.10.172/scans/tcp53/xml/tcp_53_dns_nmap.xml 10.10.10.172
+Nmap scan report for 10.10.10.172
+Host is up, received user-set (0.033s latency).
+Scanned at 2022-09-20 18:59:05 EDT for 159s
+
+PORT   STATE SERVICE REASON          VERSION
+53/tcp open  domain? syn-ack ttl 127
+|_dns-nsec-enum: Can't determine domain for host 10.10.10.172; use dns-nsec-enum.domains script arg.
+|_dns-nsec3-enum: Can't determine domain for host 10.10.10.172; use dns-nsec3-enum.domains script arg.
+
+Host script results:
+|_dns-brute: Can't guess domain of "10.10.10.172"; use dns-brute.domain script argument.
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 20 19:01:44 2022 -- 1 IP address (1 host up) scanned in 159.52 seconds
+
+```

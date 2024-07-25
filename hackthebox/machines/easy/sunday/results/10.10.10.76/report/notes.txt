@@ -1,0 +1,24 @@
+[*] rpcbind found on udp/111.
+
+
+
+[*] rpcbind found on tcp/111.
+
+
+
+[*] finger found on tcp/79.
+
+
+
+[*] printer found on tcp/515.
+
+
+
+[*] http found on tcp/6787.
+
+
+
+[*] ssh found on tcp/22022.
+
+
+

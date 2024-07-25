@@ -1,0 +1,10 @@
+200      GET      274l     1766w    88712c http://10.10.10.98/out.jpg
+200      GET       14l       31w      391c http://10.10.10.98/
+200      GET       14l       31w      391c http://10.10.10.98/Index.html
+301      GET        2l       10w      156c http://10.10.10.98/aspnet_client => http://10.10.10.98/aspnet_client/
+200      GET       14l       31w      391c http://10.10.10.98/index.html
+301      GET        2l       10w      156c http://10.10.10.98/Aspnet_client => http://10.10.10.98/Aspnet_client/
+301      GET        2l       10w      156c http://10.10.10.98/aspnet_Client => http://10.10.10.98/aspnet_Client/
+200      GET       14l       31w      391c http://10.10.10.98/INDEX.html
+301      GET        2l       10w      156c http://10.10.10.98/ASPNET_CLIENT => http://10.10.10.98/ASPNET_CLIENT/
+301      GET        2l       10w      156c http://10.10.10.98/Aspnet_Client => http://10.10.10.98/Aspnet_Client/

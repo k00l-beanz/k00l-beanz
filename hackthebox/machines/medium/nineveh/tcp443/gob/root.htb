@@ -1,0 +1,4 @@
+/index.html           (Status: 200) [Size: 49]
+/db                   (Status: 301) [Size: 309] [--> https://10.10.10.43/db/]
+/server-status        (Status: 403) [Size: 300]
+/secure_notes         (Status: 301) [Size: 319] [--> https://10.10.10.43/secure_notes/]
