@@ -21,7 +21,6 @@ Hiya! I'm k00l-beanz. I currently work as a vulnerability researcher, and I also
 
 - 🔭 I’m currently working on: Enhancing my software analysis skills through Fuzzing with AFL++ and Variant Analysis with CodeQL.
 - 🌱 I’m currently learning on: [pwn.college](https://pwn.college/), a great platform for learning security research. 🐐
-- ⚡ Fun fact: The fox in "Firefox" is actually a red pandas
 
 ### Certifications
 
