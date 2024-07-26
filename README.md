@@ -26,6 +26,8 @@ Hiya! I'm k00l-beanz. I currently work as a vulnerability researcher, and I also
 ### Certifications
 
 - [OSCP](https://www.credential.net/761349db-33ba-46a1-a308-b60dba5dae5a#gs.com4px)
+- [eJPT](https://certs.ine.com/4f437ccd-9df1-40fc-bf0a-9909b2260aa8#gs.cq9mqd)
+- [Lean Six Sigma Green Belt](https://pdf.credential.net/i3lpo3iv.pdf)
 
 ## 0day Trophy Case
 
