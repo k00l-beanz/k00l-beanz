@@ -39,7 +39,6 @@ Hiya! I'm k00l-beanz. I currently work as a vulnerability researcher, and I also
 
 **Current ctftime team**: [mad_b1ts](https://ctftime.org/team/237978)
 
-- [DeadSec CTF 2024](https://ctftime.org/event/2353) - TBD
 - [PicoCTF 2024](https://play.picoctf.org/participants/78935) - 1071 / 6957
 - [CSAW CTF Qualification Round 2023](https://ctftime.org/event/2087) - 385 / 1096
 
