@@ -70,3 +70,4 @@ Hiya! I'm k00l-beanz. I currently work as a vulnerability researcher, and I also
 #### pwn
 
 - [HTB: jeeves](hackthebox/challenges/pwn/jeeves/README.md)
+- [HTB: batcomputer](hackthebox/challenges/pwn/batcomputer/README.md)
