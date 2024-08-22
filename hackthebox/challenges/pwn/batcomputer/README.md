@@ -245,10 +245,6 @@ $ ./find_offset
 
 Let’s do some quick math: To take control of the execution flow, we need to write 92 bytes—84 bytes for the offset and 8 bytes for the return pointer. With a maximum input of 137 bytes, this leaves us 45 bytes for shellcode. While 45 bytes is a reasonable amount of space for shellcode, we can gain more room by utilizing the leak. By overwriting the return pointer with the address obtained from the leak, we can use 84 bytes for shellcode instead of just 45, making this much more manageable.
 
-I could grab shellcode from a resource such as [shell-storm](https://shell-storm.org/shellcode/index.html), but during real engagements its frowned upon to execute code you didn't write yourself. Not only is it frowned upon, it can be dangerous and make you look unprofessional. A good example of this is the [0pen0wn](https://domenicoluciani.com/2013/06/13/the-exploit-that-exploits-you.html) exploit code which claims to exploit an OpenSSH 0day in order to get RCE as root. If you are starting out in security, you should give the article a quick read.
-
-I wrote my own shellcode which simply sets the uid to 0 and makes an execve syscall in order to get a shell. You can compile the shellcode with the following:
-
 I could use shellcode from a resource like [shell-storm](https://shell-storm.org/shellcode/index.html), but in real engagements, it's generally frowned upon to execute code you didn't write yourself. Not only is this considered unprofessional, but it can also be risky. For example, the [0pen0wn](https://domenicoluciani.com/2013/06/13/the-exploit-that-exploits-you.html) exploit code claims to exploit an OpenSSH 0day for remote code execution as root. If you're new to security, you might find the article insightful.
 
 Instead, I wrote my own shellcode that sets the UID to 0 and performs an execve syscall to get a shell. You can compile the shellcode using the following command:
