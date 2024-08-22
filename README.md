@@ -64,3 +64,9 @@ Hiya! I'm k00l-beanz. I currently work as a vulnerability researcher, and I also
     - **Forensics**: 5
     - **Mobile**: 6
     - **OSINT**: 1
+
+### Writeups
+
+#### pwn
+
+- [HTB: jeeves](hackthebox/challenges/pwn/jeeves/README.md)
