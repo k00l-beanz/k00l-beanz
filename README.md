@@ -38,6 +38,7 @@ Hiya! I'm k00l-beanz. I currently work as a vulnerability researcher, and I also
 
 ## 0day Trophy Case
 
+- (January 13, 2025) [Excessive memory allocation due to arbitrary offsets in Encapsulated ICAP header](https://github.com/go-icap/icap/issues/5)
 - (Nov. 15, 2023) [Integer Overflow / Wraparound in _pdfioValueRead & Heap Overflow](https://github.com/michaelrsweet/pdfio/issues/52)
 - (Nov. 13, 2023) [Added missing initialization for ivlen](https://github.com/michaelrsweet/pdfio/pull/51)
 
