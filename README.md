@@ -1,10 +1,6 @@
 ## Hi there 👋
 
-Here you'll find my collection of achievements from Capture the Flag (CTF) competitions, discovered zero-day vulnerabilities, and certifications. Feel free to explore and take a look around!
-
-I like to keep my personal notes separate, which you can find in my [BookOfTomFoolery](https://github.com/k00l-beanz/BookOfTomFoolery) 📓. I also store scripts and resources there.
-
-Enjoy your stay!
+Here you'll find my collection of achievements from Capture the Flag (CTF) competitions, discovered zero-day vulnerabilities, courses I'm learning, custom scripts, and certifications. Feel free to explore and take a look around!
 
 ## Table of Contents
 
