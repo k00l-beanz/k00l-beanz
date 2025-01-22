@@ -22,7 +22,6 @@ for f in $(ls "$1"); do
         lcov --no-checksum --directory ./ --capture --output-file ./app.info
 done
 
+genhtml --highlight --legend -output-directory ./html-coverage/ ./app.info
+
 exit 0
-
-
-#genhtml --highlight --legend -output-directory ./html-coverage/ ./app.info
