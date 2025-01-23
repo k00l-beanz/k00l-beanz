@@ -104,7 +104,7 @@ f -> 0x406
 ### Final Architecture
 The final architecture is shown in the following image:
 
-![Yan85 Machine](Yan85-Architecture.png)
+![Yan85 Machine](/assets/pwn.college/Yan85-Architecture.png)
 
 ## Yan85 Bytecode
 
@@ -313,19 +313,27 @@ There are several techniques for mapping register codes. This section will expla
 
 #### a, b, c
 
-These are general-purpose registers, and they are also used as arguments for several functions.
+These are general-purpose registers, which are also used to pass arguments for several functions.
 
-For example, sys_open stores an offset in the 'a' register, which represents the distance from the start of the Memory Segment where the file path is located. The 'b' register stores the flags of the file being opened. The specific registers used for each function will be outlined below.
+For instance, the `sys_open` function stores an offset in the 'a' register, representing the distance from the start of the memory segment where the file path is located. The 'b' register holds the flags for the file being opened. The specific registers used for each function will be outlined below.
 
 #### d
 
-The 'd' register is typically used to hold the return status code for function calls. Continuing with the sys_open example, if the file is successfully opened, a file descriptor will be returned. If unsuccessful, -1 will be returned instead.
+The 'd' register is typically used to hold the return status code for function calls.
+
+Continuing with the `sys_open` example, if the file is successfully opened, a file descriptor is returned. If the operation fails, -1 is returned instead.
 
 #### s
 
+The 's' register represents the stack counter. It tracks the number of bytes in the stack, incrementing when a value is pushed onto the stack and decrementing when a value is popped off. By observing which register is updated after a call to `interpret_stk`, you can identify which register corresponds to the 's' register.
+
 #### i
 
+The 'i' register represents the instruction counter, which tracks the current instruction being executed in memory. The instruction counter increments with each iteration of the `interpret_instruction` loop. However, it is possible to modify the counter to skip ahead by more than one, such as when jumping to other instructions in the Code Segment.
+
 #### f
+
+TODO
 
 ### Functions
 
