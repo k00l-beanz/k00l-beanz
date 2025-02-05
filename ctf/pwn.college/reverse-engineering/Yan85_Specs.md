@@ -337,6 +337,25 @@ TODO
 
 ### Functions
 
+After `main`, the `interpreter_loop` is called. This loop iterates over the Yan85 bytecode in memory. Once the bytecode has been read, the `interpret_instruction` function is invoked.
+
+In the Yan85 architecture, there are only eight functions that can be directly called from `interpret_instruction`. These functions are:
+
+1. interpret_imm
+2. interpret_add
+3. interpret_stk
+4. interpret_stm
+5. interpret_ldm
+6. interpret_cmp
+7. interpret_jmp
+8. interpret_sys
+
+These eight functions are always called from the `interpret_instruction` function. Even when symbols are stripped, this function can be easily identified by dumping a call graph with radare2 (Command: `agCd`):
+
+![21-global.png](/assets/pwn.college/21-global.png)
+
+The rest of this document contains the specifications for each of the twenty-three functions.
+
 - sym.crash
 - sym.describe_flags
 - sym.describe_instruction
@@ -397,7 +416,7 @@ a = 0x30
 #### sym.sys_exit
 #### sym.sys_open
 
-Calls the open libc subroutine.
+Calls the `open` libc subroutine.
 
 
 
