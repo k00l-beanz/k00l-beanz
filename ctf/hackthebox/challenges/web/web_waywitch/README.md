@@ -1,0 +1,5 @@
+- https://datatracker.ietf.org/doc/html/rfc7519
+- https://jwt.io/
+- https://en.wikipedia.org/wiki/JSON_Web_Token
+- https://portswigger.net/web-security/jwt
+- https://portswigger.net/burp/documentation/desktop/testing-workflow/session-management/jwts#editing-jwts
